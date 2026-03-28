@@ -1,0 +1,43 @@
+[
+  {
+    "id": "gekkeikan",
+    "name": "月桂冠",
+    "company": "月桂冠株式会社",
+    "brand": "月桂冠",
+    "type": "フルーツリキュール",
+    "liqueur_type": "other",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "",
+    "abv": "",
+    "founded": "1637",
+    "founded_era": "寛永14年",
+    "address": "京都府京都市伏見区南浜町247",
+    "tel": "075-623-2001",
+    "url": "https://www.gekkeikan.co.jp/",
+    "area": "伏見区",
+    "desc": "寛永14年（1637年）創業。日本酒の名門・月桂冠が展開するフルーツリキュールライン。日本酒をベースにした梅酒やゆず酒など。",
+    "visit": "月桂冠大倉記念館（見学可）",
+    "brands": [
+      {
+        "name": "月桂冠 梅酒",
+        "type": "梅酒",
+        "specs": "日本酒ベース"
+      },
+      {
+        "name": "月桂冠 ゆず酒",
+        "type": "ゆず酒",
+        "specs": "日本酒ベース、国産ゆず使用"
+      }
+    ],
+    "features": [
+      "1637年創業の日本酒の名門が造るリキュール",
+      "日本酒ベースの柔らかな味わい",
+      "月桂冠大倉記念館で見学可能"
+    ],
+    "nearest_station": "京阪本線 中書島駅",
+    "source": "https://www.gekkeikan.co.jp/",
+    "lat": 34.9263,
+    "lng": 135.7642,
+    "name_en": "Gekkeikan"
+  }
+]

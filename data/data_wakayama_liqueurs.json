@@ -1,0 +1,48 @@
+[
+  {
+    "id": "nakano_bc",
+    "name": "中野BC",
+    "company": "中野BC株式会社",
+    "brand": "紀州",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "ホワイトリカー",
+    "fruit_ingredient": "紀州南高梅",
+    "abv": "12",
+    "founded": "1932",
+    "founded_era": "昭和7年",
+    "address": "和歌山県海南市藤白758-45",
+    "tel": "073-482-1234",
+    "url": "https://www.nakano-group.co.jp/",
+    "area": "海南市",
+    "desc": "昭和7年（1932年）創業。紀州南高梅の産地・和歌山に本社を構える梅酒専業メーカー。「紀州」ブランドの梅酒をはじめ、緑茶梅酒など独自の梅酒を展開。",
+    "visit": "工場見学可（要予約）",
+    "brands": [
+      {
+        "name": "紀州 蜂蜜梅酒",
+        "type": "梅酒",
+        "specs": "紀州南高梅・蜂蜜使用、アルコール12度"
+      },
+      {
+        "name": "紀州 緑茶梅酒",
+        "type": "梅酒",
+        "specs": "緑茶エキス配合、アルコール12度"
+      },
+      {
+        "name": "富士白無垢",
+        "type": "梅酒",
+        "specs": "ブランデー仕込み、アルコール19度"
+      }
+    ],
+    "features": [
+      "紀州南高梅の産地に本社を構える梅酒専業メーカー",
+      "緑茶梅酒など独創的な梅酒を多数開発",
+      "全国梅酒品評会で数々の受賞歴"
+    ],
+    "nearest_station": "JR紀勢本線 海南駅",
+    "source": "https://www.nakano-group.co.jp/",
+    "lat": 34.1506,
+    "lng": 135.2023,
+    "name_en": "Nakano BC"
+  }
+]

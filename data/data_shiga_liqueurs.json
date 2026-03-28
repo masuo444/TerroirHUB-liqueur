@@ -1,0 +1,37 @@
+[
+  {
+    "id": "kitajima",
+    "name": "北島酒造",
+    "company": "北島酒造株式会社",
+    "brand": "御代栄",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "国産梅",
+    "abv": "",
+    "founded": "1805",
+    "founded_era": "文化2年",
+    "address": "滋賀県湖南市針756",
+    "tel": "0748-72-0012",
+    "url": "https://www.kitajima-shuzo.jp/",
+    "area": "湖南市",
+    "desc": "文化2年（1805年）創業。「御代栄」ブランドの日本酒と、日本酒ベースの梅酒を展開。滋賀県の地酒蔵。",
+    "visit": "",
+    "brands": [
+      {
+        "name": "御代栄 梅酒",
+        "type": "梅酒",
+        "specs": "日本酒ベース"
+      }
+    ],
+    "features": [
+      "1805年創業の滋賀の老舗酒蔵",
+      "日本酒ベースの梅酒を展開"
+    ],
+    "nearest_station": "",
+    "source": "https://www.kitajima-shuzo.jp/",
+    "lat": 34.9583,
+    "lng": 136.0899,
+    "name_en": "Kitajima Shuzo"
+  }
+]

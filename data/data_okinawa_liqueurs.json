@@ -1,0 +1,43 @@
+[
+  {
+    "id": "seifuku",
+    "name": "請福酒造",
+    "company": "請福酒造有限会社",
+    "brand": "請福",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "泡盛",
+    "fruit_ingredient": "沖縄県産シークヮーサー",
+    "abv": "12",
+    "founded": "1949",
+    "founded_era": "昭和24年",
+    "address": "沖縄県石垣市宮良959",
+    "tel": "0980-84-4118",
+    "url": "https://www.seifuku.co.jp/",
+    "area": "石垣市",
+    "desc": "昭和24年（1949年）創業。石垣島の泡盛蔵が造る泡盛ベースの梅酒・シークヮーサーリキュール。南国の素材を活かした個性的なリキュール。",
+    "visit": "工場見学可（要予約）",
+    "brands": [
+      {
+        "name": "請福梅酒",
+        "type": "梅酒",
+        "specs": "泡盛ベース、アルコール12度"
+      },
+      {
+        "name": "請福シークヮーサーリキュール",
+        "type": "その他",
+        "specs": "泡盛ベース、沖縄県産シークヮーサー使用"
+      }
+    ],
+    "features": [
+      "石垣島の泡盛蔵が造る南国リキュール",
+      "泡盛ベースの梅酒はコクのある味わい",
+      "沖縄県産シークヮーサーを使用したリキュールも展開"
+    ],
+    "nearest_station": "石垣空港よりバスで約30分",
+    "source": "https://www.seifuku.co.jp/",
+    "lat": 24.3806,
+    "lng": 124.1867,
+    "name_en": "Seifuku Shuzo"
+  }
+]

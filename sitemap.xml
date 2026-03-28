@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://liqueur.terroirhub.com/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/en/"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/en/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/guide/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/guide/types.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/guide/production.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/guide/drinking.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/guide/pairing.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/guide/history.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/guide/umeshu.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/guide/glossary.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/region/hokkaido.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/region/tohoku.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/region/kanto.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/region/chubu.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/region/kinki.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/region/chugoku.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/region/shikoku.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/region/kyushu.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/hyogo/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/hyogo/hakutsuru.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/hyogo/hakutsuru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/hyogo/hakutsuru.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/hyogo/hakutsuru.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/en/hyogo/hakutsuru.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/hyogo/hakutsuru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/hyogo/hakutsuru.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/hyogo/hakutsuru.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/fr/hyogo/hakutsuru.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/hyogo/hakutsuru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/hyogo/hakutsuru.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/hyogo/hakutsuru.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/ibaraki/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/ibaraki/meiri.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/ibaraki/meiri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/ibaraki/meiri.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/ibaraki/meiri.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/en/ibaraki/meiri.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/ibaraki/meiri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/ibaraki/meiri.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/ibaraki/meiri.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/fr/ibaraki/meiri.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/ibaraki/meiri.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/ibaraki/meiri.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/ibaraki/meiri.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/kyoto/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/kyoto/gekkeikan.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/kyoto/gekkeikan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/kyoto/gekkeikan.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/kyoto/gekkeikan.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/en/kyoto/gekkeikan.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/kyoto/gekkeikan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/kyoto/gekkeikan.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/kyoto/gekkeikan.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/fr/kyoto/gekkeikan.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/kyoto/gekkeikan.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/kyoto/gekkeikan.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/kyoto/gekkeikan.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/nara/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/nara/umenoyado.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/nara/umenoyado.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/nara/umenoyado.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/nara/umenoyado.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/en/nara/umenoyado.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/nara/umenoyado.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/nara/umenoyado.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/nara/umenoyado.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/fr/nara/umenoyado.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/nara/umenoyado.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/nara/umenoyado.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/nara/umenoyado.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/niigata/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/niigata/hakkaisan_liqueur.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/niigata/hakkaisan_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/niigata/hakkaisan_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/niigata/hakkaisan_liqueur.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/en/niigata/hakkaisan_liqueur.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/niigata/hakkaisan_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/niigata/hakkaisan_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/niigata/hakkaisan_liqueur.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/fr/niigata/hakkaisan_liqueur.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/niigata/hakkaisan_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/niigata/hakkaisan_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/niigata/hakkaisan_liqueur.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/okinawa/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/okinawa/seifuku.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/okinawa/seifuku.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/okinawa/seifuku.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/okinawa/seifuku.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/en/okinawa/seifuku.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/okinawa/seifuku.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/okinawa/seifuku.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/okinawa/seifuku.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/fr/okinawa/seifuku.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/okinawa/seifuku.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/okinawa/seifuku.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/okinawa/seifuku.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/osaka/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/osaka/choya.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/osaka/choya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/osaka/choya.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/osaka/choya.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/en/osaka/choya.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/osaka/choya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/osaka/choya.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/osaka/choya.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/fr/osaka/choya.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/osaka/choya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/osaka/choya.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/osaka/choya.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/osaka/suntory_liqueur.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/osaka/suntory_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/osaka/suntory_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/osaka/suntory_liqueur.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/en/osaka/suntory_liqueur.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/osaka/suntory_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/osaka/suntory_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/osaka/suntory_liqueur.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/fr/osaka/suntory_liqueur.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/osaka/suntory_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/osaka/suntory_liqueur.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/osaka/suntory_liqueur.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/shiga/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/shiga/kitajima.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/shiga/kitajima.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/shiga/kitajima.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/shiga/kitajima.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/en/shiga/kitajima.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/shiga/kitajima.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/shiga/kitajima.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/shiga/kitajima.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/fr/shiga/kitajima.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/shiga/kitajima.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/shiga/kitajima.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/shiga/kitajima.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/wakayama/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/wakayama/nakano_bc.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/wakayama/nakano_bc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/wakayama/nakano_bc.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/wakayama/nakano_bc.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/en/wakayama/nakano_bc.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/wakayama/nakano_bc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/wakayama/nakano_bc.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/wakayama/nakano_bc.html"/>
+  </url>
+  <url>
+    <loc>https://liqueur.terroirhub.com/liqueur/fr/wakayama/nakano_bc.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/wakayama/nakano_bc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/wakayama/nakano_bc.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/wakayama/nakano_bc.html"/>
+  </url>
+</urlset>

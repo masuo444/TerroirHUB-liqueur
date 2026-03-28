@@ -1,0 +1,48 @@
+[
+  {
+    "id": "hakutsuru",
+    "name": "白鶴酒造",
+    "company": "白鶴酒造株式会社",
+    "brand": "まるごと搾り",
+    "type": "フルーツリキュール",
+    "liqueur_type": "other",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "",
+    "abv": "",
+    "founded": "1743",
+    "founded_era": "寛保3年",
+    "address": "兵庫県神戸市東灘区住吉南町4-5-5",
+    "tel": "078-822-8907",
+    "url": "https://www.hakutsuru.co.jp/",
+    "area": "神戸市",
+    "desc": "寛保3年（1743年）創業。灘五郷の名門蔵が展開する「まるごと搾り」シリーズは、果実をまるごと搾った贅沢なリキュール。",
+    "visit": "白鶴酒造資料館（見学可・無料）",
+    "brands": [
+      {
+        "name": "まるごと搾り にごりゆず酒",
+        "type": "ゆず酒",
+        "specs": "ゆず果汁使用"
+      },
+      {
+        "name": "まるごと搾り もも酒",
+        "type": "桃酒",
+        "specs": "桃果汁使用"
+      },
+      {
+        "name": "まるごと搾り レモン酒",
+        "type": "その他",
+        "specs": "レモン果汁使用"
+      }
+    ],
+    "features": [
+      "1743年創業、灘五郷の名門蔵",
+      "「まるごと搾り」シリーズで果実リキュールを展開",
+      "白鶴酒造資料館で酒造り文化を体験可能"
+    ],
+    "nearest_station": "阪神本線 住吉駅",
+    "source": "https://www.hakutsuru.co.jp/",
+    "lat": 34.7167,
+    "lng": 135.2694,
+    "name_en": "Hakutsuru Sake Brewing"
+  }
+]

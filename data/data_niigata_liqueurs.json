@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hakkaisan_liqueur",
+    "name": "八海醸造（リキュール）",
+    "company": "八海醸造株式会社",
+    "brand": "八海山",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "国産梅",
+    "abv": "14",
+    "founded": "1922",
+    "founded_era": "大正11年",
+    "address": "新潟県南魚沼市長森1051番地",
+    "tel": "025-775-3866",
+    "url": "https://www.hakkaisan.co.jp/",
+    "area": "南魚沼市",
+    "desc": "大正11年（1922年）創業。日本酒「八海山」で知られる蔵が、自社焼酎で仕込んだ梅酒を展開。雪室貯蔵による熟成が特徴。",
+    "visit": "魚沼の里（見学・体験施設）",
+    "brands": [
+      {
+        "name": "八海山の原酒で仕込んだ梅酒",
+        "type": "梅酒",
+        "specs": "八海山の本格米焼酎で仕込み、アルコール14度"
+      }
+    ],
+    "features": [
+      "日本酒「八海山」の蔵が造る本格梅酒",
+      "自社の本格米焼酎をベースに仕込み",
+      "雪室貯蔵による低温熟成"
+    ],
+    "nearest_station": "JR上越線 六日町駅",
+    "source": "https://www.hakkaisan.co.jp/",
+    "lat": 37.0081,
+    "lng": 138.8851,
+    "name_en": "Hakkaisan Brewery"
+  }
+]
