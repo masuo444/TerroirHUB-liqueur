@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>神奈川県のリキュールメーカー一覧（2社）— Terroir HUB</title>
-<meta name="description" content="神奈川県のリキュールメーカー2社を一覧表示。Terroir HUB LIQUEUR。">
+<title>神奈川県のリキュールメーカー一覧（3社）— Terroir HUB</title>
+<meta name="description" content="神奈川県のリキュールメーカー3社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/kanagawa/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "神奈川県のリキュールメーカー一覧", "numberOfItems": 2, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/kanagawa/izumibashi.html", "name": "泉橋酒造"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/kanagawa/kumazawa.html", "name": "熊澤酒造"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "神奈川県のリキュールメーカー一覧", "numberOfItems": 3, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/kanagawa/izumibashi.html", "name": "泉橋酒造"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/kanagawa/kumazawa.html", "name": "熊澤酒造"}, {"@type": "ListItem", "position": 3, "url": "https://liqueur.terroirhub.com/liqueur/kanagawa/dover.html", "name": "ドーバー酒造"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>神奈川県のリキュールメーカー</h1>
-    <p class="count">2社</p>
+    <p class="count">3社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "izumibashi", "name": "泉橋酒造", "brand": "いづみ橋", "type": "梅酒", "area": "海老名市", "founded": "1857", "desc": "安政4年（1857年）創業。栽培醸造蔵として自社で米作りから酒造りまで一貫して行う。純米酒と小田原・曽我産の十郎梅で仕込んだ梅酒「山田十郎」を展開。", "liqueur_type": "umeshu"}, {"id": "kumazawa", "name": "熊澤酒造", "brand": "天青", "type": "リキュール", "area": "茅ヶ崎市", "founded": "1872", "desc": "明治5年（1872年）創業。湘南唯一の蔵元。日本酒「天青」のほか地ビールも醸造。リキュール製品も展開。", "liqueur_type": "other"}];
+const B=[{"id": "izumibashi", "name": "泉橋酒造", "brand": "いづみ橋", "type": "梅酒", "area": "海老名市", "founded": "1857", "desc": "安政4年（1857年）創業。栽培醸造蔵として自社で米作りから酒造りまで一貫して行う。純米酒と小田原・曽我産の十郎梅で仕込んだ梅酒「山田十郎」を展開。", "liqueur_type": "umeshu"}, {"id": "kumazawa", "name": "熊澤酒造", "brand": "天青", "type": "リキュール", "area": "茅ヶ崎市", "founded": "1872", "desc": "明治5年（1872年）創業。湘南唯一の蔵元。日本酒「天青」のほか地ビールも醸造。リキュール製品も展開。", "liqueur_type": "other"}, {"id": "dover", "name": "ドーバー酒造", "brand": "ドーバー和酒", "type": "和素材リキュール", "area": "厚木市", "founded": "", "desc": "洋酒・製菓用リキュールの専門メーカー。「和酒」シリーズで桜・抹茶・柚子・梅・蓬など12種類の和素材リキュールを展開。プロのバーテンダーからの支持が高い。", "liqueur_type": "other"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/kanagawa/'+b.id+'.html">'+

@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>宮城県のリキュールメーカー一覧（1社）— Terroir HUB</title>
-<meta name="description" content="宮城県のリキュールメーカー1社を一覧表示。Terroir HUB LIQUEUR。">
+<title>宮城県のリキュールメーカー一覧（3社）— Terroir HUB</title>
+<meta name="description" content="宮城県のリキュールメーカー3社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/miyagi/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "宮城県のリキュールメーカー一覧", "numberOfItems": 1, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/miyagi/nakayu_shuzoten.html", "name": "中勇酒造店"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "宮城県のリキュールメーカー一覧", "numberOfItems": 3, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/miyagi/nakayu_shuzoten.html", "name": "中勇酒造店"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/miyagi/kanbai_shuzo.html", "name": "寒梅酒造"}, {"@type": "ListItem", "position": 3, "url": "https://liqueur.terroirhub.com/liqueur/miyagi/niizawa_jozo.html", "name": "新澤醸造店"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>宮城県のリキュールメーカー</h1>
-    <p class="count">1社</p>
+    <p class="count">3社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "nakayu_shuzoten", "name": "中勇酒造店", "brand": "天上夢幻", "type": "梅酒", "area": "加美町", "founded": "", "desc": "宮城県加美町の手づくり日本酒蔵。「天上夢幻 蔵人仕込みの伊達なゆず梅酒」は全国梅酒品評会2024で柑橘系ブレンド梅酒部門金賞・ブランデーブレンド部門金賞をダブル受賞。", "liqueur_type": "umeshu"}];
+const B=[{"id": "nakayu_shuzoten", "name": "中勇酒造店", "brand": "天上夢幻", "type": "梅酒", "area": "加美町", "founded": "", "desc": "宮城県加美町の手づくり日本酒蔵。「天上夢幻 蔵人仕込みの伊達なゆず梅酒」は全国梅酒品評会2024で柑橘系ブレンド梅酒部門金賞・ブランデーブレンド部門金賞をダブル受賞。", "liqueur_type": "umeshu"}, {"id": "kanbai_shuzo", "name": "寒梅酒造", "brand": "宮寒梅", "type": "いちご酒", "area": "大崎市", "founded": "1918", "desc": "大正7年（1918年）創業。宮城県で唯一、自社で米栽培から酒造りまで一貫して行う蔵。「陽のしずく いちご酒」は宮城県山元町産いちご果汁100%を日本酒ベースで仕込んだリキュール。", "liqueur_type": "strawberry"}, {"id": "niizawa_jozo", "name": "新澤醸造店", "brand": "伯楽星", "type": "ヨーグルトリキュール", "area": "大崎市", "founded": "1873", "desc": "明治6年（1873年）創業。「伯楽星」「あたごのまつ」の醸造元。ジャージー牛の生乳100%ヨーグルトと日本酒で仕込んだ「超濃厚ヨーグルト酒」はジャパン・フード・コレクション金賞受賞。火入れなしの要冷蔵…", "liqueur_type": "yogurt"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/miyagi/'+b.id+'.html">'+

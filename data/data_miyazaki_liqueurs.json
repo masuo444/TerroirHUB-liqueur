@@ -86,5 +86,34 @@
     ],
     "source": "https://www.takachihosyuzo.co.jp/",
     "name_en": "Takachiho Shuzo"
+  },
+  {
+    "id": "sakuranosato",
+    "name": "櫻の郷酒造",
+    "company": "櫻の郷酒造株式会社",
+    "brand": "無月",
+    "type": "いちごリキュール",
+    "liqueur_type": "strawberry",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "いちご",
+    "abv": "14",
+    "founded": "1994",
+    "founded_era": "平成6年",
+    "address": "宮崎県日南市北郷町郷之原甲888",
+    "tel": "",
+    "url": "https://www.sakuranosato.co.jp/",
+    "area": "日南市",
+    "desc": "平成6年（1994年）設立。井上酒造の関連会社として設立され、日本最大級の約5,500基の大甕で長期貯蔵熟成を行う。本格焼酎「無月」「赤魔王」で知られる。「しあわせ いちごリキュール」を数量限定で展開。",
+    "visit": "",
+    "brands": [
+      {"name": "しあわせ いちごリキュール", "type": "いちご酒", "specs": "アルコール14度、数量限定"}
+    ],
+    "features": [
+      "日本最大級の約5,500基の大甕での長期貯蔵",
+      "本格焼酎「無月」「赤魔王」の蔵元",
+      "数量限定のいちごリキュール"
+    ],
+    "source": "https://www.sakuranosato.co.jp/",
+    "name_en": "Sakuranosato Shuzo"
   }
 ]

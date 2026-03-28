@@ -20,12 +20,13 @@
     "brands": [
       {"name": "朝倉 梅酒 UMESHU", "type": "梅酒", "specs": "朝倉の樽で熟成"},
       {"name": "あまおう梅酒 あまおう、はじめました。", "type": "いちご梅酒", "specs": "福岡県産あまおう使用、アルコール6度、天満天神梅酒大会入賞"},
-      {"name": "苺のお酒 あまおう", "type": "いちご酒", "specs": "福岡県産あまおう使用"}
+      {"name": "苺のお酒 あまおう", "type": "いちご酒", "specs": "福岡県産あまおう使用、アルコール6度"}
     ],
     "features": [
       "江戸時代後期創業の筑前の酒蔵",
       "あまおう梅酒は天満天神梅酒大会2年連続入賞",
-      "モンドセレクション最高金賞受賞"
+      "モンドセレクション最高金賞受賞",
+      "あまおう苺リキュールも展開"
     ],
     "source": "https://www.shinozaki-shochu.co.jp/",
     "name_en": "Shinozaki"
@@ -85,5 +86,34 @@
     ],
     "source": "",
     "name_en": "Oga Shuzo"
+  },
+  {
+    "id": "wakanami_shuzo",
+    "name": "若波酒造",
+    "company": "若波酒造合名会社",
+    "brand": "若波",
+    "type": "いちご酒",
+    "liqueur_type": "strawberry",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "福岡県産あまおう",
+    "abv": "5",
+    "founded": "1922",
+    "founded_era": "大正11年",
+    "address": "福岡県大川市鐘ヶ江752",
+    "tel": "",
+    "url": "https://wakanami.jimdofree.com/",
+    "area": "大川市",
+    "desc": "大正11年（1922年）創業。筑後川のほとりに蔵を構える。九州の特産果実を使ったリキュールブランド「Qdamon（くだもん）」を展開。博多あまおうを使ったいちごリキュールが人気。商品名は九州弁で「果物」の意。",
+    "visit": "",
+    "brands": [
+      {"name": "Qdamon（くだもん）博多あまおう", "type": "いちご酒", "specs": "福岡県産あまおう使用、アルコール5度"}
+    ],
+    "features": [
+      "1922年創業、筑後川のほとりの蔵元",
+      "「Qdamon（くだもん）」ブランドで九州の果実リキュールを展開",
+      "商品名は九州弁で「果物」の意味"
+    ],
+    "source": "https://wakanami.jimdofree.com/",
+    "name_en": "Wakanami Shuzo"
   }
 ]

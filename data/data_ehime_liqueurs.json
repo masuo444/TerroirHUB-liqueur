@@ -20,11 +20,14 @@
     "brands": [
       {"name": "蔵元の梅酒", "type": "梅酒", "specs": "本格焼酎ベース、愛媛県産南高梅使用、無添加"},
       {"name": "蔵元のにごり梅酒", "type": "梅酒", "specs": "にごりタイプ"},
-      {"name": "七折小梅 梅酒", "type": "梅酒", "specs": "七折小梅使用"}
+      {"name": "七折小梅 梅酒", "type": "梅酒", "specs": "七折小梅使用"},
+      {"name": "蔵元のみかん", "type": "みかん酒", "specs": "愛媛県産ポンカン濃縮果汁使用、本格焼酎ベース、無添加、松山ブランド新製品コンテスト2022金賞"},
+      {"name": "えひめ果樹楽園 みかんの酒", "type": "みかん酒", "specs": "愛媛産温州みかん100%使用"}
     ],
     "features": [
       "全国新酒鑑評会で金賞受賞歴のある愛媛の酒蔵",
-      "酸味料・着色料・香料無添加の梅酒"
+      "酸味料・着色料・香料無添加の梅酒",
+      "愛媛県産みかんを使ったリキュールも展開"
     ],
     "source": "https://eikoo.com/",
     "name_en": "Eikoo Shuzo"
@@ -55,5 +58,34 @@
     ],
     "source": "https://www.umenishiki.com/",
     "name_en": "Umenishiki Yamakawa"
+  },
+  {
+    "id": "kondo_shuzo",
+    "name": "近藤酒造",
+    "company": "近藤酒造株式会社",
+    "brand": "華姫桜",
+    "type": "みかんリキュール",
+    "liqueur_type": "mikan",
+    "base_spirit": "",
+    "fruit_ingredient": "愛媛県産温州みかん",
+    "abv": "",
+    "founded": "1878",
+    "founded_era": "明治11年",
+    "address": "愛媛県新居浜市",
+    "tel": "",
+    "url": "https://kondousyuzou.com/",
+    "area": "新居浜市",
+    "desc": "明治11年（1878年）創業。愛媛県新居浜市に唯一残る蔵元。5代目が平成13年に自ら杜氏となり自社醸造を再開。愛媛県産温州みかんをたっぷり使った「愛媛みかんde酒」を展開。",
+    "visit": "",
+    "brands": [
+      {"name": "愛媛みかんde酒", "type": "みかん酒", "specs": "愛媛県産温州みかん使用"}
+    ],
+    "features": [
+      "1878年創業、新居浜市唯一の蔵元",
+      "5代目が蔵を再興し自社醸造を再開",
+      "愛媛県産温州みかんを使ったリキュール"
+    ],
+    "source": "https://kondousyuzou.com/",
+    "name_en": "Kondo Shuzo"
   }
 ]

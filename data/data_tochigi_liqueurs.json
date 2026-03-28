@@ -56,5 +56,64 @@
     ],
     "source": "https://tonoike.info/",
     "name_en": "Tonoike Shuzoten"
+  },
+  {
+    "id": "kobayashi_shuzo",
+    "name": "小林酒造",
+    "company": "小林酒造株式会社",
+    "brand": "鳳凰美田",
+    "type": "フルーツリキュール",
+    "liqueur_type": "peach",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "桃",
+    "abv": "5",
+    "founded": "1872",
+    "founded_era": "明治5年",
+    "address": "栃木県小山市卒島743-1",
+    "tel": "",
+    "url": "https://hououbiden.jp/",
+    "area": "小山市",
+    "desc": "明治5年（1872年）創業。吟醸酒「鳳凰美田」で全国的に知られる栃木の名門蔵。独自の特許技術で桃の細胞を個々に分解し液状化した「完熟もも」は果肉たっぷりの贅沢なリキュール。",
+    "visit": "",
+    "brands": [
+      {"name": "鳳凰美田 完熟もも", "type": "桃酒", "specs": "吟醸酒ベース、アルコール5〜6度、要冷蔵、賞味期限3ヶ月"},
+      {"name": "鳳凰美田 完熟いちご", "type": "いちご酒", "specs": "栃木県産とちおとめ使用、吟醸酒ベース"}
+    ],
+    "features": [
+      "1872年創業、吟醸酒「鳳凰美田」で知られる名門蔵",
+      "独自の特許技術で果実を液状化した贅沢なリキュール",
+      "日光連山の伏流水を使用"
+    ],
+    "source": "https://hououbiden.jp/",
+    "name_en": "Kobayashi Shuzo"
+  },
+  {
+    "id": "nishibori_shuzo",
+    "name": "西堀酒造",
+    "company": "西堀酒造株式会社",
+    "brand": "若盛",
+    "type": "いちご酒",
+    "liqueur_type": "strawberry",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "栃木県産とちおとめ",
+    "abv": "",
+    "founded": "1872",
+    "founded_era": "明治5年",
+    "address": "栃木県小山市粟宮1452",
+    "tel": "",
+    "url": "https://nishiborisyuzo.com/",
+    "area": "小山市",
+    "desc": "明治5年（1872年）創業。国登録有形文化財に指定された蔵を持つ栃木の酒蔵。古代赤米・緑米から造った純米酒をベースに、栃木県産とちおとめ100%ストレート果汁を使った「愛米魅 I MY ME いちご酒」を展開。",
+    "visit": "",
+    "brands": [
+      {"name": "愛米魅 I MY ME いちご酒", "type": "いちご酒", "specs": "純米酒ベース、栃木県産とちおとめ100%ストレート果汁使用"}
+    ],
+    "features": [
+      "1872年創業、国登録有形文化財の蔵",
+      "古代赤米・緑米を使った純米酒ベース",
+      "栃木県産とちおとめ100%使用のいちごリキュール"
+    ],
+    "source": "https://nishiborisyuzo.com/",
+    "name_en": "Nishibori Shuzo"
   }
 ]

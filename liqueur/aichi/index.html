@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>愛知県のリキュールメーカー一覧（1社）— Terroir HUB</title>
-<meta name="description" content="愛知県のリキュールメーカー1社を一覧表示。Terroir HUB LIQUEUR。">
+<title>愛知県のリキュールメーカー一覧（2社）— Terroir HUB</title>
+<meta name="description" content="愛知県のリキュールメーカー2社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/aichi/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "愛知県のリキュールメーカー一覧", "numberOfItems": 1, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/aichi/sawada_shuzo.html", "name": "澤田酒造"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "愛知県のリキュールメーカー一覧", "numberOfItems": 2, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/aichi/sawada_shuzo.html", "name": "澤田酒造"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/aichi/nakano_shuzo.html", "name": "中埜酒造"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>愛知県のリキュールメーカー</h1>
-    <p class="count">1社</p>
+    <p class="count">2社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "sawada_shuzo", "name": "澤田酒造", "brand": "白老梅", "type": "梅酒", "area": "常滑市", "founded": "", "desc": "愛知県常滑市の酒蔵。「知多 白老梅 純米吟醸仕込の梅酒」は全国梅酒品評会2024日本酒梅酒部門で銀賞受賞。「UMESHU T ～つなぐ～」はプレミア部門銀賞。", "liqueur_type": "umeshu"}];
+const B=[{"id": "sawada_shuzo", "name": "澤田酒造", "brand": "白老梅", "type": "梅酒", "area": "常滑市", "founded": "", "desc": "愛知県常滑市の酒蔵。「知多 白老梅 純米吟醸仕込の梅酒」は全国梅酒品評会2024日本酒梅酒部門で銀賞受賞。「UMESHU T ～つなぐ～」はプレミア部門銀賞。", "liqueur_type": "umeshu"}, {"id": "nakano_shuzo", "name": "中埜酒造", "brand": "國盛", "type": "フルーツリキュール", "area": "半田市", "founded": "1844", "desc": "弘化元年（1844年）創業。愛知県知多半島・半田の地酒「國盛」の蔵元。「フルリア」シリーズで高果汁リキュールを展開。みかん果汁80%の「みかんのお酒」をはじめ、もも・いちご・ぶどう・りんごなど10種以…", "liqueur_type": "other"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/aichi/'+b.id+'.html">'+

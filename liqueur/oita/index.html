@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>大分県のリキュールメーカー一覧（3社）— Terroir HUB</title>
-<meta name="description" content="大分県のリキュールメーカー3社を一覧表示。Terroir HUB LIQUEUR。">
+<title>大分県のリキュールメーカー一覧（4社）— Terroir HUB</title>
+<meta name="description" content="大分県のリキュールメーカー4社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/oita/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "大分県のリキュールメーカー一覧", "numberOfItems": 3, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/oita/oyama_yumekobo.html", "name": "おおやま夢工房"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/oita/oimatsu.html", "name": "老松酒造"}, {"@type": "ListItem", "position": 3, "url": "https://liqueur.terroirhub.com/liqueur/oita/kuge_honten.html", "name": "久家本店"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "大分県のリキュールメーカー一覧", "numberOfItems": 4, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/oita/oyama_yumekobo.html", "name": "おおやま夢工房"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/oita/oimatsu.html", "name": "老松酒造"}, {"@type": "ListItem", "position": 3, "url": "https://liqueur.terroirhub.com/liqueur/oita/kuge_honten.html", "name": "久家本店"}, {"@type": "ListItem", "position": 4, "url": "https://liqueur.terroirhub.com/liqueur/oita/yatsushika.html", "name": "八鹿酒造"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>大分県のリキュールメーカー</h1>
-    <p class="count">3社</p>
+    <p class="count">4社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "oyama_yumekobo", "name": "おおやま夢工房", "brand": "梅酒蔵おおやま", "type": "梅酒", "area": "日田市", "founded": "", "desc": "大分県日田市の梅酒専門蔵。ニッカウヰスキーと共に造った梅酒工場で、地元大山町の農家が育てた大山産梅のみを使用。全国梅酒品評会で2年連続金賞受賞。", "liqueur_type": "umeshu"}, {"id": "oimatsu", "name": "老松酒造", "brand": "天空の月", "type": "梅酒", "area": "日田市", "founded": "1789", "desc": "寛政元年（1789年）創業。大分県日田の蔵元。「天空の月 ゆず梅酒」は全国梅酒品評会2024柑橘系ブレンド部門で銀賞受賞。", "liqueur_type": "umeshu"}, {"id": "kuge_honten", "name": "久家本店", "brand": "いやんばい", "type": "梅酒", "area": "臼杵市", "founded": "", "desc": "大分県臼杵市の蔵。「いやんばい梅酒」は全国梅酒品評会2024本格焼酎梅酒部門で銀賞受賞。", "liqueur_type": "umeshu"}];
+const B=[{"id": "oyama_yumekobo", "name": "おおやま夢工房", "brand": "梅酒蔵おおやま", "type": "梅酒", "area": "日田市", "founded": "", "desc": "大分県日田市の梅酒専門蔵。ニッカウヰスキーと共に造った梅酒工場で、地元大山町の農家が育てた大山産梅のみを使用。全国梅酒品評会で2年連続金賞受賞。", "liqueur_type": "umeshu"}, {"id": "oimatsu", "name": "老松酒造", "brand": "天空の月", "type": "梅酒", "area": "日田市", "founded": "1789", "desc": "寛政元年（1789年）創業。大分県日田の蔵元。「天空の月 ゆず梅酒」は全国梅酒品評会2024柑橘系ブレンド部門で銀賞受賞。", "liqueur_type": "umeshu"}, {"id": "kuge_honten", "name": "久家本店", "brand": "いやんばい", "type": "梅酒", "area": "臼杵市", "founded": "", "desc": "大分県臼杵市の蔵。「いやんばい梅酒」は全国梅酒品評会2024本格焼酎梅酒部門で銀賞受賞。", "liqueur_type": "umeshu"}, {"id": "yatsushika", "name": "八鹿酒造", "brand": "八鹿", "type": "ヨーグルトリキュール", "area": "九重町", "founded": "", "desc": "大分県九重町の酒蔵。自社の本格麦焼酎をベースに九州産ヨーグルトで仕込んだ「coconoe（ここのえ）」は、焼酎由来のほろ苦さが特徴のヨーグルトリキュール。天満天神梅酒大会リキュール部門3位入賞。", "liqueur_type": "yogurt"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/oita/'+b.id+'.html">'+

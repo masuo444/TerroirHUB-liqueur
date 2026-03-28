@@ -28,5 +28,35 @@
     ],
     "source": "https://www.daishichi.com/",
     "name_en": "Daishichi Sake Brewery"
+  },
+  {
+    "id": "akebono_shuzo",
+    "name": "曙酒造",
+    "company": "曙酒造株式会社",
+    "brand": "天明",
+    "type": "ヨーグルトリキュール",
+    "liqueur_type": "yogurt",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "会津中央乳業ヨーグルト",
+    "abv": "5",
+    "founded": "1904",
+    "founded_era": "明治37年",
+    "address": "福島県河沼郡会津坂下町戌亥乙2",
+    "tel": "",
+    "url": "https://akebono-syuzou.com/",
+    "area": "会津坂下町",
+    "desc": "明治37年（1904年）創業。会津坂下町の酒蔵。地元・会津中央乳業とコラボした日本酒ベースのヨーグルトリキュール「Snowdrop」は、会津産生乳のヨーグルトと会津坂下産米「瑞穂黄金」を使用。特に女性や日本酒初心者に人気。",
+    "visit": "",
+    "brands": [
+      {"name": "Snowdrop スノードロップ プレーン", "type": "ヨーグルト酒", "specs": "日本酒ベース、会津中央乳業ヨーグルト使用、アルコール5度"},
+      {"name": "Snowdrop スノードロップ プレミアム生", "type": "ヨーグルト酒", "specs": "生タイプ、要冷蔵"}
+    ],
+    "features": [
+      "1904年創業の会津の酒蔵",
+      "会津中央乳業とのコラボレーション",
+      "会津産素材にこだわったヨーグルトリキュール"
+    ],
+    "source": "https://akebono-syuzou.com/",
+    "name_en": "Akebono Shuzo"
   }
 ]

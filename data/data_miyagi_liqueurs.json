@@ -26,5 +26,65 @@
     ],
     "source": "https://tenjo-mugen.co.jp/",
     "name_en": "Nakayu Shuzoten"
+  },
+  {
+    "id": "kanbai_shuzo",
+    "name": "寒梅酒造",
+    "company": "寒梅酒造株式会社",
+    "brand": "宮寒梅",
+    "type": "いちご酒",
+    "liqueur_type": "strawberry",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "宮城県山元町産いちご",
+    "abv": "6",
+    "founded": "1918",
+    "founded_era": "大正7年",
+    "address": "宮城県大崎市古川柏崎字境田15",
+    "tel": "",
+    "url": "http://miyakanbai.com/",
+    "area": "大崎市",
+    "desc": "大正7年（1918年）創業。宮城県で唯一、自社で米栽培から酒造りまで一貫して行う蔵。「陽のしずく いちご酒」は宮城県山元町産いちご果汁100%を日本酒ベースで仕込んだリキュール。",
+    "visit": "",
+    "brands": [
+      {"name": "陽のしずく いちご酒", "type": "いちご酒", "specs": "日本酒ベース、宮城県山元町産いちご果汁100%使用、アルコール6度"}
+    ],
+    "features": [
+      "1918年創業、自社栽培米で酒造りを行う蔵",
+      "宮城県山元町産いちご100%使用",
+      "日本酒ベースのフルーティーないちごリキュール"
+    ],
+    "source": "http://miyakanbai.com/",
+    "name_en": "Kanbai Shuzo"
+  },
+  {
+    "id": "niizawa_jozo",
+    "name": "新澤醸造店",
+    "company": "株式会社新澤醸造店",
+    "brand": "伯楽星",
+    "type": "ヨーグルトリキュール",
+    "liqueur_type": "yogurt",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "ジャージーヨーグルト",
+    "abv": "5",
+    "founded": "1873",
+    "founded_era": "明治6年",
+    "address": "宮城県大崎市三本木字北町63",
+    "tel": "",
+    "url": "https://niizawa-brewery.co.jp/",
+    "area": "大崎市",
+    "desc": "明治6年（1873年）創業。「伯楽星」「あたごのまつ」の醸造元。ジャージー牛の生乳100%ヨーグルトと日本酒で仕込んだ「超濃厚ヨーグルト酒」はジャパン・フード・コレクション金賞受賞。火入れなしの要冷蔵商品。",
+    "visit": "",
+    "brands": [
+      {"name": "超濃厚ヨーグルト酒（ジャージー）", "type": "ヨーグルト酒", "specs": "日本酒ベース、ジャージー牛乳100%ヨーグルト使用、アルコール5度、要冷蔵"},
+      {"name": "超濃厚いちごヨーグルト酒", "type": "ヨーグルト酒", "specs": "国産女峰種いちご使用、要冷蔵"},
+      {"name": "超濃厚ヨーグルト酒（蔵王高原）", "type": "ヨーグルト酒", "specs": "蔵王高原産ヨーグルト使用、要冷蔵"}
+    ],
+    "features": [
+      "1873年創業、「伯楽星」「あたごのまつ」の蔵元",
+      "ジャパン・フード・コレクション金賞受賞",
+      "ジャージー牛乳100%の超濃厚ヨーグルト酒"
+    ],
+    "source": "https://niizawa-brewery.co.jp/",
+    "name_en": "Niizawa Jozo"
   }
 ]

@@ -26,5 +26,34 @@
     ],
     "source": "https://www.igeta.jp/",
     "name_en": "Dewatsuru (Akita Seishu)"
+  },
+  {
+    "id": "hinomaru_jozo",
+    "name": "日の丸醸造",
+    "company": "日の丸醸造株式会社",
+    "brand": "まんさくの花",
+    "type": "ヨーグルトリキュール",
+    "liqueur_type": "yogurt",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "ヨーグルト",
+    "abv": "",
+    "founded": "1689",
+    "founded_era": "元禄2年",
+    "address": "秋田県横手市増田町増田字七日町114-2",
+    "tel": "",
+    "url": "https://hinomaru-sake.com/",
+    "area": "横手市",
+    "desc": "元禄2年（1689年）創業。国の登録有形文化財の内蔵を持つ秋田・横手の老舗蔵。60種以上の日本酒を醸造する技術を活かし、チーズケーキのような濃厚な味わいの「よーぐるしゅ」を展開。",
+    "visit": "",
+    "brands": [
+      {"name": "まんさくの花 よーぐるしゅ", "type": "ヨーグルト酒", "specs": "日本酒ベース"}
+    ],
+    "features": [
+      "1689年創業、300年以上の歴史を持つ秋田の蔵",
+      "国の登録有形文化財の内蔵",
+      "チーズケーキのような濃厚なヨーグルトリキュール"
+    ],
+    "source": "https://hinomaru-sake.com/item/sweetliqueur-yogursh",
+    "name_en": "Hinomaru Jozo"
   }
 ]

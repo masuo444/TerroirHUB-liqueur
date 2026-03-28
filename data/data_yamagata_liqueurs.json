@@ -20,14 +20,75 @@
     "brands": [
       {"name": "出羽桜 本格梅酒 すっぱい辛口", "type": "梅酒", "specs": "日本酒ベース、全国梅酒品評会2024銀賞"},
       {"name": "出羽桜 本格梅酒 はなやぐ完熟", "type": "梅酒", "specs": "日本酒ベース、全国梅酒品評会2024銀賞"},
-      {"name": "出羽桜 本格梅酒 とろける果肉", "type": "梅酒", "specs": "にごり梅酒、全国梅酒品評会2024銀賞"}
+      {"name": "出羽桜 本格梅酒 とろける果肉", "type": "梅酒", "specs": "にごり梅酒、全国梅酒品評会2024銀賞"},
+      {"name": "出羽桜 とろけるやまがた もも", "type": "桃酒", "specs": "山形県産桃使用、果汁90%以上、吟醸酒ベース、アルコール8度"}
     ],
     "features": [
       "1892年創業、吟醸酒のパイオニア",
       "梅酒専用純米酒を使用",
-      "全国梅酒品評会2024で3銘柄が銀賞受賞"
+      "全国梅酒品評会2024で3銘柄が銀賞受賞",
+      "「とろけるやまがた」シリーズで桃・ぶどうなど山形県産果実リキュールを展開"
     ],
     "source": "https://www.dewazakura.co.jp/",
     "name_en": "Dewazakura Sake Brewery"
+  },
+  {
+    "id": "tatenokawa",
+    "name": "楯の川酒造",
+    "company": "楯の川酒造株式会社",
+    "brand": "子宝",
+    "type": "ヨーグルトリキュール",
+    "liqueur_type": "yogurt",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "鳥海山麓ヨーグルト",
+    "abv": "8",
+    "founded": "1832",
+    "founded_era": "天保3年",
+    "address": "山形県酒田市山楯字清水田27",
+    "tel": "",
+    "url": "https://www.tatenokawa.com/ja/sake/",
+    "area": "酒田市",
+    "desc": "天保3年（1832年）創業。日本初の地ヨーグルトリキュール「子宝 鳥海山麓ヨーグルト」を開発し、ヨーグルト酒カテゴリーで日本一の売上を誇る。鳥海山麓の酪農家の生乳100%ヨーグルトを60%以上使用。",
+    "visit": "",
+    "brands": [
+      {"name": "子宝 鳥海山麓ヨーグルト", "type": "ヨーグルト酒", "specs": "日本酒ベース、ヨーグルト60%以上使用、アルコール8度"},
+      {"name": "子宝 生とろ鳥海山麓ヨーグルト", "type": "ヨーグルト酒", "specs": "生タイプ、要冷蔵"}
+    ],
+    "features": [
+      "1832年創業、190年以上の歴史",
+      "日本初の地ヨーグルトリキュール「子宝」シリーズを開発",
+      "ヨーグルト酒カテゴリーで日本一の売上"
+    ],
+    "source": "https://shop.tatenokawa.com/",
+    "name_en": "Tatenokawa Shuzo"
+  },
+  {
+    "id": "wada_shuzo",
+    "name": "和田酒造",
+    "company": "和田酒造合資会社",
+    "brand": "あら玉",
+    "type": "ヨーグルトリキュール",
+    "liqueur_type": "yogurt",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "河北町産ヨーグルト",
+    "abv": "",
+    "founded": "1797",
+    "founded_era": "寛政9年",
+    "address": "山形県西村山郡河北町谷地甲17",
+    "tel": "",
+    "url": "https://aratama-wada.com/",
+    "area": "河北町",
+    "desc": "寛政9年（1797年）創業。日本酒「あら玉」の蔵元。地元・河北町の王生乳業のヨーグルトと日本酒で仕込んだ「Nomanega Kahoku（のまねが かほく）」を展開。山形弁で「飲まないか」の意。",
+    "visit": "",
+    "brands": [
+      {"name": "Nomanega Kahoku（のまねが かほく）", "type": "ヨーグルト酒", "specs": "日本酒ベース、河北町産ヨーグルト使用、要冷蔵"}
+    ],
+    "features": [
+      "1797年創業の山形の老舗蔵",
+      "地元・河北町産ヨーグルトを使ったリキュール",
+      "商品名は山形弁で「飲まないか」の意味"
+    ],
+    "source": "https://aratama-wada.com/products/liqueur/nomanega-kahoku.html",
+    "name_en": "Wada Shuzo"
   }
 ]

@@ -84,5 +84,34 @@
     ],
     "source": "",
     "name_en": "Kuge Honten"
+  },
+  {
+    "id": "yatsushika",
+    "name": "八鹿酒造",
+    "company": "八鹿酒造株式会社",
+    "brand": "八鹿",
+    "type": "ヨーグルトリキュール",
+    "liqueur_type": "yogurt",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "九州産ヨーグルト",
+    "abv": "8",
+    "founded": "",
+    "founded_era": "",
+    "address": "大分県玖珠郡九重町右田3364",
+    "tel": "",
+    "url": "https://www.yatsushika.com/",
+    "area": "九重町",
+    "desc": "大分県九重町の酒蔵。自社の本格麦焼酎をベースに九州産ヨーグルトで仕込んだ「coconoe（ここのえ）」は、焼酎由来のほろ苦さが特徴のヨーグルトリキュール。天満天神梅酒大会リキュール部門3位入賞。",
+    "visit": "",
+    "brands": [
+      {"name": "八鹿 coconoe（ここのえ）", "type": "ヨーグルト酒", "specs": "本格麦焼酎ベース、九州産ヨーグルト使用、アルコール8度"}
+    ],
+    "features": [
+      "大分・九重町の酒蔵",
+      "麦焼酎ベースのユニークなヨーグルトリキュール",
+      "天満天神梅酒大会リキュール部門3位入賞"
+    ],
+    "source": "https://www.yatsushika.com/catalog/liqueur/",
+    "name_en": "Yatsushika Shuzo"
   }
 ]
