@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "id": "ichinomiya",
+    "name": "一宮酒造",
+    "company": "一宮酒造有限会社",
+    "brand": "石見銀山",
+    "type": "フルーツリキュール",
+    "liqueur_type": "yuzu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "ゆず・りんご・薔薇",
+    "abv": "",
+    "founded": "",
+    "founded_era": "120年以上の歴史",
+    "address": "島根県大田市大田町大田",
+    "tel": "",
+    "url": "https://www.ichinomiya-s.jp/",
+    "area": "大田市",
+    "desc": "島根県大田市で120年以上の歴史を持つ酒蔵。世界遺産石見銀山を有する地で、梅酒・ゆず酒・りんご酒・薔薇酒など多彩なリキュールを製造。",
+    "visit": "",
+    "brands": [
+      {"name": "RIKA YUZU", "type": "ゆず酒", "specs": "日本酒ベース"},
+      {"name": "RIKA APPLE", "type": "りんご酒", "specs": "日本酒ベース"},
+      {"name": "薔薇酒", "type": "薔薇リキュール", "specs": ""},
+      {"name": "梅酒", "type": "梅酒", "specs": ""}
+    ],
+    "features": [
+      "120年以上の歴史を持つ島根の酒蔵",
+      "世界遺産石見銀山の地で多彩なリキュールを展開"
+    ],
+    "source": "https://www.ichinomiya-s.jp/",
+    "name_en": "Ichinomiya Shuzo"
+  }
+]

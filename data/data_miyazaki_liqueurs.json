@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "id": "unkai_shuzo",
+    "name": "雲海酒造",
+    "company": "雲海酒造株式会社",
+    "brand": "雲海",
+    "type": "フルーツリキュール",
+    "liqueur_type": "other",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "宮崎県産果実",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "宮崎県宮崎市",
+    "tel": "",
+    "url": "",
+    "area": "宮崎市",
+    "desc": "宮崎の焼酎メーカー。日向夏・金柑・山桃など宮崎県産果実を使ったリキュールを展開。マンゴースパークリングも人気。",
+    "visit": "蔵元 綾 酒泉の杜（見学・販売）",
+    "brands": [
+      {"name": "日向夏リキュール", "type": "柑橘リキュール", "specs": "宮崎県産日向夏使用"},
+      {"name": "金柑リキュール", "type": "柑橘リキュール", "specs": "宮崎県産金柑使用"},
+      {"name": "マンゴースパークリング", "type": "マンゴーリキュール", "specs": "宮崎県産マンゴー使用"}
+    ],
+    "features": [
+      "宮崎県産果実を使ったフルーツリキュールを多数展開",
+      "蔵元 綾 酒泉の杜で見学・購入可能"
+    ],
+    "source": "",
+    "name_en": "Unkai Shuzo"
+  },
+  {
+    "id": "inoue_shuzo_miyazaki",
+    "name": "井上酒造",
+    "company": "井上酒造株式会社",
+    "brand": "飫肥杉",
+    "type": "フルーツリキュール",
+    "liqueur_type": "other",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "日向夏",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "宮崎県日南市",
+    "tel": "",
+    "url": "https://www.obisugi.co.jp/",
+    "area": "日南市",
+    "desc": "宮崎県日南市の焼酎蔵。本格焼酎「飫肥杉」で知られる。地元産日向夏を本格麦焼酎に漬け込んだ「日向のなつこ」などフルーツリキュールも展開。",
+    "visit": "",
+    "brands": [
+      {"name": "日向のなつこ", "type": "柑橘リキュール", "specs": "本格麦焼酎ベース、宮崎県産日向夏使用"}
+    ],
+    "features": [
+      "本格焼酎「飫肥杉」で知られる宮崎の蔵",
+      "地元産日向夏を使った焼酎リキュール"
+    ],
+    "source": "https://www.obisugi.co.jp/",
+    "name_en": "Inoue Shuzo"
+  },
+  {
+    "id": "takachiho_shuzo",
+    "name": "高千穂酒造",
+    "company": "高千穂酒造株式会社",
+    "brand": "高千穂",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "梅・日向夏・マイヤーレモン",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "宮崎県西臼杵郡高千穂町",
+    "tel": "",
+    "url": "https://www.takachihosyuzo.co.jp/",
+    "area": "高千穂町",
+    "desc": "宮崎県高千穂町の焼酎蔵。樫樽熟成の梅原酒や日向夏みかん酒、マイヤーレモンリキュールなど地元素材を活かしたリキュールを展開。",
+    "visit": "",
+    "brands": [
+      {"name": "高千穂樫樽梅原酒 プラムリキュール", "type": "梅酒", "specs": "樫樽熟成"},
+      {"name": "日向夏みかん酒", "type": "柑橘リキュール", "specs": "宮崎県産日向夏使用"},
+      {"name": "マイヤーレモンリキュール", "type": "柑橘リキュール", "specs": "宮崎県産マイヤーレモン使用"}
+    ],
+    "features": [
+      "宮崎・高千穂の焼酎蔵が造るリキュール",
+      "地元素材（日向夏・マイヤーレモン）を活用"
+    ],
+    "source": "https://www.takachihosyuzo.co.jp/",
+    "name_en": "Takachiho Shuzo"
+  }
+]

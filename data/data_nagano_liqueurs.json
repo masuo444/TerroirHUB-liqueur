@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "chikumanishiki",
+    "name": "千曲錦酒造",
+    "company": "千曲錦酒造株式会社",
+    "brand": "千曲錦",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1681",
+    "founded_era": "天和元年",
+    "address": "長野県佐久市長土呂1110",
+    "tel": "",
+    "url": "https://www.chikumanishiki.com/",
+    "area": "佐久市",
+    "desc": "天和元年（1681年）創業。浅間山系の湧き水と長野県産米を使用。「千曲錦 極上原酒 UMESHU」は全国梅酒品評会2024本格焼酎梅酒部門で銀賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "千曲錦 極上原酒 UMESHU", "type": "梅酒", "specs": "本格焼酎ベース、全国梅酒品評会2024銀賞"}
+    ],
+    "features": [
+      "1681年創業の長野・佐久の老舗蔵",
+      "全国梅酒品評会2024本格焼酎梅酒部門銀賞"
+    ],
+    "source": "https://www.chikumanishiki.com/",
+    "name_en": "Chikumanishiki Shuzo"
+  }
+]

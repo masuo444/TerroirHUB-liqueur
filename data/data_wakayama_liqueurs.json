@@ -18,31 +18,156 @@
     "desc": "昭和7年（1932年）創業。紀州南高梅の産地・和歌山に本社を構える梅酒専業メーカー。「紀州」ブランドの梅酒をはじめ、緑茶梅酒など独自の梅酒を展開。",
     "visit": "工場見学可（要予約）",
     "brands": [
-      {
-        "name": "紀州 蜂蜜梅酒",
-        "type": "梅酒",
-        "specs": "紀州南高梅・蜂蜜使用、アルコール12度"
-      },
-      {
-        "name": "紀州 緑茶梅酒",
-        "type": "梅酒",
-        "specs": "緑茶エキス配合、アルコール12度"
-      },
-      {
-        "name": "富士白無垢",
-        "type": "梅酒",
-        "specs": "ブランデー仕込み、アルコール19度"
-      }
+      {"name": "紀州 蜂蜜梅酒", "type": "梅酒", "specs": "紀州南高梅・蜂蜜使用、アルコール12度"},
+      {"name": "紀州 緑茶梅酒", "type": "梅酒", "specs": "緑茶エキス配合、アルコール12度"},
+      {"name": "富士白無垢", "type": "梅酒", "specs": "ブランデー仕込み、アルコール19度"}
     ],
     "features": [
       "紀州南高梅の産地に本社を構える梅酒専業メーカー",
       "緑茶梅酒など独創的な梅酒を多数開発",
       "全国梅酒品評会で数々の受賞歴"
     ],
-    "nearest_station": "JR紀勢本線 海南駅",
     "source": "https://www.nakano-group.co.jp/",
-    "lat": 34.1506,
-    "lng": 135.2023,
     "name_en": "Nakano BC"
+  },
+  {
+    "id": "godaian",
+    "name": "五代庵",
+    "company": "株式会社東農園",
+    "brand": "五代庵",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "ホワイトリカー",
+    "fruit_ingredient": "紀州南高梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "和歌山県日高郡みなべ町東本庄",
+    "tel": "",
+    "url": "https://www.godaiume.co.jp/",
+    "area": "みなべ町",
+    "desc": "紀州みなべ町で南高梅の梅干し・梅酒を製造。「五代庵 原酒梅酒」は全国梅酒品評会2024ホワイトリカー梅酒部門で金賞を受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "五代庵 原酒梅酒", "type": "梅酒", "specs": "全国梅酒品評会2024金賞受賞"},
+      {"name": "五代庵 ブランデー梅酒 庄屋善八", "type": "梅酒", "specs": "ブランデーブレンド"}
+    ],
+    "features": [
+      "南高梅の産地みなべ町の梅専門メーカー",
+      "全国梅酒品評会2024ホワイトリカー部門金賞"
+    ],
+    "source": "https://www.godaiume.co.jp/",
+    "name_en": "Godaian"
+  },
+  {
+    "id": "nakata_foods",
+    "name": "中田食品",
+    "company": "中田食品株式会社",
+    "brand": "紀州の梅酒",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "紀州南高梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "和歌山県田辺市下三栖",
+    "tel": "",
+    "url": "https://www.nakatafoods.co.jp/",
+    "area": "田辺市",
+    "desc": "紀州南高梅の梅干し・梅酒を製造販売。和歌山を代表する梅製品メーカー。全国梅酒品評会で柑橘系ブレンド梅酒部門銀賞を受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "紀州の梅酒", "type": "梅酒", "specs": "紀州南高梅使用"},
+      {"name": "るんるんミカン梅酒", "type": "梅酒", "specs": "柑橘系ブレンド、全国梅酒品評会2024銀賞"}
+    ],
+    "features": [
+      "和歌山を代表する梅干し・梅酒メーカー",
+      "全国梅酒品評会受賞歴あり"
+    ],
+    "source": "https://www.nakatafoods.co.jp/",
+    "name_en": "Nakata Foods"
+  },
+  {
+    "id": "plum_foods",
+    "name": "プラム食品",
+    "company": "プラム食品株式会社",
+    "brand": "紀州",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "紀州南高梅",
+    "abv": "",
+    "founded": "1969",
+    "founded_era": "昭和44年",
+    "address": "和歌山県日高郡みなべ町",
+    "tel": "",
+    "url": "https://www.plumone.co.jp/",
+    "area": "みなべ町",
+    "desc": "1969年創業。紀州南高梅を使用したリキュール・飲料・ジャム等を製造。2019年に「紀州熊野蒸溜所」を開設し蒸留酒の製造も開始。",
+    "visit": "",
+    "brands": [
+      {"name": "紀州南高完熟梅酒 樽", "type": "梅酒", "specs": "樽熟成"}
+    ],
+    "features": [
+      "1969年創業の梅製品専門メーカー",
+      "2019年に紀州熊野蒸溜所を開設"
+    ],
+    "source": "https://www.plumone.co.jp/",
+    "name_en": "Plum Foods"
+  },
+  {
+    "id": "shokibai",
+    "name": "勝僖梅",
+    "company": "株式会社勝僖梅",
+    "brand": "勝僖梅",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "紀州南高梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "和歌山県日高郡みなべ町",
+    "tel": "",
+    "url": "",
+    "area": "みなべ町",
+    "desc": "「本格梅酒 勝僖梅 SHOKIBAI」は全国梅酒品評会2024ベース混合梅酒部門（ブランデーブレンド）で金賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "本格梅酒 勝僖梅 SHOKIBAI", "type": "梅酒", "specs": "全国梅酒品評会2024金賞受賞"}
+    ],
+    "features": [
+      "全国梅酒品評会2024ブランデーブレンド部門金賞"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000055.000021306.html",
+    "name_en": "Shokibai"
+  },
+  {
+    "id": "maruryo_nagaoka",
+    "name": "マルリョウナガオカ",
+    "company": "マルリョウナガオカ",
+    "brand": "紀州萠",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "ホワイトリカー",
+    "fruit_ingredient": "紀州南高梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "和歌山県",
+    "tel": "",
+    "url": "",
+    "area": "",
+    "desc": "「紀州萠」は全国梅酒品評会2024ホワイトリカー梅酒部門で銀賞を受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "紀州萠", "type": "梅酒", "specs": "全国梅酒品評会2024銀賞"}
+    ],
+    "features": [
+      "全国梅酒品評会2024ホワイトリカー部門銀賞"
+    ],
+    "source": "https://prtimes.jp/main/html/rd/p/000000055.000021306.html",
+    "name_en": "Maruryo Nagaoka"
   }
 ]

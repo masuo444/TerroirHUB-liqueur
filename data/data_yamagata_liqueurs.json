@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "id": "dewazakura",
+    "name": "出羽桜酒造",
+    "company": "出羽桜酒造株式会社",
+    "brand": "出羽桜",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1892",
+    "founded_era": "明治25年",
+    "address": "山形県天童市一日町1-4-6",
+    "tel": "",
+    "url": "https://www.dewazakura.co.jp/",
+    "area": "天童市",
+    "desc": "明治25年（1892年）創業。吟醸酒のパイオニアとして知られる山形の名門蔵。梅酒専用純米酒を使い、3タイプの本格梅酒を展開。全国梅酒品評会2024で銀賞を複数受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "出羽桜 本格梅酒 すっぱい辛口", "type": "梅酒", "specs": "日本酒ベース、全国梅酒品評会2024銀賞"},
+      {"name": "出羽桜 本格梅酒 はなやぐ完熟", "type": "梅酒", "specs": "日本酒ベース、全国梅酒品評会2024銀賞"},
+      {"name": "出羽桜 本格梅酒 とろける果肉", "type": "梅酒", "specs": "にごり梅酒、全国梅酒品評会2024銀賞"}
+    ],
+    "features": [
+      "1892年創業、吟醸酒のパイオニア",
+      "梅酒専用純米酒を使用",
+      "全国梅酒品評会2024で3銘柄が銀賞受賞"
+    ],
+    "source": "https://www.dewazakura.co.jp/",
+    "name_en": "Dewazakura Sake Brewery"
+  }
+]

@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "nakayu_shuzoten",
+    "name": "中勇酒造店",
+    "company": "株式会社中勇酒造店",
+    "brand": "天上夢幻",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅・ゆず",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "宮城県加美郡加美町",
+    "tel": "",
+    "url": "https://tenjo-mugen.co.jp/",
+    "area": "加美町",
+    "desc": "宮城県加美町の手づくり日本酒蔵。「天上夢幻 蔵人仕込みの伊達なゆず梅酒」は全国梅酒品評会2024で柑橘系ブレンド梅酒部門金賞・ブランデーブレンド部門金賞をダブル受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "天上夢幻 蔵人仕込みの伊達なゆず梅酒", "type": "ゆず梅酒", "specs": "全国梅酒品評会2024 柑橘系ブレンド部門金賞・ブランデーブレンド部門金賞"}
+    ],
+    "features": [
+      "宮城県加美町の伝統的な手づくり日本酒蔵",
+      "全国梅酒品評会2024で2部門金賞のダブル受賞"
+    ],
+    "source": "https://tenjo-mugen.co.jp/",
+    "name_en": "Nakayu Shuzoten"
+  }
+]

@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "id": "eikoo",
+    "name": "栄光酒造",
+    "company": "栄光酒造株式会社",
+    "brand": "蔵元の梅酒",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "愛媛県産南高梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "愛媛県松山市",
+    "tel": "",
+    "url": "https://eikoo.com/",
+    "area": "松山市",
+    "desc": "愛媛県松山市の酒蔵。全国新酒鑑評会などで金賞を受賞。愛媛県産の南高梅を使い、本格焼酎をベースに仕込んだ梅酒。酸味料・着色料・香料無添加。甘さ控えめですっきり爽やかな味わい。",
+    "visit": "",
+    "brands": [
+      {"name": "蔵元の梅酒", "type": "梅酒", "specs": "本格焼酎ベース、愛媛県産南高梅使用、無添加"},
+      {"name": "蔵元のにごり梅酒", "type": "梅酒", "specs": "にごりタイプ"},
+      {"name": "七折小梅 梅酒", "type": "梅酒", "specs": "七折小梅使用"}
+    ],
+    "features": [
+      "全国新酒鑑評会で金賞受賞歴のある愛媛の酒蔵",
+      "酸味料・着色料・香料無添加の梅酒"
+    ],
+    "source": "https://eikoo.com/",
+    "name_en": "Eikoo Shuzo"
+  },
+  {
+    "id": "umenishiki",
+    "name": "梅錦山川",
+    "company": "梅錦山川株式会社",
+    "brand": "梅錦",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "愛媛県四国中央市金田町金川14",
+    "tel": "",
+    "url": "https://www.umenishiki.com/",
+    "area": "四国中央市",
+    "desc": "全国新酒鑑評会の金賞を30回以上受賞した愛媛の名門蔵。日本酒「梅錦」の蔵元。",
+    "visit": "",
+    "brands": [
+      {"name": "梅錦 梅酒", "type": "梅酒", "specs": ""}
+    ],
+    "features": [
+      "全国新酒鑑評会金賞30回以上受賞の名門蔵"
+    ],
+    "source": "https://www.umenishiki.com/",
+    "name_en": "Umenishiki Yamakawa"
+  }
+]

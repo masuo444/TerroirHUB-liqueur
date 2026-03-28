@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "id": "chiyomusubi",
+    "name": "千代むすび酒造",
+    "company": "千代むすび酒造株式会社",
+    "brand": "千代むすび",
+    "type": "フルーツリキュール",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1865",
+    "founded_era": "慶応元年",
+    "address": "鳥取県境港市大正町131",
+    "tel": "",
+    "url": "https://www.chiyomusubi.co.jp/",
+    "area": "境港市",
+    "desc": "慶応元年（1865年）創業。鳥取県境港市の酒蔵。梅酒のほかピーチ・ゆず・マンゴーなど多彩なフルーツリキュール「ULTRA」シリーズを展開。",
+    "visit": "",
+    "brands": [
+      {"name": "梅酒梅語り", "type": "梅酒", "specs": ""},
+      {"name": "ねこ娘の梅酒", "type": "梅酒", "specs": "ゲゲゲの鬼太郎コラボ"},
+      {"name": "ULTRA PEACH", "type": "桃リキュール", "specs": ""},
+      {"name": "ULTRA YUZU", "type": "ゆずリキュール", "specs": ""},
+      {"name": "ULTRA MANGO", "type": "マンゴーリキュール", "specs": ""}
+    ],
+    "features": [
+      "1865年創業の鳥取・境港の酒蔵",
+      "ゲゲゲの鬼太郎コラボ梅酒など個性的な商品展開",
+      "ULTRAシリーズでピーチ・ゆず・マンゴーリキュールを展開"
+    ],
+    "source": "https://www.chiyomusubi.co.jp/",
+    "name_en": "Chiyomusubi Shuzo"
+  },
+  {
+    "id": "inata_honten",
+    "name": "稲田本店",
+    "company": "稲田本店株式会社",
+    "brand": "稲田姫",
+    "type": "リキュール",
+    "liqueur_type": "other",
+    "base_spirit": "",
+    "fruit_ingredient": "",
+    "abv": "",
+    "founded": "1673",
+    "founded_era": "延宝元年",
+    "address": "鳥取県米子市夜見町",
+    "tel": "",
+    "url": "https://www.inata.co.jp/",
+    "area": "米子市",
+    "desc": "延宝元年（1673年）創業。人と米と水にこだわった酒造りを行う鳥取の蔵元。リキュール製品も展開。",
+    "visit": "",
+    "brands": [],
+    "features": [
+      "1673年創業の鳥取・米子の老舗蔵"
+    ],
+    "source": "https://www.inata.co.jp/",
+    "name_en": "Inata Honten"
+  }
+]

@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>大阪府のリキュールメーカー一覧（2社）— Terroir HUB</title>
-<meta name="description" content="大阪府のリキュールメーカー2社を一覧表示。Terroir HUB LIQUEUR。">
+<title>大阪府のリキュールメーカー一覧（3社）— Terroir HUB</title>
+<meta name="description" content="大阪府のリキュールメーカー3社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/osaka/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "大阪府のリキュールメーカー一覧", "numberOfItems": 2, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/osaka/choya.html", "name": "チョーヤ梅酒"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/osaka/suntory_liqueur.html", "name": "サントリー（リキュール部門）"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "大阪府のリキュールメーカー一覧", "numberOfItems": 3, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/osaka/choya.html", "name": "チョーヤ梅酒"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/osaka/suntory_liqueur.html", "name": "サントリー（リキュール部門）"}, {"@type": "ListItem", "position": 3, "url": "https://liqueur.terroirhub.com/liqueur/osaka/kawachi_wine.html", "name": "河内ワイン"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>大阪府のリキュールメーカー</h1>
-    <p class="count">2社</p>
+    <p class="count">3社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "choya", "name": "チョーヤ梅酒", "brand": "CHOYA", "type": "梅酒", "area": "羽曳野市", "founded": "1914", "desc": "大正3年（1914年）創業。南高梅と国産ブランデーを使用した本格梅酒メーカー。「The CHOYA」シリーズをはじめ、世界40カ国以上に輸出。", "liqueur_type": "umeshu"}, {"id": "suntory_liqueur", "name": "サントリー（リキュール部門）", "brand": "Kanade", "type": "和素材リキュール", "area": "大阪市", "founded": "1899", "desc": "Kanadeシリーズで桜・抹茶・ゆず・白桃など日本の四季を表現した和素材リキュールを展開。", "liqueur_type": "other"}];
+const B=[{"id": "choya", "name": "チョーヤ梅酒", "brand": "CHOYA", "type": "梅酒", "area": "羽曳野市", "founded": "1914", "desc": "大正3年（1914年）創業。南高梅と国産ブランデーを使用した本格梅酒メーカー。「The CHOYA」シリーズをはじめ、世界40カ国以上に輸出。", "liqueur_type": "umeshu"}, {"id": "suntory_liqueur", "name": "サントリー（リキュール部門）", "brand": "Kanade", "type": "和素材リキュール", "area": "大阪市", "founded": "1899", "desc": "Kanadeシリーズで桜・抹茶・ゆず・白桃など日本の四季を表現した和素材リキュールを展開。", "liqueur_type": "other"}, {"id": "kawachi_wine", "name": "河内ワイン", "brand": "福梅", "type": "梅酒", "area": "羽曳野市", "founded": "", "desc": "大阪・河内地方のワイナリー。ブランデーベースの梅酒「エビス福梅」は20年熟成の梅酒をブレンドした秘伝の味わい。甘さと酸味のバランスに優れる。", "liqueur_type": "umeshu"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/osaka/'+b.id+'.html">'+

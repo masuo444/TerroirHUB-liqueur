@@ -18,21 +18,70 @@
     "desc": "大正11年（1922年）創業。日本酒「八海山」で知られる蔵が、自社焼酎で仕込んだ梅酒を展開。雪室貯蔵による熟成が特徴。",
     "visit": "魚沼の里（見学・体験施設）",
     "brands": [
-      {
-        "name": "八海山の原酒で仕込んだ梅酒",
-        "type": "梅酒",
-        "specs": "八海山の本格米焼酎で仕込み、アルコール14度"
-      }
+      {"name": "八海山の原酒で仕込んだ梅酒", "type": "梅酒", "specs": "八海山の本格米焼酎で仕込み、アルコール14度"}
     ],
     "features": [
       "日本酒「八海山」の蔵が造る本格梅酒",
       "自社の本格米焼酎をベースに仕込み",
       "雪室貯蔵による低温熟成"
     ],
-    "nearest_station": "JR上越線 六日町駅",
     "source": "https://www.hakkaisan.co.jp/",
-    "lat": 37.0081,
-    "lng": 138.8851,
     "name_en": "Hakkaisan Brewery"
+  },
+  {
+    "id": "kikusui_niigata",
+    "name": "菊水酒造（新潟）",
+    "company": "菊水酒造株式会社",
+    "brand": "紅菊水",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "新潟県産梅",
+    "abv": "",
+    "founded": "1881",
+    "founded_era": "明治14年",
+    "address": "新潟県新発田市島潟750",
+    "tel": "",
+    "url": "https://www.kikusui-sake.com/",
+    "area": "新発田市",
+    "desc": "明治14年（1881年）創業。新潟県産の「越の梅」「小坂梅」「藤五郎梅」と菊水の純米酒を使った梅酒「紅菊水」を製造。",
+    "visit": "",
+    "brands": [
+      {"name": "紅菊水", "type": "梅酒", "specs": "純米酒ベース、新潟県産梅使用"}
+    ],
+    "features": [
+      "1881年創業の新潟の名門蔵",
+      "新潟県産の梅と純米酒で仕込む梅酒"
+    ],
+    "source": "https://www.kikusui-sake.com/",
+    "name_en": "Kikusui Sake (Niigata)"
+  },
+  {
+    "id": "yoshinogawa",
+    "name": "吉乃川",
+    "company": "吉乃川株式会社",
+    "brand": "吉乃川",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "福井県産紅映梅",
+    "abv": "",
+    "founded": "1548",
+    "founded_era": "天文17年",
+    "address": "新潟県長岡市摂田屋4-8-12",
+    "tel": "",
+    "url": "https://yosinogawa.co.jp/",
+    "area": "長岡市",
+    "desc": "天文17年（1548年）創業。新潟・長岡の老舗蔵元。福井県産「紅映（べにさし）」を日本酒に漬け込んだこだわりの梅酒を2012年から熟成。",
+    "visit": "吉乃川酒蔵資料館 瓢亭",
+    "brands": [
+      {"name": "吉乃川 厳選梅酒", "type": "梅酒", "specs": "日本酒仕込み、福井県産紅映梅使用"}
+    ],
+    "features": [
+      "1548年創業の新潟・長岡の老舗蔵",
+      "2012年から熟成させた琥珀色の梅酒"
+    ],
+    "source": "https://yosinogawa.co.jp/",
+    "name_en": "Yoshinogawa"
   }
 ]

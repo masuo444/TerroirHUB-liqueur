@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "dewatsuru",
+    "name": "出羽鶴酒造（秋田清酒）",
+    "company": "秋田清酒株式会社",
+    "brand": "出羽鶴",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "白加賀梅",
+    "abv": "11",
+    "founded": "1865",
+    "founded_era": "慶応元年",
+    "address": "秋田県大仙市戸地谷字天ヶ沢83-1",
+    "tel": "",
+    "url": "https://www.igeta.jp/",
+    "area": "大仙市",
+    "desc": "慶応元年（1865年）創業。秋田清酒が醸造する「出羽鶴 梅ごこち」は白加賀梅を使い、あきたこまちの純米酒で仕込んだ梅酒。ピーチのような爽やかな香りが特徴。",
+    "visit": "",
+    "brands": [
+      {"name": "出羽鶴 梅ごこち", "type": "梅酒", "specs": "純米酒ベース、白加賀梅使用、アルコール11度"}
+    ],
+    "features": [
+      "1865年創業の秋田の酒蔵",
+      "あきたこまちの純米酒で仕込む梅酒"
+    ],
+    "source": "https://www.igeta.jp/",
+    "name_en": "Dewatsuru (Akita Seishu)"
+  }
+]

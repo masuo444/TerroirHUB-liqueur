@@ -1,1 +1,114 @@
-[]
+[
+  {
+    "id": "tsukasabotan",
+    "name": "司牡丹酒造",
+    "company": "司牡丹酒造株式会社",
+    "brand": "山柚子搾り",
+    "type": "ゆず酒",
+    "liqueur_type": "yuzu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "土佐嶺北産山柚子",
+    "abv": "8",
+    "founded": "1603",
+    "founded_era": "慶長8年",
+    "address": "高知県高岡郡佐川町甲1299",
+    "tel": "",
+    "url": "https://www.tsukasabotan.co.jp/",
+    "area": "佐川町",
+    "desc": "慶長8年（1603年）創業。土佐嶺北地方の無農薬山柚子の果汁と純米酒、砂糖のみで造った「山柚子搾り ゆずの酒」を展開。香料・着色料・酸味料・保存料無添加。パリでの試飲会で仏料理人から高い評価を受ける。",
+    "visit": "",
+    "brands": [
+      {"name": "司牡丹 山柚子搾り ゆずの酒", "type": "ゆず酒", "specs": "純米酒ベース、土佐嶺北産山柚子使用、アルコール8度、無添加"}
+    ],
+    "features": [
+      "1603年創業の高知の名門蔵",
+      "無農薬山柚子と純米酒のみで造る無添加ゆず酒",
+      "フランス・パリの試飲会で高い評価"
+    ],
+    "source": "https://www.tsukasabotan.co.jp/",
+    "name_en": "Tsukasabotan Shuzo"
+  },
+  {
+    "id": "kikusui_kochi",
+    "name": "菊水酒造（高知）",
+    "company": "菊水酒造株式会社",
+    "brand": "あらごしゆず",
+    "type": "ゆず酒",
+    "liqueur_type": "yuzu",
+    "base_spirit": "",
+    "fruit_ingredient": "高知県産ゆず",
+    "abv": "",
+    "founded": "",
+    "founded_era": "江戸時代",
+    "address": "高知県安芸市本町4-6-25",
+    "tel": "",
+    "url": "",
+    "area": "安芸市",
+    "desc": "江戸時代に創業した高知県安芸市の酒蔵。南国土佐の柚子を使った「あらごしゆず」リキュールを製造。爽やかな柚子の香りとすっきりとした味わいが特徴。",
+    "visit": "",
+    "brands": [
+      {"name": "あらごしゆず", "type": "ゆず酒", "specs": "高知県産柚子使用"}
+    ],
+    "features": [
+      "江戸時代創業の高知・安芸の蔵元",
+      "高知県産ゆずを使用したリキュール"
+    ],
+    "source": "",
+    "name_en": "Kikusui Sake (Kochi)"
+  },
+  {
+    "id": "umaji_mura",
+    "name": "馬路村農協",
+    "company": "馬路村農業協同組合",
+    "brand": "ゆずリキュール",
+    "type": "ゆず酒",
+    "liqueur_type": "yuzu",
+    "base_spirit": "",
+    "fruit_ingredient": "馬路村産ゆず",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "高知県安芸郡馬路村馬路3888-4",
+    "tel": "",
+    "url": "https://www.yuzu.or.jp/",
+    "area": "馬路村",
+    "desc": "高知県馬路村のゆず加工品で全国的に有名な農協。香料・甘味料不使用、ゆずとはちみつで自然な香り・酸味と甘みのゆずリキュールを製造。",
+    "visit": "",
+    "brands": [
+      {"name": "馬路村ゆずリキュール", "type": "ゆず酒", "specs": "馬路村産ゆず・はちみつ使用、香料・甘味料不使用"}
+    ],
+    "features": [
+      "ゆず加工品で全国的に有名な馬路村農協",
+      "香料・甘味料不使用の自然なゆずリキュール"
+    ],
+    "source": "https://www.yuzu.or.jp/",
+    "name_en": "Umaji Village Agricultural Cooperative"
+  },
+  {
+    "id": "tosatsuru",
+    "name": "土佐鶴酒造",
+    "company": "土佐鶴酒造株式会社",
+    "brand": "土佐鶴",
+    "type": "ゆず酒",
+    "liqueur_type": "yuzu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "高知県産ゆず",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "高知県安芸郡安田町安田1586",
+    "tel": "",
+    "url": "https://www.tosatsuru.jp/",
+    "area": "安田町",
+    "desc": "高知を代表する日本酒蔵。土佐鶴のゆずのリキュールを展開。",
+    "visit": "",
+    "brands": [
+      {"name": "土佐鶴 ゆずのリキュール", "type": "ゆず酒", "specs": "日本酒ベース、高知県産ゆず使用"}
+    ],
+    "features": [
+      "高知を代表する日本酒蔵が造るゆずリキュール"
+    ],
+    "source": "https://www.tosatsuru.jp/",
+    "name_en": "Tosatsuru Shuzo"
+  }
+]

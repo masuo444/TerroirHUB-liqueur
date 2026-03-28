@@ -1,1 +1,89 @@
-[]
+[
+  {
+    "id": "shinozaki",
+    "name": "篠崎",
+    "company": "株式会社篠崎",
+    "brand": "朝倉",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "江戸時代後期",
+    "address": "福岡県朝倉市比良松185",
+    "tel": "",
+    "url": "https://www.shinozaki-shochu.co.jp/",
+    "area": "朝倉市",
+    "desc": "江戸時代後期に筑前国・比良松村（現朝倉市）で創業。日本酒・焼酎・甘酒・リキュールを製造。あまおう梅酒「あまおう、はじめました。」は天満天神梅酒大会で2年連続入賞。",
+    "visit": "",
+    "brands": [
+      {"name": "朝倉 梅酒 UMESHU", "type": "梅酒", "specs": "朝倉の樽で熟成"},
+      {"name": "あまおう梅酒 あまおう、はじめました。", "type": "いちご梅酒", "specs": "福岡県産あまおう使用、アルコール6度、天満天神梅酒大会入賞"},
+      {"name": "苺のお酒 あまおう", "type": "いちご酒", "specs": "福岡県産あまおう使用"}
+    ],
+    "features": [
+      "江戸時代後期創業の筑前の酒蔵",
+      "あまおう梅酒は天満天神梅酒大会2年連続入賞",
+      "モンドセレクション最高金賞受賞"
+    ],
+    "source": "https://www.shinozaki-shochu.co.jp/",
+    "name_en": "Shinozaki"
+  },
+  {
+    "id": "nishiyoshida",
+    "name": "西吉田酒造",
+    "company": "西吉田酒造株式会社",
+    "brand": "つくし",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "梅",
+    "abv": "17",
+    "founded": "",
+    "founded_era": "",
+    "address": "福岡県筑後市",
+    "tel": "",
+    "url": "https://nishiyoshida.jp/",
+    "area": "筑後市",
+    "desc": "福岡県筑後市の焼酎蔵。本格麦焼酎「つくし」で知られる。「つくし梅酒17度」は全国梅酒品評会2024本格焼酎梅酒部門で金賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "つくし梅酒 17度", "type": "梅酒", "specs": "本格焼酎ベース、アルコール17度、全国梅酒品評会2024金賞"}
+    ],
+    "features": [
+      "本格麦焼酎「つくし」の蔵が造る梅酒",
+      "全国梅酒品評会2024本格焼酎梅酒部門金賞"
+    ],
+    "source": "https://nishiyoshida.jp/",
+    "name_en": "Nishiyoshida Shuzo"
+  },
+  {
+    "id": "oga_shuzo",
+    "name": "大賀酒造",
+    "company": "大賀酒造株式会社",
+    "brand": "玉出泉",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1673",
+    "founded_era": "延宝元年",
+    "address": "福岡県筑紫野市二日市中央4-9-1",
+    "tel": "",
+    "url": "",
+    "area": "筑紫野市",
+    "desc": "延宝元年（1673年）創業。福岡県で最も古い酒蔵。宝満山の伏流水を使用し手造りにこだわる。「玉出泉 梅酒」は全国梅酒品評会2024日本酒梅酒部門で銀賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "玉出泉 梅酒", "type": "梅酒", "specs": "日本酒ベース、全国梅酒品評会2024銀賞"}
+    ],
+    "features": [
+      "1673年創業、福岡県最古の酒蔵",
+      "全国梅酒品評会2024日本酒梅酒部門銀賞"
+    ],
+    "source": "",
+    "name_en": "Oga Shuzo"
+  }
+]

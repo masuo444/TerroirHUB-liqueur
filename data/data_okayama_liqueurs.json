@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "miyashita_shuzo",
+    "name": "宮下酒造",
+    "company": "宮下酒造株式会社",
+    "brand": "極聖",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "100年以上の歴史",
+    "address": "岡山県岡山市中区西川原185-1",
+    "tel": "",
+    "url": "https://www.msb.co.jp/",
+    "area": "岡山市",
+    "desc": "100年の歴史を持つ総合酒類メーカー。日本酒「極聖」、地ビール「独歩」が代表銘柄。梅酒・ジン・ウイスキーなど幅広い酒類を製造。",
+    "visit": "酒工房 独歩館",
+    "brands": [
+      {"name": "極聖 梅酒", "type": "梅酒", "specs": ""}
+    ],
+    "features": [
+      "日本酒・地ビール・焼酎・梅酒・ジン・ウイスキーを製造する総合酒類メーカー"
+    ],
+    "source": "https://www.msb.co.jp/",
+    "name_en": "Miyashita Shuzo"
+  },
+  {
+    "id": "tsuji_honten",
+    "name": "辻本店",
+    "company": "株式会社辻本店",
+    "brand": "御前酒",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "岡山県真庭産梅",
+    "abv": "",
+    "founded": "1804",
+    "founded_era": "文化元年",
+    "address": "岡山県真庭市勝山116",
+    "tel": "",
+    "url": "https://www.gozenshu.co.jp/",
+    "area": "真庭市",
+    "desc": "文化元年（1804年）創業。地元真庭産の梅をふんだんに使用した完全無添加・日本酒ベースの梅酒。すっきりとした飲み口。ゆず酒も展開。",
+    "visit": "",
+    "brands": [
+      {"name": "御前酒 梅酒", "type": "梅酒", "specs": "日本酒ベース、岡山県真庭産梅使用、完全無添加"},
+      {"name": "御前酒 ゆず酒", "type": "ゆず酒", "specs": "日本酒ベース"}
+    ],
+    "features": [
+      "1804年創業の岡山・勝山の蔵元",
+      "地元産梅使用の完全無添加梅酒"
+    ],
+    "source": "https://www.gozenshu.co.jp/",
+    "name_en": "Tsuji Honten"
+  }
+]

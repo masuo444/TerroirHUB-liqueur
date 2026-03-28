@@ -18,26 +18,98 @@
     "desc": "昭和24年（1949年）創業。石垣島の泡盛蔵が造る泡盛ベースの梅酒・シークヮーサーリキュール。南国の素材を活かした個性的なリキュール。",
     "visit": "工場見学可（要予約）",
     "brands": [
-      {
-        "name": "請福梅酒",
-        "type": "梅酒",
-        "specs": "泡盛ベース、アルコール12度"
-      },
-      {
-        "name": "請福シークヮーサーリキュール",
-        "type": "その他",
-        "specs": "泡盛ベース、沖縄県産シークヮーサー使用"
-      }
+      {"name": "請福梅酒", "type": "梅酒", "specs": "泡盛ベース、アルコール12度"},
+      {"name": "請福シークヮーサーリキュール", "type": "その他", "specs": "泡盛ベース、沖縄県産シークヮーサー使用"}
     ],
     "features": [
       "石垣島の泡盛蔵が造る南国リキュール",
       "泡盛ベースの梅酒はコクのある味わい",
       "沖縄県産シークヮーサーを使用したリキュールも展開"
     ],
-    "nearest_station": "石垣空港よりバスで約30分",
     "source": "https://www.seifuku.co.jp/",
-    "lat": 24.3806,
-    "lng": 124.1867,
     "name_en": "Seifuku Shuzo"
+  },
+  {
+    "id": "zuisen",
+    "name": "瑞泉酒造",
+    "company": "瑞泉酒造株式会社",
+    "brand": "瑞泉",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "泡盛",
+    "fruit_ingredient": "梅・沖縄黒糖",
+    "abv": "12",
+    "founded": "1887",
+    "founded_era": "明治20年",
+    "address": "沖縄県那覇市首里崎山町1-35",
+    "tel": "",
+    "url": "",
+    "area": "那覇市",
+    "desc": "明治20年（1887年）創業。首里の泡盛蔵。沖縄黒糖と和歌山産梅干しを使用した「瑞泉梅酒」を展開。",
+    "visit": "",
+    "brands": [
+      {"name": "瑞泉梅酒", "type": "梅酒", "specs": "泡盛ベース、沖縄黒糖使用、アルコール12度"}
+    ],
+    "features": [
+      "1887年創業の首里の泡盛蔵",
+      "沖縄黒糖を使った梅酒"
+    ],
+    "source": "",
+    "name_en": "Zuisen Shuzo"
+  },
+  {
+    "id": "kumesen",
+    "name": "久米仙酒造",
+    "company": "久米仙酒造株式会社",
+    "brand": "久米仙",
+    "type": "シークヮーサーリキュール",
+    "liqueur_type": "other",
+    "base_spirit": "泡盛",
+    "fruit_ingredient": "沖縄県産シークヮーサー",
+    "abv": "7",
+    "founded": "",
+    "founded_era": "",
+    "address": "沖縄県那覇市仲井真155",
+    "tel": "",
+    "url": "",
+    "area": "那覇市",
+    "desc": "沖縄の代表的な泡盛メーカー。100%沖縄県産シークヮーサー果汁を使用したシークヮーサーリキュール（アルコール7度）を展開。香料・着色料・保存料不使用。",
+    "visit": "",
+    "brands": [
+      {"name": "久米仙 シークヮーサーリキュール", "type": "シークヮーサー酒", "specs": "泡盛ベース、沖縄県産シークヮーサー100%、アルコール7度、無添加"}
+    ],
+    "features": [
+      "沖縄を代表する泡盛メーカー",
+      "100%沖縄県産シークヮーサー使用、無添加"
+    ],
+    "source": "",
+    "name_en": "Kumesen Shuzo"
+  },
+  {
+    "id": "chukou",
+    "name": "忠孝酒造",
+    "company": "忠孝酒造株式会社",
+    "brand": "忠孝",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "泡盛",
+    "fruit_ingredient": "梅",
+    "abv": "12",
+    "founded": "",
+    "founded_era": "",
+    "address": "沖縄県豊見城市",
+    "tel": "",
+    "url": "",
+    "area": "豊見城市",
+    "desc": "沖縄の泡盛メーカー。古酒（くーす）で仕込んだ「くぅーす梅酒」を展開。",
+    "visit": "",
+    "brands": [
+      {"name": "忠孝 くぅーす梅酒", "type": "梅酒", "specs": "泡盛古酒ベース、アルコール12度"}
+    ],
+    "features": [
+      "古酒（くーす）で仕込んだ梅酒"
+    ],
+    "source": "",
+    "name_en": "Chukou Shuzo"
   }
 ]

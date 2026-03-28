@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "sasaichi",
+    "name": "笹一酒造",
+    "company": "笹一酒造株式会社",
+    "brand": "笹一",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1661",
+    "founded_era": "寛文元年",
+    "address": "山梨県大月市笹子町吉久保26",
+    "tel": "",
+    "url": "",
+    "area": "大月市",
+    "desc": "寛文元年（1661年）創業。富士山の伏流水を使った酒造り。梅酒やリキュールも製造。",
+    "visit": "",
+    "brands": [
+      {"name": "笹一 梅酒", "type": "梅酒", "specs": ""}
+    ],
+    "features": [
+      "1661年創業の山梨の老舗蔵"
+    ],
+    "source": "",
+    "name_en": "Sasaichi Shuzo"
+  }
+]

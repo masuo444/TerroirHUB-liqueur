@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "zuiyo",
+    "name": "瑞鷹",
+    "company": "瑞鷹株式会社",
+    "brand": "瑞鷹",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎・日本酒",
+    "fruit_ingredient": "熊本県産梅",
+    "abv": "15",
+    "founded": "1867",
+    "founded_era": "慶応3年",
+    "address": "熊本県熊本市南区川尻4-6-67",
+    "tel": "",
+    "url": "https://www.zuiyo.co.jp/",
+    "area": "熊本市",
+    "desc": "慶応3年（1867年）創業。赤酒「東肥」で知られる熊本の蔵。熊本県産の梅を自社焼酎に漬け込み、純米酒で仕上げた梅酒を展開。",
+    "visit": "",
+    "brands": [
+      {"name": "瑞鷹 梅酒 純米酒仕立て", "type": "梅酒", "specs": "焼酎・純米酒ベース、熊本県産梅使用、アルコール15度"}
+    ],
+    "features": [
+      "1867年創業、赤酒「東肥」で知られる熊本の蔵",
+      "熊本県産梅と自社焼酎・純米酒で仕込む"
+    ],
+    "source": "https://www.zuiyo.co.jp/",
+    "name_en": "Zuiyo"
+  }
+]

@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "hayakawa_shuzo",
+    "name": "早川酒造",
+    "company": "合名会社早川酒造",
+    "brand": "田光",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1915",
+    "founded_era": "大正4年",
+    "address": "三重県三重郡菰野町小島468",
+    "tel": "",
+    "url": "https://hayakawa-syuzo.com/",
+    "area": "菰野町",
+    "desc": "大正4年（1915年）創業。三重県菰野町の酒蔵。「朝 ASATSU あさつ 天香春梅」など梅酒リキュールを展開。",
+    "visit": "",
+    "brands": [
+      {"name": "天香春梅", "type": "梅酒", "specs": ""}
+    ],
+    "features": [
+      "1915年創業の三重の酒蔵"
+    ],
+    "source": "https://hayakawa-syuzo.com/",
+    "name_en": "Hayakawa Shuzo"
+  }
+]

@@ -18,31 +18,16 @@
     "desc": "大正3年（1914年）創業。南高梅と国産ブランデーを使用した本格梅酒メーカー。「The CHOYA」シリーズをはじめ、世界40カ国以上に輸出。",
     "visit": "",
     "brands": [
-      {
-        "name": "The CHOYA AGED 3 YEARS",
-        "type": "梅酒",
-        "specs": "3年熟成、アルコール17度、南高梅使用"
-      },
-      {
-        "name": "さらりとした梅酒",
-        "type": "梅酒",
-        "specs": "アルコール10度、すっきりタイプ"
-      },
-      {
-        "name": "The CHOYA SINGLE YEAR",
-        "type": "梅酒",
-        "specs": "1年熟成、アルコール15度"
-      }
+      {"name": "The CHOYA AGED 3 YEARS", "type": "梅酒", "specs": "3年熟成、アルコール17度、南高梅使用"},
+      {"name": "さらりとした梅酒", "type": "梅酒", "specs": "アルコール10度、すっきりタイプ"},
+      {"name": "The CHOYA SINGLE YEAR", "type": "梅酒", "specs": "1年熟成、アルコール15度"}
     ],
     "features": [
       "1914年創業、日本を代表する梅酒メーカー",
       "南高梅を丸ごと漬け込む本格製法",
       "世界40カ国以上に輸出、海外でも高い認知度"
     ],
-    "nearest_station": "",
     "source": "https://www.choya.co.jp/",
-    "lat": 34.5484,
-    "lng": 135.6122,
     "name_en": "Choya Umeshu"
   },
   {
@@ -64,31 +49,47 @@
     "desc": "Kanadeシリーズで桜・抹茶・ゆず・白桃など日本の四季を表現した和素材リキュールを展開。",
     "visit": "",
     "brands": [
-      {
-        "name": "奏 Kanade 桜",
-        "type": "桜リキュール",
-        "specs": "桜の花・桜の葉使用、アルコール25度"
-      },
-      {
-        "name": "奏 Kanade 抹茶",
-        "type": "抹茶リキュール",
-        "specs": "宇治抹茶使用、アルコール25度"
-      },
-      {
-        "name": "奏 Kanade 白桃",
-        "type": "桃リキュール",
-        "specs": "国産白桃使用、アルコール25度"
-      }
+      {"name": "奏 Kanade 桜", "type": "桜リキュール", "specs": "桜の花・桜の葉使用、アルコール25度"},
+      {"name": "奏 Kanade 抹茶", "type": "抹茶リキュール", "specs": "宇治抹茶使用、アルコール25度"},
+      {"name": "奏 Kanade 白桃", "type": "桃リキュール", "specs": "国産白桃使用、アルコール25度"},
+      {"name": "奏 Kanade ゆず", "type": "ゆずリキュール", "specs": "国産ゆず使用、アルコール25度"}
     ],
     "features": [
       "日本の四季を表現した「奏 Kanade」シリーズ",
       "桜・抹茶・ゆず・白桃など和素材を使用",
       "カクテルベースとして世界のバーで使用"
     ],
-    "nearest_station": "",
     "source": "https://www.suntory.co.jp/wnb/kanade/",
-    "lat": 34.6937,
-    "lng": 135.5023,
     "name_en": "Suntory Kanade"
+  },
+  {
+    "id": "kawachi_wine",
+    "name": "河内ワイン",
+    "company": "河内ワイン株式会社",
+    "brand": "福梅",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "ブランデー",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "大阪府羽曳野市駒ヶ谷",
+    "tel": "",
+    "url": "",
+    "area": "羽曳野市",
+    "desc": "大阪・河内地方のワイナリー。ブランデーベースの梅酒「エビス福梅」は20年熟成の梅酒をブレンドした秘伝の味わい。甘さと酸味のバランスに優れる。",
+    "visit": "",
+    "brands": [
+      {"name": "エビス福梅", "type": "梅酒", "specs": "ブランデーベース、20年熟成梅酒ブレンド"},
+      {"name": "大黒福梅", "type": "梅酒", "specs": "ブランデーベース"},
+      {"name": "弁天福梅", "type": "梅酒", "specs": "ブランデーベース"}
+    ],
+    "features": [
+      "大阪・河内のワイナリーが造る梅酒",
+      "ブランデーベースに20年熟成梅酒をブレンド"
+    ],
+    "source": "",
+    "name_en": "Kawachi Wine"
   }
 ]

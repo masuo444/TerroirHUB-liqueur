@@ -1,1 +1,113 @@
-[]
+[
+  {
+    "id": "ishikawa_shuzo",
+    "name": "石川酒造",
+    "company": "石川酒造株式会社",
+    "brand": "多満自慢",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "国産梅",
+    "abv": "",
+    "founded": "1863",
+    "founded_era": "文久3年",
+    "address": "東京都福生市熊川1番地",
+    "tel": "",
+    "url": "https://www.tamajiman.co.jp/",
+    "area": "福生市",
+    "desc": "文久3年（1863年）創業。東京・福生の酒蔵。100%国産梅を使い、酒蔵の職人が仕込む梅酒「多満の八重梅」を展開。上品な甘さと梅の芳香が特徴。",
+    "visit": "蔵見学可",
+    "brands": [
+      {"name": "多満の八重梅 梅酒", "type": "梅酒", "specs": "国産梅100%使用"}
+    ],
+    "features": [
+      "1863年創業の東京・福生の酒蔵",
+      "国産梅100%の梅酒を職人が手仕込み"
+    ],
+    "source": "https://www.tamajiman.co.jp/",
+    "name_en": "Ishikawa Shuzo"
+  },
+  {
+    "id": "ozawa_shuzo",
+    "name": "小澤酒造",
+    "company": "小澤酒造株式会社",
+    "brand": "澤乃井",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1702",
+    "founded_era": "元禄15年",
+    "address": "東京都青梅市沢井2-770",
+    "tel": "",
+    "url": "",
+    "area": "青梅市",
+    "desc": "元禄15年（1702年）創業。東京・奥多摩の清流で知られる「澤乃井」の蔵元。「澤乃井 梅酒ぷらり」を展開。",
+    "visit": "酒蔵見学可",
+    "brands": [
+      {"name": "澤乃井 梅酒ぷらり", "type": "梅酒", "specs": ""}
+    ],
+    "features": [
+      "1702年創業の東京・奥多摩の酒蔵",
+      "清流で知られる澤乃井の蔵元"
+    ],
+    "source": "",
+    "name_en": "Ozawa Shuzo"
+  },
+  {
+    "id": "koh_inc",
+    "name": "耕",
+    "company": "株式会社耕",
+    "brand": "想定内",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "東京都",
+    "tel": "",
+    "url": "https://koh-inc.jp/",
+    "area": "",
+    "desc": "「想定内 梅酒」シリーズを展開。全国梅酒品評会2024プレミア梅酒部門で金賞・銀賞をダブル受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "想定内 梅酒 2022", "type": "梅酒", "specs": "全国梅酒品評会2024プレミア部門金賞"},
+      {"name": "想定内 梅酒 2021", "type": "梅酒", "specs": "全国梅酒品評会2024プレミア部門銀賞"}
+    ],
+    "features": [
+      "全国梅酒品評会2024プレミア梅酒部門で金賞・銀賞ダブル受賞"
+    ],
+    "source": "https://koh-inc.jp/",
+    "name_en": "Koh Inc."
+  },
+  {
+    "id": "godo_shusei",
+    "name": "合同酒精",
+    "company": "合同酒精株式会社",
+    "brand": "鴬宿梅",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "ブランデー",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "東京都中央区銀座6-2-10",
+    "tel": "",
+    "url": "",
+    "area": "中央区",
+    "desc": "オエノングループの酒類メーカー。「本格梅酒 鴬宿梅 極上」は全国梅酒品評会2024ブランデーブレンド部門で銀賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "本格梅酒 鴬宿梅 極上", "type": "梅酒", "specs": "ブランデーブレンド、全国梅酒品評会2024銀賞"}
+    ],
+    "features": [
+      "全国梅酒品評会2024ブランデーブレンド部門銀賞"
+    ],
+    "source": "",
+    "name_en": "Godo Shusei"
+  }
+]

@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "asahara",
+    "name": "麻原酒造",
+    "company": "麻原酒造株式会社",
+    "brand": "武蔵野",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "ワイン",
+    "fruit_ingredient": "埼玉県産梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "埼玉県入間郡毛呂山町",
+    "tel": "",
+    "url": "https://www.musashino-asahara.jp/",
+    "area": "毛呂山町",
+    "desc": "埼玉の地酒・ビール・ワインを醸造する蔵元。埼玉県産の梅と赤ワイン（カベルネ・ソーヴィニヨン）で仕込んだ「赤ワインベースの梅酒」が特徴的。",
+    "visit": "",
+    "brands": [
+      {"name": "赤ワインベースの梅酒", "type": "梅酒", "specs": "カベルネ・ソーヴィニヨン使用、埼玉県産梅"},
+      {"name": "わいん梅酒", "type": "梅酒", "specs": "ワインベース"}
+    ],
+    "features": [
+      "埼玉の地酒・ビール・ワインを醸造",
+      "ワインベースのユニークな梅酒"
+    ],
+    "source": "https://www.musashino-asahara.jp/",
+    "name_en": "Asahara Shuzo"
+  },
+  {
+    "id": "kingshop_makotoya",
+    "name": "キングショップ誠屋",
+    "company": "キングショップ誠屋",
+    "brand": "鶴ヶ島の雨乞い梅酒",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "埼玉県鶴ヶ島市",
+    "tel": "",
+    "url": "",
+    "area": "鶴ヶ島市",
+    "desc": "「鶴ヶ島の雨乞い梅酒II」は全国梅酒品評会2024ブレンド梅酒部門で銀賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "鶴ヶ島の雨乞い梅酒II", "type": "梅酒", "specs": "全国梅酒品評会2024銀賞"}
+    ],
+    "features": [
+      "全国梅酒品評会2024ブレンド梅酒部門銀賞"
+    ],
+    "source": "",
+    "name_en": "Kingshop Makotoya"
+  }
+]

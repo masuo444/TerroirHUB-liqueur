@@ -1,1 +1,115 @@
-[]
+[
+  {
+    "id": "komasa",
+    "name": "小正醸造",
+    "company": "小正醸造株式会社",
+    "brand": "小正の梅酒",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "有機栽培梅",
+    "abv": "14",
+    "founded": "",
+    "founded_era": "明治時代",
+    "address": "鹿児島県日置市日吉町日置",
+    "tel": "",
+    "url": "https://www.komasa.co.jp/",
+    "area": "日置市",
+    "desc": "明治時代から続く鹿児島の焼酎蔵。奈良県鷹巣堂農園の有機栽培梅と蜂蜜を使い、香料・着色料無添加の本格焼酎仕込み梅酒を製造。",
+    "visit": "",
+    "brands": [
+      {"name": "小正の梅酒 本格焼酎仕込み", "type": "梅酒", "specs": "本格焼酎ベース、有機梅・蜂蜜使用、アルコール14度"}
+    ],
+    "features": [
+      "明治時代創業の鹿児島の焼酎蔵",
+      "有機栽培梅と蜂蜜使用、香料・着色料無添加"
+    ],
+    "source": "https://www.komasa.co.jp/",
+    "name_en": "Komasa Jozo"
+  },
+  {
+    "id": "hamada_shuzo",
+    "name": "濵田酒造",
+    "company": "濵田酒造株式会社",
+    "brand": "くちまろ",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "梅",
+    "abv": "14",
+    "founded": "1868",
+    "founded_era": "明治元年",
+    "address": "鹿児島県いちき串木野市湊町4-1",
+    "tel": "",
+    "url": "https://www.hamadasyuzou.co.jp/",
+    "area": "いちき串木野市",
+    "desc": "明治元年（1868年）創業。芋焼酎「海童」「大魔王」で知られる鹿児島の蔵。「くちまろ梅酒」や金山蔵限定梅酒を展開。",
+    "visit": "金山蔵（見学可）",
+    "brands": [
+      {"name": "くちまろ梅酒", "type": "梅酒", "specs": "アルコール14度"},
+      {"name": "金山蔵梅酒 長期貯蔵", "type": "梅酒", "specs": "蔵元限定"}
+    ],
+    "features": [
+      "1868年創業の鹿児島の大手焼酎メーカー",
+      "金山蔵限定の梅酒も展開"
+    ],
+    "source": "https://www.hamadasyuzou.co.jp/",
+    "name_en": "Hamada Shuzo"
+  },
+  {
+    "id": "yamamoto_shuzo_kagoshima",
+    "name": "山元酒造",
+    "company": "山元酒造株式会社",
+    "brand": "五代",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "鹿児島県薩摩川内市",
+    "tel": "",
+    "url": "",
+    "area": "薩摩川内市",
+    "desc": "鹿児島の焼酎蔵。芋焼酎をベースにした「五代梅酒」やにごり梅酒「梅太」を展開。",
+    "visit": "",
+    "brands": [
+      {"name": "芋焼酎造り五代梅酒", "type": "梅酒", "specs": "芋焼酎ベース"},
+      {"name": "にごり梅酒 梅太", "type": "梅酒", "specs": "にごりタイプ"}
+    ],
+    "features": [
+      "芋焼酎ベースの梅酒を展開",
+      "にごり梅酒「梅太」も人気"
+    ],
+    "source": "",
+    "name_en": "Yamamoto Shuzo"
+  },
+  {
+    "id": "shiratama_jozo",
+    "name": "白玉醸造",
+    "company": "白玉醸造株式会社",
+    "brand": "彩煌",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "梅",
+    "abv": "14",
+    "founded": "",
+    "founded_era": "",
+    "address": "鹿児島県肝属郡錦江町",
+    "tel": "",
+    "url": "",
+    "area": "錦江町",
+    "desc": "芋焼酎「魔王」で知られる鹿児島の蔵。「彩煌の梅酒（さつまの梅酒）」を展開。",
+    "visit": "",
+    "brands": [
+      {"name": "彩煌の梅酒（さつまの梅酒）", "type": "梅酒", "specs": "アルコール14度"}
+    ],
+    "features": [
+      "芋焼酎「魔王」で知られる蔵の梅酒"
+    ],
+    "source": "",
+    "name_en": "Shiratama Jozo"
+  }
+]

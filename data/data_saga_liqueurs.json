@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "id": "amabuki",
+    "name": "天吹酒造",
+    "company": "天吹酒造合資会社",
+    "brand": "天吹",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "元禄年間",
+    "address": "佐賀県三養基郡みやき町東尾2894",
+    "tel": "",
+    "url": "https://www.amabuki.co.jp/",
+    "area": "みやき町",
+    "desc": "元禄年間（1688〜1704年）創業、300年以上の歴史を持つ蔵。花酵母を使った日本酒で知られる。「天吹梅酒 龍王 大吟醸仕込」は全国梅酒品評会で金賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "天吹梅酒 龍王 大吟醸仕込", "type": "梅酒", "specs": "大吟醸仕込み、全国梅酒品評会受賞"},
+      {"name": "tete アロマティクス ジャパンボタニカルズ", "type": "ブレンド梅酒", "specs": "全国梅酒品評会2024ブレンド部門金賞"}
+    ],
+    "features": [
+      "元禄年間創業、300年以上の歴史",
+      "花酵母を使った日本酒造りで知られる",
+      "全国梅酒品評会2024ブレンド部門金賞受賞"
+    ],
+    "source": "https://www.amabuki.co.jp/",
+    "name_en": "Amabuki Shuzo"
+  },
+  {
+    "id": "mitsutake",
+    "name": "光武酒造場",
+    "company": "合資会社光武酒造場",
+    "brand": "光武",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "佐賀県鹿島市浜町乙2421",
+    "tel": "",
+    "url": "https://www.kinpa.jp/",
+    "area": "鹿島市",
+    "desc": "佐賀県鹿島市の酒蔵。芋焼酎「魔界への誘い」で知られる。「光武 癒しの梅酒」は全国梅酒品評会2024にごり梅酒部門で銀賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "光武 癒しの梅酒", "type": "梅酒", "specs": "にごり梅酒、全国梅酒品評会2024銀賞"}
+    ],
+    "features": [
+      "芋焼酎「魔界への誘い」で知られる蔵",
+      "全国梅酒品評会2024にごり梅酒部門銀賞"
+    ],
+    "source": "https://www.kinpa.jp/",
+    "name_en": "Mitsutake Shuzojo"
+  }
+]

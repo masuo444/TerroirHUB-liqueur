@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "dassai",
+    "name": "獺祭（旭酒造）",
+    "company": "株式会社獺祭",
+    "brand": "獺祭",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1948",
+    "founded_era": "昭和23年",
+    "address": "山口県岩国市周東町獺越2167-4",
+    "tel": "",
+    "url": "",
+    "area": "岩国市",
+    "desc": "純米大吟醸「獺祭」で知られる山口の蔵。「獺祭 磨き二割三分仕込み 梅酒」は獺祭の純米大吟醸で仕込んだ贅沢な梅酒。",
+    "visit": "",
+    "brands": [
+      {"name": "獺祭 磨き二割三分仕込み 梅酒", "type": "梅酒", "specs": "獺祭純米大吟醸ベース"}
+    ],
+    "features": [
+      "純米大吟醸「獺祭」の蔵が造る梅酒",
+      "磨き二割三分の日本酒で仕込む贅沢な梅酒"
+    ],
+    "source": "",
+    "name_en": "Dassai (Asahi Shuzo)"
+  }
+]

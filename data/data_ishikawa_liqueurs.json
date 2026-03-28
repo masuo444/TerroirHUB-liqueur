@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "kobori",
+    "name": "小堀酒造店",
+    "company": "株式会社小堀酒造店",
+    "brand": "萬歳楽",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "300年以上の歴史",
+    "address": "石川県白山市鶴来新町タ1",
+    "tel": "",
+    "url": "",
+    "area": "白山市",
+    "desc": "石川県白山市の鶴来で300年以上にわたり親しまれてきた銘酒「萬歳楽」の蔵元。加賀梅酒は石川県で一番人気の梅酒。",
+    "visit": "",
+    "brands": [
+      {"name": "萬歳楽 加賀梅酒", "type": "梅酒", "specs": "石川県で一番人気の梅酒"}
+    ],
+    "features": [
+      "300年以上の歴史を持つ石川の蔵元",
+      "加賀梅酒は石川県で一番人気"
+    ],
+    "source": "",
+    "name_en": "Kobori Shuzoten"
+  }
+]

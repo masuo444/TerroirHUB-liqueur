@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "id": "shimazaki",
+    "name": "島崎酒造",
+    "company": "島崎酒造株式会社",
+    "brand": "東力士",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "那須烏山産青梅・とちおとめ",
+    "abv": "",
+    "founded": "1849",
+    "founded_era": "嘉永2年",
+    "address": "栃木県那須烏山市中央1-11-18",
+    "tel": "",
+    "url": "",
+    "area": "那須烏山市",
+    "desc": "嘉永2年（1849年）創業。那須烏山の地元産青梅を日本酒に漬け込んだ本格梅酒。とちおとめ100%使用のいちごワインも展開。洞窟での長期熟成酒造りでも知られる。",
+    "visit": "洞窟酒蔵（見学可）",
+    "brands": [
+      {"name": "東力士 梅酒", "type": "梅酒", "specs": "日本酒ベース、那須烏山産青梅使用"},
+      {"name": "いちごワイン", "type": "いちご酒", "specs": "栃木県産とちおとめ100%使用、香料・着色料無添加"}
+    ],
+    "features": [
+      "1849年創業の栃木の酒蔵",
+      "洞窟での長期熟成酒造りで知られる"
+    ],
+    "source": "",
+    "name_en": "Shimazaki Shuzo"
+  },
+  {
+    "id": "tonoike",
+    "name": "外池酒造店",
+    "company": "株式会社外池酒造店",
+    "brand": "望",
+    "type": "いちご酒",
+    "liqueur_type": "strawberry",
+    "base_spirit": "",
+    "fruit_ingredient": "栃木県益子産とちおとめ",
+    "abv": "12",
+    "founded": "",
+    "founded_era": "",
+    "address": "栃木県芳賀郡益子町塙333",
+    "tel": "",
+    "url": "https://tonoike.info/",
+    "area": "益子町",
+    "desc": "栃木県益子町の酒蔵。益子産とちおとめを使った「苺のお酒」はジャムのような甘い香りが特徴。日本酒「望（のぞむ）」とブレンドした桃リキュールも展開。",
+    "visit": "",
+    "brands": [
+      {"name": "苺のお酒", "type": "いちご酒", "specs": "栃木県益子産とちおとめ使用、アルコール12度"},
+      {"name": "モモすぎるお酒", "type": "桃リキュール", "specs": "日本酒「望」ブレンド"}
+    ],
+    "features": [
+      "栃木県益子町の酒蔵",
+      "地元産とちおとめを使ったいちごリキュール"
+    ],
+    "source": "https://tonoike.info/",
+    "name_en": "Tonoike Shuzoten"
+  }
+]

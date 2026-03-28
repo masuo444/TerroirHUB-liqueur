@@ -18,31 +18,157 @@
     "desc": "寛保3年（1743年）創業。灘五郷の名門蔵が展開する「まるごと搾り」シリーズは、果実をまるごと搾った贅沢なリキュール。",
     "visit": "白鶴酒造資料館（見学可・無料）",
     "brands": [
-      {
-        "name": "まるごと搾り にごりゆず酒",
-        "type": "ゆず酒",
-        "specs": "ゆず果汁使用"
-      },
-      {
-        "name": "まるごと搾り もも酒",
-        "type": "桃酒",
-        "specs": "桃果汁使用"
-      },
-      {
-        "name": "まるごと搾り レモン酒",
-        "type": "その他",
-        "specs": "レモン果汁使用"
-      }
+      {"name": "まるごと搾り にごりゆず酒", "type": "ゆず酒", "specs": "ゆず果汁使用"},
+      {"name": "まるごと搾り もも酒", "type": "桃酒", "specs": "桃果汁使用"},
+      {"name": "まるごと搾り レモン酒", "type": "その他", "specs": "レモン果汁使用"}
     ],
     "features": [
       "1743年創業、灘五郷の名門蔵",
       "「まるごと搾り」シリーズで果実リキュールを展開",
       "白鶴酒造資料館で酒造り文化を体験可能"
     ],
-    "nearest_station": "阪神本線 住吉駅",
     "source": "https://www.hakutsuru.co.jp/",
-    "lat": 34.7167,
-    "lng": 135.2694,
     "name_en": "Hakutsuru Sake Brewing"
+  },
+  {
+    "id": "kikumasamune",
+    "name": "菊正宗酒造",
+    "company": "菊正宗酒造株式会社",
+    "brand": "菊正宗",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1659",
+    "founded_era": "万治2年",
+    "address": "兵庫県神戸市東灘区御影本町1-7-15",
+    "tel": "",
+    "url": "https://www.kikumasamune.co.jp/",
+    "area": "神戸市",
+    "desc": "万治2年（1659年）創業。灘の名門蔵。日本酒ベースの梅酒やフルーツリキュールを展開。",
+    "visit": "菊正宗酒造記念館（見学可・無料）",
+    "brands": [
+      {"name": "菊正宗 梅酒", "type": "梅酒", "specs": "日本酒ベース"}
+    ],
+    "features": [
+      "1659年創業の灘の名門蔵",
+      "生酛造りで知られる日本酒蔵が造る梅酒"
+    ],
+    "source": "https://www.kikumasamune.co.jp/",
+    "name_en": "Kikumasamune Sake Brewing"
+  },
+  {
+    "id": "ozeki",
+    "name": "大関",
+    "company": "大関株式会社",
+    "brand": "大関",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1711",
+    "founded_era": "正徳元年",
+    "address": "兵庫県西宮市今津出在家町4-9",
+    "tel": "",
+    "url": "https://www.ozeki.co.jp/",
+    "area": "西宮市",
+    "desc": "正徳元年（1711年）創業。ワンカップ大関で知られる灘の名門蔵。梅酒やフルーツリキュールも展開。",
+    "visit": "",
+    "brands": [
+      {"name": "大関 梅酒", "type": "梅酒", "specs": "日本酒ベース"}
+    ],
+    "features": [
+      "1711年創業、ワンカップで知られる灘の名門",
+      "300年以上の歴史を持つ蔵の梅酒"
+    ],
+    "source": "https://www.ozeki.co.jp/",
+    "name_en": "Ozeki"
+  },
+  {
+    "id": "sawanotsuru",
+    "name": "沢の鶴",
+    "company": "沢の鶴株式会社",
+    "brand": "沢の鶴",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "紀州南高梅",
+    "abv": "",
+    "founded": "1717",
+    "founded_era": "享保2年",
+    "address": "兵庫県神戸市灘区新在家南町5-1-2",
+    "tel": "",
+    "url": "https://www.sawanotsuru.co.jp/",
+    "area": "神戸市",
+    "desc": "享保2年（1717年）創業。純米酒に力を入れる灘の蔵元。「古酒仕込み梅酒」は全国梅酒品評会2024日本酒梅酒部門で金賞受賞。",
+    "visit": "沢の鶴資料館（見学可）",
+    "brands": [
+      {"name": "沢の鶴 古酒仕込み梅酒", "type": "梅酒", "specs": "日本酒古酒ベース、全国梅酒品評会2024金賞"}
+    ],
+    "features": [
+      "1717年創業の灘の名門蔵",
+      "全国梅酒品評会2024日本酒梅酒部門金賞受賞"
+    ],
+    "source": "https://www.sawanotsuru.co.jp/",
+    "name_en": "Sawanotsuru"
+  },
+  {
+    "id": "nishiyama_shuzojo",
+    "name": "西山酒造場",
+    "company": "株式会社西山酒造場",
+    "brand": "小鼓",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1849",
+    "founded_era": "嘉永2年",
+    "address": "兵庫県丹波篠山市",
+    "tel": "",
+    "url": "https://kotsuzumi.co.jp/",
+    "area": "丹波篠山市",
+    "desc": "嘉永2年（1849年）創業。丹波の名門蔵「小鼓」の醸造元。「梅申春秋」は完熟梅のピューレを使ったにごり梅酒で、全国梅酒品評会2024にごり梅酒部門金賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "梅申春秋", "type": "梅酒", "specs": "にごり梅酒、全国梅酒品評会2024金賞"},
+      {"name": "大入り にごり梅酒 濁濁", "type": "梅酒", "specs": "にごり梅酒"}
+    ],
+    "features": [
+      "1849年創業の丹波の名門蔵",
+      "全国梅酒品評会2024にごり梅酒部門金賞受賞"
+    ],
+    "source": "https://kotsuzumi.co.jp/",
+    "name_en": "Nishiyama Shuzojo"
+  },
+  {
+    "id": "houmei",
+    "name": "鳳鳴酒造",
+    "company": "鳳鳴酒造株式会社",
+    "brand": "鳳鳴",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "兵庫県丹波篠山市",
+    "tel": "",
+    "url": "https://houmei.com/",
+    "area": "丹波篠山市",
+    "desc": "丹波篠山の酒蔵。日本酒仕込みの梅酒を展開。全国梅酒品評会2024日本酒梅酒部門で銀賞を受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "鳳鳴梅酒 日本酒仕込み", "type": "梅酒", "specs": "日本酒ベース、全国梅酒品評会2024銀賞"}
+    ],
+    "features": [
+      "丹波篠山の地酒蔵が造る梅酒",
+      "全国梅酒品評会2024日本酒梅酒部門銀賞"
+    ],
+    "source": "https://houmei.com/",
+    "name_en": "Houmei Shuzo"
   }
 ]

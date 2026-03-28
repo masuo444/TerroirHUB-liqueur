@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "id": "hirata_shuzojo",
+    "name": "平田酒造場",
+    "company": "平田酒造場",
+    "brand": "梅ごよみ",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "岐阜県高山市",
+    "tel": "",
+    "url": "",
+    "area": "高山市",
+    "desc": "岐阜県高山市の酒蔵。「梅ごよみ」は全国梅酒品評会2024ベース混合梅酒部門で銀賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "梅ごよみ", "type": "梅酒", "specs": "全国梅酒品評会2024ベース混合部門銀賞"}
+    ],
+    "features": [
+      "全国梅酒品評会2024ベース混合梅酒部門銀賞"
+    ],
+    "source": "",
+    "name_en": "Hirata Shuzojo"
+  },
+  {
+    "id": "nakashima_jozo",
+    "name": "中島醸造",
+    "company": "中島醸造株式会社",
+    "brand": "小左衛門",
+    "type": "ゆず酒",
+    "liqueur_type": "yuzu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "高知県馬路村産ゆず",
+    "abv": "",
+    "founded": "1702",
+    "founded_era": "元禄15年",
+    "address": "岐阜県瑞浪市土岐町7181-1",
+    "tel": "",
+    "url": "https://kozaemon.jp/",
+    "area": "瑞浪市",
+    "desc": "元禄15年（1702年）創業。「小左衛門 ゆず酒」は高知県馬路村産ゆず果汁100%を使用。",
+    "visit": "",
+    "brands": [
+      {"name": "小左衛門 ゆず酒", "type": "ゆず酒", "specs": "日本酒ベース、高知県馬路村産ゆず果汁100%使用"}
+    ],
+    "features": [
+      "1702年創業の岐阜の蔵元",
+      "高知県馬路村産ゆず果汁100%使用"
+    ],
+    "source": "https://kozaemon.jp/",
+    "name_en": "Nakashima Jozo"
+  }
+]

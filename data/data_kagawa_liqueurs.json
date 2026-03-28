@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "nishino_kinryo",
+    "name": "西野金陵",
+    "company": "西野金陵株式会社",
+    "brand": "金陵",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "230年以上の歴史",
+    "address": "香川県仲多度郡琴平町623",
+    "tel": "",
+    "url": "https://www.nishino-kinryo.co.jp/",
+    "area": "琴平町",
+    "desc": "230年以上の歴史を持つ香川の酒蔵。こんぴらさんの御神酒醸造元。清酒「金陵」をはじめ、梅酒・リキュールも製造。瀬戸内オリーブ酵母を使った日本酒でも知られる。",
+    "visit": "金陵の郷（見学可）",
+    "brands": [
+      {"name": "金陵 梅酒", "type": "梅酒", "specs": "日本酒ベース"}
+    ],
+    "features": [
+      "230年以上の歴史を持つ香川の名門蔵",
+      "こんぴらさんの御神酒醸造元"
+    ],
+    "source": "https://www.nishino-kinryo.co.jp/",
+    "name_en": "Nishino Kinryo"
+  }
+]

@@ -5,7 +5,7 @@
     "company": "月桂冠株式会社",
     "brand": "月桂冠",
     "type": "フルーツリキュール",
-    "liqueur_type": "other",
+    "liqueur_type": "umeshu",
     "base_spirit": "日本酒",
     "fruit_ingredient": "",
     "abv": "",
@@ -18,26 +18,75 @@
     "desc": "寛永14年（1637年）創業。日本酒の名門・月桂冠が展開するフルーツリキュールライン。日本酒をベースにした梅酒やゆず酒など。",
     "visit": "月桂冠大倉記念館（見学可）",
     "brands": [
-      {
-        "name": "月桂冠 梅酒",
-        "type": "梅酒",
-        "specs": "日本酒ベース"
-      },
-      {
-        "name": "月桂冠 ゆず酒",
-        "type": "ゆず酒",
-        "specs": "日本酒ベース、国産ゆず使用"
-      }
+      {"name": "月桂冠 梅酒", "type": "梅酒", "specs": "日本酒ベース"},
+      {"name": "月桂冠 ゆず酒", "type": "ゆず酒", "specs": "日本酒ベース、国産ゆず使用"}
     ],
     "features": [
       "1637年創業の日本酒の名門が造るリキュール",
       "日本酒ベースの柔らかな味わい",
       "月桂冠大倉記念館で見学可能"
     ],
-    "nearest_station": "京阪本線 中書島駅",
     "source": "https://www.gekkeikan.co.jp/",
-    "lat": 34.9263,
-    "lng": 135.7642,
     "name_en": "Gekkeikan"
+  },
+  {
+    "id": "takara_shuzo",
+    "name": "宝酒造",
+    "company": "宝酒造株式会社",
+    "brand": "松竹梅",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "南高梅",
+    "abv": "10",
+    "founded": "1842",
+    "founded_era": "天保13年",
+    "address": "京都府京都市伏見区竹中町609",
+    "tel": "",
+    "url": "https://www.takarashuzo.co.jp/",
+    "area": "伏見区",
+    "desc": "天保13年（1842年）の歴史を持つ京都・伏見の酒造メーカー。国産南高梅100%の梅酒や「産地めぐり」シリーズで全国の果実を使ったリキュールを展開。",
+    "visit": "",
+    "brands": [
+      {"name": "松竹梅 梅酒", "type": "梅酒", "specs": "国産南高梅100%使用、アルコール10度"},
+      {"name": "寶 和リキュール 産地めぐり 宮崎完熟マンゴー", "type": "マンゴーリキュール", "specs": "宮崎産マンゴー使用"},
+      {"name": "寶 和リキュール 産地めぐり", "type": "フルーツリキュール", "specs": "全国の果実を使用したシリーズ"}
+    ],
+    "features": [
+      "焼酎・みりん最大手の総合酒類メーカー",
+      "「産地めぐり」シリーズで全国の果実リキュールを展開",
+      "国産南高梅100%の梅酒"
+    ],
+    "source": "https://www.takarashuzo.co.jp/",
+    "name_en": "Takara Shuzo"
+  },
+  {
+    "id": "kizakura",
+    "name": "黄桜",
+    "company": "黄桜株式会社",
+    "brand": "京美人",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "京都産青谷梅",
+    "abv": "",
+    "founded": "1926",
+    "founded_era": "大正15年",
+    "address": "京都府京都市伏見区塩屋町228",
+    "tel": "",
+    "url": "https://kizakura.co.jp/",
+    "area": "伏見区",
+    "desc": "大正15年（1926年）創業。京都・伏見の酒蔵。京都の梅の名産地・青谷の白梅を自社加工し、伏見の日本酒に漬け込んだ「京美人 とろり梅酒」を展開。",
+    "visit": "黄桜カッパカントリー（見学可）",
+    "brands": [
+      {"name": "京美人 京都でうまれたとろり梅酒", "type": "梅酒", "specs": "日本酒ベース、京都産青谷梅使用"}
+    ],
+    "features": [
+      "1926年創業の京都・伏見の酒蔵",
+      "京都産の梅と伏見の日本酒で仕込む梅酒",
+      "完熟梅のピューレを加えたにごりタイプ"
+    ],
+    "source": "https://kizakura.co.jp/",
+    "name_en": "Kizakura"
   }
 ]

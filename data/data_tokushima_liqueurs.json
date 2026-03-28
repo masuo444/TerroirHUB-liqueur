@@ -1,1 +1,87 @@
-[]
+[
+  {
+    "id": "honke_matsuura",
+    "name": "本家松浦酒造",
+    "company": "株式会社本家松浦酒造場",
+    "brand": "鳴門鯛",
+    "type": "すだち酒",
+    "liqueur_type": "other",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "徳島県産すだち",
+    "abv": "",
+    "founded": "1804",
+    "founded_era": "文化元年",
+    "address": "徳島県鳴門市大麻町池谷字浜田82",
+    "tel": "",
+    "url": "https://narutotai.jp/",
+    "area": "鳴門市",
+    "desc": "文化元年（1804年）創業。徳島県最古の現存する酒蔵。日本酒「鳴門鯛」の蔵元。徳島県特産すだちの果汁・蜂蜜・日本酒をブレンドした「しゅムリエ すだち酒」は発売30年以上のロングセラー。",
+    "visit": "",
+    "brands": [
+      {"name": "しゅムリエ すだち酒", "type": "すだち酒", "specs": "日本酒ベース、徳島県産すだち果汁・蜂蜜使用、発売30年以上"},
+      {"name": "にごり梅酒", "type": "梅酒", "specs": "徳島県産白梅使用"}
+    ],
+    "features": [
+      "1804年創業、徳島県最古の現存酒蔵",
+      "すだち酒は発売30年以上のロングセラー",
+      "ビタミンC・クエン酸を含む徳島すだちを使用"
+    ],
+    "source": "https://narutotai.jp/",
+    "name_en": "Honke Matsuura Shuzo"
+  },
+  {
+    "id": "awaglass",
+    "name": "アワグラス",
+    "company": "アワグラス",
+    "brand": "和三盆梅酒",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "徳島県",
+    "tel": "",
+    "url": "",
+    "area": "",
+    "desc": "「和三盆梅酒」は徳島の伝統的な和三盆糖を使用した梅酒。全国梅酒品評会2024ベース混合梅酒部門で金賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "和三盆梅酒", "type": "梅酒", "specs": "和三盆糖使用、全国梅酒品評会2024金賞"}
+    ],
+    "features": [
+      "全国梅酒品評会2024ベース混合梅酒部門金賞",
+      "徳島の伝統的な和三盆糖を使用"
+    ],
+    "source": "",
+    "name_en": "Awaglass"
+  },
+  {
+    "id": "higashino_liqueur",
+    "name": "東野リキュール製造場",
+    "company": "東野リキュール製造場",
+    "brand": "ホーホケキョ",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "ホワイトリカー",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "徳島県",
+    "tel": "",
+    "url": "",
+    "area": "",
+    "desc": "「ホーホケキョ」は全国梅酒品評会2024ホワイトリカー梅酒部門で銀賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "ホーホケキョ", "type": "梅酒", "specs": "ホワイトリカーベース、全国梅酒品評会2024銀賞"}
+    ],
+    "features": [
+      "全国梅酒品評会2024ホワイトリカー梅酒部門銀賞"
+    ],
+    "source": "",
+    "name_en": "Higashino Liqueur"
+  }
+]

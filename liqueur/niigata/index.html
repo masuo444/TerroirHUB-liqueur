@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>新潟県のリキュールメーカー一覧（1社）— Terroir HUB</title>
-<meta name="description" content="新潟県のリキュールメーカー1社を一覧表示。Terroir HUB LIQUEUR。">
+<title>新潟県のリキュールメーカー一覧（3社）— Terroir HUB</title>
+<meta name="description" content="新潟県のリキュールメーカー3社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/niigata/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "新潟県のリキュールメーカー一覧", "numberOfItems": 1, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/niigata/hakkaisan_liqueur.html", "name": "八海醸造（リキュール）"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "新潟県のリキュールメーカー一覧", "numberOfItems": 3, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/niigata/hakkaisan_liqueur.html", "name": "八海醸造（リキュール）"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/niigata/kikusui_niigata.html", "name": "菊水酒造（新潟）"}, {"@type": "ListItem", "position": 3, "url": "https://liqueur.terroirhub.com/liqueur/niigata/yoshinogawa.html", "name": "吉乃川"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>新潟県のリキュールメーカー</h1>
-    <p class="count">1社</p>
+    <p class="count">3社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "hakkaisan_liqueur", "name": "八海醸造（リキュール）", "brand": "八海山", "type": "梅酒", "area": "南魚沼市", "founded": "1922", "desc": "大正11年（1922年）創業。日本酒「八海山」で知られる蔵が、自社焼酎で仕込んだ梅酒を展開。雪室貯蔵による熟成が特徴。", "liqueur_type": "umeshu"}];
+const B=[{"id": "hakkaisan_liqueur", "name": "八海醸造（リキュール）", "brand": "八海山", "type": "梅酒", "area": "南魚沼市", "founded": "1922", "desc": "大正11年（1922年）創業。日本酒「八海山」で知られる蔵が、自社焼酎で仕込んだ梅酒を展開。雪室貯蔵による熟成が特徴。", "liqueur_type": "umeshu"}, {"id": "kikusui_niigata", "name": "菊水酒造（新潟）", "brand": "紅菊水", "type": "梅酒", "area": "新発田市", "founded": "1881", "desc": "明治14年（1881年）創業。新潟県産の「越の梅」「小坂梅」「藤五郎梅」と菊水の純米酒を使った梅酒「紅菊水」を製造。", "liqueur_type": "umeshu"}, {"id": "yoshinogawa", "name": "吉乃川", "brand": "吉乃川", "type": "梅酒", "area": "長岡市", "founded": "1548", "desc": "天文17年（1548年）創業。新潟・長岡の老舗蔵元。福井県産「紅映（べにさし）」を日本酒に漬け込んだこだわりの梅酒を2012年から熟成。", "liqueur_type": "umeshu"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/niigata/'+b.id+'.html">'+

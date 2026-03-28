@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "id": "hananomai",
+    "name": "花の舞酒造",
+    "company": "花の舞酒造株式会社",
+    "brand": "花の舞",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "南高梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "静岡県浜松市浜名区宮口632",
+    "tel": "",
+    "url": "https://hananomai.co.jp/",
+    "area": "浜松市",
+    "desc": "静岡県産米100%にこだわる浜松の酒蔵。高品質な南高梅を日本酒に漬けた無添加の本格梅酒を製造。第3回全国梅酒品評会2017で2位を受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "花の舞 純米梅酒", "type": "梅酒", "specs": "日本酒ベース、南高梅使用、無添加、全国梅酒品評会2位"}
+    ],
+    "features": [
+      "静岡県産米100%にこだわる酒蔵",
+      "無添加の本格梅酒",
+      "全国梅酒品評会2017で2位受賞"
+    ],
+    "source": "https://hananomai.co.jp/",
+    "name_en": "Hananomai Shuzo"
+  }
+]

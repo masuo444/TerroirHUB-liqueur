@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "id": "iinuma_honke",
+    "name": "飯沼本家",
+    "company": "株式会社飯沼本家",
+    "brand": "甲子",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "千葉県産梅",
+    "abv": "11",
+    "founded": "",
+    "founded_era": "300年以上の歴史",
+    "address": "千葉県印旛郡酒々井町馬橋106",
+    "tel": "",
+    "url": "https://www.iinumahonke.co.jp/",
+    "area": "酒々井町",
+    "desc": "300年以上の歴史を持つ千葉の酒蔵。千葉県産の良質な梅を日本酒「甲子正宗」に漬け込んだ「蔵元の梅酒 梅吉」を展開。すっきりとした甘さと飲みやすさが特徴。",
+    "visit": "",
+    "brands": [
+      {"name": "酒蔵の梅酒 梅吉", "type": "梅酒", "specs": "日本酒ベース、千葉県産梅使用、アルコール11度"}
+    ],
+    "features": [
+      "300年以上の歴史を持つ千葉の酒蔵",
+      "日本酒ベースの梅酒「梅吉」"
+    ],
+    "source": "https://www.iinumahonke.co.jp/",
+    "name_en": "Iinuma Honke"
+  },
+  {
+    "id": "koizumi_shuzo",
+    "name": "小泉酒造",
+    "company": "小泉酒造合資会社",
+    "brand": "東魁",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "千葉県富津市",
+    "tel": "",
+    "url": "",
+    "area": "富津市",
+    "desc": "千葉県富津市の酒蔵。「東魁 梅酒」は全国梅酒品評会2024ベース混合梅酒部門で銀賞受賞。",
+    "visit": "",
+    "brands": [
+      {"name": "東魁 梅酒", "type": "梅酒", "specs": "全国梅酒品評会2024ベース混合部門銀賞"}
+    ],
+    "features": [
+      "全国梅酒品評会2024ベース混合梅酒部門銀賞"
+    ],
+    "source": "",
+    "name_en": "Koizumi Shuzo"
+  }
+]

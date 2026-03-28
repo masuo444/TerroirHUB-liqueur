@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "id": "hatomasamune",
+    "name": "鳩正宗",
+    "company": "鳩正宗株式会社",
+    "brand": "八鶴",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1899",
+    "founded_era": "明治32年",
+    "address": "青森県十和田市三本木字稲吉176-2",
+    "tel": "",
+    "url": "",
+    "area": "十和田市",
+    "desc": "明治32年（1899年）創業。八甲田・奥入瀬の伏流水を仕込み水に使用。「八鶴 んめ〜梅酒」を展開。また青森県産りんご果汁とにごり酒をブレンドした「雪りんご」リキュールも人気。",
+    "visit": "",
+    "brands": [
+      {"name": "八鶴 んめ～梅酒", "type": "梅酒", "specs": ""},
+      {"name": "雪りんご", "type": "りんごリキュール", "specs": "青森県産りんご果汁・にごり酒ブレンド"}
+    ],
+    "features": [
+      "1899年創業の青森の酒蔵",
+      "八甲田・奥入瀬の伏流水を使用"
+    ],
+    "source": "",
+    "name_en": "Hatomasamune"
+  }
+]

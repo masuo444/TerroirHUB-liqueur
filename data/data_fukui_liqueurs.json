@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "ippongi",
+    "name": "一本義久保本店",
+    "company": "株式会社一本義久保本店",
+    "brand": "一本義",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒・焼酎",
+    "fruit_ingredient": "福井県産梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "福井県勝山市",
+    "tel": "",
+    "url": "",
+    "area": "勝山市",
+    "desc": "福井県勝山市の酒蔵。「一本義 梅の宴」は福井県産梅100%を使用し、日本酒80%・焼酎20%でブレンド。上質な蜂蜜のような深い甘さと爽やかな梅の酸味が特徴。",
+    "visit": "",
+    "brands": [
+      {"name": "一本義 梅の宴", "type": "梅酒", "specs": "福井県産梅100%、日本酒80%・焼酎20%ブレンド"}
+    ],
+    "features": [
+      "福井県産梅100%使用",
+      "日本酒と焼酎のブレンドベース"
+    ],
+    "source": "",
+    "name_en": "Ippongi Kubo Honten"
+  }
+]

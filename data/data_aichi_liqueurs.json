@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "id": "sawada_shuzo",
+    "name": "澤田酒造",
+    "company": "澤田酒造株式会社",
+    "brand": "白老梅",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "愛知県常滑市古場町4-10",
+    "tel": "",
+    "url": "",
+    "area": "常滑市",
+    "desc": "愛知県常滑市の酒蔵。「知多 白老梅 純米吟醸仕込の梅酒」は全国梅酒品評会2024日本酒梅酒部門で銀賞受賞。「UMESHU T ～つなぐ～」はプレミア部門銀賞。",
+    "visit": "",
+    "brands": [
+      {"name": "知多 白老梅 純米吟醸仕込の梅酒", "type": "梅酒", "specs": "純米吟醸ベース、全国梅酒品評会2024銀賞"},
+      {"name": "UMESHU T ～つなぐ～", "type": "梅酒", "specs": "全国梅酒品評会2024プレミア部門銀賞"}
+    ],
+    "features": [
+      "全国梅酒品評会2024で2銘柄が銀賞受賞",
+      "純米吟醸仕込みの梅酒"
+    ],
+    "source": "",
+    "name_en": "Sawada Shuzo"
+  }
+]

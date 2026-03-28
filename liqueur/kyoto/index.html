@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>京都府のリキュールメーカー一覧（1社）— Terroir HUB</title>
-<meta name="description" content="京都府のリキュールメーカー1社を一覧表示。Terroir HUB LIQUEUR。">
+<title>京都府のリキュールメーカー一覧（3社）— Terroir HUB</title>
+<meta name="description" content="京都府のリキュールメーカー3社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/kyoto/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "京都府のリキュールメーカー一覧", "numberOfItems": 1, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/kyoto/gekkeikan.html", "name": "月桂冠"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "京都府のリキュールメーカー一覧", "numberOfItems": 3, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/kyoto/gekkeikan.html", "name": "月桂冠"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/kyoto/takara_shuzo.html", "name": "宝酒造"}, {"@type": "ListItem", "position": 3, "url": "https://liqueur.terroirhub.com/liqueur/kyoto/kizakura.html", "name": "黄桜"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>京都府のリキュールメーカー</h1>
-    <p class="count">1社</p>
+    <p class="count">3社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "gekkeikan", "name": "月桂冠", "brand": "月桂冠", "type": "フルーツリキュール", "area": "伏見区", "founded": "1637", "desc": "寛永14年（1637年）創業。日本酒の名門・月桂冠が展開するフルーツリキュールライン。日本酒をベースにした梅酒やゆず酒など。", "liqueur_type": "other"}];
+const B=[{"id": "gekkeikan", "name": "月桂冠", "brand": "月桂冠", "type": "フルーツリキュール", "area": "伏見区", "founded": "1637", "desc": "寛永14年（1637年）創業。日本酒の名門・月桂冠が展開するフルーツリキュールライン。日本酒をベースにした梅酒やゆず酒など。", "liqueur_type": "umeshu"}, {"id": "takara_shuzo", "name": "宝酒造", "brand": "松竹梅", "type": "梅酒", "area": "伏見区", "founded": "1842", "desc": "天保13年（1842年）の歴史を持つ京都・伏見の酒造メーカー。国産南高梅100%の梅酒や「産地めぐり」シリーズで全国の果実を使ったリキュールを展開。", "liqueur_type": "umeshu"}, {"id": "kizakura", "name": "黄桜", "brand": "京美人", "type": "梅酒", "area": "伏見区", "founded": "1926", "desc": "大正15年（1926年）創業。京都・伏見の酒蔵。京都の梅の名産地・青谷の白梅を自社加工し、伏見の日本酒に漬け込んだ「京美人 とろり梅酒」を展開。", "liqueur_type": "umeshu"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/kyoto/'+b.id+'.html">'+
