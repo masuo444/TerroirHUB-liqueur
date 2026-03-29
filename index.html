@@ -404,7 +404,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
 <section class="sec regions-sec" id="regions">
   <div class="sec-tag">Explore by Region</div>
   <div class="sec-h">地域から探す</div>
-  <div class="sec-sub">近畿を中心に全国に広がるリキュールメーカーを地域別で検索</div>
+  <div class="sec-sub">全国105社のリキュールメーカーを地域別で検索</div>
   <div class="region-grid" id="rg"></div>
 </section>
 
@@ -607,7 +607,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
 <script>
 function escHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 
-const R=[{n:"近畿",c:6,p:["大阪2","京都1","兵庫1","奈良1","滋賀1"],icon:"⛩"},{n:"中部",c:1,p:["新潟1"],icon:"⛰"},{n:"関東",c:1,p:["茨城1"],icon:"🏙"},{n:"九州・沖縄",c:1,p:["沖縄1"],icon:"🌺"},{n:"和歌山",c:1,p:["和歌山1（梅の産地）"],icon:"🌸"}];
+const R=[{n:"九州・沖縄",c:24,p:["福岡4","鹿児島4","沖縄4","宮崎4","大分4","佐賀2","長崎1","熊本1"],icon:"🌺"},{n:"近畿",c:21,p:["兵庫6","和歌山6","京都3","大阪3","三重1","滋賀1","奈良1"],icon:"⛩"},{n:"関東",c:16,p:["栃木4","東京4","神奈川3","埼玉2","千葉2","茨城1"],icon:"🏙"},{n:"東北",c:13,p:["宮城3","山形3","岩手2","秋田2","福島2","青森1"],icon:"🏔"},{n:"中部",c:12,p:["新潟3","岐阜2","愛知2","石川1","福井1","山梨1","長野1","静岡1"],icon:"⛰"},{n:"四国",c:11,p:["高知4","徳島3","愛媛3","香川1"],icon:"🍊"},{n:"中国",c:7,p:["鳥取2","岡山2","島根1","広島1","山口1"],icon:"🏯"},{n:"北海道",c:1,p:["北海道1"],icon:"❄"}];
 
 document.getElementById('rg').innerHTML=R.map(r=>'<div class="rc"><div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;"><span style="font-size:22px;">'+r.icon+'</span><div class="rc-name">'+r.n+'</div></div><div class="rc-count">'+r.c+' <span>メーカー</span></div><div class="rc-prefs">'+r.p.join(' / ')+'</div></div>').join('');
 
