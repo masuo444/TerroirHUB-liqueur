@@ -8,7 +8,7 @@
   const SB_URL = 'https://hhwavxavuqqfiehrogwv.supabase.co';
   const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhod2F2eGF2dXFxZmllaHJvZ3d2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM5Njk3MzAsImV4cCI6MjA4OTU0NTczMH0.tHMQ_u51jp69AMUKKtTvxL09Sr11JFPKGRhKMmUzEjg';
   const CATEGORY = 'liqueur';
-  const ACCENT = '#C4547A';
+  const ACCENT = '#4A8BAE';
 
   function escHtml(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
@@ -71,7 +71,7 @@
     .rv-item{background:#fff;border:1px solid #F0D5E0;border-radius:12px;padding:20px;transition:box-shadow 0.15s;}
     .rv-item:hover{box-shadow:0 2px 12px rgba(0,0,0,0.04);}
     .rv-item-header{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
-    .rv-avatar{width:36px;height:36px;border-radius:50%;background:#FDF0F4;display:flex;align-items:center;justify-content:center;font-size:14px;color:#C4547A;font-weight:600;flex-shrink:0;}
+    .rv-avatar{width:36px;height:36px;border-radius:50%;background:#FDF0F4;display:flex;align-items:center;justify-content:center;font-size:14px;color:#4A8BAE;font-weight:600;flex-shrink:0;}
     .rv-user-info{flex:1;min-width:0;}
     .rv-user-name{font-size:14px;font-weight:500;color:#333;}
     .rv-date{font-size:12px;color:#bbb;}
@@ -86,7 +86,7 @@
     .rv-helpful-btn{display:inline-flex;align-items:center;gap:4px;font-size:12px;color:#aaa;background:none;border:1px solid #F0D5E0;border-radius:16px;padding:4px 12px;cursor:pointer;transition:all 0.15s;font-family:'Noto Sans JP',sans-serif;}
     .rv-helpful-btn:hover{border-color:${ACCENT};color:${ACCENT};}
     .rv-helpful-btn.voted{border-color:${ACCENT};color:${ACCENT};background:rgba(196,84,122,0.06);}
-    .rv-method-tag{font-size:11px;padding:3px 8px;border-radius:6px;background:#FDF0F4;color:#C4547A;}
+    .rv-method-tag{font-size:11px;padding:3px 8px;border-radius:6px;background:#FDF0F4;color:#4A8BAE;}
     .rv-empty{text-align:center;padding:40px 20px;color:#ccc;}
     .rv-empty-text{font-size:14px;color:#bbb;}
     .rv-loading{text-align:center;padding:24px;}
