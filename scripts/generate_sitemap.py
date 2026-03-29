@@ -15,6 +15,11 @@ TODAY = date.today().isoformat()
 GUIDE_PAGES = ['index','types','production','drinking','pairing','history','umeshu','glossary']
 REGIONS = ['hokkaido','tohoku','kanto','chubu','kinki','chugoku','shikoku','kyushu']
 
+# English blog posts
+EN_BLOG_POSTS = ['what-is-umeshu','best-japanese-liqueurs','umeshu-vs-plum-wine','japanese-yuzu-liqueur']
+FR_BLOG_POSTS = ['quest-ce-que-umeshu','meilleurs-liqueurs-japonaises','liqueur-yuzu-japonaise']
+ZH_BLOG_POSTS = ['what-is-umeshu','best-japanese-liqueurs']
+
 urls = []
 
 def add(loc, priority, changefreq='monthly', langs=None):
@@ -23,13 +28,48 @@ def add(loc, priority, changefreq='monthly', langs=None):
 add('/', '1.0', 'weekly', {'ja': '/', 'en': '/en/'})
 add('/en/', '0.9', 'weekly')
 
+# Guide pages (JA)
 for g in GUIDE_PAGES:
     path = f'/liqueur/guide/{g}.html' if g != 'index' else '/liqueur/guide/'
-    add(path, '0.9', 'monthly')
+    en_path = f'/liqueur/guide/en/{g}.html' if g != 'index' else '/liqueur/guide/en/'
+    langs = {'ja': path, 'en': en_path}
+    add(path, '0.9', 'monthly', langs)
 
+# Guide pages (EN)
+for g in GUIDE_PAGES:
+    path = f'/liqueur/guide/en/{g}.html' if g != 'index' else '/liqueur/guide/en/'
+    ja_path = f'/liqueur/guide/{g}.html' if g != 'index' else '/liqueur/guide/'
+    langs = {'ja': ja_path, 'en': path}
+    add(path, '0.8', 'monthly', langs)
+
+# Region pages
 for r in REGIONS:
     add(f'/liqueur/region/{r}.html', '0.8', 'monthly')
 
+# Search page
+add('/liqueur/search/', '0.9', 'weekly')
+
+# Awards page
+add('/liqueur/awards/', '0.9', 'weekly')
+
+# Blog index pages
+add('/liqueur/blog/en/', '0.8', 'weekly', {'en': '/liqueur/blog/en/', 'fr': '/liqueur/blog/fr/', 'zh': '/liqueur/blog/zh/'})
+add('/liqueur/blog/fr/', '0.7', 'weekly', {'en': '/liqueur/blog/en/', 'fr': '/liqueur/blog/fr/', 'zh': '/liqueur/blog/zh/'})
+add('/liqueur/blog/zh/', '0.7', 'weekly', {'en': '/liqueur/blog/en/', 'fr': '/liqueur/blog/fr/', 'zh': '/liqueur/blog/zh/'})
+
+# Blog posts (EN)
+for slug in EN_BLOG_POSTS:
+    add(f'/liqueur/blog/en/{slug}.html', '0.7', 'monthly')
+
+# Blog posts (FR)
+for slug in FR_BLOG_POSTS:
+    add(f'/liqueur/blog/fr/{slug}.html', '0.7', 'monthly')
+
+# Blog posts (ZH)
+for slug in ZH_BLOG_POSTS:
+    add(f'/liqueur/blog/zh/{slug}.html', '0.7', 'monthly')
+
+# Producer pages
 json_files = sorted(glob.glob(os.path.join(BASE, 'data', 'data_*_liqueurs.json')))
 for jf in json_files:
     pref = os.path.basename(jf).replace('data_', '').replace('_liqueurs.json', '')
@@ -44,10 +84,12 @@ for jf in json_files:
         ja_path = f'/liqueur/{pref}/{d["id"]}.html'
         en_path = f'/liqueur/en/{pref}/{d["id"]}.html'
         fr_path = f'/liqueur/fr/{pref}/{d["id"]}.html'
-        langs = {'ja': ja_path, 'en': en_path, 'fr': fr_path}
+        zh_path = f'/liqueur/zh/{pref}/{d["id"]}.html'
+        langs = {'ja': ja_path, 'en': en_path, 'fr': fr_path, 'zh': zh_path}
         add(ja_path, '0.6', 'monthly', langs)
         add(en_path, '0.5', 'monthly', langs)
         add(fr_path, '0.5', 'monthly', langs)
+        add(zh_path, '0.5', 'monthly', langs)
 
 xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>']
 xml_parts.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">')

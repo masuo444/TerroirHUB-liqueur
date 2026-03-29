@@ -249,6 +249,7 @@ def generate_page(b, pref_slug):
 <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/liqueur/{pref_slug}/{b['id']}.html">
 <link rel="alternate" hreflang="en" href="https://{DOMAIN}/liqueur/en/{pref_slug}/{b['id']}.html">
 <link rel="alternate" hreflang="fr" href="https://{DOMAIN}/liqueur/fr/{pref_slug}/{b['id']}.html">
+<link rel="alternate" hreflang="zh" href="https://{DOMAIN}/liqueur/zh/{pref_slug}/{b['id']}.html">
 <link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/liqueur/en/{pref_slug}/{b['id']}.html">
 <script type="application/ld+json">
 {jsonld}
@@ -270,6 +271,7 @@ def generate_page(b, pref_slug):
     <a class="lb active" href="/liqueur/{pref_slug}/{b['id']}.html">日本語</a>
     <a class="lb" href="/liqueur/en/{pref_slug}/{b['id']}.html">EN</a>
     <a class="lb" href="/liqueur/fr/{pref_slug}/{b['id']}.html">FR</a>
+    <a class="lb" href="/liqueur/zh/{pref_slug}/{b['id']}.html">中文</a>
   </div>
 </nav>
 
@@ -314,6 +316,9 @@ def generate_page(b, pref_slug):
     {f'<p style="font-size:11px;color:var(--text-muted);margin-top:12px;">出典：<a href="{esc(source)}" style="color:var(--accent);text-decoration:none;">{esc(source)}</a></p>' if source else ''}
   </div>
 </section>
+
+<div id="reviews-section" data-producer-id="{b['id']}" data-category="liqueur"></div>
+<script src="/liqueur/reviews.js" defer></script>
 
 <script src="/liqueur/track.js" defer></script>
 

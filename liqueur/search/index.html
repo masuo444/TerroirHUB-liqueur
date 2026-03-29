@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>メーカー検索 — Terroir HUB LIQUEUR</title>
+<meta name="description" content="全国のリキュールメーカーを検索。種類・地域・名前で絞り込み。梅酒・ゆず酒・桃酒・いちご酒・ヨーグルト酒、すべてここで見つかる。">
+<link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/search/">
+<meta property="og:title" content="メーカー検索 — Terroir HUB LIQUEUR">
+<meta property="og:description" content="全国のリキュールメーカーを検索。種類・地域・名前で絞り込み。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://liqueur.terroirhub.com/liqueur/search/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;overflow-x:hidden;}
+body{background:#FFFBFC;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;font-size:16px;line-height:1.85;-webkit-font-smoothing:antialiased;overflow-x:hidden;width:100%;}
+
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,251,252,0.92);backdrop-filter:blur(20px) saturate(1.2);border-bottom:1px solid #F0D5E0;}
+.nav-top{display:flex;align-items:center;height:54px;padding:0 28px;max-width:1280px;margin:0 auto;}
+.nav-logo{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:700;color:#1a1a1a;text-decoration:none;letter-spacing:0.04em;white-space:nowrap;flex-shrink:0;}
+.nav-links{display:flex;align-items:center;gap:6px;margin-left:32px;}
+.nav-links a{font-size:14px;color:#444;text-decoration:none;padding:6px 14px;border-radius:6px;transition:all 0.2s;white-space:nowrap;font-weight:500;}
+.nav-links a:hover{color:#1a1a1a;background:rgba(0,0,0,0.04);}
+.nav-search-link{font-size:14px !important;color:#C4547A !important;font-weight:600 !important;border:none !important;padding:7px 16px !important;border-radius:20px !important;background:rgba(196,84,122,0.08) !important;}
+.nav-search-link:hover{background:rgba(196,84,122,0.15) !important;color:#A03D60 !important;}
+.nav-auth{display:flex;align-items:center;gap:6px;margin-left:auto;flex-shrink:0;}
+.nav-auth button{font-size:12px;padding:6px 14px;border-radius:20px;cursor:pointer;font-family:'Noto Sans JP',sans-serif;transition:all 0.2s;}
+.nav-login-btn{background:none;border:1px solid rgba(0,0,0,0.1);color:#666;}
+.nav-login-btn:hover{border-color:#C4547A;color:#C4547A;}
+.nav-signup-btn{background:#1a1a1a;border:none;color:#fff;font-weight:500;}
+.nav-signup-btn:hover{background:#333;}
+.nav-hamburger{display:none;background:none;border:none;font-size:22px;cursor:pointer;padding:4px 8px;color:#333;}
+@media(max-width:700px){
+.nav-links{display:none;}.nav-auth{display:none;}
+.nav-hamburger{display:block;margin-left:auto;}
+}
+
+.breadcrumbs{margin-top:54px;padding:14px 28px;max-width:1280px;margin-left:auto;margin-right:auto;font-size:13px;color:#888;}
+.breadcrumbs a{color:#C4547A;text-decoration:none;}
+.breadcrumbs a:hover{text-decoration:underline;}
+.breadcrumbs span{margin:0 6px;color:#ccc;}
+
+.search-header{padding:32px 28px 0;max-width:1100px;margin:0 auto;}
+.search-header h1{font-family:'Shippori Mincho',serif;font-size:clamp(24px,4vw,36px);font-weight:700;color:#333;margin-bottom:6px;}
+.search-header p{font-size:14px;color:#888;margin-bottom:24px;}
+
+.search-box-wrap{max-width:1100px;margin:0 auto;padding:0 28px 24px;}
+.search-input-wrap{display:flex;border:1.5px solid #F0D5E0;border-radius:8px;overflow:hidden;background:#FFFBFC;transition:border-color 0.2s;max-width:500px;}
+.search-input-wrap:focus-within{border-color:#C4547A;}
+.search-input-wrap input{flex:1;padding:13px 16px;font-size:15px;border:none;outline:none;background:transparent;color:#333;font-family:'Noto Sans JP',sans-serif;}
+.search-input-wrap input::placeholder{color:#ccc;}
+.search-input-wrap .search-icon{background:none;border:none;color:#C4547A;padding:13px 16px;font-size:17px;cursor:pointer;}
+
+.filters-wrap{max-width:1100px;margin:0 auto;padding:0 28px 32px;}
+.filter-group{margin-bottom:16px;}
+.filter-label{font-size:12px;color:#999;font-weight:500;margin-bottom:8px;letter-spacing:0.04em;}
+.filter-btns{display:flex;flex-wrap:wrap;gap:6px;}
+.filter-btn{font-size:13px;padding:7px 16px;border:1px solid #F0D5E0;border-radius:20px;background:#fff;color:#666;cursor:pointer;transition:all 0.15s;font-family:'Noto Sans JP',sans-serif;white-space:nowrap;}
+.filter-btn:hover{border-color:#C4547A;color:#C4547A;}
+.filter-btn.active{background:#C4547A;border-color:#C4547A;color:#fff;}
+
+.results-wrap{max-width:1100px;margin:0 auto;padding:0 28px 60px;}
+.results-count{font-size:14px;color:#888;margin-bottom:20px;}
+.results-count strong{color:#C4547A;font-weight:600;}
+.results-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+@media(max-width:900px){.results-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:560px){.results-grid{grid-template-columns:1fr;}}
+
+.card{background:#fff;border:1px solid #F0D5E0;border-radius:12px;padding:22px 20px;transition:all 0.2s;text-decoration:none;display:block;}
+.card:hover{border-color:#C4547A;box-shadow:0 4px 16px rgba(0,0,0,0.04);transform:translateY(-2px);}
+.card-name{font-family:'Shippori Mincho',serif;font-size:17px;font-weight:600;color:#333;margin-bottom:4px;line-height:1.4;}
+.card-brand{font-size:13px;color:#C4547A;margin-bottom:6px;font-weight:500;}
+.card-meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;}
+.card-tag{font-size:11px;padding:3px 8px;border-radius:4px;background:#FDF0F4;color:#C4547A;white-space:nowrap;}
+.card-tag.region{background:#E8EDE5;color:#5E7A4A;}
+.card-area{font-size:12px;color:#999;margin-bottom:6px;}
+.card-desc{font-size:12px;color:#888;line-height:1.7;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.card-founded{font-size:11px;color:#bbb;margin-top:6px;}
+
+.loading{text-align:center;padding:60px 20px;color:#999;font-size:14px;}
+.loading-spinner{display:inline-block;width:28px;height:28px;border:3px solid #F0D5E0;border-top-color:#C4547A;border-radius:50%;animation:spin 0.8s linear infinite;margin-bottom:12px;}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+.no-results{text-align:center;padding:60px 20px;color:#999;}
+.no-results p{font-size:15px;margin-bottom:8px;}
+
+.footer{background:#8B2252;padding:56px 24px 40px;color:rgba(255,255,255,0.5);font-size:13px;text-align:center;}
+.footer-brand{margin-bottom:32px;}
+.footer-tagline{font-size:13px;color:rgba(255,255,255,0.6);letter-spacing:0.15em;margin-bottom:18px;}
+.footer-logo{font-family:'Shippori Mincho',serif;font-size:28px;color:#fff;font-weight:600;letter-spacing:0.08em;}
+.footer-logo .accent{color:#C4547A;}
+.footer-nav{max-width:960px;margin:0 auto 28px;padding:28px 0 0;border-top:1px solid rgba(255,255,255,0.15);display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:0;}
+.footer-nav a{color:rgba(255,255,255,0.7);text-decoration:none;font-size:13px;padding:0 20px;border-right:1px solid rgba(255,255,255,0.25);line-height:1;transition:color 0.2s;}
+.footer-nav a:last-child{border-right:none;}
+.footer-nav a:hover{color:#fff;}
+.footer-disclaimer{font-size:12px;color:rgba(255,255,255,0.45);margin-bottom:20px;line-height:1.8;}
+.footer-copy{font-size:11px;color:rgba(255,255,255,0.3);letter-spacing:0.08em;}
+.footer-sister{margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.1);}
+.footer-sister a{color:rgba(255,255,255,0.5);text-decoration:none;font-size:12px;transition:color 0.2s;margin:0 8px;}
+.footer-sister a:hover{color:#fff;}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-top">
+    <a href="/" class="nav-logo">Terroir HUB <span style="color:#C4547A">LIQUEUR</span></a>
+    <div class="nav-links">
+      <a href="/liqueur/search/" class="nav-search-link">メーカー検索</a>
+      <a href="/liqueur/guide/">リキュールガイド</a>
+      <a href="/liqueur/guide/umeshu.html">梅酒とは</a>
+      <a href="/liqueur/awards/">受賞歴</a>
+    </div>
+    <div class="nav-auth">
+      <button class="nav-login-btn">ログイン</button>
+      <button class="nav-signup-btn">無料登録</button>
+    </div>
+    <button class="nav-hamburger" onclick="openMM()">&#9776;</button>
+  </div>
+</nav>
+
+<div class="breadcrumbs">
+  <a href="/">ホーム</a><span>/</span><span style="color:#555;">メーカー検索</span>
+</div>
+
+<div class="search-header">
+  <h1>メーカー検索</h1>
+  <p>全国のリキュールメーカーを名前・銘柄・地域で検索できます</p>
+</div>
+
+<div class="search-box-wrap">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" placeholder="メーカー名・銘柄・地域で検索..." autocomplete="off">
+    <button class="search-icon">&#128269;</button>
+  </div>
+</div>
+
+<div class="filters-wrap">
+  <div class="filter-group">
+    <div class="filter-label">種類で絞り込み</div>
+    <div class="filter-btns" id="type-filters">
+      <button class="filter-btn" data-type="all" onclick="setTypeFilter('all',this)">すべて</button>
+      <button class="filter-btn" data-type="umeshu" onclick="setTypeFilter('umeshu',this)">梅酒</button>
+      <button class="filter-btn" data-type="yuzu" onclick="setTypeFilter('yuzu',this)">ゆず酒</button>
+      <button class="filter-btn" data-type="peach" onclick="setTypeFilter('peach',this)">桃酒</button>
+      <button class="filter-btn" data-type="strawberry" onclick="setTypeFilter('strawberry',this)">いちご酒</button>
+      <button class="filter-btn" data-type="yogurt" onclick="setTypeFilter('yogurt',this)">ヨーグルト酒</button>
+      <button class="filter-btn" data-type="other" onclick="setTypeFilter('other',this)">その他</button>
+    </div>
+  </div>
+  <div class="filter-group">
+    <div class="filter-label">地域で絞り込み</div>
+    <div class="filter-btns" id="region-filters">
+      <button class="filter-btn" data-region="all" onclick="setRegionFilter('all',this)">すべて</button>
+      <button class="filter-btn" data-region="kinki" onclick="setRegionFilter('kinki',this)">近畿</button>
+      <button class="filter-btn" data-region="kanto" onclick="setRegionFilter('kanto',this)">関東</button>
+      <button class="filter-btn" data-region="chubu" onclick="setRegionFilter('chubu',this)">中部</button>
+      <button class="filter-btn" data-region="kyushu" onclick="setRegionFilter('kyushu',this)">九州</button>
+      <button class="filter-btn" data-region="chugoku" onclick="setRegionFilter('chugoku',this)">中国</button>
+      <button class="filter-btn" data-region="shikoku" onclick="setRegionFilter('shikoku',this)">四国</button>
+      <button class="filter-btn" data-region="tohoku_hokkaido" onclick="setRegionFilter('tohoku_hokkaido',this)">東北・北海道</button>
+    </div>
+  </div>
+</div>
+
+<div class="results-wrap">
+  <div class="results-count" id="results-count"></div>
+  <div id="results-area">
+    <div class="loading">
+      <div class="loading-spinner"></div>
+      <p>メーカーデータを読み込み中...</p>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <div class="footer-tagline">日本のリキュールを探すなら、ここ。</div>
+    <div class="footer-logo">Terroir HUB <span class="accent">LIQUEUR</span></div>
+  </div>
+  <nav class="footer-nav">
+    <a href="/">ホーム</a>
+    <a href="/liqueur/search/">メーカー検索</a>
+    <a href="/liqueur/guide/">リキュールガイド</a>
+    <a href="/liqueur/awards/">受賞歴</a>
+    <a href="/privacy.html">プライバシー</a>
+    <a href="/terms.html">利用規約</a>
+    <a href="/tokushoho.html">特商法</a>
+  </nav>
+  <p class="footer-disclaimer">当サイトの情報は各メーカーの公式情報に基づいています。最新情報は各メーカーの公式サイトをご確認ください。</p>
+  <p class="footer-copy">&copy; 2026 合同会社FOMUS — Terroir HUB LIQUEUR</p>
+  <div class="footer-sister">
+    <a href="https://sake.terroirhub.com/">Terroir HUB SAKE</a>
+    <a href="https://shochu.terroirhub.com/">Terroir HUB SHOCHU</a>
+    <a href="https://whisky.terroirhub.com/">Terroir HUB WHISKY</a>
+  </div>
+</footer>
+
+<script>
+const PREF_NAMES = {
+  hokkaido:'北海道',aomori:'青森県',iwate:'岩手県',miyagi:'宮城県',akita:'秋田県',yamagata:'山形県',fukushima:'福島県',
+  ibaraki:'茨城県',tochigi:'栃木県',gunma:'群馬県',saitama:'埼玉県',chiba:'千葉県',tokyo:'東京都',kanagawa:'神奈川県',
+  niigata:'新潟県',toyama:'富山県',ishikawa:'石川県',fukui:'福井県',yamanashi:'山梨県',nagano:'長野県',gifu:'岐阜県',shizuoka:'静岡県',aichi:'愛知県',
+  mie:'三重県',shiga:'滋賀県',kyoto:'京都府',osaka:'大阪府',hyogo:'兵庫県',nara:'奈良県',wakayama:'和歌山県',
+  tottori:'鳥取県',shimane:'島根県',okayama:'岡山県',hiroshima:'広島県',yamaguchi:'山口県',
+  tokushima:'徳島県',kagawa:'香川県',ehime:'愛媛県',kochi:'高知県',
+  fukuoka:'福岡県',saga:'佐賀県',nagasaki:'長崎県',kumamoto:'熊本県',oita:'大分県',miyazaki:'宮崎県',kagoshima:'鹿児島県',okinawa:'沖縄県'
+};
+
+const REGION_MAP = {
+  kinki: ['mie','shiga','kyoto','osaka','hyogo','nara','wakayama'],
+  kanto: ['ibaraki','tochigi','gunma','saitama','chiba','tokyo','kanagawa'],
+  chubu: ['niigata','toyama','ishikawa','fukui','yamanashi','nagano','gifu','shizuoka','aichi'],
+  kyushu: ['fukuoka','saga','nagasaki','kumamoto','oita','miyazaki','kagoshima','okinawa'],
+  chugoku: ['tottori','shimane','okayama','hiroshima','yamaguchi'],
+  shikoku: ['tokushima','kagawa','ehime','kochi'],
+  tohoku_hokkaido: ['hokkaido','aomori','iwate','miyagi','akita','yamagata','fukushima']
+};
+
+const TYPE_LABELS = {
+  umeshu:'梅酒', yuzu:'ゆず酒', peach:'桃酒',
+  mikan:'みかん酒', strawberry:'いちご酒', matcha:'抹茶リキュール',
+  sakura:'桜リキュール', melon:'メロンリキュール', yogurt:'ヨーグルト酒', other:'その他'
+};
+
+const ALL_PREFS = Object.keys(PREF_NAMES);
+
+let allData = [];
+let currentTypeFilter = 'all';
+let currentRegionFilter = 'all';
+let searchTimeout = null;
+
+async function loadAllData() {
+  const promises = ALL_PREFS.map(async (pref) => {
+    try {
+      const res = await fetch(`/data/data_${pref}_liqueurs.json`);
+      if (!res.ok) return [];
+      const data = await res.json();
+      return data.map(d => ({
+        id: d.id || '',
+        name: d.name || '',
+        brand: d.brand || '',
+        type: d.type || '',
+        liqueur_type: d.liqueur_type || '',
+        area: d.area || '',
+        pref: pref,
+        founded: d.founded || '',
+        desc: (d.desc || '').substring(0, 80)
+      }));
+    } catch(e) { return []; }
+  });
+
+  const results = await Promise.all(promises);
+  allData = results.flat();
+
+  allData.sort((a,b) => a.name.localeCompare(b.name, 'ja'));
+
+  const params = new URLSearchParams(location.search);
+  const q = params.get('q');
+  if (q) document.getElementById('search-input').value = q;
+  const typeParam = params.get('type');
+  if (typeParam && TYPE_LABELS[typeParam]) {
+    currentTypeFilter = typeParam;
+    document.querySelectorAll('#type-filters .filter-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.type === typeParam);
+    });
+  }
+  const regionParam = params.get('region');
+  if (regionParam && REGION_MAP[regionParam]) {
+    currentRegionFilter = regionParam;
+    document.querySelectorAll('#region-filters .filter-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.region === regionParam);
+    });
+  }
+
+  renderResults();
+}
+
+function setTypeFilter(type, btn) {
+  currentTypeFilter = type;
+  document.querySelectorAll('#type-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderResults();
+}
+
+function setRegionFilter(region, btn) {
+  currentRegionFilter = region;
+  document.querySelectorAll('#region-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderResults();
+}
+
+function renderResults() {
+  const query = (document.getElementById('search-input').value || '').trim().toLowerCase();
+  let filtered = allData;
+
+  if (query) {
+    filtered = filtered.filter(d => {
+      const searchStr = (d.name + ' ' + d.brand + ' ' + d.area + ' ' + (PREF_NAMES[d.pref]||'')).toLowerCase();
+      return query.split(/\s+/).every(term => searchStr.includes(term));
+    });
+  }
+
+  if (currentTypeFilter !== 'all') {
+    filtered = filtered.filter(d => d.liqueur_type === currentTypeFilter);
+  }
+
+  if (currentRegionFilter !== 'all') {
+    const regionPrefs = REGION_MAP[currentRegionFilter] || [];
+    filtered = filtered.filter(d => regionPrefs.includes(d.pref));
+  }
+
+  document.getElementById('results-count').innerHTML =
+    `<strong>${filtered.length}</strong> 件のメーカーが見つかりました（全 ${allData.length} 件中）`;
+
+  const area = document.getElementById('results-area');
+  if (filtered.length === 0) {
+    area.innerHTML = '<div class="no-results"><p>条件に一致するメーカーが見つかりませんでした</p><p style="font-size:13px;color:#bbb;">検索条件を変更してお試しください</p></div>';
+    return;
+  }
+
+  let html = '<div class="results-grid">';
+  filtered.forEach(d => {
+    const prefName = PREF_NAMES[d.pref] || d.pref;
+    const typeLabel = TYPE_LABELS[d.liqueur_type] || d.type || '';
+    html += `<a class="card" href="/liqueur/${d.pref}/${d.id}.html">
+      <div class="card-name">${esc(d.name)}</div>
+      ${d.brand ? `<div class="card-brand">${esc(d.brand)}</div>` : ''}
+      <div class="card-meta">
+        ${typeLabel ? `<span class="card-tag">${esc(typeLabel)}</span>` : ''}
+        <span class="card-tag region">${esc(prefName)}</span>
+      </div>
+      ${d.area ? `<div class="card-area">${esc(d.area)}</div>` : ''}
+      ${d.desc ? `<div class="card-desc">${esc(d.desc)}</div>` : ''}
+      ${d.founded ? `<div class="card-founded">創業 ${esc(d.founded)}年</div>` : ''}
+    </a>`;
+  });
+  html += '</div>';
+  area.innerHTML = html;
+}
+
+function esc(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+document.getElementById('search-input').addEventListener('input', function() {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(renderResults, 200);
+});
+
+document.querySelector('#type-filters .filter-btn[data-type="all"]').classList.add('active');
+document.querySelector('#region-filters .filter-btn[data-region="all"]').classList.add('active');
+loadAllData();
+</script>
+<script src="/liqueur/auth.js"></script>
+<script src="/liqueur/features.js"></script>
+</body>
+</html>
