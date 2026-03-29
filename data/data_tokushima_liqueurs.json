@@ -32,29 +32,32 @@
   {
     "id": "awaglass",
     "name": "アワグラス",
-    "company": "アワグラス",
+    "company": "株式会社アワグラス",
     "brand": "和三盆梅酒",
     "type": "梅酒",
     "liqueur_type": "umeshu",
-    "base_spirit": "",
+    "base_spirit": "焼酎",
     "fruit_ingredient": "梅",
-    "abv": "",
-    "founded": "",
-    "founded_era": "",
-    "address": "徳島県",
+    "abv": "19",
+    "founded": "2010",
+    "founded_era": "平成22年",
+    "address": "徳島県吉野川市美郷字恵美子164番1",
     "tel": "",
-    "url": "",
-    "area": "",
-    "desc": "「和三盆梅酒」は徳島の伝統的な和三盆糖を使用した梅酒。全国梅酒品評会2024ベース混合梅酒部門で金賞受賞。",
-    "visit": "",
+    "url": "https://misato-no-umeshu.stores.jp/",
+    "area": "吉野川市",
+    "desc": "2010年設立。日本初の「梅酒特区」美郷地区で、徳島の伝統的な和三盆糖を使った梅酒を製造。全国梅酒品評会2024ベース混合梅酒部門で金賞受賞。",
+    "visit": "美郷梅酒まつり（年1回）で見学・試飲可能",
     "brands": [
-      {"name": "和三盆梅酒", "type": "梅酒", "specs": "和三盆糖使用、全国梅酒品評会2024金賞"}
+      {"name": "和三盆梅酒", "type": "梅酒", "specs": "和三盆糖使用、全国梅酒品評会2024金賞"},
+      {"name": "ウメコロロ", "type": "梅酒", "specs": "焼酎ベース、19度"},
+      {"name": "ムーンフラワー", "type": "梅酒", "specs": ""}
     ],
     "features": [
       "全国梅酒品評会2024ベース混合梅酒部門金賞",
-      "徳島の伝統的な和三盆糖を使用"
+      "徳島の伝統的な和三盆糖を使用",
+      "日本初の梅酒特区・美郷地区で製造"
     ],
-    "source": "",
+    "source": "https://misato-no-umeshu.stores.jp/",
     "name_en": "Awaglass"
   },
   {
@@ -66,22 +69,119 @@
     "liqueur_type": "umeshu",
     "base_spirit": "ホワイトリカー",
     "fruit_ingredient": "梅",
-    "abv": "",
-    "founded": "",
-    "founded_era": "",
-    "address": "徳島県",
+    "abv": "12",
+    "founded": "2008",
+    "founded_era": "平成20年",
+    "address": "徳島県吉野川市美郷字川俣",
     "tel": "",
     "url": "",
-    "area": "",
-    "desc": "「ホーホケキョ」は全国梅酒品評会2024ホワイトリカー梅酒部門で銀賞受賞。",
-    "visit": "",
+    "area": "吉野川市",
+    "desc": "梅酒特区免許第1号。京都から美郷にUターンした夫婦が営む小さな梅酒蔵。「ホーホケキョ」は徳島県特選ブランド認定（2016年）。全国梅酒品評会2024銀賞。",
+    "visit": "美郷梅酒まつりで見学可能",
     "brands": [
-      {"name": "ホーホケキョ", "type": "梅酒", "specs": "ホワイトリカーベース、全国梅酒品評会2024銀賞"}
+      {"name": "ホーホケキョ", "type": "梅酒", "specs": "12度、フルーティー、徳島県特選ブランド認定、全国梅酒品評会2024銀賞"},
+      {"name": "白竜峡", "type": "梅酒", "specs": "すっきり辛口タイプ"},
+      {"name": "紅竜峡", "type": "梅酒", "specs": "赤紫蘇入り"},
+      {"name": "高越山", "type": "梅酒", "specs": "日本酒好き向けの濃厚タイプ"}
     ],
     "features": [
+      "梅酒特区免許第1号（2008年取得）",
+      "「ホーホケキョ」が徳島県特選ブランド認定（2016年）",
       "全国梅酒品評会2024ホワイトリカー梅酒部門銀賞"
     ],
     "source": "",
     "name_en": "Higashino Liqueur"
+  },
+  {
+    "id": "oobatake",
+    "name": "大畠酒造",
+    "company": "大畠酒造",
+    "brand": "純情梅酒",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "ホワイトリカー",
+    "fruit_ingredient": "梅",
+    "abv": "21",
+    "founded": "2011",
+    "founded_era": "平成23年",
+    "address": "徳島県吉野川市美郷字峠422",
+    "tel": "",
+    "url": "https://oobatake.com/",
+    "area": "吉野川市",
+    "desc": "2011年から本格生産開始。「蔵出し原酒」にこだわり、何も足さず何も飾らない梅酒を追求。美郷の梅を収穫24時間以内に漬け込む鮮度重視の製法。",
+    "visit": "美郷梅酒まつりで見学可能",
+    "brands": [
+      {"name": "純情梅酒", "type": "梅酒", "specs": "原酒、無添加"},
+      {"name": "ほたるの宿", "type": "梅酒", "specs": "長期熟成、21度"},
+      {"name": "梅ひとよ", "type": "梅酒", "specs": ""},
+      {"name": "恋あかね", "type": "梅酒", "specs": ""},
+      {"name": "梅しずく", "type": "梅酒", "specs": ""}
+    ],
+    "features": [
+      "「蔵出し原酒」にこだわり、加水・添加物なし",
+      "収穫24時間以内に漬け込む鮮度重視の製法",
+      "美郷梅酒特区の認定製造場"
+    ],
+    "source": "https://oobatake.com/",
+    "name_en": "Oobatake Sake Brewery"
+  },
+  {
+    "id": "tokunaga_umeshu",
+    "name": "徳長梅酒製造場",
+    "company": "徳長梅酒製造場",
+    "brand": "TOKAMI",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "ブランデー",
+    "fruit_ingredient": "鶯宿梅・月世界梅",
+    "abv": "18",
+    "founded": "",
+    "founded_era": "",
+    "address": "徳島県吉野川市美郷字峠",
+    "tel": "",
+    "url": "https://umesyu.thebase.in/",
+    "area": "吉野川市",
+    "desc": "若い夫婦が営む美郷の梅酒蔵。ブランデーベースの熟成梅酒「TOKAMI」が代表作。鶯宿（おうしゅく）と月世界（げっせかい）の2品種の梅と氷砂糖を使用。",
+    "visit": "美郷梅酒まつりで見学可能",
+    "brands": [
+      {"name": "TOKAMI", "type": "梅酒", "specs": "ブランデーベース、18度、鶯宿梅・月世界梅使用、氷砂糖"}
+    ],
+    "features": [
+      "ブランデーベースのリッチな熟成梅酒",
+      "鶯宿・月世界の2品種の地元梅を使用"
+    ],
+    "source": "https://umesyu.thebase.in/",
+    "name_en": "Tokunaga Umeshu"
+  },
+  {
+    "id": "fuji_nogyo",
+    "name": "農事組合法人フジ",
+    "company": "農事組合法人フジ",
+    "brand": "美郷竜峡",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "竜峡梅・鶯宿梅・月世界梅",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "徳島県吉野川市美郷",
+    "tel": "0883-43-2574",
+    "url": "",
+    "area": "吉野川市",
+    "desc": "美郷の農家が運営する梅酒製造組合。伝統的な3年熟成製法で梅の種の旨味まで引き出す。竜峡・鶯宿・月世界の3品種それぞれの個性を活かした梅酒を生産。",
+    "visit": "美郷梅酒まつりで試飲可能",
+    "brands": [
+      {"name": "美郷竜峡", "type": "梅酒", "specs": "竜峡梅使用、3年熟成"},
+      {"name": "美郷鶯宿", "type": "梅酒", "specs": "鶯宿梅使用、3年熟成"},
+      {"name": "美郷月世界", "type": "梅酒", "specs": "月世界梅使用、3年熟成"}
+    ],
+    "features": [
+      "伝統的な3年熟成製法",
+      "竜峡・鶯宿・月世界の3品種の梅で個性の異なる梅酒を生産",
+      "美郷梅酒まつりの運営事務局"
+    ],
+    "source": "",
+    "name_en": "Fuji Agricultural Cooperative"
   }
 ]
