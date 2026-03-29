@@ -406,6 +406,12 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
   <div class="sec-h">地域から探す</div>
   <div class="sec-sub">全国105社のリキュールメーカーを地域別で検索</div>
   <div class="region-grid" id="rg"></div>
+  <div class="pref-toggle" style="text-align:center;margin-top:24px;">
+    <button id="pref-toggle-btn" onclick="var g=document.getElementById('pg');if(g.style.maxHeight==='0px'||!g.style.maxHeight){g.style.maxHeight='600px';this.textContent='閉じる'}else{g.style.maxHeight='0px';this.textContent='47都道府県から探す ▼'}" style="background:none;border:1px solid #ddd;color:#999;font-size:12px;padding:9px 22px;border-radius:8px;cursor:pointer;font-family:'Noto Sans JP',sans-serif;">47都道府県から探す ▼</button>
+  </div>
+  <div id="pg" style="max-height:0;overflow:hidden;transition:max-height 0.4s ease;padding-top:16px;">
+    <div class="pref-grid" id="pref-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:6px;"></div>
+  </div>
 </section>
 
 <hr class="sec-divider">
@@ -609,7 +615,19 @@ function escHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').
 
 const R=[{n:"九州・沖縄",c:24,p:["福岡4","鹿児島4","沖縄4","宮崎4","大分4","佐賀2","長崎1","熊本1"],icon:"🌺"},{n:"近畿",c:21,p:["兵庫6","和歌山6","京都3","大阪3","三重1","滋賀1","奈良1"],icon:"⛩"},{n:"関東",c:16,p:["栃木4","東京4","神奈川3","埼玉2","千葉2","茨城1"],icon:"🏙"},{n:"東北",c:13,p:["宮城3","山形3","岩手2","秋田2","福島2","青森1"],icon:"🏔"},{n:"中部",c:12,p:["新潟3","岐阜2","愛知2","石川1","福井1","山梨1","長野1","静岡1"],icon:"⛰"},{n:"四国",c:11,p:["高知4","徳島3","愛媛3","香川1"],icon:"🍊"},{n:"中国",c:7,p:["鳥取2","岡山2","島根1","広島1","山口1"],icon:"🏯"},{n:"北海道",c:1,p:["北海道1"],icon:"❄"}];
 
-document.getElementById('rg').innerHTML=R.map(r=>'<div class="rc"><div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;"><span style="font-size:22px;">'+r.icon+'</span><div class="rc-name">'+r.n+'</div></div><div class="rc-count">'+r.c+' <span>メーカー</span></div><div class="rc-prefs">'+r.p.join(' / ')+'</div></div>').join('');
+document.getElementById('rg').innerHTML=R.map(r=>'<a class="rc" href="/liqueur/search/?region='+encodeURIComponent(r.n)+'" style="text-decoration:none;color:inherit;cursor:pointer;display:block;background:#fff;border:1px solid #eee;border-radius:12px;padding:18px;transition:all 0.2s;" onmouseover="this.style.borderColor=\'#4A8BAE\';this.style.transform=\'translateY(-2px)\'" onmouseout="this.style.borderColor=\'#eee\';this.style.transform=\'none\'"><div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;"><span style="font-size:22px;">'+r.icon+'</span><div class="rc-name">'+r.n+'</div></div><div class="rc-count">'+r.c+' <span>メーカー</span></div><div class="rc-prefs">'+r.p.join(' / ')+'</div></a>').join('');
+
+// 47都道府県グリッド
+var PREFS=[
+{s:'hokkaido',n:'北海道',c:1},{s:'aomori',n:'青森',c:1},{s:'iwate',n:'岩手',c:2},{s:'miyagi',n:'宮城',c:3},{s:'akita',n:'秋田',c:2},{s:'yamagata',n:'山形',c:3},{s:'fukushima',n:'福島',c:2},
+{s:'ibaraki',n:'茨城',c:1},{s:'tochigi',n:'栃木',c:4},{s:'gunma',n:'群馬',c:0},{s:'saitama',n:'埼玉',c:2},{s:'chiba',n:'千葉',c:2},{s:'tokyo',n:'東京',c:4},{s:'kanagawa',n:'神奈川',c:3},
+{s:'niigata',n:'新潟',c:3},{s:'toyama',n:'富山',c:0},{s:'ishikawa',n:'石川',c:1},{s:'fukui',n:'福井',c:1},{s:'yamanashi',n:'山梨',c:1},{s:'nagano',n:'長野',c:1},{s:'gifu',n:'岐阜',c:2},{s:'shizuoka',n:'静岡',c:1},{s:'aichi',n:'愛知',c:2},
+{s:'mie',n:'三重',c:1},{s:'shiga',n:'滋賀',c:1},{s:'kyoto',n:'京都',c:3},{s:'osaka',n:'大阪',c:3},{s:'hyogo',n:'兵庫',c:6},{s:'nara',n:'奈良',c:1},{s:'wakayama',n:'和歌山',c:6},
+{s:'tottori',n:'鳥取',c:2},{s:'shimane',n:'島根',c:1},{s:'okayama',n:'岡山',c:2},{s:'hiroshima',n:'広島',c:1},{s:'yamaguchi',n:'山口',c:1},
+{s:'tokushima',n:'徳島',c:3},{s:'kagawa',n:'香川',c:1},{s:'ehime',n:'愛媛',c:3},{s:'kochi',n:'高知',c:4},
+{s:'fukuoka',n:'福岡',c:4},{s:'saga',n:'佐賀',c:2},{s:'nagasaki',n:'長崎',c:1},{s:'kumamoto',n:'熊本',c:1},{s:'oita',n:'大分',c:4},{s:'miyazaki',n:'宮崎',c:4},{s:'kagoshima',n:'鹿児島',c:4},{s:'okinawa',n:'沖縄',c:4}
+];
+document.getElementById('pref-grid').innerHTML=PREFS.map(p=>'<a href="/liqueur/'+p.s+'/" style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;background:#fff;border:1px solid #eee;border-radius:6px;text-decoration:none;color:inherit;transition:all 0.12s;" onmouseover="this.style.borderColor=\'#4A8BAE\';this.style.background=\'#F0F7FB\'" onmouseout="this.style.borderColor=\'#eee\';this.style.background=\'#fff\'"><span style="font-size:13px;font-weight:500;color:#333;">'+p.n+'</span><span style="font-size:11px;color:#4A8BAE;font-weight:500;">'+(p.c||'—')+'</span></a>').join('');
 
 var F=[];
 fetch('/liqueur/search_index.json').then(r=>r.json()).then(data=>{F=data;}).catch(function(){});
