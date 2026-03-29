@@ -452,7 +452,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
 <section class="sec sakura-sec" id="sakura">
   <div class="sakura-grid-new">
     <div style="display:flex;align-items:center;justify-content:center;">
-      <div class="sakura-char-placeholder" style="font-family:'Shippori Mincho',serif;font-size:72px;color:#4A8BAE;opacity:0.3;">桜</div>
+      <img src="/liqueur/sakura.jpg" alt="AIサクラ" style="width:100%;max-width:220px;border-radius:20px;margin:0 auto;display:block;">
     </div>
     <div class="sakura-content">
       <div class="sakura-av">桜</div>
@@ -599,7 +599,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
 
 <!-- OVERLAY -->
 <div class="overlay" id="ov" onclick="if(event.target===this)closePanel()"><div class="panel">
-<div class="p-hdr"><div class="p-hdr-l"><div class="p-av">桜</div><div><div class="p-title">サクラ</div><div class="p-status">リキュールのこと、何でもどうぞ</div></div></div><button class="p-close" onclick="closePanel()">&#10005;</button></div>
+<div class="p-hdr"><div class="p-hdr-l"><div class="p-av"><img src="/liqueur/sakura.jpg" alt="サクラ" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"></div><div><div class="p-title">サクラ</div><div class="p-status">リキュールのこと、何でもどうぞ</div></div></div><button class="p-close" onclick="closePanel()">&#10005;</button></div>
 <div class="ca" id="pc"></div>
 <div class="sugs" id="psugs"></div>
 <div class="ir"><textarea id="pi" rows="1" placeholder="何でもお気軽にどうぞ..." onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();pSend();}"></textarea><button id="ps" onclick="pSend()">&#8593;</button></div></div></div>
