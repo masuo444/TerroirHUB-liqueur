@@ -31,5 +31,69 @@
     ],
     "source": "https://www.umenoyado.com/",
     "name_en": "Umenoyado Shuzo"
+  },
+  {
+    "id": "narakasugayama",
+    "name": "奈良春日山酒造（旧八木酒造）",
+    "company": "奈良春日山酒造株式会社",
+    "brand": "花札",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1877",
+    "founded_era": "明治10年",
+    "address": "奈良県奈良市南城戸町32",
+    "tel": "",
+    "url": "https://narakasugayama-shuzo.co.jp/",
+    "area": "奈良市",
+    "desc": "明治10年（1877年）創業。春日原始林山麓の名水地に位置する蔵元。2003年から始めた「花札シリーズ」の梅酒・ゆず酒が人気。国内外の品評会で多数受賞。2022年に八木酒造から奈良春日山酒造に社名変更。",
+    "visit": "",
+    "brands": [
+      {"name": "花札の梅酒", "type": "梅酒", "specs": "原酒タイプ"},
+      {"name": "とろとろの梅酒", "type": "梅酒", "specs": "にごりタイプ"},
+      {"name": "花札のゆず酒", "type": "ゆず酒", "specs": ""},
+      {"name": "花札のもも酒", "type": "桃酒", "specs": ""}
+    ],
+    "features": [
+      "1877年創業、春日原始林山麓の名水地に位置",
+      "「花札シリーズ」梅酒は2003年発売のロングセラー",
+      "国内外の品評会で多数受賞"
+    ],
+    "source": "https://narakasugayama-shuzo.co.jp/",
+    "name_en": "Nara Kasugayama Shuzo"
+  },
+  {
+    "id": "kitaoka_honten",
+    "name": "北岡本店",
+    "company": "株式会社北岡本店",
+    "brand": "やたがらす",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "焼酎",
+    "fruit_ingredient": "奈良吉野産梅",
+    "abv": "",
+    "founded": "1868",
+    "founded_era": "明治元年",
+    "address": "奈良県吉野郡吉野町上市172-1",
+    "tel": "",
+    "url": "https://www.kitaoka-honten.com/",
+    "area": "吉野町",
+    "desc": "明治元年（1868年）創業。桜の名所・吉野の蔵元。「吉野物語」シリーズで梅酒・ゆず酒・桃酒など国産フルーツにこだわった和リキュールを展開。地元吉野名産の梅を使用。",
+    "visit": "",
+    "brands": [
+      {"name": "吉野物語 うめ", "type": "梅酒", "specs": "吉野産梅使用、甘さ控えめ"},
+      {"name": "吉野物語 ゆず", "type": "ゆず酒", "specs": "焼酎ベース、ゆず丸ごと使用"},
+      {"name": "吉野物語 もも", "type": "桃酒", "specs": "焼酎ベース、桃丸ごと使用"},
+      {"name": "梅酒ライトリキュール", "type": "梅酒", "specs": "ラム使用、熟成タイプ"}
+    ],
+    "features": [
+      "1868年創業、桜の名所・吉野の蔵元",
+      "「吉野物語」シリーズで国産フルーツにこだわった和リキュールを展開",
+      "日本神話の導きの鳥「八咫烏」を冠する蔵"
+    ],
+    "source": "https://www.kitaoka-honten.com/",
+    "name_en": "Kitaoka Honten"
   }
 ]

@@ -25,5 +25,34 @@
     ],
     "source": "https://hayakawa-syuzo.com/",
     "name_en": "Hayakawa Shuzo"
+  },
+  {
+    "id": "ota_shuzo",
+    "name": "大田酒造",
+    "company": "株式会社大田酒造",
+    "brand": "半蔵",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "和歌山県みなべ町産南高梅",
+    "abv": "",
+    "founded": "1892",
+    "founded_era": "明治25年",
+    "address": "三重県伊賀市上之庄1365-1",
+    "tel": "",
+    "url": "https://www.hanzo-sake.com/",
+    "area": "伊賀市",
+    "desc": "明治25年（1892年）創業。伊勢志摩サミットの乾杯酒に採用された「半蔵」の蔵元。三重県産酒造米と鈴鹿山脈の伏流水で醸した清酒原酒に、みなべ町産南高梅を手作業で漬け込んだ梅酒を2007年から製造。",
+    "visit": "",
+    "brands": [
+      {"name": "半蔵の梅酒", "type": "梅酒", "specs": "3年熟成清酒仕込み、和歌山県みなべ町産南高梅使用"}
+    ],
+    "features": [
+      "1892年創業の伊賀の老舗蔵",
+      "伊勢志摩サミット乾杯酒の蔵元",
+      "日本酒原酒で仕込む本格梅酒"
+    ],
+    "source": "https://www.hanzo-sake.com/",
+    "name_en": "Ota Shuzo"
   }
 ]

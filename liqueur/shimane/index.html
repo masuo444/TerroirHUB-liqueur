@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>島根県のリキュールメーカー一覧（1社）— Terroir HUB</title>
-<meta name="description" content="島根県のリキュールメーカー1社を一覧表示。Terroir HUB LIQUEUR。">
+<title>島根県のリキュールメーカー一覧（2社）— Terroir HUB</title>
+<meta name="description" content="島根県のリキュールメーカー2社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/shimane/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "島根県のリキュールメーカー一覧", "numberOfItems": 1, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/shimane/ichinomiya.html", "name": "一宮酒造"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "島根県のリキュールメーカー一覧", "numberOfItems": 2, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/shimane/ichinomiya.html", "name": "一宮酒造"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/shimane/yoshida_shuzo_shimane.html", "name": "吉田酒造"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>島根県のリキュールメーカー</h1>
-    <p class="count">1社</p>
+    <p class="count">2社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "ichinomiya", "name": "一宮酒造", "brand": "石見銀山", "type": "フルーツリキュール", "area": "大田市", "founded": "", "desc": "島根県大田市で120年以上の歴史を持つ酒蔵。世界遺産石見銀山を有する地で、梅酒・ゆず酒・りんご酒・薔薇酒など多彩なリキュールを製造。", "liqueur_type": "yuzu"}];
+const B=[{"id": "ichinomiya", "name": "一宮酒造", "brand": "石見銀山", "type": "フルーツリキュール", "area": "大田市", "founded": "", "desc": "島根県大田市で120年以上の歴史を持つ酒蔵。世界遺産石見銀山を有する地で、梅酒・ゆず酒・りんご酒・薔薇酒など多彩なリキュールを製造。", "liqueur_type": "yuzu"}, {"id": "yoshida_shuzo_shimane", "name": "吉田酒造", "brand": "月山", "type": "梅酒", "area": "安来市", "founded": "1743", "desc": "寛保3年（1743年）創業。月山の麓に位置する島根の老舗蔵。日本酒「月山」の蔵元。「月山 梅さけ」などリキュール製品も展開。", "liqueur_type": "umeshu"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/shimane/'+b.id+'.html">'+

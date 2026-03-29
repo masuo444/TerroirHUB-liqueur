@@ -27,5 +27,33 @@
     ],
     "source": "https://hananomai.co.jp/",
     "name_en": "Hananomai Shuzo"
+  },
+  {
+    "id": "fujimasa_shuzo",
+    "name": "富士正酒造",
+    "company": "富士正酒造株式会社",
+    "brand": "富士正",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "静岡県富士宮産青梅",
+    "abv": "",
+    "founded": "1866",
+    "founded_era": "慶応2年",
+    "address": "静岡県富士宮市根原450-1",
+    "tel": "",
+    "url": "https://www.fujimasa-sake.com",
+    "area": "富士宮市",
+    "desc": "慶応2年（1866年）創業。富士山に一番近い酒蔵。日本酒の原酒と地元富士宮産の無農薬青梅を使用した「ワタシの梅酒」を展開。2011年に標高900mの朝霧高原へ移転。",
+    "visit": "試飲可（予約不要）",
+    "brands": [
+      {"name": "ワタシの梅酒", "type": "梅酒", "specs": "日本酒原酒ベース、富士宮産無農薬青梅使用"}
+    ],
+    "features": [
+      "1866年創業、富士山に一番近い酒蔵",
+      "地元産無農薬青梅と日本酒原酒で仕込む梅酒"
+    ],
+    "source": "https://www.fujimasa-sake.com",
+    "name_en": "Fujimasa Shuzo"
   }
 ]

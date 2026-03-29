@@ -26,5 +26,34 @@
     ],
     "source": "",
     "name_en": "Dassai (Asahi Shuzo)"
+  },
+  {
+    "id": "okazaki_shuzojo",
+    "name": "岡崎酒造場",
+    "company": "株式会社岡崎酒造場",
+    "brand": "長門峡",
+    "type": "フルーツリキュール",
+    "liqueur_type": "yuzu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "萩産柚子・夏みかん",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "山口県萩市川上4892-1",
+    "tel": "",
+    "url": "",
+    "area": "萩市",
+    "desc": "山口県萩市の酒蔵。長門峡を流れる阿武川の伏流水を使用。萩特産の柚子や夏みかんを使用した日本酒ベースのリキュールが人気。",
+    "visit": "",
+    "brands": [
+      {"name": "長門峡 柚子リキュール", "type": "ゆず酒", "specs": "日本酒ベース、萩産柚子使用"},
+      {"name": "長門峡 夏みかんリキュール", "type": "柑橘リキュール", "specs": "日本酒ベース、萩産夏みかん使用"}
+    ],
+    "features": [
+      "山口県萩の酒蔵",
+      "萩特産の柚子・夏みかんを使ったリキュールが人気"
+    ],
+    "source": "",
+    "name_en": "Okazaki Shuzojo"
   }
 ]

@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>三重県のリキュールメーカー一覧（1社）— Terroir HUB</title>
-<meta name="description" content="三重県のリキュールメーカー1社を一覧表示。Terroir HUB LIQUEUR。">
+<title>三重県のリキュールメーカー一覧（2社）— Terroir HUB</title>
+<meta name="description" content="三重県のリキュールメーカー2社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/mie/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "三重県のリキュールメーカー一覧", "numberOfItems": 1, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/mie/hayakawa_shuzo.html", "name": "早川酒造"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "三重県のリキュールメーカー一覧", "numberOfItems": 2, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/mie/hayakawa_shuzo.html", "name": "早川酒造"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/mie/ota_shuzo.html", "name": "大田酒造"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>三重県のリキュールメーカー</h1>
-    <p class="count">1社</p>
+    <p class="count">2社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "hayakawa_shuzo", "name": "早川酒造", "brand": "田光", "type": "梅酒", "area": "菰野町", "founded": "1915", "desc": "大正4年（1915年）創業。三重県菰野町の酒蔵。「朝 ASATSU あさつ 天香春梅」など梅酒リキュールを展開。", "liqueur_type": "umeshu"}];
+const B=[{"id": "hayakawa_shuzo", "name": "早川酒造", "brand": "田光", "type": "梅酒", "area": "菰野町", "founded": "1915", "desc": "大正4年（1915年）創業。三重県菰野町の酒蔵。「朝 ASATSU あさつ 天香春梅」など梅酒リキュールを展開。", "liqueur_type": "umeshu"}, {"id": "ota_shuzo", "name": "大田酒造", "brand": "半蔵", "type": "梅酒", "area": "伊賀市", "founded": "1892", "desc": "明治25年（1892年）創業。伊勢志摩サミットの乾杯酒に採用された「半蔵」の蔵元。三重県産酒造米と鈴鹿山脈の伏流水で醸した清酒原酒に、みなべ町産南高梅を手作業で漬け込んだ梅酒を2007年から製造。", "liqueur_type": "umeshu"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/mie/'+b.id+'.html">'+

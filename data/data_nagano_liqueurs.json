@@ -26,5 +26,31 @@
     ],
     "source": "https://www.chikumanishiki.com/",
     "name_en": "Chikumanishiki Shuzo"
+  },
+  {
+    "id": "kikuisuishuzo_nagano",
+    "name": "喜久水酒造",
+    "company": "喜久水酒造株式会社",
+    "brand": "喜久水",
+    "type": "リキュール",
+    "liqueur_type": "other",
+    "base_spirit": "",
+    "fruit_ingredient": "",
+    "abv": "",
+    "founded": "1944",
+    "founded_era": "昭和19年",
+    "address": "長野県飯田市鼎切石4851",
+    "tel": "",
+    "url": "",
+    "area": "飯田市",
+    "desc": "飯田・下伊那地域唯一の酒蔵。日本酒のほか、焼酎やリキュール、シードルなども製造。信州の風土を活かした幅広い酒造りを行う。",
+    "visit": "",
+    "brands": [],
+    "features": [
+      "飯田・下伊那地域唯一の酒蔵",
+      "日本酒のほか焼酎・リキュール・シードルも製造"
+    ],
+    "source": "",
+    "name_en": "Kikuisui Shuzo (Nagano)"
   }
 ]

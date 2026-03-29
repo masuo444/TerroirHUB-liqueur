@@ -111,5 +111,35 @@
     ],
     "source": "",
     "name_en": "Shiratama Jozo"
+  },
+  {
+    "id": "hombo_shuzo",
+    "name": "本坊酒造",
+    "company": "本坊酒造株式会社",
+    "brand": "上等梅酒",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "南高梅・大粒梅・白加賀梅",
+    "abv": "14",
+    "founded": "1872",
+    "founded_era": "明治5年",
+    "address": "鹿児島県鹿児島市南栄3-27",
+    "tel": "",
+    "url": "https://www.hombo.co.jp/",
+    "area": "鹿児島市",
+    "desc": "明治5年（1872年）創業。150年以上の歴史を持つ鹿児島の総合酒類メーカー。「星舎蔵」で毎年6月に新鮮な青梅を仕込み、香料・着色料・酸味料無添加の「上等梅酒」を製造。Kura Master 2023梅酒部門プラチナ賞、2024金賞受賞。知覧茶梅酒も展開。",
+    "visit": "",
+    "brands": [
+      {"name": "上等梅酒", "type": "梅酒", "specs": "香料・着色料・酸味料無添加、アルコール14度、Kura Masterプラチナ賞"},
+      {"name": "上等梅酒 知覧茶", "type": "梅酒", "specs": "南九州市産知覧茶使用、アルコール10度"}
+    ],
+    "features": [
+      "1872年創業、150年以上の歴史を持つ鹿児島の総合酒類メーカー",
+      "「星舎蔵」で仕込む無添加梅酒",
+      "Kura Master 2023プラチナ賞・2024金賞受賞"
+    ],
+    "source": "https://www.hombo.co.jp/",
+    "name_en": "Hombo Shuzo"
   }
 ]

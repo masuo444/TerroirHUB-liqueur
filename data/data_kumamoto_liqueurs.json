@@ -26,5 +26,36 @@
     ],
     "source": "https://www.zuiyo.co.jp/",
     "name_en": "Zuiyo"
+  },
+  {
+    "id": "chiyonosono",
+    "name": "千代の園酒造",
+    "company": "千代の園酒造株式会社",
+    "brand": "千代の園",
+    "type": "フルーツリキュール",
+    "liqueur_type": "other",
+    "base_spirit": "",
+    "fruit_ingredient": "甘夏みかん・さくらんぼ・梅",
+    "abv": "10",
+    "founded": "1896",
+    "founded_era": "明治29年",
+    "address": "熊本県山鹿市山鹿1782",
+    "tel": "",
+    "url": "https://chiyonosono-shop.com/",
+    "area": "山鹿市",
+    "desc": "明治29年（1896年）創業。熊本県山鹿市の酒蔵。日本酒・赤酒・焼酎・リキュールを製造。果汁を使った「甘夏みかん」「さくらんぼ」「梅赤酒」の3種のリキュールが人気。梅リキュールには熊本で400年の歴史を持つ赤酒を使用。",
+    "visit": "史料館見学可（無料）、売店あり",
+    "brands": [
+      {"name": "千代の園 甘夏リキュール", "type": "柑橘リキュール", "specs": "甘夏みかん使用、アルコール10度"},
+      {"name": "千代の園 さくらんぼリキュール", "type": "さくらんぼリキュール", "specs": "アルコール10度"},
+      {"name": "千代の園 梅赤酒", "type": "梅酒", "specs": "赤酒ベース、400年の歴史を持つ赤酒使用"}
+    ],
+    "features": [
+      "1896年創業の熊本・山鹿の酒蔵",
+      "赤酒を使った梅リキュールが特徴",
+      "甘夏・さくらんぼなど地元素材のリキュールを展開"
+    ],
+    "source": "https://chiyonosono-shop.com/",
+    "name_en": "Chiyonosono Shuzo"
   }
 ]

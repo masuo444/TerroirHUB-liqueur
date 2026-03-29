@@ -26,5 +26,32 @@
     ],
     "source": "https://ikinokura.co.jp/",
     "name_en": "Ikinokura Shuzo"
+  },
+  {
+    "id": "fukuda_shuzo",
+    "name": "福田酒造",
+    "company": "福田酒造株式会社",
+    "brand": "福鶴",
+    "type": "リキュール",
+    "liqueur_type": "other",
+    "base_spirit": "",
+    "fruit_ingredient": "",
+    "abv": "",
+    "founded": "1688",
+    "founded_era": "元禄元年",
+    "address": "長崎県平戸市志々伎町1475",
+    "tel": "",
+    "url": "https://fukuda-shuzo.com/",
+    "area": "平戸市",
+    "desc": "元禄元年（1688年）創業。日本本土最西端の酒蔵。平戸藩御用達の酒蔵として知られる長崎県きっての実力派。日本酒・焼酎・リキュール・ジン・甘酒など県内屈指の製造品目を持つ。",
+    "visit": "",
+    "brands": [],
+    "features": [
+      "1688年創業、日本本土最西端の酒蔵",
+      "平戸藩御用達の酒蔵として知られる実力派",
+      "日本酒・焼酎・リキュール・ジンなど多品目を製造"
+    ],
+    "source": "https://fukuda-shuzo.com/",
+    "name_en": "Fukuda Shuzo"
   }
 ]

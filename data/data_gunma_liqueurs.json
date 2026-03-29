@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "hijiri_shuzo",
+    "name": "聖酒造",
+    "company": "聖酒造株式会社",
+    "brand": "聖",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1841",
+    "founded_era": "天保12年",
+    "address": "群馬県渋川市北橘町下箱田380",
+    "tel": "",
+    "url": "https://www.hijiri-sake.co.jp/",
+    "area": "渋川市",
+    "desc": "天保12年（1841年）創業。群馬県渋川市の蔵元。伝統の酒造りを守りながら、梅酒やゆずのリキュール、ブラッドオレンジリキュールなどを展開。",
+    "visit": "蔵見学可（要予約）",
+    "brands": [
+      {"name": "聖 梅酒", "type": "梅酒", "specs": ""},
+      {"name": "聖 ゆずリキュール", "type": "ゆず酒", "specs": ""},
+      {"name": "ブラッドオレンジ ひじり", "type": "柑橘リキュール", "specs": ""}
+    ],
+    "features": [
+      "1841年創業の群馬の酒蔵",
+      "梅酒・ゆず酒・ブラッドオレンジなど多彩なリキュールを展開"
+    ],
+    "source": "https://www.hijiri-sake.co.jp/collections/liqueur",
+    "name_en": "Hijiri Shuzo"
+  },
+  {
+    "id": "kondo_shuzo_gunma",
+    "name": "近藤酒造（群馬）",
+    "company": "近藤酒造株式会社",
+    "brand": "赤城山",
+    "type": "フルーツリキュール",
+    "liqueur_type": "other",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "群馬県産梅・柚子・ブルーベリー",
+    "abv": "",
+    "founded": "1875",
+    "founded_era": "明治8年",
+    "address": "群馬県みどり市大間々町大間々1002",
+    "tel": "",
+    "url": "https://akagisan.com/",
+    "area": "みどり市",
+    "desc": "明治8年（1875年）創業。赤城山の伏流水を仕込み水に辛口一筋にこだわる群馬の蔵元。純米吟醸酒をベースに群馬県産の柚子・梅・ブルーベリーを合わせた「Shu Shu Shu Shu」リキュールシリーズを展開。",
+    "visit": "",
+    "brands": [
+      {"name": "Shu Shu Shu Shu 梅", "type": "梅酒", "specs": "純米吟醸酒ベース、群馬県産梅使用"},
+      {"name": "Shu Shu Shu Shu 柚子", "type": "ゆず酒", "specs": "純米吟醸酒ベース、群馬県産柚子使用"},
+      {"name": "Shu Shu Shu Shu ブルーベリー", "type": "ブルーベリーリキュール", "specs": "純米吟醸酒ベース、群馬県産ブルーベリー使用"}
+    ],
+    "features": [
+      "1875年創業、「群馬で辛口といえば赤城山」の蔵元",
+      "純米吟醸酒ベースに群馬県産果実を使ったリキュールを展開"
+    ],
+    "source": "https://akagisan.com/",
+    "name_en": "Kondo Shuzo (Gunma)"
+  }
+]

@@ -33,5 +33,31 @@
     "lat": 34.9583,
     "lng": 136.0899,
     "name_en": "Kitajima Shuzo"
+  },
+  {
+    "id": "ota_shuzo_shiga",
+    "name": "太田酒造",
+    "company": "太田酒造株式会社",
+    "brand": "道灌",
+    "type": "リキュール",
+    "liqueur_type": "other",
+    "base_spirit": "",
+    "fruit_ingredient": "",
+    "abv": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "滋賀県草津市草津3-10-37",
+    "tel": "",
+    "url": "",
+    "area": "草津市",
+    "desc": "江戸城を築城した太田道灌を先祖に持つ蔵元。日本酒「道灌」のほか、100%国産ブドウを使用したワインやブランデー、各種果物のリキュールも製造販売。",
+    "visit": "",
+    "brands": [],
+    "features": [
+      "太田道灌を先祖に持つ歴史ある蔵元",
+      "日本酒のほかワイン・ブランデー・リキュールも製造"
+    ],
+    "source": "",
+    "name_en": "Ota Shuzo (Shiga)"
   }
 ]

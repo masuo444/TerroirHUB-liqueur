@@ -27,5 +27,35 @@
     ],
     "source": "",
     "name_en": "Hatomasamune"
+  },
+  {
+    "id": "momokawa",
+    "name": "桃川",
+    "company": "桃川株式会社",
+    "brand": "桃川",
+    "type": "りんごリキュール",
+    "liqueur_type": "other",
+    "base_spirit": "",
+    "fruit_ingredient": "青森県産りんご",
+    "abv": "",
+    "founded": "1889",
+    "founded_era": "明治22年",
+    "address": "青森県上北郡おいらせ町上明堂112",
+    "tel": "",
+    "url": "https://shop.momokawa.co.jp/",
+    "area": "おいらせ町",
+    "desc": "明治22年（1889年）創業。青森県を代表する酒蔵。青森県産りんごを使った「りんごに恋したお酒」はA-1グランプリ受賞、青森県ふるさと食品コンクール会長賞受賞。あおもりカシスリキュールも展開。",
+    "visit": "",
+    "brands": [
+      {"name": "りんごに恋したお酒", "type": "りんご酒", "specs": "青森県産りんご使用、A-1グランプリ受賞"},
+      {"name": "あおもりカシス", "type": "カシスリキュール", "specs": "青森県産カシス100%使用、香料・着色料無添加"}
+    ],
+    "features": [
+      "1889年創業の青森を代表する酒蔵",
+      "青森県産りんごを使ったリキュールが人気",
+      "あおもりカシスリキュールも展開"
+    ],
+    "source": "https://shop.momokawa.co.jp/",
+    "name_en": "Momokawa"
   }
 ]

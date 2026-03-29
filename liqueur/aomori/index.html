@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>青森県のリキュールメーカー一覧（1社）— Terroir HUB</title>
-<meta name="description" content="青森県のリキュールメーカー1社を一覧表示。Terroir HUB LIQUEUR。">
+<title>青森県のリキュールメーカー一覧（2社）— Terroir HUB</title>
+<meta name="description" content="青森県のリキュールメーカー2社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/aomori/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "青森県のリキュールメーカー一覧", "numberOfItems": 1, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/aomori/hatomasamune.html", "name": "鳩正宗"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "青森県のリキュールメーカー一覧", "numberOfItems": 2, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/aomori/hatomasamune.html", "name": "鳩正宗"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/aomori/momokawa.html", "name": "桃川"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>青森県のリキュールメーカー</h1>
-    <p class="count">1社</p>
+    <p class="count">2社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "hatomasamune", "name": "鳩正宗", "brand": "八鶴", "type": "梅酒", "area": "十和田市", "founded": "1899", "desc": "明治32年（1899年）創業。八甲田・奥入瀬の伏流水を仕込み水に使用。「八鶴 んめ〜梅酒」を展開。また青森県産りんご果汁とにごり酒をブレンドした「雪りんご」リキュールも人気。", "liqueur_type": "umeshu"}];
+const B=[{"id": "hatomasamune", "name": "鳩正宗", "brand": "八鶴", "type": "梅酒", "area": "十和田市", "founded": "1899", "desc": "明治32年（1899年）創業。八甲田・奥入瀬の伏流水を仕込み水に使用。「八鶴 んめ〜梅酒」を展開。また青森県産りんご果汁とにごり酒をブレンドした「雪りんご」リキュールも人気。", "liqueur_type": "umeshu"}, {"id": "momokawa", "name": "桃川", "brand": "桃川", "type": "りんごリキュール", "area": "おいらせ町", "founded": "1889", "desc": "明治22年（1889年）創業。青森県を代表する酒蔵。青森県産りんごを使った「りんごに恋したお酒」はA-1グランプリ受賞、青森県ふるさと食品コンクール会長賞受賞。あおもりカシスリキュールも展開。", "liqueur_type": "other"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/aomori/'+b.id+'.html">'+

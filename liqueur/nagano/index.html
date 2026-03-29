@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>長野県のリキュールメーカー一覧（1社）— Terroir HUB</title>
-<meta name="description" content="長野県のリキュールメーカー1社を一覧表示。Terroir HUB LIQUEUR。">
+<title>長野県のリキュールメーカー一覧（2社）— Terroir HUB</title>
+<meta name="description" content="長野県のリキュールメーカー2社を一覧表示。Terroir HUB LIQUEUR。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/nagano/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "長野県のリキュールメーカー一覧", "numberOfItems": 1, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/nagano/chikumanishiki.html", "name": "千曲錦酒造"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "長野県のリキュールメーカー一覧", "numberOfItems": 2, "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://liqueur.terroirhub.com/liqueur/nagano/chikumanishiki.html", "name": "千曲錦酒造"}, {"@type": "ListItem", "position": 2, "url": "https://liqueur.terroirhub.com/liqueur/nagano/kikuisuishuzo_nagano.html", "name": "喜久水酒造"}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -50,7 +50,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   </div>
   <div class="header">
     <h1>長野県のリキュールメーカー</h1>
-    <p class="count">1社</p>
+    <p class="count">2社</p>
   </div>
   <div class="grid" id="grid"></div>
 </main>
@@ -58,7 +58,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "chikumanishiki", "name": "千曲錦酒造", "brand": "千曲錦", "type": "梅酒", "area": "佐久市", "founded": "1681", "desc": "天和元年（1681年）創業。浅間山系の湧き水と長野県産米を使用。「千曲錦 極上原酒 UMESHU」は全国梅酒品評会2024本格焼酎梅酒部門で銀賞受賞。", "liqueur_type": "umeshu"}];
+const B=[{"id": "chikumanishiki", "name": "千曲錦酒造", "brand": "千曲錦", "type": "梅酒", "area": "佐久市", "founded": "1681", "desc": "天和元年（1681年）創業。浅間山系の湧き水と長野県産米を使用。「千曲錦 極上原酒 UMESHU」は全国梅酒品評会2024本格焼酎梅酒部門で銀賞受賞。", "liqueur_type": "umeshu"}, {"id": "kikuisuishuzo_nagano", "name": "喜久水酒造", "brand": "喜久水", "type": "リキュール", "area": "飯田市", "founded": "1944", "desc": "飯田・下伊那地域唯一の酒蔵。日本酒のほか、焼酎やリキュール、シードルなども製造。信州の風土を活かした幅広い酒造りを行う。", "liqueur_type": "other"}];
 const LABELS={'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'};
 document.getElementById('grid').innerHTML=B.map(b=>{
   return '<a class="card" href="/liqueur/nagano/'+b.id+'.html">'+

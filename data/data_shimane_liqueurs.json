@@ -29,5 +29,33 @@
     ],
     "source": "https://www.ichinomiya-s.jp/",
     "name_en": "Ichinomiya Shuzo"
+  },
+  {
+    "id": "yoshida_shuzo_shimane",
+    "name": "吉田酒造",
+    "company": "吉田酒造株式会社",
+    "brand": "月山",
+    "type": "梅酒",
+    "liqueur_type": "umeshu",
+    "base_spirit": "日本酒",
+    "fruit_ingredient": "梅",
+    "abv": "",
+    "founded": "1743",
+    "founded_era": "寛保3年",
+    "address": "島根県安来市広瀬町広瀬1216",
+    "tel": "",
+    "url": "https://e-gassan.co.jp/",
+    "area": "安来市",
+    "desc": "寛保3年（1743年）創業。月山の麓に位置する島根の老舗蔵。日本酒「月山」の蔵元。「月山 梅さけ」などリキュール製品も展開。",
+    "visit": "",
+    "brands": [
+      {"name": "月山 梅さけ", "type": "梅酒", "specs": "日本酒ベース"}
+    ],
+    "features": [
+      "1743年創業の島根の老舗蔵",
+      "日本酒「月山」の蔵元"
+    ],
+    "source": "https://e-gassan.co.jp/",
+    "name_en": "Yoshida Shuzo (Shimane)"
   }
 ]
