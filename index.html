@@ -323,6 +323,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
       <a href="#sakura">AIサクラ</a>
       <a href="#plans">プラン</a>
       <a href="https://www.terroirhub.com/business/">事業者向け</a>
+      <a href="https://www.terroirhub.com/listing-update/">掲載修正</a>
     </div>
     <div class="nav-auth">
       <button class="nav-login-btn" onclick="showAuth('login')">ログイン</button>
@@ -345,6 +346,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
     <a href="/liqueur/guide/umeshu.html" onclick="closeMM()">&#127826; 梅酒とは</a>
     <a href="#sakura" onclick="closeMM()">&#127800; AIサクラ</a>
     <a href="https://www.terroirhub.com/business/" onclick="closeMM()">&#128188; 事業者向け</a>
+    <a href="https://www.terroirhub.com/listing-update/" onclick="closeMM()">掲載情報の修正・公式写真提供</a>
     <div class="mm-divider"></div>
     <a href="#plans" onclick="closeMM()">&#128142; プラン</a>
     <div class="mm-divider"></div>
@@ -649,6 +651,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
   <a href="/liqueur/guide/">リキュールガイド</a>
   <a href="/privacy.html">プライバシーポリシー</a>
   <a href="mailto:info@terroirhub.com">お問い合わせ</a>
+    <a href="https://www.terroirhub.com/listing-update/">掲載情報の修正・公式写真提供</a>
   <a href="https://terroirhub.com" target="_blank">運営会社</a>
 </nav>
 <div class="footer-disclaimer">お酒は20歳になってから。ストップ飲酒運転。妊娠中や授乳期の飲酒はやめましょう。</div>
@@ -742,7 +745,7 @@ async function pSend(){
   typing.innerHTML='<div class="m-av">桜</div><div class="m-bbl"><span class="typing-dots">・・・</span></div>';
   pc.appendChild(typing);pc.scrollTop=pc.scrollHeight;
   try{
-    const res=await fetch('/api/sakura',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q,history:chatHistory.slice(-20)})});
+    const headers={'Content-Type':'application/json'};try{if(window.thubAuth&&window.thubAuth.supabase){const sess=await window.thubAuth.supabase.auth.getSession();const tok=sess&&sess.data&&sess.data.session&&sess.data.session.access_token;if(tok)headers.Authorization='Bearer '+tok;}}catch(_){}const res=await fetch('/api/sakura',{method:'POST',headers,body:JSON.stringify({question:q,history:chatHistory.slice(-20),context:'Terroir HUB LIQUEUR'})});
     const data=await res.json();
     const el=document.getElementById('typing-ind');if(el)el.remove();
     if(data.answer){addM('bot',data.answer);chatHistory.push({role:'assistant',content:data.answer});}
