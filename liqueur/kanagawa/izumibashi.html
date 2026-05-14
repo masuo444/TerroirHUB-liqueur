@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>泉橋酒造 — Terroir HUB</title>
+<title>泉橋酒造 — 神奈川県のメーカー | Terroir HUB LIQUEUR</title>
 <meta name="description" content="安政4年（1857年）創業。栽培醸造蔵として自社で米作りから酒造りまで一貫して行う。純米酒と小田原・曽我産の十郎梅で仕込んだ梅酒「山田十郎」を展開。">
-<meta property="og:title" content="泉橋酒造 — Terroir HUB LIQUEUR">
+<meta property="og:title" content="泉橋酒造 — 神奈川県のメーカー | Terroir HUB LIQUEUR">
 <meta property="og:description" content="安政4年（1857年）創業。栽培醸造蔵として自社で米作りから酒造りまで一貫して行う。純米酒と小田原・曽我産の十郎梅で仕込んだ梅酒「山田十郎」を展開。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://liqueur.terroirhub.com/liqueur/kanagawa/izumibashi.html">
@@ -32,7 +32,19 @@
         "addressCountry": "JP"
       },
       "url": "https://shop.izumibashi.com/",
-      "foundingDate": "1857"
+      "foundingDate": "1857",
+      "makesOffer": [
+        {
+          "@type": "Product",
+          "name": "いづみ橋 梅酒 山田十郎",
+          "description": "純米酒ベース、小田原曽我産十郎梅使用"
+        },
+        {
+          "@type": "Product",
+          "name": "純情いちご",
+          "description": "純米酒ベース、神奈川県海老名市産とちおとめ使用"
+        }
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -53,6 +65,27 @@
           "@type": "ListItem",
           "position": 3,
           "name": "泉橋酒造"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "泉橋酒造の代表銘柄は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "泉橋酒造の代表銘柄は「いづみ橋 梅酒 山田十郎」です。純米酒ベース、小田原曽我産十郎梅使用"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "泉橋酒造はいつ創業ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "泉橋酒造は安政4年創業の神奈川県のメーカーです。"
+          }
         }
       ]
     }
@@ -156,7 +189,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 .brand-img-wrap{margin-bottom:18px;display:flex;justify-content:center;}
 .brand-img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:6px;background:var(--surface-warm);border:1px solid var(--border);}
 .brand-img-placeholder{width:100%;aspect-ratio:1/1;border-radius:6px;background:linear-gradient(135deg,var(--surface-warm),#E8B5C8);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:11px;letter-spacing:0.1em;}
-.brand-img-real{width:100%;aspect-ratio:1/1;border-radius:6px;border:1px solid var(--border);display:block;object-fit:cover;background:var(--surface-warm);}
 .brand-name{font-family:'Zen Old Mincho',serif;font-size:19px;color:var(--text);margin-bottom:3px;}
 .brand-type{font-size:9px;letter-spacing:0.2em;color:var(--accent);margin-bottom:6px;}
 .brand-desc{font-size:11.5px;color:var(--text-body);line-height:1.85;margin-bottom:14px;}
@@ -359,7 +391,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <div class="brands-grid">
     <div class="brand-card">
       <div class="brand-img-wrap">
-        <img class="brand-img-real" src="/img/sample-products/liqueur/銘柄1.webp" alt="リキュール 代表銘柄1（画像はイメージ）" loading="lazy">
+        <div class="brand-img-placeholder">PHOTO</div>
       </div>
       <div class="liqueur-badge umeshu">梅酒</div>
       <div class="base-tag">日本酒</div>
@@ -369,7 +401,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     </div>
     <div class="brand-card">
       <div class="brand-img-wrap">
-        <img class="brand-img-real" src="/img/sample-products/liqueur/銘柄2.webp" alt="リキュール 代表銘柄2（画像はイメージ）" loading="lazy">
+        <div class="brand-img-placeholder">PHOTO</div>
       </div>
       <div class="liqueur-badge umeshu">梅酒</div>
       <div class="base-tag">日本酒</div>
@@ -407,7 +439,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <script src="/liqueur/track.js" defer></script>
 
 <footer style="background:#8B2252;padding:40px 24px;text-align:center;">
-  <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p>
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>

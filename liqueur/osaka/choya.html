@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>チョーヤ梅酒 — Terroir HUB</title>
+<title>チョーヤ梅酒 — 大阪府のメーカー | Terroir HUB LIQUEUR</title>
 <meta name="description" content="大正3年（1914年）創業。南高梅と国産ブランデーを使用した本格梅酒メーカー。「The CHOYA」シリーズをはじめ、世界40カ国以上に輸出。">
-<meta property="og:title" content="チョーヤ梅酒 — Terroir HUB LIQUEUR">
+<meta property="og:title" content="チョーヤ梅酒 — 大阪府のメーカー | Terroir HUB LIQUEUR">
 <meta property="og:description" content="大正3年（1914年）創業。南高梅と国産ブランデーを使用した本格梅酒メーカー。「The CHOYA」シリーズをはじめ、世界40カ国以上に輸出。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://liqueur.terroirhub.com/liqueur/osaka/choya.html">
@@ -33,7 +33,24 @@
       },
       "url": "https://www.choya.co.jp/",
       "foundingDate": "1914",
-      "telephone": "072-956-0511"
+      "telephone": "072-956-0511",
+      "makesOffer": [
+        {
+          "@type": "Product",
+          "name": "The CHOYA AGED 3 YEARS",
+          "description": "3年熟成、アルコール17度、南高梅使用"
+        },
+        {
+          "@type": "Product",
+          "name": "さらりとした梅酒",
+          "description": "アルコール10度、すっきりタイプ"
+        },
+        {
+          "@type": "Product",
+          "name": "The CHOYA SINGLE YEAR",
+          "description": "1年熟成、アルコール15度"
+        }
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -54,6 +71,27 @@
           "@type": "ListItem",
           "position": 3,
           "name": "チョーヤ梅酒"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "チョーヤ梅酒の代表銘柄は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "チョーヤ梅酒の代表銘柄は「The CHOYA AGED 3 YEARS」です。3年熟成、アルコール17度、南高梅使用"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "チョーヤ梅酒はいつ創業ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "チョーヤ梅酒は大正3年創業の大阪府のメーカーです。"
+          }
         }
       ]
     }
@@ -157,7 +195,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 .brand-img-wrap{margin-bottom:18px;display:flex;justify-content:center;}
 .brand-img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:6px;background:var(--surface-warm);border:1px solid var(--border);}
 .brand-img-placeholder{width:100%;aspect-ratio:1/1;border-radius:6px;background:linear-gradient(135deg,var(--surface-warm),#E8B5C8);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:11px;letter-spacing:0.1em;}
-.brand-img-real{width:100%;aspect-ratio:1/1;border-radius:6px;border:1px solid var(--border);display:block;object-fit:cover;background:var(--surface-warm);}
 .brand-name{font-family:'Zen Old Mincho',serif;font-size:19px;color:var(--text);margin-bottom:3px;}
 .brand-type{font-size:9px;letter-spacing:0.2em;color:var(--accent);margin-bottom:6px;}
 .brand-desc{font-size:11.5px;color:var(--text-body);line-height:1.85;margin-bottom:14px;}
@@ -360,7 +397,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <div class="brands-grid">
     <div class="brand-card">
       <div class="brand-img-wrap">
-        <img class="brand-img-real" src="/img/sample-products/liqueur/銘柄1.webp" alt="リキュール 代表銘柄1（画像はイメージ）" loading="lazy">
+        <div class="brand-img-placeholder">PHOTO</div>
       </div>
       <div class="liqueur-badge umeshu">梅酒</div>
       <div class="base-tag">ホワイトリカー</div>
@@ -370,7 +407,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     </div>
     <div class="brand-card">
       <div class="brand-img-wrap">
-        <img class="brand-img-real" src="/img/sample-products/liqueur/銘柄2.webp" alt="リキュール 代表銘柄2（画像はイメージ）" loading="lazy">
+        <div class="brand-img-placeholder">PHOTO</div>
       </div>
       <div class="liqueur-badge umeshu">梅酒</div>
       <div class="base-tag">ホワイトリカー</div>
@@ -380,7 +417,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     </div>
     <div class="brand-card">
       <div class="brand-img-wrap">
-        <img class="brand-img-real" src="/img/sample-products/liqueur/銘柄3.webp" alt="リキュール 代表銘柄3（画像はイメージ）" loading="lazy">
+        <div class="brand-img-placeholder">PHOTO</div>
       </div>
       <div class="liqueur-badge umeshu">梅酒</div>
       <div class="base-tag">ホワイトリカー</div>
@@ -418,7 +455,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <script src="/liqueur/track.js" defer></script>
 
 <footer style="background:#8B2252;padding:40px 24px;text-align:center;">
-  <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p>
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>

@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>千代の園酒造 — Terroir HUB</title>
+<title>千代の園酒造 — 熊本県のメーカー | Terroir HUB LIQUEUR</title>
 <meta name="description" content="明治29年（1896年）創業。熊本県山鹿市の酒蔵。日本酒・赤酒・焼酎・リキュールを製造。果汁を使った「甘夏みかん」「さくらんぼ」「梅赤酒」の3種のリキュールが人気。梅リキュールには熊本で400年の歴史を持つ赤酒を使用。">
-<meta property="og:title" content="千代の園酒造 — Terroir HUB LIQUEUR">
-<meta property="og:description" content="明治29年（1896年）創業。熊本県山鹿市の酒蔵。日本酒・赤酒・焼酎・リキュールを製造。果汁を使った「甘夏みかん」「さくらんぼ」「梅赤酒」の3種のリキュールが人気。梅リキュールには熊本で400年の歴史を持つ赤酒を使用。">
+<meta property="og:title" content="千代の園酒造 — 熊本県のメーカー | Terroir HUB LIQUEUR">
+<meta property="og:description" content="明治29年（1896年）創業。熊本県山鹿市の酒蔵。日本酒・赤酒・焼酎・リキュールを製造。果汁を使った「甘夏みかん」「さくらんぼ」「梅赤酒」の3種のリキュールが人">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://liqueur.terroirhub.com/liqueur/kumamoto/chiyonosono.html">
 <meta property="og:image" content="https://liqueur.terroirhub.com/img/hero.jpg">
@@ -32,7 +32,24 @@
         "addressCountry": "JP"
       },
       "url": "https://chiyonosono-shop.com/",
-      "foundingDate": "1896"
+      "foundingDate": "1896",
+      "makesOffer": [
+        {
+          "@type": "Product",
+          "name": "千代の園 甘夏リキュール",
+          "description": "甘夏みかん使用、アルコール10度"
+        },
+        {
+          "@type": "Product",
+          "name": "千代の園 さくらんぼリキュール",
+          "description": "アルコール10度"
+        },
+        {
+          "@type": "Product",
+          "name": "千代の園 梅赤酒",
+          "description": "赤酒ベース、400年の歴史を持つ赤酒使用"
+        }
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -53,6 +70,35 @@
           "@type": "ListItem",
           "position": 3,
           "name": "千代の園酒造"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "千代の園酒造の代表銘柄は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "千代の園酒造の代表銘柄は「千代の園 甘夏リキュール」です。甘夏みかん使用、アルコール10度"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "千代の園酒造はいつ創業ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "千代の園酒造は明治29年創業の熊本県のメーカーです。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "千代の園酒造は見学できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "史料館見学可（無料）、売店あり"
+          }
         }
       ]
     }
@@ -156,7 +202,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 .brand-img-wrap{margin-bottom:18px;display:flex;justify-content:center;}
 .brand-img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:6px;background:var(--surface-warm);border:1px solid var(--border);}
 .brand-img-placeholder{width:100%;aspect-ratio:1/1;border-radius:6px;background:linear-gradient(135deg,var(--surface-warm),#E8B5C8);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:11px;letter-spacing:0.1em;}
-.brand-img-real{width:100%;aspect-ratio:1/1;border-radius:6px;border:1px solid var(--border);display:block;object-fit:cover;background:var(--surface-warm);}
 .brand-name{font-family:'Zen Old Mincho',serif;font-size:19px;color:var(--text);margin-bottom:3px;}
 .brand-type{font-size:9px;letter-spacing:0.2em;color:var(--accent);margin-bottom:6px;}
 .brand-desc{font-size:11.5px;color:var(--text-body);line-height:1.85;margin-bottom:14px;}
@@ -359,7 +404,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <div class="brands-grid">
     <div class="brand-card">
       <div class="brand-img-wrap">
-        <img class="brand-img-real" src="/img/sample-products/liqueur/銘柄1.webp" alt="リキュール 代表銘柄1（画像はイメージ）" loading="lazy">
+        <div class="brand-img-placeholder">PHOTO</div>
       </div>
       <div class="liqueur-badge fruit">リキュール</div>
       
@@ -369,7 +414,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     </div>
     <div class="brand-card">
       <div class="brand-img-wrap">
-        <img class="brand-img-real" src="/img/sample-products/liqueur/銘柄2.webp" alt="リキュール 代表銘柄2（画像はイメージ）" loading="lazy">
+        <div class="brand-img-placeholder">PHOTO</div>
       </div>
       <div class="liqueur-badge fruit">リキュール</div>
       
@@ -379,7 +424,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     </div>
     <div class="brand-card">
       <div class="brand-img-wrap">
-        <img class="brand-img-real" src="/img/sample-products/liqueur/銘柄3.webp" alt="リキュール 代表銘柄3（画像はイメージ）" loading="lazy">
+        <div class="brand-img-placeholder">PHOTO</div>
       </div>
       <div class="liqueur-badge fruit">リキュール</div>
       
@@ -417,7 +462,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <script src="/liqueur/track.js" defer></script>
 
 <footer style="background:#8B2252;padding:40px 24px;text-align:center;">
-  <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p>
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
