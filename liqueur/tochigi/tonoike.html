@@ -14,8 +14,6 @@
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/tochigi/tonoike.html">
 <link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/tochigi/tonoike.html">
 <link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/tochigi/tonoike.html">
-<link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/tochigi/tonoike.html">
-<link rel="alternate" hreflang="zh" href="https://liqueur.terroirhub.com/liqueur/zh/tochigi/tonoike.html">
 <link rel="alternate" hreflang="x-default" href="https://liqueur.terroirhub.com/liqueur/en/tochigi/tonoike.html">
 <script type="application/ld+json">
 {
@@ -288,7 +286,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/liqueur/tochigi/tonoike.html">日本語</a>
     <a class="lb" href="/liqueur/en/tochigi/tonoike.html">EN</a>
-    <a class="lb" href="/liqueur/fr/tochigi/tonoike.html">FR</a>
     <a class="lb" href="/liqueur/zh/tochigi/tonoike.html">中文</a>
   </div>
 </nav>
@@ -345,13 +342,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">①</div>
         <div>
           <div class="fact-lbl">特徴 1</div>
-          <div class="fact-body">栃木県益子町の酒蔵</div>
-        </div>
-      </div>
-      <div class="fact">
-        <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">②</div>
-        <div>
-          <div class="fact-lbl">特徴 2</div>
           <div class="fact-body">地元産とちおとめを使ったいちごリキュール</div>
         </div>
       </div>
@@ -390,6 +380,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">栃木県の他のメーカー</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには栃木県のメーカーを4件収録しています。最も創業が古いのは1849年創業の島崎酒造。1件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/liqueur/tochigi/kobayashi_shuzo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">小林酒造</span><span style="font-size:11.5px;color:var(--text-muted);">小山市 ｜ 鳳凰美田</span></a><a class="related-card" href="/liqueur/tochigi/shimazaki.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">島崎酒造</span><span style="font-size:11.5px;color:var(--text-muted);">那須烏山市 ｜ 東力士</span></a><a class="related-card" href="/liqueur/tochigi/nishibori_shuzo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">西堀酒造</span><span style="font-size:11.5px;color:var(--text-muted);">小山市 ｜ 若盛</span></a></div><div style="margin-top:22px;"><a href="/liqueur/tochigi/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">栃木県のメーカー一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -450,19 +441,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='外池酒造店',BB='望';
-const SUGS=['望ってどんなリキュール？','おすすめの飲み方は？','料理に合わせるなら？','外池酒造店の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこのメーカーについて何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "外池酒造店", "brand": "望", "pref": "栃木県", "area": "益子町", "founded": "", "founded_era": "", "brands": ["苺のお酒", "モモすぎるお酒"], "visit": "", "url": "https://tonoike.info/", "desc": "栃木県益子町の酒蔵。益子産とちおとめを使った「苺のお酒」はジャムのような甘い香りが特徴。日本酒「望（のぞむ）」とブレンドした桃リキュールも展開。", "suggestions": ["望ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "外池酒造店の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

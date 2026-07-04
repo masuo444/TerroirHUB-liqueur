@@ -14,8 +14,6 @@
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/saitama/asahara.html">
 <link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/saitama/asahara.html">
 <link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/saitama/asahara.html">
-<link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/saitama/asahara.html">
-<link rel="alternate" hreflang="zh" href="https://liqueur.terroirhub.com/liqueur/zh/saitama/asahara.html">
 <link rel="alternate" hreflang="x-default" href="https://liqueur.terroirhub.com/liqueur/en/saitama/asahara.html">
 <script type="application/ld+json">
 {
@@ -288,7 +286,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/liqueur/saitama/asahara.html">日本語</a>
     <a class="lb" href="/liqueur/en/saitama/asahara.html">EN</a>
-    <a class="lb" href="/liqueur/fr/saitama/asahara.html">FR</a>
     <a class="lb" href="/liqueur/zh/saitama/asahara.html">中文</a>
   </div>
 </nav>
@@ -345,13 +342,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">①</div>
         <div>
           <div class="fact-lbl">特徴 1</div>
-          <div class="fact-body">埼玉の地酒・ビール・ワインを醸造</div>
-        </div>
-      </div>
-      <div class="fact">
-        <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">②</div>
-        <div>
-          <div class="fact-lbl">特徴 2</div>
           <div class="fact-body">ワインベースのユニークな梅酒</div>
         </div>
       </div>
@@ -390,6 +380,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">埼玉県の他のメーカー</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには埼玉県のメーカーを2件収録しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/liqueur/saitama/kingshop_makotoya.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">キングショップ誠屋</span><span style="font-size:11.5px;color:var(--text-muted);">鶴ヶ島市 ｜ 鶴ヶ島の雨乞い梅酒</span></a></div><div style="margin-top:22px;"><a href="/liqueur/saitama/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">埼玉県のメーカー一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -450,19 +441,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='麻原酒造',BB='武蔵野';
-const SUGS=['武蔵野ってどんなリキュール？','おすすめの飲み方は？','料理に合わせるなら？','麻原酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこのメーカーについて何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "麻原酒造", "brand": "武蔵野", "pref": "埼玉県", "area": "毛呂山町", "founded": "", "founded_era": "", "brands": ["赤ワインベースの梅酒", "わいん梅酒"], "visit": "", "url": "https://www.musashino-asahara.jp/", "desc": "埼玉の地酒・ビール・ワインを醸造する蔵元。埼玉県産の梅と赤ワイン（カベルネ・ソーヴィニヨン）で仕込んだ「赤ワインベースの梅酒」が特徴的。", "suggestions": ["武蔵野ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "麻原酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

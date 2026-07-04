@@ -14,8 +14,6 @@
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/mie/ota_shuzo.html">
 <link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/mie/ota_shuzo.html">
 <link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/mie/ota_shuzo.html">
-<link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/mie/ota_shuzo.html">
-<link rel="alternate" hreflang="zh" href="https://liqueur.terroirhub.com/liqueur/zh/mie/ota_shuzo.html">
 <link rel="alternate" hreflang="x-default" href="https://liqueur.terroirhub.com/liqueur/en/mie/ota_shuzo.html">
 <script type="application/ld+json">
 {
@@ -292,7 +290,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/liqueur/mie/ota_shuzo.html">日本語</a>
     <a class="lb" href="/liqueur/en/mie/ota_shuzo.html">EN</a>
-    <a class="lb" href="/liqueur/fr/mie/ota_shuzo.html">FR</a>
     <a class="lb" href="/liqueur/zh/mie/ota_shuzo.html">中文</a>
   </div>
 </nav>
@@ -398,6 +395,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">三重県の他のメーカー</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには三重県のメーカーを2件収録しています。最も創業が古いのは1892年創業の大田酒造。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/liqueur/mie/hayakawa_shuzo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">早川酒造</span><span style="font-size:11.5px;color:var(--text-muted);">菰野町 ｜ 田光</span></a></div><div style="margin-top:22px;"><a href="/liqueur/mie/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">三重県のメーカー一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -458,19 +456,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='大田酒造',BB='半蔵';
-const SUGS=['半蔵ってどんなリキュール？','おすすめの飲み方は？','料理に合わせるなら？','大田酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこのメーカーについて何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "大田酒造", "brand": "半蔵", "pref": "三重県", "area": "伊賀市", "founded": "1892", "founded_era": "明治25年", "brands": ["半蔵の梅酒"], "visit": "", "url": "https://www.hanzo-sake.com/", "desc": "明治25年（1892年）創業。伊勢志摩サミットの乾杯酒に採用された「半蔵」の蔵元。三重県産酒造米と鈴鹿山脈の伏流水で醸した清酒原酒に、みなべ町産南高梅を手作業で漬け込んだ梅酒を2007年から製造。", "suggestions": ["半蔵ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "大田酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

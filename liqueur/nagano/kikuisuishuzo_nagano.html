@@ -14,8 +14,6 @@
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/nagano/kikuisuishuzo_nagano.html">
 <link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/nagano/kikuisuishuzo_nagano.html">
 <link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/nagano/kikuisuishuzo_nagano.html">
-<link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/nagano/kikuisuishuzo_nagano.html">
-<link rel="alternate" hreflang="zh" href="https://liqueur.terroirhub.com/liqueur/zh/nagano/kikuisuishuzo_nagano.html">
 <link rel="alternate" hreflang="x-default" href="https://liqueur.terroirhub.com/liqueur/en/nagano/kikuisuishuzo_nagano.html">
 <script type="application/ld+json">
 {
@@ -276,7 +274,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/liqueur/nagano/kikuisuishuzo_nagano.html">日本語</a>
     <a class="lb" href="/liqueur/en/nagano/kikuisuishuzo_nagano.html">EN</a>
-    <a class="lb" href="/liqueur/fr/nagano/kikuisuishuzo_nagano.html">FR</a>
     <a class="lb" href="/liqueur/zh/nagano/kikuisuishuzo_nagano.html">中文</a>
   </div>
 </nav>
@@ -340,13 +337,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">①</div>
         <div>
           <div class="fact-lbl">特徴 1</div>
-          <div class="fact-body">飯田・下伊那地域唯一の酒蔵</div>
-        </div>
-      </div>
-      <div class="fact">
-        <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">②</div>
-        <div>
-          <div class="fact-lbl">特徴 2</div>
           <div class="fact-body">日本酒のほか焼酎・リキュール・シードルも製造</div>
         </div>
       </div>
@@ -356,6 +346,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 
 
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">長野県の他のメーカー</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには長野県のメーカーを2件収録しています。最も創業が古いのは1681年創業の千曲錦酒造。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/liqueur/nagano/chikumanishiki.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">千曲錦酒造</span><span style="font-size:11.5px;color:var(--text-muted);">佐久市 ｜ 千曲錦</span></a></div><div style="margin-top:22px;"><a href="/liqueur/nagano/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">長野県のメーカー一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -416,19 +407,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='喜久水酒造',BB='喜久水';
-const SUGS=['喜久水ってどんなリキュール？','おすすめの飲み方は？','料理に合わせるなら？','喜久水酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこのメーカーについて何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "喜久水酒造", "brand": "喜久水", "pref": "長野県", "area": "飯田市", "founded": "1944", "founded_era": "昭和19年", "brands": [], "visit": "", "url": "", "desc": "飯田・下伊那地域唯一の酒蔵。日本酒のほか、焼酎やリキュール、シードルなども製造。信州の風土を活かした幅広い酒造りを行う。", "suggestions": ["喜久水ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "喜久水酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

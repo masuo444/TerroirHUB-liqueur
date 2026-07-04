@@ -1,80 +1,427 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>リキュールの料理ペアリング — Terroir HUB LIQUEUR</title>
-<meta name="description" content="リキュールと料理のペアリングガイド。梅酒×和食、ゆず酒×刺身、桃酒×デザート。最適な組み合わせを解説。">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>リキュールのフードペアリング — Terroir HUB LIQUEUR</title>
+<meta name="description" content="梅酒×和食、ゆず酒×魚介、桃酒×デザート——日本のリキュールとフードの相性を科学的根拠とともに解説。種類別・飲み方別ペアリング一覧表付き。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/guide/pairing.html">
+<link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/guide/pairing.html">
+<link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/guide/en/pairing.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
-<style>*{margin:0;padding:0;box-sizing:border-box;}body{background:#FFFBFC;color:#1A1814;font-family:'Noto Sans JP',sans-serif;font-size:16px;line-height:1.85;}.nav{position:fixed;top:0;left:0;right:0;z-index:100;height:54px;display:flex;align-items:center;padding:0 28px;background:rgba(255,251,252,0.96);backdrop-filter:blur(20px);border-bottom:1px solid #F0D5E0;}.nav-logo{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:700;color:#1a1a1a;text-decoration:none;}.main{max-width:800px;margin:0 auto;padding:88px 24px 60px;}h1{font-family:'Shippori Mincho',serif;font-size:32px;margin-bottom:16px;}h2{font-family:'Shippori Mincho',serif;font-size:22px;margin:40px 0 12px;color:#4A8BAE;}p{margin-bottom:16px;color:#3D3830;}.breadcrumb{font-size:13px;color:#8A8070;margin-bottom:24px;}.breadcrumb a{color:#4A8BAE;text-decoration:none;}footer{background:#1A4A6B;padding:32px 24px;text-align:center;margin-top:60px;}footer p{font-size:12px;color:rgba(255,255,255,0.3);}</style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RXSS3P04XJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RXSS3P04XJ');
+</script>
+<script>
+var THUB_CONFIG = {
+  genre: "liqueur",
+  brandColor: "#5B6ABF",
+  brandColor2: "#8B9ADF",
+  basePath: "/liqueur",
+  siteName: "Terroir HUB LIQUEUR",
+  apiBase: "https://sake.terroirhub.com"
+};
+</script>
+
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #F8F8FC; --surface: #ffffff;
+  --accent: #5B6ABF; --accent2: #8B9ADF; --accent-pale: #ECEFFE;
+  --text: #1A1A2E; --text-muted: #6B7280; --border: #DDE0F5; --footer-bg: #101020;
+  --nav-h: 58px; --radius: 14px; --shadow: 0 2px 12px rgba(91,106,191,0.10);
+}
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--text); font-family: 'Noto Sans JP', sans-serif; font-size: 16px; line-height: 1.85; }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; height: var(--nav-h); display: flex; align-items: center; justify-content: space-between; padding: 0 28px; background: rgba(248,248,252,0.96); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
+.nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; color: var(--text); text-decoration: none; letter-spacing: 0.04em; }
+.nav-logo span { color: var(--accent2); }
+.nav-links { display: flex; gap: 24px; align-items: center; list-style: none; }
+.nav-links a { font-size: 13px; color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+.nav-links a:hover { color: var(--accent); }
+.nav-lang { font-size: 12px; color: var(--accent); border: 1px solid var(--accent); padding: 3px 10px; border-radius: 20px; text-decoration: none; }
+.nav-lang:hover { background: var(--accent); color: #fff; }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+.hamburger span { width: 22px; height: 2px; background: var(--text); border-radius: 2px; }
+.guide-nav { position: sticky; top: var(--nav-h); z-index: 100; background: var(--surface); border-bottom: 1px solid var(--border); overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
+.guide-nav::-webkit-scrollbar { display: none; }
+.guide-nav-inner { display: inline-flex; padding: 0 20px; min-width: 100%; }
+.guide-nav-inner a { display: inline-block; padding: 13px 16px; font-size: 13px; color: var(--text-muted); text-decoration: none; white-space: nowrap; border-bottom: 2px solid transparent; transition: all 0.2s; }
+.guide-nav-inner a:hover { color: var(--accent); }
+.guide-nav-inner a.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 500; }
+.page-hero { padding: 72px 24px 52px; background: linear-gradient(160deg, #ECEFFE 0%, var(--bg) 70%); text-align: center; }
+.breadcrumb { font-size: 12px; color: var(--text-muted); margin-bottom: 16px; }
+.breadcrumb a { color: var(--accent); text-decoration: none; }
+.page-hero h1 { font-family: 'Noto Serif JP', serif; font-size: clamp(26px, 4vw, 38px); font-weight: 700; margin-bottom: 14px; }
+.page-hero-en { font-family: 'Cormorant Garamond', serif; font-size: 16px; font-style: italic; color: var(--accent2); margin-bottom: 20px; }
+.page-hero-lead { font-size: 16px; color: var(--text-muted); max-width: 640px; margin: 0 auto; line-height: 1.9; }
+.main { max-width: 900px; margin: 0 auto; padding: 60px 24px 80px; }
+h2.sec-h { font-family: 'Noto Serif JP', serif; font-size: 24px; font-weight: 700; color: var(--text); margin: 60px 0 8px; padding-bottom: 10px; border-bottom: 2px solid var(--accent-pale); }
+h2.sec-h:first-child { margin-top: 0; }
+.sec-lead { font-size: 14px; color: var(--text-muted); margin-bottom: 32px; }
+
+/* PAIRING CARDS */
+.pair-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 32px 28px; margin-bottom: 28px; box-shadow: var(--shadow);
+}
+.pair-tag-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; }
+.pair-tag { font-size: 12px; font-weight: 700; color: #fff; background: var(--accent); padding: 4px 14px; border-radius: 14px; letter-spacing: 0.04em; }
+.pair-title { font-family: 'Noto Serif JP', serif; font-size: 22px; font-weight: 700; color: var(--text); margin-bottom: 10px; }
+.food-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.food-tag { font-size: 12px; color: var(--accent); border: 1px solid var(--accent2); background: var(--accent-pale); padding: 3px 12px; border-radius: 14px; }
+.pair-body { font-size: 15px; color: var(--text); line-height: 1.9; margin-bottom: 14px; }
+.why-box { background: var(--accent-pale); border-radius: 10px; padding: 16px 18px; }
+.why-title { font-size: 12px; color: var(--accent); font-weight: 700; letter-spacing: 0.06em; margin-bottom: 6px; }
+.why-box p { font-size: 13.5px; color: var(--text); line-height: 1.75; }
+
+/* TABLE */
+.table-wrap { overflow-x: auto; margin: 24px 0; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+thead th { background: var(--accent); color: #fff; padding: 12px 16px; text-align: left; font-weight: 500; }
+tbody tr { border-bottom: 1px solid var(--border); }
+tbody tr:nth-child(even) { background: var(--accent-pale); }
+tbody td { padding: 12px 16px; color: var(--text); vertical-align: top; line-height: 1.7; }
+tbody td:first-child { font-weight: 600; }
+
+footer { background: var(--footer-bg); padding: 48px 24px 100px; text-align: center; }
+.footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 600; color: rgba(255,255,255,0.9); margin-bottom: 16px; }
+.footer-logo span { color: var(--accent2); }
+.footer-links { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-bottom: 20px; list-style: none; }
+.footer-links a { font-size: 13px; color: rgba(255,255,255,0.5); text-decoration: none; }
+.footer-copy { font-size: 12px; color: rgba(255,255,255,0.3); }
+.tab-bar { display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 300; background: rgba(248,248,252,0.97); backdrop-filter: blur(20px); border-top: 1px solid var(--border); padding-bottom: env(safe-area-inset-bottom); }
+.tab-bar-inner { display: flex; justify-content: space-around; align-items: center; height: 56px; }
+.tab-item { display: flex; flex-direction: column; align-items: center; gap: 3px; text-decoration: none; font-size: 10px; color: var(--text-muted); flex: 1; padding: 6px 0; }
+.tab-item.active { color: var(--accent); }
+.tab-icon { font-size: 20px; }
+@media (max-width: 768px) { .tab-bar { display: block; } .nav-links { display: none; } .hamburger { display: flex; } }
+.drawer-overlay { display: none; position: fixed; inset: 0; z-index: 250; background: rgba(0,0,0,0.4); }
+.drawer-overlay.open { display: block; }
+.drawer { position: fixed; top: 0; right: -280px; width: 280px; height: 100%; z-index: 260; background: var(--surface); transition: right 0.3s ease; padding: 70px 0 40px; overflow-y: auto; }
+.drawer.open { right: 0; }
+.drawer a { display: block; padding: 14px 28px; font-size: 15px; color: var(--text); text-decoration: none; border-bottom: 1px solid var(--border); }
+.drawer a:hover { background: var(--accent-pale); color: var(--accent); }
+</style>
+
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Terroir HUB LIQUEUR", "item": "https://liqueur.terroirhub.com/"},
-        {"@type": "ListItem", "position": 2, "name": "リキュールガイド", "item": "https://liqueur.terroirhub.com/liqueur/guide/"},
-        {"@type": "ListItem", "position": 3, "name": "料理ペアリング"}
-      ]
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Terroir HUB LIQUEUR",
+     "item": "https://liqueur.terroirhub.com/"
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "梅酒に合う料理は？",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "梅酒は甘みと酸みのバランスが和食と相性抜群です。特に焼き鳥・唐揚げ・天ぷら・刺身・寿司などと合います。デザートとの相性も良く、チーズケーキ・羊羹・アイスクリームと組み合わせるとリッチな楽しみ方ができます。"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "ゆず酒・桃酒に合う料理は？",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ゆず酒は柑橘の爽やかな酸みが魚介料理（刺身・寿司・海鮮サラダ）や鍋料理と抜群の相性です。桃酒はまろやかな甘みがフルーツデザート・クレームブリュレ・パンケーキなどと合います。抹茶リキュールはロールケーキやあんこ系和菓子と組み合わせると日本らしいペアリングになります。"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "食前・食後にリキュールを楽しむには？",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "食前酒としては、ゆず酒ソーダやスパークリングタイプのリキュールが食欲を刺激します。食後酒（ディジェスティフ）としては、梅酒のロックやブランデーベースの熟成梅酒がデザート代わりになります。少量をゆっくり味わうのがポイントです。"
-          }
-        }
-      ]
+     "@type": "ListItem",
+     "position": 2,
+     "name": "リキュールガイド",
+     "item": "https://liqueur.terroirhub.com/liqueur/guide/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "フードペアリング",
+     "item": "https://liqueur.terroirhub.com/liqueur/guide/pairing.html"
     }
-  ]
-}
-</script>
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "梅酒はどんな料理に合いますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "梅酒は和食全般と相性が良いです。特に焼き魚・刺身・天ぷら・唐揚げ・煮物との相性が抜群です。梅の酸味が脂を流し、甘みが和食のだしの旨みを引き立てます。ソーダ割り（梅サワー）にすると、より食中酒として万能になります。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "ゆず酒はどんな食べ物に合いますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "ゆず酒は魚介料理・白身魚の刺身・鍋料理・フライとの相性が特に優れています。ゆずの柑橘香が生臭みを消し、爽やかな後味が魚の旨みを引き立てます。軽い和食やサラダとのマリアージュも楽しめます。"
+     }
+    }
+   ]
+  }
+ ]
+}</script>
+<meta property="og:image" content="https://liqueur.terroirhub.com/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://liqueur.terroirhub.com/ogp.png">
 </head>
 <body>
-<nav class="nav"><a class="nav-logo" href="/">Terroir HUB <span style="color:#4A8BAE;">LIQUEUR</span></a></nav>
+
+<nav class="nav">
+  <a class="nav-logo" href="/">Terroir HUB <span>LIQUEUR</span></a>
+  <ul class="nav-links">
+    <li><a href="/">トップ</a></li>
+    <li><a href="/liqueur/guide/">ガイド</a></li>
+    <li><a href="https://sake.terroirhub.com" target="_blank">Terroir HUB</a></li>
+    <li><a class="nav-lang" href="/liqueur/guide/en/pairing.html">EN</a></li>
+  </ul>
+  <button class="hamburger" id="hamburgerBtn" aria-label="メニュー"><span></span><span></span><span></span></button>
+</nav>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<div class="drawer" id="drawer">
+  <a href="/">トップ</a>
+  <a href="/liqueur/guide/">ガイドトップ</a>
+  <a href="/liqueur/guide/types.html">リキュールの種類</a>
+  <a href="/liqueur/guide/production.html">製造工程</a>
+  <a href="/liqueur/guide/umeshu.html">梅酒の世界</a>
+  <a href="/liqueur/guide/drinking.html">飲み方</a>
+  <a href="/liqueur/guide/pairing.html">フードペアリング</a>
+  <a href="/liqueur/guide/history.html">歴史</a>
+  <a href="/liqueur/guide/glossary.html">用語集</a>
+</div>
+
+<div class="guide-nav">
+  <div class="guide-nav-inner">
+    <a href="/liqueur/guide/">ガイドトップ</a>
+    <a href="/liqueur/guide/types.html">種類</a>
+    <a href="/liqueur/guide/production.html">製法</a>
+    <a href="/liqueur/guide/umeshu.html">梅酒</a>
+    <a href="/liqueur/guide/drinking.html">飲み方</a>
+    <a href="/liqueur/guide/pairing.html" class="active">ペアリング</a>
+    <a href="/liqueur/guide/history.html">歴史</a>
+    <a href="/liqueur/guide/glossary.html">用語集</a>
+  </div>
+</div>
+
+<div class="page-hero">
+  <div class="breadcrumb"><a href="/liqueur/guide/">リキュールガイド</a> › フードペアリング</div>
+  <h1>フードペアリング</h1>
+  <div class="page-hero-en">Food Pairing Guide</div>
+  <p class="page-hero-lead">梅酒×和食、ゆず酒×魚介、桃酒×デザート——日本のリキュールと料理の相性には、風味の化学的な根拠がある。素材の香気・酸・甘みが料理とどう作用するかを解説し、最高のマリアージュを見つける手助けをする。</p>
+</div>
+
 <main class="main">
-<div class="breadcrumb"><a href="/">ホーム</a> &gt; <a href="/liqueur/guide/">リキュールガイド</a> &gt; 料理ペアリング</div>
-<h1>リキュールの料理ペアリング</h1>
 
-<h2>梅酒 × 和食</h2>
-<p>梅酒のソーダ割りは天ぷら・焼き魚・酢の物と好相性。酸味が油を切り、食事をすっきりさせます。ロックはチーズ・ナッツ・ドライフルーツのおつまみと。食後のデザートタイムにはストレートで。</p>
+  <h2 class="sec-h">5つの黄金ペアリング</h2>
+  <p class="sec-lead">科学的根拠に基づいた、リキュールとフードの相性一覧</p>
 
-<h2>ゆず酒 × 海鮮</h2>
-<p>ゆず酒の爽やかな柑橘感は、刺身・寿司・カルパッチョなど生魚料理と抜群の相性。ゆずの酸味がポン酢のような効果を発揮します。鍋料理の食中酒としても。</p>
+  <!-- PAIRING 1 梅酒×和食 -->
+  <div class="pair-card">
+    <div class="pair-tag-row">
+      <span class="pair-tag">PAIRING 01</span>
+    </div>
+    <div class="pair-title">梅酒（ソーダ割り）× 和食全般</div>
+    <div class="food-tags">
+      <span class="food-tag">焼き魚</span>
+      <span class="food-tag">刺身</span>
+      <span class="food-tag">天ぷら</span>
+      <span class="food-tag">唐揚げ</span>
+      <span class="food-tag">煮物</span>
+      <span class="food-tag">豆腐料理</span>
+    </div>
+    <p class="pair-body">梅酒のソーダ割り（梅サワー）は、日本料理のほぼ全ジャンルに対応できる万能の食中酒だ。梅に含まれるクエン酸・リンゴ酸が脂質を分解・さっぱりさせる効果があり、天ぷらや唐揚げなどの油ものを食べた後の口の中をすっきりとリセットしてくれる。炭酸の爽快感も相まって、料理を次々と楽しみたいときに最適だ。</p>
+    <p class="pair-body">焼き魚や刺身との相性が特に優れているのは、梅の酸が魚の旨み成分（グルタミン酸・イノシン酸）と反応して相乗効果を生むためだ。梅酒の甘みが醤油・みりんを使った煮物の味付けとも自然に調和する。和食を楽しむ際は梅酒ソーダをぜひ試してほしい。</p>
+    <div class="why-box">
+      <div class="why-title">相性の理由（科学的根拠）</div>
+      <p>クエン酸の脂質乳化作用により口中の油感をリセット。梅の酸と和食のだし成分（グルタミン酸）が旨みの相乗効果を生む。炭酸の刺激が食欲を促進し食事のリズムを保つ。</p>
+    </div>
+  </div>
 
-<h2>桃酒 × デザート</h2>
-<p>桃酒の甘く華やかな味わいは、フルーツタルト・パンナコッタ・アイスクリームなどデザートと。甘い×甘いの贅沢な組み合わせ。チョコレートとも意外な好相性。</p>
+  <!-- PAIRING 2 ゆず酒×魚介 -->
+  <div class="pair-card">
+    <div class="pair-tag-row">
+      <span class="pair-tag">PAIRING 02</span>
+    </div>
+    <div class="pair-title">ゆず酒 × 魚介・鍋料理</div>
+    <div class="food-tags">
+      <span class="food-tag">白身魚の刺身</span>
+      <span class="food-tag">寿司</span>
+      <span class="food-tag">鍋料理</span>
+      <span class="food-tag">焼き貝</span>
+      <span class="food-tag">海鮮フライ</span>
+      <span class="food-tag">牡蠣</span>
+    </div>
+    <p class="pair-body">ゆず酒と魚介の相性は、まるで「ゆずポン酢」感覚の食体験だ。ゆず特有の柑橘香（リモネン・リナロール）が魚の生臭み（トリメチルアミン）を中和し、後味をクリーンに保つ効果がある。白身魚の繊細な甘みと旨みを消すことなく、ゆずの香りが穏やかに包み込む。</p>
+    <p class="pair-body">鍋料理との相性も特筆に値する。特にしゃぶしゃぶ・水炊きなどの淡いだし鍋は、ゆず酒の爽やかさと完璧に調和する。ゆず酒をソーダ割りで食事中に飲みながら、締めのゆず胡椒や柚子皮を活かした料理と組み合わせると、料理全体にゆずの統一感が生まれる。</p>
+    <div class="why-box">
+      <div class="why-title">相性の理由（科学的根拠）</div>
+      <p>ゆずのリモネンが魚のトリメチルアミン（生臭み）を消臭。柑橘酸が魚の旨みを引き立てる効果。ゆずの爽やかな後味が口をリフレッシュし次の一口を促す。</p>
+    </div>
+  </div>
 
-<h2>抹茶リキュール × スイーツ</h2>
-<p>抹茶リキュールはバニラアイスにかけるだけでも絶品。抹茶ティラミス・チーズケーキ・和菓子との相性も良好。牛乳割りは抹茶ラテのようなリラックスドリンクに。</p>
+  <!-- PAIRING 3 桃酒×デザート -->
+  <div class="pair-card">
+    <div class="pair-tag-row">
+      <span class="pair-tag">PAIRING 03</span>
+    </div>
+    <div class="pair-title">桃酒（あらごし）× スイーツ・デザート</div>
+    <div class="food-tags">
+      <span class="food-tag">パンナコッタ</span>
+      <span class="food-tag">ショートケーキ</span>
+      <span class="food-tag">チーズケーキ</span>
+      <span class="food-tag">バニラアイス</span>
+      <span class="food-tag">ムース</span>
+      <span class="food-tag">果物タルト</span>
+    </div>
+    <p class="pair-body">あらごし桃酒の濃厚な果肉感と甘い香りは、洋菓子・和菓子問わずスイーツとの相性が抜群だ。桃の香気成分（γ-ウンデカラクトン等のラクトン類）がバニラクリームや乳製品のまろやかな甘みと共鳴し、豊かな果実の余韻を生む。</p>
+    <p class="pair-body">パンナコッタやチーズケーキのようなミルキーなデザートとのペアリングは特に優れており、桃酒をソースとしてかけて食べるスタイルも人気だ。食後酒として桃酒をロックで楽しみながら、軽いデザートをつまむスタイルは、フルコースの締めとして上質な体験になる。</p>
+    <div class="why-box">
+      <div class="why-title">相性の理由（科学的根拠）</div>
+      <p>桃のラクトン類が乳製品の脂肪成分と親和性が高く、風味が融合する。桃の甘みがデザートの糖分と重なり「甘みの増幅効果」が生まれる。やや低めの酸度が重いクリーム系デザートを軽く感じさせる。</p>
+    </div>
+  </div>
 
-<h2>桜リキュール × 春の食材</h2>
-<p>桜リキュールは春の食材との組み合わせが絶品。桜餅・苺・春野菜のサラダと。炭酸割りにすると華やかな食前酒に。</p>
+  <!-- PAIRING 4 梅酒ロック×チーズ -->
+  <div class="pair-card">
+    <div class="pair-tag-row">
+      <span class="pair-tag">PAIRING 04</span>
+    </div>
+    <div class="pair-title">梅酒（ロック）× チーズ・発酵食品</div>
+    <div class="food-tags">
+      <span class="food-tag">クリームチーズ</span>
+      <span class="food-tag">ブリー</span>
+      <span class="food-tag">ゴルゴンゾーラ</span>
+      <span class="food-tag">生ハム</span>
+      <span class="food-tag">漬物</span>
+      <span class="food-tag">みそ漬け</span>
+    </div>
+    <p class="pair-body">濃厚な梅酒ロックとチーズの組み合わせは、甘酸っぱさとコクの対比が生む贅沢なペアリングだ。梅の有機酸がチーズの乳脂肪を乳化し、まったりとした脂感をさっぱりとリセットする効果がある。特にクリームチーズのマイルドな風味には梅の酸がよく馴染む。</p>
+    <p class="pair-body">ゴルゴンゾーラなどのブルーチーズとの組み合わせは、梅酒の甘みが塩辛さとブルーチーズの強烈な個性を包み込み、驚くほど調和する。発酵食品（漬物・みそ漬け・醤油漬け）との相性も良く、日本の発酵文化と梅酒の組み合わせは「発酵×発酵」のダブルデプスとして楽しめる。</p>
+    <div class="why-box">
+      <div class="why-title">相性の理由（科学的根拠）</div>
+      <p>梅の有機酸がチーズの乳脂肪を乳化し脂感をリセット。甘みが塩味・旨みを引き立てる「対比効果」。発酵食品同士の複雑な旨み成分が共鳴し相乗効果を生む。</p>
+    </div>
+  </div>
+
+  <!-- PAIRING 5 抹茶×和菓子 -->
+  <div class="pair-card">
+    <div class="pair-tag-row">
+      <span class="pair-tag">PAIRING 05</span>
+    </div>
+    <div class="pair-title">抹茶リキュール × 和菓子・チョコレート</div>
+    <div class="food-tags">
+      <span class="food-tag">羊羹</span>
+      <span class="food-tag">どら焼き</span>
+      <span class="food-tag">わらび餅</span>
+      <span class="food-tag">ホワイトチョコ</span>
+      <span class="food-tag">ブラックチョコ</span>
+      <span class="food-tag">黒ごま菓子</span>
+    </div>
+    <p class="pair-body">抹茶リキュールの渋み・旨み・ほろ苦さは、和菓子の上品な甘さと絶妙なコントラストをつくる。羊羹の小豆の甘みと抹茶のカテキン渋みが対比して、それぞれの風味がより際立つ。どら焼きや大福のような柔らかい食感の和菓子とも、液体の抹茶リキュールが対比的な面白さを生む。</p>
+    <p class="pair-body">ホワイトチョコレートとの組み合わせは世界的に人気の高いペアリングで、ホワイトチョコのバターのような甘みと抹茶の渋みが「抹茶ショコラ」の風味を生む。ブラックチョコレートとは、カカオのビター感と抹茶のカテキン渋みが二重になり、コーヒーと抹茶を同時に飲むような複雑さが楽しめる。</p>
+    <div class="why-box">
+      <div class="why-title">相性の理由（科学的根拠）</div>
+      <p>和菓子の砂糖・小豆甘みと抹茶カテキンの渋みが「対比効果」で互いを引き立てる。ホワイトチョコのラクトン類と抹茶のL-テアニンが旨みを高め合う。カカオポリフェノールと抹茶カテキンが風味を複雑化する。</p>
+    </div>
+  </div>
+
+  <!-- 総合ペアリング表 -->
+  <h2 class="sec-h">ペアリング早見表</h2>
+  <p class="sec-lead">リキュール種類別・飲み方別の料理との相性を一覧で確認</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>リキュール種類</th>
+          <th>おすすめ飲み方</th>
+          <th>相性の良い料理</th>
+          <th>避けたい料理</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>梅酒（すっきり）</td>
+          <td>ソーダ割り・緑茶割り</td>
+          <td>和食全般・刺身・天ぷら・唐揚げ</td>
+          <td>重いクリームソース料理</td>
+        </tr>
+        <tr>
+          <td>梅酒（濃厚・熟成）</td>
+          <td>ロック・お湯割り</td>
+          <td>チーズ・生ハム・発酵食品・肉料理</td>
+          <td>淡白な魚の刺身のみ</td>
+        </tr>
+        <tr>
+          <td>ゆず酒</td>
+          <td>ソーダ割り・トニック割り</td>
+          <td>魚介全般・寿司・鍋・サラダ</td>
+          <td>重い赤身肉料理・ハンバーグ</td>
+        </tr>
+        <tr>
+          <td>桃酒（あらごし）</td>
+          <td>ロック・牛乳割り</td>
+          <td>洋菓子・チーズケーキ・フルーツ</td>
+          <td>辛い料理・スパイシーな料理</td>
+        </tr>
+        <tr>
+          <td>みかん酒</td>
+          <td>ソーダ割り</td>
+          <td>揚げ物・鶏肉料理・フルーツサラダ</td>
+          <td>重いビーフシチュー</td>
+        </tr>
+        <tr>
+          <td>いちご酒</td>
+          <td>ソーダ割り・牛乳割り</td>
+          <td>スイーツ全般・生クリーム系・フルーツ</td>
+          <td>塩辛い料理・塩辛系おつまみ</td>
+        </tr>
+        <tr>
+          <td>抹茶リキュール</td>
+          <td>ロック・牛乳割り</td>
+          <td>和菓子・チョコレート・アイスクリーム</td>
+          <td>酸味の強い料理・柑橘系</td>
+        </tr>
+        <tr>
+          <td>桜リキュール</td>
+          <td>ソーダ割り・ロック</td>
+          <td>前菜・軽いサラダ・クリームチーズ</td>
+          <td>スパイシー・強烈な香りの料理</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
 </main>
+
 <footer>
-  <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p><p>Terroir HUB LIQUEUR &copy; 2026 合同会社FOMUS</p></footer>
+  <div class="footer-logo">Terroir HUB <span>LIQUEUR</span></div>
+  <ul class="footer-links">
+    <li><a href="/liqueur/guide/">ガイドトップ</a></li>
+    <li><a href="/liqueur/guide/types.html">種類</a></li>
+    <li><a href="/liqueur/guide/drinking.html">飲み方</a></li>
+    <li><a href="/liqueur/guide/glossary.html">用語集</a></li>
+  </ul>
+  <p class="footer-copy">&copy; 2026 合同会社FOMUS / Terroir HUB LIQUEUR</p>
+</footer>
+
+<nav class="tab-bar">
+  <div class="tab-bar-inner">
+    <a class="tab-item" href="/"><span class="tab-icon">🏠</span><span>トップ</span></a>
+    <a class="tab-item" href="/liqueur/guide/"><span class="tab-icon">📚</span><span>ガイド</span></a>
+    <a class="tab-item" href="/liqueur/guide/types.html"><span class="tab-icon">🍓</span><span>種類</span></a>
+    <a class="tab-item" href="/liqueur/guide/drinking.html"><span class="tab-icon">🍹</span><span>飲み方</span></a>
+    <a class="tab-item active" href="/liqueur/guide/pairing.html"><span class="tab-icon">🍱</span><span>ペアリング</span></a>
+  </div>
+</nav>
+
+<script>
+const btn = document.getElementById('hamburgerBtn');
+const overlay = document.getElementById('drawerOverlay');
+const drawer = document.getElementById('drawer');
+btn.addEventListener('click', () => { drawer.classList.toggle('open'); overlay.classList.toggle('open'); });
+overlay.addEventListener('click', () => { drawer.classList.remove('open'); overlay.classList.remove('open'); });
+</script>
+<script src="https://sake.terroirhub.com/shared/auth.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+{
+  "name": "Terroir HUB LIQUEUR",
+  "short_name": "THUB LIQUEUR",
+  "description": "日本のリキュール検索の決定版。梅酒・ゆず酒・桃酒のメーカーデータベース。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4A8BAE",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

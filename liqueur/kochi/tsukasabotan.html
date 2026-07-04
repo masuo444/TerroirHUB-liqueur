@@ -14,8 +14,6 @@
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/kochi/tsukasabotan.html">
 <link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/kochi/tsukasabotan.html">
 <link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/kochi/tsukasabotan.html">
-<link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/kochi/tsukasabotan.html">
-<link rel="alternate" hreflang="zh" href="https://liqueur.terroirhub.com/liqueur/zh/kochi/tsukasabotan.html">
 <link rel="alternate" hreflang="x-default" href="https://liqueur.terroirhub.com/liqueur/en/kochi/tsukasabotan.html">
 <script type="application/ld+json">
 {
@@ -292,7 +290,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/liqueur/kochi/tsukasabotan.html">日本語</a>
     <a class="lb" href="/liqueur/en/kochi/tsukasabotan.html">EN</a>
-    <a class="lb" href="/liqueur/fr/kochi/tsukasabotan.html">FR</a>
     <a class="lb" href="/liqueur/zh/kochi/tsukasabotan.html">中文</a>
   </div>
 </nav>
@@ -398,6 +395,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">高知県の他のメーカー</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには高知県のメーカーを4件収録しています。最も創業が古いのは1603年創業の司牡丹酒造。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/liqueur/kochi/tosatsuru.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">土佐鶴酒造</span><span style="font-size:11.5px;color:var(--text-muted);">安田町 ｜ 土佐鶴</span></a><a class="related-card" href="/liqueur/kochi/kikusui_kochi.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">菊水酒造（高知）</span><span style="font-size:11.5px;color:var(--text-muted);">安芸市 ｜ あらごしゆず</span></a><a class="related-card" href="/liqueur/kochi/umaji_mura.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">馬路村農協</span><span style="font-size:11.5px;color:var(--text-muted);">馬路村 ｜ ゆずリキュール</span></a></div><div style="margin-top:22px;"><a href="/liqueur/kochi/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">高知県のメーカー一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -458,19 +456,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='司牡丹酒造',BB='山柚子搾り';
-const SUGS=['山柚子搾りってどんなリキュール？','おすすめの飲み方は？','料理に合わせるなら？','司牡丹酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこのメーカーについて何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "司牡丹酒造", "brand": "山柚子搾り", "pref": "高知県", "area": "佐川町", "founded": "1603", "founded_era": "慶長8年", "brands": ["司牡丹 山柚子搾り ゆずの酒"], "visit": "", "url": "https://www.tsukasabotan.co.jp/", "desc": "慶長8年（1603年）創業。土佐嶺北地方の無農薬山柚子の果汁と純米酒、砂糖のみで造った「山柚子搾り ゆずの酒」を展開。香料・着色料・酸味料・保存料無添加。パリでの試飲会で仏料理人から高い評価を受ける。", "suggestions": ["山柚子搾りってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "司牡丹酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

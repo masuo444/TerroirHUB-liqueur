@@ -14,8 +14,6 @@
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/toyama/wakatsuru.html">
 <link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/toyama/wakatsuru.html">
 <link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/toyama/wakatsuru.html">
-<link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/toyama/wakatsuru.html">
-<link rel="alternate" hreflang="zh" href="https://liqueur.terroirhub.com/liqueur/zh/toyama/wakatsuru.html">
 <link rel="alternate" hreflang="x-default" href="https://liqueur.terroirhub.com/liqueur/en/toyama/wakatsuru.html">
 <script type="application/ld+json">
 {
@@ -305,7 +303,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/liqueur/toyama/wakatsuru.html">日本語</a>
     <a class="lb" href="/liqueur/en/toyama/wakatsuru.html">EN</a>
-    <a class="lb" href="/liqueur/fr/toyama/wakatsuru.html">FR</a>
     <a class="lb" href="/liqueur/zh/toyama/wakatsuru.html">中文</a>
   </div>
 </nav>
@@ -421,6 +418,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">富山県の他のメーカー</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには富山県のメーカーを2件収録しています。最も創業が古いのは1808年創業の玉旭酒造。1件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/liqueur/toyama/tamaasahi.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">玉旭酒造</span><span style="font-size:11.5px;color:var(--text-muted);">富山市（八尾） ｜ 玉旭</span></a></div><div style="margin-top:22px;"><a href="/liqueur/toyama/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">富山県のメーカー一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -481,19 +479,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='若鶴酒造',BB='若鶴';
-const SUGS=['若鶴ってどんなリキュール？','おすすめの飲み方は？','料理に合わせるなら？','若鶴酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこのメーカーについて何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "若鶴酒造", "brand": "若鶴", "pref": "富山県", "area": "砺波市", "founded": "1862", "founded_era": "文久2年", "brands": ["UMESKY（ウメスキー）", "若鶴 梅の酒"], "visit": "三郎丸蒸留所（見学可）", "url": "https://www.wakatsuru.co.jp/", "desc": "文久2年（1862年）創業。富山県砺波市の蔵元。日本酒・焼酎・ウイスキーを製造する総合酒類メーカー。自社蒸留のウイスキーで仕込んだ「UMESKY（ウメスキー）」は本格派梅酒として注目。", "suggestions": ["若鶴ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "若鶴酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

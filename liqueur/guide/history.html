@@ -1,83 +1,481 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>日本のリキュールの歴史（梅酒の起源〜現代）— Terroir HUB LIQUEUR</title>
-<meta name="description" content="日本のリキュールの歴史。江戸時代の梅酒文化から1959年の酒税法改正、チョーヤ梅酒の創業、現代のクラフトリキュールまで。">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本のリキュールの歴史 — Terroir HUB LIQUEUR</title>
+<meta name="description" content="平安時代の梅酒文化から江戸の大衆化、明治の洋風化、戦後の工業化、2000年代のクラフトリキュール台頭まで。日本のリキュール歴史年表。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/guide/history.html">
+<link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/guide/history.html">
+<link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/guide/en/history.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
-<style>*{margin:0;padding:0;box-sizing:border-box;}body{background:#FFFBFC;color:#1A1814;font-family:'Noto Sans JP',sans-serif;font-size:16px;line-height:1.85;}.nav{position:fixed;top:0;left:0;right:0;z-index:100;height:54px;display:flex;align-items:center;padding:0 28px;background:rgba(255,251,252,0.96);backdrop-filter:blur(20px);border-bottom:1px solid #F0D5E0;}.nav-logo{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:700;color:#1a1a1a;text-decoration:none;}.main{max-width:800px;margin:0 auto;padding:88px 24px 60px;}h1{font-family:'Shippori Mincho',serif;font-size:32px;margin-bottom:16px;}h2{font-family:'Shippori Mincho',serif;font-size:22px;margin:40px 0 12px;color:#4A8BAE;}p{margin-bottom:16px;color:#3D3830;}.breadcrumb{font-size:13px;color:#8A8070;margin-bottom:24px;}.breadcrumb a{color:#4A8BAE;text-decoration:none;}footer{background:#1A4A6B;padding:32px 24px;text-align:center;margin-top:60px;}footer p{font-size:12px;color:rgba(255,255,255,0.3);}</style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RXSS3P04XJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RXSS3P04XJ');
+</script>
+<script>
+var THUB_CONFIG = {
+  genre: "liqueur",
+  brandColor: "#5B6ABF",
+  brandColor2: "#8B9ADF",
+  basePath: "/liqueur",
+  siteName: "Terroir HUB LIQUEUR",
+  apiBase: "https://sake.terroirhub.com"
+};
+</script>
+
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #F8F8FC; --surface: #ffffff;
+  --accent: #5B6ABF; --accent2: #8B9ADF; --accent-pale: #ECEFFE;
+  --text: #1A1A2E; --text-muted: #6B7280; --border: #DDE0F5; --footer-bg: #101020;
+  --nav-h: 58px; --radius: 14px; --shadow: 0 2px 12px rgba(91,106,191,0.10);
+}
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--text); font-family: 'Noto Sans JP', sans-serif; font-size: 16px; line-height: 1.85; }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; height: var(--nav-h); display: flex; align-items: center; justify-content: space-between; padding: 0 28px; background: rgba(248,248,252,0.96); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
+.nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; color: var(--text); text-decoration: none; letter-spacing: 0.04em; }
+.nav-logo span { color: var(--accent2); }
+.nav-links { display: flex; gap: 24px; align-items: center; list-style: none; }
+.nav-links a { font-size: 13px; color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+.nav-links a:hover { color: var(--accent); }
+.nav-lang { font-size: 12px; color: var(--accent); border: 1px solid var(--accent); padding: 3px 10px; border-radius: 20px; text-decoration: none; }
+.nav-lang:hover { background: var(--accent); color: #fff; }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+.hamburger span { width: 22px; height: 2px; background: var(--text); border-radius: 2px; }
+.guide-nav { position: sticky; top: var(--nav-h); z-index: 100; background: var(--surface); border-bottom: 1px solid var(--border); overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
+.guide-nav::-webkit-scrollbar { display: none; }
+.guide-nav-inner { display: inline-flex; padding: 0 20px; min-width: 100%; }
+.guide-nav-inner a { display: inline-block; padding: 13px 16px; font-size: 13px; color: var(--text-muted); text-decoration: none; white-space: nowrap; border-bottom: 2px solid transparent; transition: all 0.2s; }
+.guide-nav-inner a:hover { color: var(--accent); }
+.guide-nav-inner a.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 500; }
+.page-hero { padding: 72px 24px 52px; background: linear-gradient(160deg, #ECEFFE 0%, var(--bg) 70%); text-align: center; }
+.breadcrumb { font-size: 12px; color: var(--text-muted); margin-bottom: 16px; }
+.breadcrumb a { color: var(--accent); text-decoration: none; }
+.page-hero h1 { font-family: 'Noto Serif JP', serif; font-size: clamp(26px, 4vw, 38px); font-weight: 700; margin-bottom: 14px; }
+.page-hero-en { font-family: 'Cormorant Garamond', serif; font-size: 16px; font-style: italic; color: var(--accent2); margin-bottom: 20px; }
+.page-hero-lead { font-size: 16px; color: var(--text-muted); max-width: 640px; margin: 0 auto; line-height: 1.9; }
+.main { max-width: 860px; margin: 0 auto; padding: 60px 24px 80px; }
+h2.era-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 20px; font-weight: 700; color: var(--accent);
+  margin: 60px 0 28px; padding: 12px 20px;
+  background: var(--accent-pale); border-radius: 10px;
+  border-left: 5px solid var(--accent);
+}
+h2.era-title:first-child { margin-top: 0; }
+
+/* TIMELINE */
+.timeline { position: relative; padding-left: 100px; }
+.timeline::before {
+  content: '';
+  position: absolute; left: 72px; top: 10px; bottom: 10px;
+  width: 2px; background: var(--border);
+}
+.tl-item { position: relative; margin-bottom: 48px; }
+.tl-year {
+  position: absolute; left: -100px; top: 4px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px; font-weight: 600; color: var(--accent);
+  width: 80px; text-align: right;
+  line-height: 1;
+}
+.tl-era { font-size: 11px; color: var(--text-muted); text-align: right; width: 80px; position: absolute; left: -100px; top: 26px; }
+.tl-dot {
+  position: absolute; left: -20px; top: 6px;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--accent); border: 3px solid var(--bg);
+  box-shadow: 0 0 0 2px var(--accent2);
+}
+.tl-item.milestone .tl-dot { background: var(--accent); width: 18px; height: 18px; left: -22px; top: 4px; box-shadow: 0 0 0 3px var(--accent2); }
+.tl-content { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+.tl-item.milestone .tl-content { border-color: var(--accent); }
+.tl-label {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 11px; letter-spacing: 0.12em; font-weight: 600;
+  color: #fff; background: var(--accent2);
+  display: inline-block; padding: 2px 10px; border-radius: 8px;
+  margin-bottom: 8px;
+}
+.tl-title { font-family: 'Noto Serif JP', serif; font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 10px; }
+.tl-body { font-size: 14px; color: var(--text); line-height: 1.85; }
+
+@media (max-width: 640px) {
+  .timeline { padding-left: 28px; }
+  .timeline::before { left: 10px; }
+  .tl-year { display: none; }
+  .tl-era { display: none; }
+  .tl-dot { left: -18px; }
+  .tl-item.milestone .tl-dot { left: -20px; }
+}
+
+footer { background: var(--footer-bg); padding: 48px 24px 100px; text-align: center; }
+.footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 600; color: rgba(255,255,255,0.9); margin-bottom: 16px; }
+.footer-logo span { color: var(--accent2); }
+.footer-links { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-bottom: 20px; list-style: none; }
+.footer-links a { font-size: 13px; color: rgba(255,255,255,0.5); text-decoration: none; }
+.footer-copy { font-size: 12px; color: rgba(255,255,255,0.3); }
+.tab-bar { display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 300; background: rgba(248,248,252,0.97); backdrop-filter: blur(20px); border-top: 1px solid var(--border); padding-bottom: env(safe-area-inset-bottom); }
+.tab-bar-inner { display: flex; justify-content: space-around; align-items: center; height: 56px; }
+.tab-item { display: flex; flex-direction: column; align-items: center; gap: 3px; text-decoration: none; font-size: 10px; color: var(--text-muted); flex: 1; padding: 6px 0; }
+.tab-item.active { color: var(--accent); }
+.tab-icon { font-size: 20px; }
+@media (max-width: 768px) { .tab-bar { display: block; } .nav-links { display: none; } .hamburger { display: flex; } }
+.drawer-overlay { display: none; position: fixed; inset: 0; z-index: 250; background: rgba(0,0,0,0.4); }
+.drawer-overlay.open { display: block; }
+.drawer { position: fixed; top: 0; right: -280px; width: 280px; height: 100%; z-index: 260; background: var(--surface); transition: right 0.3s ease; padding: 70px 0 40px; overflow-y: auto; }
+.drawer.open { right: 0; }
+.drawer a { display: block; padding: 14px 28px; font-size: 15px; color: var(--text); text-decoration: none; border-bottom: 1px solid var(--border); }
+.drawer a:hover { background: var(--accent-pale); color: var(--accent); }
+</style>
+
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Terroir HUB LIQUEUR", "item": "https://liqueur.terroirhub.com/"},
-        {"@type": "ListItem", "position": 2, "name": "リキュールガイド", "item": "https://liqueur.terroirhub.com/liqueur/guide/"},
-        {"@type": "ListItem", "position": 3, "name": "歴史"}
-      ]
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Terroir HUB LIQUEUR",
+     "item": "https://liqueur.terroirhub.com/"
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "梅酒の歴史はどのくらい古いですか？",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "梅酒の起源は江戸時代（17世紀）以前にさかのぼります。梅は奈良時代に中国から薬用として伝わり、平安時代には薬酒として珍重されました。江戸時代に庶民にも広まり、1959年の酒税法改正で家庭での梅酒造りが合法化されたことで普及が進みました。チョーヤ梅酒が1914年に創業し、現代の梅酒産業の基礎を築きました。"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "日本のリキュールはいつから輸出されていますか？",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "チョーヤ梅酒が1975年頃から海外輸出を開始し、現在は世界40カ国以上に輸出されています。近年は「UMESHU」という呼び名で海外でも認知度が上がり、日本食レストランやバーを中心に世界中で楽しまれています。ゆず酒も欧米のバーシーンで高い人気を誇ります。"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "現代のクラフトリキュールはどんなものがありますか？",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "近年は小規模な「クラフトリキュール」メーカーが全国各地に登場しています。地元産のフルーツ（いちご・みかん・メロン）や素材（抹茶・桜・よもぎ）を使った個性的なリキュール、地元の日本酒や焼酎をベースにした地域色豊かなリキュールが生産されています。"
-          }
-        }
-      ]
+     "@type": "ListItem",
+     "position": 2,
+     "name": "リキュールガイド",
+     "item": "https://liqueur.terroirhub.com/liqueur/guide/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "歴史",
+     "item": "https://liqueur.terroirhub.com/liqueur/guide/history.html"
     }
-  ]
-}
-</script>
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "梅酒の歴史はいつから始まりますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "梅酒の起源は平安時代（794〜1185年）にさかのぼります。当時の文献には梅を酒に漬けた記録が残っており、薬用飲料として貴族社会で用いられていました。江戸時代（1603〜1868年）に焼酎の普及とともに一般庶民の間にも広まり、家庭での梅酒づくりが定着しました。"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "クラフトリキュールはいつ頃から増えてきましたか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "2000年代以降、クラフトビール・クラフト日本酒の流れを受けて、地元農家との連携によるクラフトリキュールが登場し始めました。2010年代後半から急増し、ゆず酒・桃酒・いちご酒など多様なフルーツリキュールが生まれました。梅乃宿酒造の「あらごしシリーズ」（2001年発売）はその先駆けとして業界に大きな影響を与えました。"
+     }
+    }
+   ]
+  }
+ ]
+}</script>
+<meta property="og:image" content="https://liqueur.terroirhub.com/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://liqueur.terroirhub.com/ogp.png">
 </head>
 <body>
-<nav class="nav"><a class="nav-logo" href="/">Terroir HUB <span style="color:#4A8BAE;">LIQUEUR</span></a></nav>
+
+<nav class="nav">
+  <a class="nav-logo" href="/">Terroir HUB <span>LIQUEUR</span></a>
+  <ul class="nav-links">
+    <li><a href="/">トップ</a></li>
+    <li><a href="/liqueur/guide/">ガイド</a></li>
+    <li><a href="https://sake.terroirhub.com" target="_blank">Terroir HUB</a></li>
+    <li><a class="nav-lang" href="/liqueur/guide/en/history.html">EN</a></li>
+  </ul>
+  <button class="hamburger" id="hamburgerBtn" aria-label="メニュー"><span></span><span></span><span></span></button>
+</nav>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<div class="drawer" id="drawer">
+  <a href="/">トップ</a>
+  <a href="/liqueur/guide/">ガイドトップ</a>
+  <a href="/liqueur/guide/types.html">リキュールの種類</a>
+  <a href="/liqueur/guide/production.html">製造工程</a>
+  <a href="/liqueur/guide/umeshu.html">梅酒の世界</a>
+  <a href="/liqueur/guide/drinking.html">飲み方</a>
+  <a href="/liqueur/guide/pairing.html">フードペアリング</a>
+  <a href="/liqueur/guide/history.html">歴史</a>
+  <a href="/liqueur/guide/glossary.html">用語集</a>
+</div>
+
+<div class="guide-nav">
+  <div class="guide-nav-inner">
+    <a href="/liqueur/guide/">ガイドトップ</a>
+    <a href="/liqueur/guide/types.html">種類</a>
+    <a href="/liqueur/guide/production.html">製法</a>
+    <a href="/liqueur/guide/umeshu.html">梅酒</a>
+    <a href="/liqueur/guide/drinking.html">飲み方</a>
+    <a href="/liqueur/guide/pairing.html">ペアリング</a>
+    <a href="/liqueur/guide/history.html" class="active">歴史</a>
+    <a href="/liqueur/guide/glossary.html">用語集</a>
+  </div>
+</div>
+
+<div class="page-hero">
+  <div class="breadcrumb"><a href="/liqueur/guide/">リキュールガイド</a> › 歴史</div>
+  <h1>日本のリキュールの歴史</h1>
+  <div class="page-hero-en">History of Japanese Liqueur</div>
+  <p class="page-hero-lead">平安時代の薬用梅酒から、江戸の庶民文化、明治の洋風化、戦後の大衆化、そして令和のクラフト革命まで。日本のリキュール文化の軌跡を時代ごとに丁寧にたどる。</p>
+</div>
+
 <main class="main">
-<div class="breadcrumb"><a href="/">ホーム</a> &gt; <a href="/liqueur/guide/">リキュールガイド</a> &gt; 歴史</div>
-<h1>日本のリキュールの歴史</h1>
 
-<h2>江戸時代 &#8212; 梅酒の起源</h2>
-<p>梅酒の歴史は古く、江戸時代には武家や庶民の間で梅を酒に漬ける習慣がありました。当時は薬用酒として重宝され、胃腸の調子を整える民間療法として広く知られていました。</p>
+  <!-- 第一期 -->
+  <h2 class="era-title">平安〜室町 — 薬用から嗜好へ（794〜1603年）</h2>
+  <div class="timeline">
 
-<h2>1914年 &#8212; チョーヤ梅酒の創業</h2>
-<p>大正3年（1914年）、大阪府羽曳野市でチョーヤ梅酒が創業。商業ベースでの梅酒製造の先駆者となりました。南高梅を使った本格的な梅酒造りを確立。</p>
+    <div class="tl-item milestone">
+      <div class="tl-year">794</div>
+      <div class="tl-era">平安前期</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-label">ORIGIN</div>
+        <div class="tl-title">梅酒の起源——薬用飲料として</div>
+        <p class="tl-body">平安時代の文献には、梅を酒に漬けた飲み物の記録が残る。当時は薬用飲料として貴族社会で用いられており、梅の有機酸・クエン酸が疲労回復・食欲増進・整腸に効果があると信じられていた。「梅」そのものは奈良時代以前に中国から伝来しており、日本の気候で栽培が根付いた後、酒との組み合わせが発見されたと考えられる。</p>
+      </div>
+    </div>
 
-<h2>1959年 &#8212; 酒税法改正</h2>
-<p>1959年の酒税法改正により、家庭での梅酒造りが合法化されました。これにより全国の家庭で梅酒を漬ける文化が爆発的に広まり、「ホワイトリカー」が一般家庭に普及。毎年6月の梅のシーズンになると、スーパーに梅酒セットが並ぶ風物詩となりました。</p>
+    <div class="tl-item">
+      <div class="tl-year">1100</div>
+      <div class="tl-era">平安後期</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-title">「梅酒」の概念の定着</div>
+        <p class="tl-body">平安後期から鎌倉時代にかけて、梅を用いた薬酒の製法が寺社仏閣で研究・保存されるようになった。当時の酒は今日の清酒の原型に近いにごり酒であり、梅の漬け込みに使われる「ベーススピリッツ」は甘酒・どぶろく・清酒に相当するものだった。梅は「花よりも実」として、医学的価値で評価されていた。</p>
+      </div>
+    </div>
 
-<h2>2000年代 &#8212; 多様化の時代</h2>
-<p>2000年代に入ると、梅酒以外のフルーツリキュールが急増。ゆず酒・桃酒・みかん酒など、日本各地の果実を使ったリキュールが登場。日本酒ベースの「あらごし」シリーズ（梅乃宿酒造）が果肉入りリキュールの新ジャンルを開拓しました。</p>
+    <div class="tl-item">
+      <div class="tl-year">1400</div>
+      <div class="tl-era">室町時代</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-title">焼酎の伝来と梅酒の変容</div>
+        <p class="tl-body">室町時代末期（15〜16世紀）に、琉球（沖縄）や九州を通じて東南アジアから蒸留酒（焼酎）が伝来した。度数の高い焼酎に梅を漬け込むことで、梅のエキスがより効率的に溶け出し、保存性も飛躍的に向上した。現代に続く「焼酎梅酒」の原型がこの時代に生まれたといえる。</p>
+      </div>
+    </div>
 
-<h2>2010年代〜 &#8212; プレミアム化と海外展開</h2>
-<p>サントリーの「奏 Kanade」シリーズが桜・抹茶・ゆず・白桃など和素材リキュールを世界に発信。全国梅酒品評会が開催され、品質競争が激化。海外では「Umeshu」「Yuzushu」として日本のリキュールが認知されるようになりました。</p>
+  </div>
 
-<h2>現在 &#8212; クラフトリキュールの台頭</h2>
-<p>地域の素材を活かしたクラフトリキュールが増加。沖縄のシークヮーサーリキュール、北海道のハスカップリキュール、各地のいちご酒など。日本酒蔵・焼酎蔵がサイドプロダクトとしてリキュールを展開するケースも増えています。</p>
+  <!-- 第二期 -->
+  <h2 class="era-title">江戸時代 — 大衆化と文化定着（1603〜1868年）</h2>
+  <div class="timeline">
+
+    <div class="tl-item milestone">
+      <div class="tl-year">1650</div>
+      <div class="tl-era">江戸前期</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-label">POPULAR</div>
+        <div class="tl-title">梅酒づくりが庶民文化に定着</div>
+        <p class="tl-body">江戸時代に焼酎の生産が各地で盛んになり、農家・商家を含む庶民の間でも梅酒づくりが定着した。毎年6月の梅の収穫期に梅酒を仕込む「梅仕事」の風習が生まれ、家ごとに独自の配合・漬け方が受け継がれた。梅の産地である紀州（和歌山）、相模（神奈川）、山城（京都）などで梅栽培も盛んになった。</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-year">1700</div>
+      <div class="tl-era">江戸中期</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-title">「梅酒の効能」が広く知られる</div>
+        <p class="tl-body">江戸時代中期の本草学・薬学の発展により、梅酒の健康効能（解毒・整腸・疲労回復）が体系的に記録されるようになった。貝原益軒の「養生訓」（1713年）などの健康書にも梅の効用が記されており、梅酒は「健康に良い嗜好品」として認識が広まった。この時代の梅酒は現代より糖度・度数が高く、薬酒的な位置づけが強かった。</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-year">1800</div>
+      <div class="tl-era">江戸後期</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-title">紀州（和歌山）の梅産業の確立</div>
+        <p class="tl-body">江戸後期、紀州藩の奨励政策により和歌山の梅栽培が組織的に拡大した。みなべ・田辺地域が梅の一大産地として確立し、江戸・大阪への梅・梅干し・梅酒の流通が始まった。この時代に「南高梅」の原型となる品種が地域で大切に育てられ、後の梅産業の基盤が整えられた。</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 第三期 -->
+  <h2 class="era-title">明治〜昭和前期 — 近代化と法制整備（1868〜1945年）</h2>
+  <div class="timeline">
+
+    <div class="tl-item">
+      <div class="tl-year">1899</div>
+      <div class="tl-era">明治32年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-title">酒税法体系の整備——リキュールが法的に定義される</div>
+        <p class="tl-body">明治時代に日本の近代的な酒税制度が整備され、梅酒を含む漬け込み酒・混合酒が「雑酒」として課税対象に含まれるようになった。酒類の製造には免許が必要となり、家庭での梅酒づくりが法的にグレーゾーンに入った（1962年の酒税法改正で家庭用梅酒が合法化される）。商業的なリキュール製造に免許制度が適用され、業者の組織化が進んだ。</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-year">1914</div>
+      <div class="tl-era">大正3年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-label">FOUNDING</div>
+        <div class="tl-title">チョーヤ梅酒の前身創業</div>
+        <p class="tl-body">チョーヤ梅酒株式会社の前身となる企業が大阪府で創業。梅酒の商業的製造・販売の先駆けとして、大阪・近畿圏での梅酒の普及に貢献した。この時代、梅酒は大阪・和歌山・奈良・京都など近畿圏が主産地だった。工業的な梅酒製造の黎明期であり、品質の均一化・大量供給の基盤が作られた。</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-year">1935</div>
+      <div class="tl-era">昭和10年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-title">南高梅の品種開発</div>
+        <p class="tl-body">和歌山県みなべ町の農家・高田貞楠が育てていた梅の木から、後に「南高梅」と命名される優秀な品種が発見された。「南高」の名は高田氏の「高」と、地元の南部高校農業クラブが品種普及に貢献したことに由来する。1950年代に品種として正式認定され、その後日本最高峰の梅酒用梅として全国に広まることになる。</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 第四期 -->
+  <h2 class="era-title">昭和後期 — 大衆化と工業化（1950〜1990年）</h2>
+  <div class="timeline">
+
+    <div class="tl-item milestone">
+      <div class="tl-year">1962</div>
+      <div class="tl-era">昭和37年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-label">LEGAL</div>
+        <div class="tl-title">酒税法改正——家庭での梅酒づくりが合法化</div>
+        <p class="tl-body">酒税法が改正され、アルコール度数20度以上の焼酎（ホワイトリカー）を使って家庭で梅酒を造ることが合法化された（ただし自家消費に限る）。これを機に家庭での梅酒づくりが一気に広まり、梅・ホワイトリカー・氷砂糖のセット販売が流通するようになった。「梅仕事」が日本の夏の風物詩として全国的に定着したのもこの時代だ。</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-year">1970</div>
+      <div class="tl-era">昭和45年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-title">大手飲料メーカーの参入——リキュール市場の拡大</div>
+        <p class="tl-body">高度経済成長期、サントリー・サッポロ・宝酒造などの大手飲料メーカーが梅酒・フルーツリキュール市場に参入した。大量生産・全国流通により、地域限定だったリキュールが日本全国で入手できるようになった。瓶詰め梅酒の消費量が急増し、スーパーマーケット・コンビニエンスストアでの販売が始まった。</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-year">1985</div>
+      <div class="tl-era">昭和60年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-title">缶入り梅酒・チューハイの登場</div>
+        <p class="tl-body">缶入り梅酒チューハイが登場し、若い世代を中心にリキュールの需要が拡大した。RTD（Ready To Drink）スタイルの普及により、梅酒は居酒屋だけでなく家庭・屋外でも手軽に楽しめる飲み物として定着した。梅サワー・梅ハイという飲み方も定着し、焼酎割りとしての梅酒消費も伸びた。</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 第五期 -->
+  <h2 class="era-title">平成〜令和 — クラフト革命と海外展開（1990〜現在）</h2>
+  <div class="timeline">
+
+    <div class="tl-item milestone">
+      <div class="tl-year">2001</div>
+      <div class="tl-era">平成13年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-label">CRAFT REVOLUTION</div>
+        <div class="tl-title">梅乃宿「あらごし梅酒」発売——クラフトリキュールの夜明け</div>
+        <p class="tl-body">奈良の梅乃宿酒造が「あらごし梅酒」を発売。果肉をそのまま残した濃厚なとろみが革命的で、「梅酒は透明な飲み物」というイメージを覆した。「食べる梅酒」「飲む梅干し」とも評された。このヒットが引き金となり、全国の地酒蔵が特産素材を活かしたクラフトリキュール開発に参入した。</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-year">2008</div>
+      <div class="tl-era">平成20年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-title">CHOYA、ヨーロッパで「UMESHU」ブランド確立</div>
+        <p class="tl-body">チョーヤ梅酒がドイツをはじめとするヨーロッパ市場での販売を本格化。「CHOYA」「UMESHU」という固有名詞がヨーロッパのリキュール愛好家の間で認知されるようになった。日本のリキュールが「SAKE」と並ぶ世界的なカテゴリーとして成立し始めた時期だ。輸出量は毎年増加し続けた。</p>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-year">2015</div>
+      <div class="tl-era">平成27年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-title">地方創生とクラフトリキュール——産地直結の動き</div>
+        <p class="tl-body">農林水産省・国税庁の政策支援を受けた「地方の農業×酒蔵」連携が各地で始まった。栃木の「とちおとめいちご酒」、高知の「ゆず王」、愛媛の「みかんリキュール」——各産地の特産フルーツを使ったクラフトリキュールが次々と誕生し、地方土産・農産物の新たな付加価値として評価された。</p>
+      </div>
+    </div>
+
+    <div class="tl-item milestone">
+      <div class="tl-year">2020</div>
+      <div class="tl-era">令和2年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-label">NEW WAVE</div>
+        <div class="tl-title">コロナ禍の「家飲み」需要でリキュール市場が急拡大</div>
+        <p class="tl-body">新型コロナウイルスによる外出自粛で「家飲み」需要が急増。梅酒・フルーツリキュールはアルコール度数が低く飲みやすいため、アルコール初心者・女性層を中心に新規需要が生まれた。EC（ネット通販）での地方クラフトリキュールの販売が急増し、小規模な酒蔵でも全国展開が可能になった。</p>
+      </div>
+    </div>
+
+    <div class="tl-item milestone">
+      <div class="tl-year">2025</div>
+      <div class="tl-era">令和7年</div>
+      <div class="tl-dot"></div>
+      <div class="tl-content">
+        <div class="tl-label">GLOBAL</div>
+        <div class="tl-title">UMESHUが世界語に——全国584社が世界へ</div>
+        <p class="tl-body">チョーヤ梅酒は40カ国以上への輸出を継続。欧米のバーでは「UMESHU」「YUZUSHU」が独立したカテゴリーとして注文されるようになった。Terroir HUB LIQUEURが全国584社のリキュールメーカーをデータベース化し、生産者情報の透明性を高める取り組みを開始。日本のリキュール文化は、量より質・産地テロワールを前面に出す新時代に入った。</p>
+      </div>
+    </div>
+
+  </div>
+
 </main>
+
 <footer>
-  <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p><p>Terroir HUB LIQUEUR &copy; 2026 合同会社FOMUS</p></footer>
+  <div class="footer-logo">Terroir HUB <span>LIQUEUR</span></div>
+  <ul class="footer-links">
+    <li><a href="/liqueur/guide/">ガイドトップ</a></li>
+    <li><a href="/liqueur/guide/types.html">種類</a></li>
+    <li><a href="/liqueur/guide/umeshu.html">梅酒</a></li>
+    <li><a href="/liqueur/guide/glossary.html">用語集</a></li>
+  </ul>
+  <p class="footer-copy">&copy; 2026 合同会社FOMUS / Terroir HUB LIQUEUR</p>
+</footer>
+
+<nav class="tab-bar">
+  <div class="tab-bar-inner">
+    <a class="tab-item" href="/"><span class="tab-icon">🏠</span><span>トップ</span></a>
+    <a class="tab-item" href="/liqueur/guide/"><span class="tab-icon">📚</span><span>ガイド</span></a>
+    <a class="tab-item" href="/liqueur/guide/types.html"><span class="tab-icon">🍓</span><span>種類</span></a>
+    <a class="tab-item active" href="/liqueur/guide/history.html"><span class="tab-icon">📜</span><span>歴史</span></a>
+    <a class="tab-item" href="/liqueur/guide/glossary.html"><span class="tab-icon">📖</span><span>用語集</span></a>
+  </div>
+</nav>
+
+<script>
+const btn = document.getElementById('hamburgerBtn');
+const overlay = document.getElementById('drawerOverlay');
+const drawer = document.getElementById('drawer');
+btn.addEventListener('click', () => { drawer.classList.toggle('open'); overlay.classList.toggle('open'); });
+overlay.addEventListener('click', () => { drawer.classList.remove('open'); overlay.classList.remove('open'); });
+</script>
+<script src="https://sake.terroirhub.com/shared/auth.js"></script>
 </body>
 </html>

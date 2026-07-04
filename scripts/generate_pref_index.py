@@ -52,7 +52,23 @@ def generate_pref_index(pref_slug, producers):
             'liqueur_type': d.get('liqueur_type',''),
         })
 
-    json_str = json.dumps(inline_data, ensure_ascii=False)
+    cards_html = ''
+    for _d in inline_data:
+        _tag = LIQUEUR_TYPE_LABELS.get(_d.get('liqueur_type', ''), '')
+        _meta = esc(_d.get('area', ''))
+        if _d.get('founded'):
+            _meta += ' ・ 創業' + esc(str(_d['founded'])) + '年'
+        _c = '<a class="card" href="/liqueur/' + pref_slug + '/' + esc(_d['id']) + '.html">'
+        _c += '<div class="card-name">' + esc(_d['name']) + '</div>'
+        if _d.get('brand'):
+            _c += '<div class="card-brand">' + esc(_d['brand']) + '</div>'
+        _c += '<div class="card-meta">' + _meta + '</div>'
+        if _d.get('desc'):
+            _c += '<div class="card-desc">' + esc(_d['desc']) + '</div>'
+        if _tag:
+            _c += '<div style="margin-top:8px;"><span class="tag">' + esc(_tag) + '</span></div>'
+        _c += '</a>'
+        cards_html += _c
 
     schema = json.dumps({
         "@context": "https://schema.org",
@@ -116,24 +132,11 @@ footer a{{color:rgba(255,255,255,0.5);text-decoration:none;}}
     <h1>{esc(pref_name)}のリキュールメーカー</h1>
     <p class="count">{count}社</p>
   </div>
-  <div class="grid" id="grid"></div>
+  <div class="grid">{cards_html}</div>
 </main>
 <footer>
   <p><a href="/">Terroir HUB LIQUEUR</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
-<script>
-const B={json_str};
-const LABELS={{'umeshu':'梅酒','yuzu':'ゆず酒','peach':'桃酒','mikan':'みかん酒','strawberry':'いちご酒','matcha':'抹茶','sakura':'桜','melon':'メロン','yogurt':'ヨーグルト','other':'その他'}};
-document.getElementById('grid').innerHTML=B.map(b=>{{
-  return '<a class="card" href="/liqueur/{pref_slug}/'+b.id+'.html">'+
-    '<div class="card-name">'+b.name+'</div>'+
-    (b.brand?'<div class="card-brand">'+b.brand+'</div>':'')+
-    '<div class="card-meta">'+(b.area||'')+(b.founded?' ・ 創業'+b.founded+'年':'')+'</div>'+
-    (b.desc?'<div class="card-desc">'+b.desc+'</div>':'')+
-    (b.liqueur_type&&LABELS[b.liqueur_type]?'<div style="margin-top:8px;"><span class="tag">'+LABELS[b.liqueur_type]+'</span></div>':'')+
-  '</a>';
-}}).join('');
-</script>
 </body>
 </html>'''
 

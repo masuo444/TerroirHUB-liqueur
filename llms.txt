@@ -1,23 +1,169 @@
 # Terroir HUB LIQUEUR — 日本のリキュール・梅酒メーカーデータベース
 
-> 全国584メーカーの梅酒・ゆず酒・桃酒・抹茶リキュール等、日本のリキュール専門データベース。
+> 全国584メーカーの梅酒・ゆず酒・桃酒・抹茶リキュール等、日本の果実酒・リキュール専門データベース。
 
 ## サービス概要
 
-日本独自のフルーツリキュール・和素材リキュールのメーカー情報を収録した専門データベースです。
+Terroir HUB LIQUEURは、日本のリキュール・果実酒メーカー情報を体系的に収録した専門データベースです。
+梅酒・ゆず酒・みかん酒・桃酒・いちご酒・抹茶リキュール・桜リキュール等、日本独自の素材を使ったリキュールを網羅。
+各メーカーの公式情報に基づき、代表銘柄・製法・素材・創業年を掲載しています。
 
-## 主要メーカー
-
-チョーヤ梅酒（大阪・南高梅）、中野BC（和歌山・紀州梅酒）、梅乃宿（奈良・あらごしシリーズ）、
-明利酒類（茨城・百年梅酒）、サントリー（Kanadeシリーズ）
-
-## 種類
-
-梅酒・ゆず酒・桃酒・みかん酒・いちご酒・抹茶リキュール・桜リキュール・ヨーグルト酒
-ベーススピリッツ: 日本酒ベース / 焼酎ベース / ホワイトリカーベース / ブランデーベース
-
-## 運営
-
+- 収録メーカー: 584メーカー
 - 運営: 合同会社FOMUS（日本）
 - URL: https://liqueur.terroirhub.com/
-- 問い合わせ: info@terroirhub.com
+
+## 日本のリキュール（果実酒）とは
+
+酒税法上、リキュールとはスピリッツ（蒸留酒）に果実・糖分・香料等を加えたもの（エキス分2度以上）。
+梅酒・ゆず酒等の「果実酒」も同様に分類。ベーススピリッツには日本酒・焼酎・ホワイトリカー・ブランデーが使われる。
+
+## 主要メーカーと代表銘柄
+
+| メーカー | 所在地 | 創業年 | 代表銘柄 | 素材 |
+|---------|--------|--------|---------|------|
+| チョーヤ梅酒 | 大阪府羽曳野市 | 1914年 | The CHOYA AGED 3 YEARS / さらりとした梅酒 | 南高梅 |
+| 中野BC | 和歌山県海南市 | 1933年 | 紀州 / 緑茶梅酒 | 南高梅・緑茶 |
+| 梅乃宿酒造 | 奈良県葛城市 | 1893年 | あらごしもも・あらごしみかん | 白桃・温州みかん |
+| 明利酒類 | 茨城県水戸市 | 1903年 | 梅香 百年梅酒 | 国産梅 |
+| サントリー | 大阪府大阪市 | 1899年 | Kanadeシリーズ | 国産果実 |
+| 白鶴酒造 | 兵庫県神戸市 | 1743年 | まるごと搾りシリーズ | 国産みかん・梅 |
+| 月桂冠 | 京都府京都市 | 1637年 | フルーツリキュールライン | 国産果実 |
+| 八海醸造 | 新潟県南魚沼市 | 1922年 | 八海山の梅酒 | 南高梅 |
+| 小鶴（小正醸造） | 鹿児島県日置市 | 1922年 | さつまの梅酒・彩煌の梅酒 | さつまいも焼酎ベース |
+| 請福酒造 | 沖縄県石垣市 | 1949年 | 請福 泡盛梅酒 | 泡盛ベース |
+
+## リキュールの種類と素材
+
+| 種類 | 主な素材 | ベーススピリッツ | 特徴 |
+|------|---------|--------------|------|
+| 梅酒（うめしゅ） | 南高梅・古城梅 | ホワイトリカー・ブランデー・焼酎 | 日本最多量のリキュール。アルコール10〜18度 |
+| ゆず酒（ゆずしゅ） | 高知・徳島産ゆず | 日本酒・焼酎 | 爽やかな柑橘香。冬に人気 |
+| 桃酒（もものしゅ） | 白桃・黄桃 | ホワイトリカー | 甘みと桃の果肉感が特徴 |
+| みかん酒（みかんしゅ） | 温州みかん・いよかん | 焼酎・日本酒 | 愛媛・和歌山の特産品 |
+| いちご酒 | 章姫・あまおう等 | ホワイトリカー | 国産いちご使用が多い |
+| 抹茶リキュール | 宇治抹茶・静岡茶 | スピリッツ | 和素材リキュールの定番 |
+| 桜リキュール | 桜の花・葉 | スピリッツ | 春季限定商品が多い |
+| ヨーグルト酒 | 乳酸飲料 | スピリッツ | 近年人気の新ジャンル |
+
+## 産地別の特色ある素材リキュール
+
+- **和歌山県**: 南高梅の産地。紀州梅酒のブランド確立。中野BC・田端酒造など多数
+- **奈良県**: 梅乃宿酒造の「あらごし」シリーズが全国的人気。吉野の梅使用
+- **高知・徳島県**: ゆずの名産地。ゆず酒・ゆずリキュールが豊富
+- **愛媛県**: 温州みかん・伊予柑・河内晩柑などみかん酒の宝庫
+- **北海道**: メロン・はっか・ラベンダーなど北海道素材のリキュール
+- **沖縄県**: 泡盛ベースの梅酒・シークワーサーリキュール
+
+## よくある質問（Q&A）
+
+**Q: 梅酒の作り方と市販品の違いは？**
+A: 基本は同じ（梅＋砂糖＋ホワイトリカー）。市販品はブランデーや焼酎をベースにしたもの、3年以上熟成させた長期熟成品、梅の実をそのまま入れた「あらごし」タイプなど多様。The CHOYAは海外輸出向けに高品質品を展開。
+
+**Q: 「南高梅」とは？**
+A: 和歌山県みなべ町・田辺市で栽培される梅の品種。大粒で肉厚、香り豊か。梅酒・梅干しの最高級品種として知られる。日本の梅生産量の約60%を占める。
+
+**Q: 梅酒のアルコール度数は？**
+A: 市販品は一般的に10〜18度。低アルコールタイプは8〜10度、古酒（長期熟成）は20度前後のものもある。
+
+**Q: ゆず酒はどのような料理に合う？**
+A: 鶏の唐揚げ・揚げ物・白身魚の刺身・和風サラダなどに合う。ソーダ割りにして食前酒としても人気。
+
+**Q: リキュールの飲み方は？**
+A: ロック・水割り・ソーダ割り・牛乳割り（梅酒）・お湯割り（冬）・カクテルベースとして。梅酒はヨーグルトに混ぜるなど料理にも使われる。
+
+**Q: 泡盛梅酒とは？**
+A: 沖縄県の泡盛（蒸留酒）をベースに梅を漬け込んだ梅酒。泡盛の独特の風味と梅の酸味が融合。請福酒造・ヘリオス酒造などが製造。
+
+## リキュール市場の背景
+
+- 日本の梅酒市場規模は約600億円（2023年）。チョーヤ梅酒が国内シェア最大
+- 「あらごし」タイプ（果肉入り）は2000年代以降に定着。梅乃宿が先駆け
+- チョーヤは世界40カ国以上に輸出。海外で「UMESHU（梅酒）」として認知拡大中
+- 果実酒の自家醸造（ホワイトリカー＋果実＋砂糖）は酒税法上合法（35度以上のスピリッツ使用・販売しない場合）
+
+## データソース
+
+- 日本洋酒酒造組合: https://yoshu.or.jp/
+- 国税庁酒蔵マップ: https://www.nta.go.jp/taxes/sake/sakagura/
+- 全国梅酒品評会: https://umeshu-hyougi.jp/
+- 各メーカー公式サイト
+
+---
+
+## English Section — Terroir HUB LIQUEUR
+
+### About This Database
+
+Terroir HUB LIQUEUR is Japan's comprehensive fruit liqueur and umeshu (plum wine) maker database, covering 584 producers across Japan.
+Includes umeshu (plum wine), yuzu liqueur, peach liqueur, matcha liqueur, citrus liqueur, and other Japanese fruit liqueurs.
+Data sourced from official maker websites and the National Tax Agency.
+
+- URL: https://liqueur.terroirhub.com/
+- Operator: FOMUS LLC (Japan)
+
+### What are Japanese Fruit Liqueurs?
+
+Under Japan's Liquor Tax Law, liqueurs are spirits (distilled alcohol) infused with fruits, sugar, and/or flavorings (extract content ≥2%). Umeshu (plum wine) and yuzu liqueur fall into this category. Common base spirits: white liquor (ホワイトリカー), sake, shochu, brandy, or awamori.
+
+### Liqueur Types and Characteristics
+
+| Type | Main Ingredient | Base Spirit | Flavor Profile |
+|------|----------------|-------------|----------------|
+| Umeshu (Plum Wine) | Nanko-ume plum | White liquor / Brandy / Shochu | Sweet-tart, stone fruit aroma, 10-18% ABV |
+| Yuzu Liqueur | Yuzu citrus | Sake / Shochu | Bright citrus, zesty, aromatic |
+| Momo (Peach) Liqueur | White / Yellow peach | White liquor | Sweet, juicy, fruity |
+| Mikan (Mandarin) Liqueur | Satsuma mandarin, Iyokan | Shochu / Sake | Refreshing citrus |
+| Ichigo (Strawberry) | Japanese strawberry | White liquor | Sweet berry, fresh |
+| Matcha Liqueur | Uji matcha / Shizuoka tea | Spirits | Earthy, bittersweet, umami |
+| Sakura Liqueur | Cherry blossom flower/leaf | Spirits | Floral, delicate, spring-seasonal |
+| Yogurt Liqueur | Fermented milk drink | Spirits | Creamy, tangy, modern genre |
+
+### Major Makers (Selected)
+
+| Maker (English) | Prefecture | Founded | Key Brands | Specialty |
+|-----------------|------------|---------|------------|-----------|
+| Choya Umeshu | Osaka (Habikino) | 1914 | The CHOYA Aged 3 Years | Nanko-ume, exported to 40+ countries |
+| Nakano BC | Wakayama (Kainan) | 1933 | Kishu / Green Tea Umeshu | Nanko-ume + green tea |
+| Umenoyado | Nara (Katsuragi) | 1893 | Aragoshi Momo / Aragoshi Mikan | Pulp-in style, peach & mandarin |
+| Meiri Shurui | Ibaraki (Mito) | 1903 | Baika 100-Year Umeshu | Premium aged umeshu |
+| Suntory | Osaka | 1899 | Kanade Series | Domestic fruit liqueurs |
+| Hakutsuru Sake | Hyogo (Kobe) | 1743 | Marugoto Shibori Series | Sake-based citrus liqueurs |
+| Gekkeikan | Kyoto | 1637 | Fruit Liqueur Line | Kyoto sake house |
+| Hakkaisan | Niigata | 1922 | Hakkaisan Umeshu | Sake brewery umeshu |
+| Komasa Jozo | Kagoshima | 1922 | Satsuma Umeshu | Shochu-based plum wine |
+| Seifuku Shuzo | Okinawa (Ishigaki) | 1949 | Seifuku Awamori Umeshu | Awamori-based plum wine |
+
+### Regional Specialties
+
+- **Wakayama**: Home of Nanko-ume, Japan's premium plum variety. Kishu brand established. Nakano BC, Tabata Shuzo.
+- **Nara**: Umenoyado's "Aragoshi" (pulp-in) series, a national trend-setter. Uses Yoshino plum.
+- **Kochi / Tokushima**: Yuzu production heartland. Yuzu liqueur and yuzu sake specialties.
+- **Ehime**: Satsuma mandarin, Iyokan, Kawachi Bankan — citrus liqueur variety richest here.
+- **Hokkaido**: Melon, peppermint, lavender — unique Northern Japanese fruit liqueurs.
+- **Okinawa**: Awamori-based umeshu (Seifuku, Helios) and Shikuwasa (citrus) liqueur.
+
+### Q&A for International Visitors
+
+**Q: What is umeshu (plum wine)?**
+A: Despite the name, umeshu is not wine — it's a liqueur made by steeping Japanese ume plums in white liquor, brandy, or shochu with sugar. ABV: 10-18%. Sweet-tart flavor. Often served on the rocks or with soda water.
+
+**Q: What is Nanko-ume?**
+A: Japan's premier plum variety, grown in Minabe-cho and Tanabe City, Wakayama. Large, fleshy, aromatic. Used in 60% of Japan's umeshu and premium pickled plums (umeboshi). The "Bordeaux grape" of ume.
+
+**Q: How is commercial umeshu different from homemade?**
+A: Commercial versions often use brandy or aged shochu as the base, with 3+ year maturation. "Aragoshi" style includes actual plum pulp in the bottle. CHOYA exports premium aged versions globally.
+
+**Q: How do you drink umeshu?**
+A: On the rocks, with soda water (very popular), with hot water in winter, or with milk (surprisingly delicious). Also used in cooking and as a cocktail base.
+
+**Q: What is awamori umeshu?**
+A: Umeshu made with Okinawan awamori spirit as the base. The unique flavor of awamori (Thai rice, black koji) blends with plum tartness. Seifuku Shuzo and Helios Shuzo are key producers.
+
+**Q: Is umeshu the same as sake or wine?**
+A: No. Sake is brewed rice wine. Umeshu is a liqueur — steeped/infused fruit in distilled alcohol. Closer to sloe gin or limoncello in production method.
+
+### URL Structure
+
+- Individual maker (English): https://liqueur.terroirhub.com/liqueur/en/{prefecture}/{maker-id}.html
+- Prefecture list (English): https://liqueur.terroirhub.com/liqueur/en/{prefecture}/
+- Sitemap: https://liqueur.terroirhub.com/sitemap.xml

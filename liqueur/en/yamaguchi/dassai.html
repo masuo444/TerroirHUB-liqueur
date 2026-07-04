@@ -8,8 +8,6 @@
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/en/yamaguchi/dassai.html">
 <link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/yamaguchi/dassai.html">
 <link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/yamaguchi/dassai.html">
-<link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/yamaguchi/dassai.html">
-<link rel="alternate" hreflang="zh" href="https://liqueur.terroirhub.com/liqueur/zh/yamaguchi/dassai.html">
 <link rel="alternate" hreflang="x-default" href="https://liqueur.terroirhub.com/liqueur/en/yamaguchi/dassai.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Serif+JP:wght@200;300;400&family=Zen+Old+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -212,8 +210,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb" href="/liqueur/yamaguchi/dassai.html">日本語</a>
     <a class="lb active" href="/liqueur/en/yamaguchi/dassai.html">EN</a>
-    <a class="lb" href="/liqueur/fr/yamaguchi/dassai.html">FR</a>
-    <a class="lb" href="/liqueur/zh/yamaguchi/dassai.html">中文</a>
   </div>
 </nav>
 <section class="hero">
@@ -229,8 +225,9 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 <script src="/liqueur/track.js" defer></script>
+<section style="padding:50px 24px;max-width:1100px;margin:0 auto;"><h2 style="font-size:22px;margin-bottom:16px;">Products</h2><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><div style="background:#fff;border:1px solid #F0D5E0;border-radius:8px;padding:18px;"><div style="font-size:16px;font-weight:600;">獺祭 磨き二割三分仕込み 梅酒</div><div style="font-size:12px;opacity:.65;margin-top:4px;">梅酒</div></div></div></section><section style="padding:30px 24px 60px;max-width:1100px;margin:0 auto;"><h2 style="font-size:22px;margin-bottom:16px;">Information</h2><div style="font-size:14px;line-height:1.9;"><div style="margin-bottom:10px;"><strong>Location:</strong> 山口県岩国市周東町獺越2167-4</div><div style="margin-bottom:10px;"><strong>Founded:</strong> 1948</div></div></section>
+<section class="section" style="padding:60px 24px;max-width:1100px;margin:0 auto;"><h2 style="font-size:22px;margin-bottom:18px;">More makers in Yamaguchi</h2><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a href="/liqueur/en/yamaguchi/okazaki_shuzojo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface,#fff);border:1px solid var(--border,#E7DFD5);border-radius:8px;padding:16px 18px;text-decoration:none;color:inherit;"><span style="font-size:15px;font-weight:600;">Okazaki Shuzojo</span><span style="font-size:11.5px;opacity:.6;">長門峡</span></a></div><div style="margin-top:20px;"><a href="/liqueur/en/yamaguchi/" style="font-size:13px;">See all →</a></div></section>
 <footer style="background:#8B2252;padding:40px 24px;text-align:center;">
-  <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p>
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
@@ -240,13 +237,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <div class="chat" id="chat"></div><div class="sugs" id="sugs"></div>
 <div class="inp-row"><textarea id="chat-inp" rows="1" placeholder="Ask anything about this producer"></textarea><button id="chat-send" onclick="sendMsg()">↑</button></div>
 </div></div>
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-function initChat(){ci=true;addMsg('butler','Welcome to 獺祭（旭酒造）.\n\nFeel free to ask anything about this producer.');}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'👤')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';addMsg('user',q);setTimeout(()=>addMsg('butler','Thank you for your question.\n\n* Sakura AI will provide real answers once connected to the API.'),1200);}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Dassai (Asahi Shuzo)", "url": "https://liqueur.terroirhub.com/liqueur/en/yamaguchi/dassai.html", "address": {"@type": "PostalAddress", "addressRegion": "Yamaguchi", "addressCountry": "JP"}, "alternateName": "獺祭（旭酒造）", "foundingDate": "1948", "brand": {"@type": "Brand", "name": "獺祭 磨き二割三分仕込み 梅酒"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://liqueur.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Yamaguchi", "item": "https://liqueur.terroirhub.com/liqueur/en/yamaguchi/"}, {"@type": "ListItem", "position": 3, "name": "Dassai (Asahi Shuzo)", "item": "https://liqueur.terroirhub.com/liqueur/en/yamaguchi/dassai.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Dassai (Asahi Shuzo) produce?", "acceptedAnswer": {"@type": "Answer", "text": "Dassai (Asahi Shuzo) produces 獺祭 磨き二割三分仕込み 梅酒."}}, {"@type": "Question", "name": "When was Dassai (Asahi Shuzo) founded?", "acceptedAnswer": {"@type": "Answer", "text": "Dassai (Asahi Shuzo) was founded in 1948 in Yamaguchi, Japan."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB LIQUEUR (リキュール page, English site)", "facility": "メーカー", "facility_en": "maker", "name": "獺祭（旭酒造）", "display_name": "Dassai (Asahi Shuzo)", "brand": "獺祭", "pref": "yamaguchi", "area": "岩国市", "founded": "1948", "brands": ["獺祭 磨き二割三分仕込み 梅酒"], "url": "", "desc": "純米大吟醸「獺祭」で知られる山口の蔵。「獺祭 磨き二割三分仕込み 梅酒」は獺祭の純米大吟醸で仕込んだ贅沢な梅酒。", "suggestions": ["Tell me about Dassai (Asahi Shuzo)", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

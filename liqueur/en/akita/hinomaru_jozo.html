@@ -8,8 +8,6 @@
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/en/akita/hinomaru_jozo.html">
 <link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/akita/hinomaru_jozo.html">
 <link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/akita/hinomaru_jozo.html">
-<link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/akita/hinomaru_jozo.html">
-<link rel="alternate" hreflang="zh" href="https://liqueur.terroirhub.com/liqueur/zh/akita/hinomaru_jozo.html">
 <link rel="alternate" hreflang="x-default" href="https://liqueur.terroirhub.com/liqueur/en/akita/hinomaru_jozo.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Serif+JP:wght@200;300;400&family=Zen+Old+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -212,8 +210,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb" href="/liqueur/akita/hinomaru_jozo.html">日本語</a>
     <a class="lb active" href="/liqueur/en/akita/hinomaru_jozo.html">EN</a>
-    <a class="lb" href="/liqueur/fr/akita/hinomaru_jozo.html">FR</a>
-    <a class="lb" href="/liqueur/zh/akita/hinomaru_jozo.html">中文</a>
   </div>
 </nav>
 <section class="hero">
@@ -229,8 +225,9 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 <script src="/liqueur/track.js" defer></script>
+<section style="padding:50px 24px;max-width:1100px;margin:0 auto;"><h2 style="font-size:22px;margin-bottom:16px;">Products</h2><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><div style="background:#fff;border:1px solid #F0D5E0;border-radius:8px;padding:18px;"><div style="font-size:16px;font-weight:600;">まんさくの花 よーぐるしゅ</div><div style="font-size:12px;opacity:.65;margin-top:4px;">ヨーグルト酒</div></div></div></section><section style="padding:30px 24px 60px;max-width:1100px;margin:0 auto;"><h2 style="font-size:22px;margin-bottom:16px;">Information</h2><div style="font-size:14px;line-height:1.9;"><div style="margin-bottom:10px;"><strong>Location:</strong> 秋田県横手市増田町増田字七日町114-2</div><div style="margin-bottom:10px;"><strong>Official website:</strong> <a href="https://hinomaru-sake.com/" rel="noopener" target="_blank">https://hinomaru-sake.com/</a></div><div style="margin-bottom:10px;"><strong>Founded:</strong> 1689</div></div></section>
+<section class="section" style="padding:60px 24px;max-width:1100px;margin:0 auto;"><h2 style="font-size:22px;margin-bottom:18px;">More makers in Akita</h2><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a href="/liqueur/en/akita/dewatsuru.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface,#fff);border:1px solid var(--border,#E7DFD5);border-radius:8px;padding:16px 18px;text-decoration:none;color:inherit;"><span style="font-size:15px;font-weight:600;">Dewatsuru (Akita Seishu)</span><span style="font-size:11.5px;opacity:.6;">出羽鶴</span></a></div><div style="margin-top:20px;"><a href="/liqueur/en/akita/" style="font-size:13px;">See all →</a></div></section>
 <footer style="background:#8B2252;padding:40px 24px;text-align:center;">
-  <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p>
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
@@ -240,13 +237,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <div class="chat" id="chat"></div><div class="sugs" id="sugs"></div>
 <div class="inp-row"><textarea id="chat-inp" rows="1" placeholder="Ask anything about this producer"></textarea><button id="chat-send" onclick="sendMsg()">↑</button></div>
 </div></div>
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-function initChat(){ci=true;addMsg('butler','Welcome to 日の丸醸造.\n\nFeel free to ask anything about this producer.');}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'👤')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';addMsg('user',q);setTimeout(()=>addMsg('butler','Thank you for your question.\n\n* Sakura AI will provide real answers once connected to the API.'),1200);}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hinomaru Jozo", "url": "https://liqueur.terroirhub.com/liqueur/en/akita/hinomaru_jozo.html", "address": {"@type": "PostalAddress", "addressRegion": "Akita", "addressCountry": "JP"}, "alternateName": "日の丸醸造", "foundingDate": "1689", "sameAs": "https://hinomaru-sake.com/", "brand": {"@type": "Brand", "name": "まんさくの花 よーぐるしゅ"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://liqueur.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Akita", "item": "https://liqueur.terroirhub.com/liqueur/en/akita/"}, {"@type": "ListItem", "position": 3, "name": "Hinomaru Jozo", "item": "https://liqueur.terroirhub.com/liqueur/en/akita/hinomaru_jozo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Hinomaru Jozo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Hinomaru Jozo produces まんさくの花 よーぐるしゅ."}}, {"@type": "Question", "name": "When was Hinomaru Jozo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hinomaru Jozo was founded in 1689 in Akita, Japan."}}, {"@type": "Question", "name": "Does Hinomaru Jozo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://hinomaru-sake.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB LIQUEUR (リキュール page, English site)", "facility": "メーカー", "facility_en": "maker", "name": "日の丸醸造", "display_name": "Hinomaru Jozo", "brand": "まんさくの花", "pref": "akita", "area": "横手市", "founded": "1689", "brands": ["まんさくの花 よーぐるしゅ"], "url": "https://hinomaru-sake.com/", "desc": "元禄2年（1689年）創業。国の登録有形文化財の内蔵を持つ秋田・横手の老舗蔵。60種以上の日本酒を醸造する技術を活かし、チーズケーキのような濃厚な味わいの「よーぐるしゅ」を展開。", "suggestions": ["Tell me about Hinomaru Jozo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

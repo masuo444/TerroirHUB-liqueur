@@ -53,21 +53,11 @@ add('/liqueur/search/', '0.9', 'weekly')
 add('/liqueur/awards/', '0.9', 'weekly')
 
 # Blog index pages
-add('/liqueur/blog/en/', '0.8', 'weekly', {'en': '/liqueur/blog/en/', 'fr': '/liqueur/blog/fr/', 'zh': '/liqueur/blog/zh/'})
-add('/liqueur/blog/fr/', '0.7', 'weekly', {'en': '/liqueur/blog/en/', 'fr': '/liqueur/blog/fr/', 'zh': '/liqueur/blog/zh/'})
-add('/liqueur/blog/zh/', '0.7', 'weekly', {'en': '/liqueur/blog/en/', 'fr': '/liqueur/blog/fr/', 'zh': '/liqueur/blog/zh/'})
+add('/liqueur/blog/en/', '0.8', 'weekly')
 
 # Blog posts (EN)
 for slug in EN_BLOG_POSTS:
     add(f'/liqueur/blog/en/{slug}.html', '0.7', 'monthly')
-
-# Blog posts (FR)
-for slug in FR_BLOG_POSTS:
-    add(f'/liqueur/blog/fr/{slug}.html', '0.7', 'monthly')
-
-# Blog posts (ZH)
-for slug in ZH_BLOG_POSTS:
-    add(f'/liqueur/blog/zh/{slug}.html', '0.7', 'monthly')
 
 # Producer pages
 json_files = sorted(glob.glob(os.path.join(BASE, 'data', 'data_*_liqueurs.json')))
@@ -83,13 +73,9 @@ for jf in json_files:
             continue
         ja_path = f'/liqueur/{pref}/{d["id"]}.html'
         en_path = f'/liqueur/en/{pref}/{d["id"]}.html'
-        fr_path = f'/liqueur/fr/{pref}/{d["id"]}.html'
-        zh_path = f'/liqueur/zh/{pref}/{d["id"]}.html'
-        langs = {'ja': ja_path, 'en': en_path, 'fr': fr_path, 'zh': zh_path}
+        langs = {'ja': ja_path, 'en': en_path, 'x-default': en_path}
         add(ja_path, '0.6', 'monthly', langs)
         add(en_path, '0.5', 'monthly', langs)
-        add(fr_path, '0.5', 'monthly', langs)
-        add(zh_path, '0.5', 'monthly', langs)
 
 xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>']
 xml_parts.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">')

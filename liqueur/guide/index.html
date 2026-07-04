@@ -1,13 +1,349 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>リキュールガイド — Terroir HUB LIQUEUR</title>
-<meta name="description" content="日本のリキュール（梅酒・ゆず酒・桃酒・抹茶リキュール）の基礎知識。種類・製法・飲み方・歴史を網羅するガイド。">
+<meta name="description" content="日本のリキュール（梅酒・ゆず酒・桃酒・抹茶リキュール）の基礎知識。全国584社のメーカーを収録。種類・製法・飲み方・歴史を体系的に解説するリキュールガイド。">
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/guide/">
+<link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/guide/">
+<link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/guide/en/index.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
-<style>*{margin:0;padding:0;box-sizing:border-box;}body{background:#FFFBFC;color:#1A1814;font-family:'Noto Sans JP',sans-serif;font-size:16px;line-height:1.85;}.nav{position:fixed;top:0;left:0;right:0;z-index:100;height:54px;display:flex;align-items:center;padding:0 28px;background:rgba(255,251,252,0.96);backdrop-filter:blur(20px);border-bottom:1px solid #F0D5E0;}.nav-logo{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:700;color:#1a1a1a;text-decoration:none;}.main{max-width:800px;margin:0 auto;padding:88px 24px 60px;}h1{font-family:'Shippori Mincho',serif;font-size:32px;margin-bottom:16px;}h2{font-family:'Shippori Mincho',serif;font-size:22px;margin:40px 0 12px;color:#4A8BAE;}.lead{font-size:16px;color:#555;margin-bottom:40px;}.guide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}@media(max-width:600px){.guide-grid{grid-template-columns:1fr;}}.gc{background:#fff;border:1px solid #F0D5E0;border-radius:12px;padding:24px;text-decoration:none;color:inherit;transition:all 0.2s;display:block;}.gc:hover{border-color:#4A8BAE;transform:translateY(-2px);}.gc-icon{font-size:28px;margin-bottom:8px;}.gc-title{font-family:'Shippori Mincho',serif;font-size:17px;font-weight:600;margin-bottom:4px;}.gc-desc{font-size:13px;color:#888;line-height:1.7;}footer{background:#1A4A6B;padding:32px 24px;text-align:center;margin-top:60px;}footer p{font-size:12px;color:rgba(255,255,255,0.3);}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RXSS3P04XJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RXSS3P04XJ');
+</script>
+
+<script>
+var THUB_CONFIG = {
+  genre: "liqueur",
+  brandColor: "#5B6ABF",
+  brandColor2: "#8B9ADF",
+  basePath: "/liqueur",
+  siteName: "Terroir HUB LIQUEUR",
+  apiBase: "https://sake.terroirhub.com"
+};
+</script>
+
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #F8F8FC;
+  --surface: #ffffff;
+  --accent: #5B6ABF;
+  --accent2: #8B9ADF;
+  --accent-hover: #3D4A9F;
+  --accent-pale: #ECEFFE;
+  --text: #1A1A2E;
+  --text-muted: #6B7280;
+  --border: #DDE0F5;
+  --footer-bg: #101020;
+  --nav-h: 58px;
+  --radius: 14px;
+  --shadow: 0 2px 12px rgba(91,106,191,0.10);
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+/* ── NAV ── */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+  height: var(--nav-h);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 28px;
+  background: rgba(248,248,252,0.96);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px; font-weight: 600;
+  color: var(--text); text-decoration: none; letter-spacing: 0.04em;
+}
+.nav-logo span { color: var(--accent2); }
+.nav-links {
+  display: flex; gap: 24px; align-items: center; list-style: none;
+}
+.nav-links a {
+  font-size: 13px; color: var(--text-muted); text-decoration: none;
+  transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--accent); }
+.nav-lang {
+  font-size: 12px; color: var(--accent); border: 1px solid var(--accent);
+  padding: 3px 10px; border-radius: 20px; text-decoration: none;
+  transition: all 0.2s;
+}
+.nav-lang:hover { background: var(--accent); color: #fff; }
+.hamburger {
+  display: none; flex-direction: column; gap: 5px; cursor: pointer;
+  background: none; border: none; padding: 4px;
+}
+.hamburger span { width: 22px; height: 2px; background: var(--text); border-radius: 2px; transition: all 0.3s; }
+
+/* ── GUIDE NAV ── */
+.guide-nav {
+  position: sticky; top: var(--nav-h); z-index: 100;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto; white-space: nowrap;
+  scrollbar-width: none;
+}
+.guide-nav::-webkit-scrollbar { display: none; }
+.guide-nav-inner {
+  display: inline-flex; gap: 0; padding: 0 20px; min-width: 100%;
+}
+.guide-nav-inner a {
+  display: inline-block;
+  padding: 13px 16px;
+  font-size: 13px; color: var(--text-muted);
+  text-decoration: none; white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+.guide-nav-inner a:hover { color: var(--accent); }
+.guide-nav-inner a.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-weight: 500;
+}
+
+/* ── HERO ── */
+.hero {
+  padding: 80px 24px 60px;
+  text-align: center;
+  background: linear-gradient(160deg, #F0F2FF 0%, var(--bg) 60%);
+}
+.hero-badge {
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px; letter-spacing: 0.12em;
+  color: var(--accent); background: var(--accent-pale);
+  padding: 4px 16px; border-radius: 20px; margin-bottom: 20px;
+}
+.hero h1 {
+  font-family: 'Noto Serif JP', serif;
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 700; line-height: 1.3;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+.hero-lead {
+  font-size: 17px; color: var(--text-muted);
+  max-width: 620px; margin: 0 auto 48px;
+  line-height: 1.9;
+}
+
+/* ── STATS ── */
+.stats {
+  display: flex; justify-content: center; gap: 48px;
+  flex-wrap: wrap; margin-bottom: 20px;
+}
+.stat {
+  text-align: center;
+}
+.stat-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 48px; font-weight: 600;
+  color: var(--accent); line-height: 1;
+}
+.stat-unit { font-size: 14px; color: var(--accent); }
+.stat-label { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+/* ── SECTION ── */
+.section { max-width: 1000px; margin: 0 auto; padding: 60px 24px; }
+.section-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 26px; font-weight: 700;
+  color: var(--text); margin-bottom: 10px;
+}
+.section-sub {
+  font-size: 14px; color: var(--text-muted);
+  margin-bottom: 36px;
+}
+
+/* ── GUIDE GRID ── */
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+@media (max-width: 640px) { .guide-grid { grid-template-columns: 1fr; } }
+
+.gc {
+  display: flex; flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  text-decoration: none; color: inherit;
+  transition: all 0.25s;
+  box-shadow: var(--shadow);
+}
+.gc:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(91,106,191,0.15);
+}
+.gc-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px; color: var(--accent2); letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+.gc-icon { font-size: 30px; margin-bottom: 12px; }
+.gc-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 18px; font-weight: 700;
+  margin-bottom: 6px; color: var(--text);
+}
+.gc-en {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 13px; font-style: italic;
+  color: var(--accent2); margin-bottom: 10px;
+}
+.gc-desc {
+  font-size: 13.5px; color: var(--text-muted);
+  line-height: 1.75; flex: 1;
+}
+.gc-arrow {
+  margin-top: 16px; font-size: 13px; color: var(--accent);
+  font-family: 'Cormorant Garamond', serif; letter-spacing: 0.05em;
+}
+
+/* ── LANDSCAPE SECTION ── */
+.landscape-section {
+  background: linear-gradient(160deg, #ECEFFE 0%, #F8F8FC 70%);
+  padding: 70px 24px;
+}
+.landscape-inner { max-width: 1000px; margin: 0 auto; }
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 36px;
+}
+@media (max-width: 800px) { .feature-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 540px) { .feature-grid { grid-template-columns: 1fr; } }
+.feat {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 28px 22px;
+  border-left: 4px solid var(--accent);
+  box-shadow: var(--shadow);
+}
+.feat-icon { font-size: 28px; margin-bottom: 10px; }
+.feat-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 16px; font-weight: 700;
+  margin-bottom: 8px; color: var(--text);
+}
+.feat-body { font-size: 13.5px; color: var(--text-muted); line-height: 1.75; }
+
+/* ── CTA ── */
+.cta-block {
+  background: var(--accent);
+  padding: 60px 24px;
+  text-align: center;
+}
+.cta-block h2 {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 26px; font-weight: 700;
+  color: #fff; margin-bottom: 14px;
+}
+.cta-block p { font-size: 15px; color: rgba(255,255,255,0.82); margin-bottom: 32px; }
+.btn-cta {
+  display: inline-block;
+  background: #fff; color: var(--accent);
+  padding: 14px 40px; border-radius: 30px;
+  font-weight: 700; font-size: 15px;
+  text-decoration: none; transition: all 0.2s;
+}
+.btn-cta:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.2); }
+
+/* ── FOOTER ── */
+footer {
+  background: var(--footer-bg);
+  padding: 48px 24px 100px;
+  text-align: center;
+}
+.footer-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px; font-weight: 600;
+  color: rgba(255,255,255,0.9); margin-bottom: 16px;
+}
+.footer-logo span { color: var(--accent2); }
+.footer-links {
+  display: flex; justify-content: center; gap: 24px;
+  flex-wrap: wrap; margin-bottom: 20px; list-style: none;
+}
+.footer-links a { font-size: 13px; color: rgba(255,255,255,0.5); text-decoration: none; }
+.footer-links a:hover { color: rgba(255,255,255,0.8); }
+.footer-copy { font-size: 12px; color: rgba(255,255,255,0.3); }
+
+/* ── MOBILE TAB BAR ── */
+.tab-bar {
+  display: none;
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 300;
+  background: rgba(248,248,252,0.97);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid var(--border);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.tab-bar-inner {
+  display: flex; justify-content: space-around; align-items: center;
+  height: 56px;
+}
+.tab-item {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 3px; text-decoration: none;
+  font-size: 10px; color: var(--text-muted); flex: 1;
+  padding: 6px 0;
+}
+.tab-item.active { color: var(--accent); }
+.tab-icon { font-size: 20px; }
+@media (max-width: 768px) {
+  .tab-bar { display: block; }
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+}
+
+/* ── DRAWER ── */
+.drawer-overlay {
+  display: none; position: fixed; inset: 0; z-index: 250;
+  background: rgba(0,0,0,0.4);
+}
+.drawer-overlay.open { display: block; }
+.drawer {
+  position: fixed; top: 0; right: -280px; width: 280px; height: 100%;
+  z-index: 260; background: var(--surface);
+  transition: right 0.3s ease; padding: 70px 0 40px;
+  overflow-y: auto;
+}
+.drawer.open { right: 0; }
+.drawer a {
+  display: block; padding: 14px 28px;
+  font-size: 15px; color: var(--text); text-decoration: none;
+  border-bottom: 1px solid var(--border);
+}
+.drawer a:hover { background: var(--accent-pale); color: var(--accent); }
+</style>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -24,18 +360,18 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "日本のリキュールとは何ですか？",
+          "name": "日本のリキュールとはどんなお酒ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "日本のリキュール（梅酒・ゆず酒・桃酒など）は、果実や植物素材をアルコールに漬け込んだり、混合して造る醸造酒です。代表的なものに梅酒・ゆず酒・桃酒・抹茶リキュール・桜リキュールがあります。Terroir HUB LIQUEURでは全国584社のメーカーを掲載しています。"
+            "text": "日本のリキュールは、酒税法上「リキュール類」に分類されるお酒で、梅酒・ゆず酒・桃酒・抹茶リキュール・桜リキュールなどが代表的です。果実や植物素材をアルコールに漬け込む方法（浸漬法）や、果汁をスピリッツと混合する方法（混合法）で製造されます。度数は8〜20%が一般的で、甘みと素材の風味が特徴です。"
           }
         },
         {
           "@type": "Question",
-          "name": "梅酒と他のリキュールの違いは？",
+          "name": "梅酒と他のフルーツリキュールはどう違いますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "梅酒は青梅を焼酎・日本酒・ブランデーなどに砂糖と共に漬け込んで造ります。ゆず酒はゆずの果汁・果皮を使い、爽やかな柑橘風味が特徴。桃酒は桃の甘い香りが魅力です。各リキュールはベーススピリッツと素材の組み合わせで個性が決まります。"
+            "text": "梅酒は青梅を焼酎・日本酒・ブランデーなどに砂糖と共に漬け込んで製造し、独特の酸味と深みのある甘さが特徴です。ゆず酒はゆず果汁・果皮の爽やかな柑橘香が際立ち、桃酒は白桃の繊細な甘い香りが魅力です。各リキュールはベーススピリッツと素材の組み合わせにより個性が決まります。"
           }
         },
         {
@@ -43,7 +379,15 @@
           "name": "全国にリキュールメーカーはいくつありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Terroir HUB LIQUEURでは全国47都道府県の584社のリキュールメーカーを掲載しています。梅酒メーカーが最も多く、次いでゆず酒・桃酒・みかん酒メーカーが各地に点在しています。"
+            "text": "Terroir HUB LIQUEURでは全国47都道府県の584社のリキュールメーカーを収録しています。梅酒メーカーが最も多く、近年はゆず酒・桃酒・いちご酒など地域産フルーツを活かしたクラフトリキュールが急増しています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "日本のリキュールはどのような種類がありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "大きく分けると、梅酒・ゆず酒・桃酒・みかん酒・いちご酒・抹茶リキュール・桜リキュール・メロンリキュールなど8種類以上のカテゴリーがあります。さらに同じカテゴリーの中でも、ベーススピリッツ（焼酎・日本酒・ブランデー）や製法（あらごし・清澄）によって味わいは大きく異なります。"
           }
         }
       ]
@@ -51,24 +395,266 @@
   ]
 }
 </script>
+<meta property="og:image" content="https://liqueur.terroirhub.com/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://liqueur.terroirhub.com/ogp.png">
 </head>
 <body>
-<nav class="nav"><a class="nav-logo" href="/">Terroir HUB <span style="color:#4A8BAE;">LIQUEUR</span></a></nav>
-<main class="main">
-<h1>リキュールガイド</h1>
-<p class="lead">日本のリキュールの世界を深く知るためのガイド。梅酒から桜リキュールまで、種類・製法・飲み方・歴史を網羅。</p>
 
-<div class="guide-grid">
-  <a class="gc" href="types.html"><div class="gc-icon">&#127826;</div><div class="gc-title">リキュールの種類</div><div class="gc-desc">梅酒・ゆず酒・桃酒・抹茶リキュール・桜リキュール。日本のリキュールの多彩な世界。</div></a>
-  <a class="gc" href="production.html"><div class="gc-icon">&#127859;</div><div class="gc-title">製法</div><div class="gc-desc">漬け込み・ブレンド・熟成。リキュールの造り方を詳しく解説。</div></a>
-  <a class="gc" href="drinking.html"><div class="gc-icon">&#127864;</div><div class="gc-title">飲み方</div><div class="gc-desc">ロック・ソーダ割り・お湯割り・カクテル。シーンに合わせた楽しみ方。</div></a>
-  <a class="gc" href="pairing.html"><div class="gc-icon">&#127869;</div><div class="gc-title">料理ペアリング</div><div class="gc-desc">和食からデザートまで。リキュールと料理の相性ガイド。</div></a>
-  <a class="gc" href="history.html"><div class="gc-icon">&#128218;</div><div class="gc-title">歴史</div><div class="gc-desc">江戸時代の梅酒文化から現代のクラフトリキュールまで。</div></a>
-  <a class="gc" href="umeshu.html"><div class="gc-icon">&#127825;</div><div class="gc-title">梅酒とは</div><div class="gc-desc">日本を代表するリキュール「梅酒」の専門ガイド。原料・産地・銘柄。</div></a>
-  <a class="gc" href="glossary.html"><div class="gc-icon">&#128214;</div><div class="gc-title">用語集</div><div class="gc-desc">リキュールに関する専門用語をわかりやすく解説。</div></a>
+<!-- NAV -->
+<nav class="nav">
+  <a class="nav-logo" href="/">Terroir HUB <span>LIQUEUR</span></a>
+  <ul class="nav-links">
+    <li><a href="/">トップ</a></li>
+    <li><a href="/liqueur/guide/" class="active">ガイド</a></li>
+    <li><a href="https://sake.terroirhub.com" target="_blank">Terroir HUB</a></li>
+    <li><a class="nav-lang" href="/liqueur/guide/en/index.html">EN</a></li>
+  </ul>
+  <button class="hamburger" id="hamburgerBtn" aria-label="メニュー">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- DRAWER -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<div class="drawer" id="drawer">
+  <a href="/">トップ</a>
+  <a href="/liqueur/guide/">ガイドトップ</a>
+  <a href="/liqueur/guide/types.html">リキュールの種類</a>
+  <a href="/liqueur/guide/production.html">製造工程</a>
+  <a href="/liqueur/guide/umeshu.html">梅酒の世界</a>
+  <a href="/liqueur/guide/drinking.html">飲み方</a>
+  <a href="/liqueur/guide/pairing.html">フードペアリング</a>
+  <a href="/liqueur/guide/history.html">歴史</a>
+  <a href="/liqueur/guide/glossary.html">用語集</a>
+  <a href="/liqueur/guide/en/index.html">English Guide</a>
 </div>
-</main>
+
+<!-- GUIDE NAV -->
+<div class="guide-nav">
+  <div class="guide-nav-inner">
+    <a href="/liqueur/guide/" class="active">ガイドトップ</a>
+    <a href="/liqueur/guide/types.html">種類</a>
+    <a href="/liqueur/guide/production.html">製法</a>
+    <a href="/liqueur/guide/umeshu.html">梅酒</a>
+    <a href="/liqueur/guide/drinking.html">飲み方</a>
+    <a href="/liqueur/guide/pairing.html">ペアリング</a>
+    <a href="/liqueur/guide/history.html">歴史</a>
+    <a href="/liqueur/guide/glossary.html">用語集</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">LIQUEUR GUIDE</div>
+  <h1>日本のリキュールを、<br>深く知る。</h1>
+  <p class="hero-lead">
+    梅酒・ゆず酒・桃酒・抹茶リキュール——日本には世界にない独自のリキュール文化がある。
+    果実や植物素材と日本の蒸留技術が出会い、繊細な味わいを生み出す。
+    このガイドでは、全国584社のメーカーが紡ぐリキュールの世界を体系的に解説する。
+  </p>
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-num">584<span class="stat-unit">+</span></div>
+      <div class="stat-label">全国メーカー数</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">8<span class="stat-unit">+</span></div>
+      <div class="stat-label">リキュール種類</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">8<span class="stat-unit">〜</span><small style="font-size:28px">20</small></div>
+      <div class="stat-label">度数（%）</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">47</div>
+      <div class="stat-label">都道府県</div>
+    </div>
+  </div>
+</section>
+
+<!-- CHAPTER GRID -->
+<section class="section">
+  <h2 class="section-title">8章のガイド</h2>
+  <p class="section-sub">基礎から応用まで、リキュールの全てを網羅</p>
+
+  <div class="guide-grid">
+    <a class="gc" href="/liqueur/guide/types.html">
+      <div class="gc-num">CHAPTER 01</div>
+      <div class="gc-icon">🍓</div>
+      <div class="gc-title">リキュールの種類</div>
+      <div class="gc-en">Types of Liqueur</div>
+      <p class="gc-desc">梅酒・ゆず酒・桃酒・みかん酒・いちご酒・抹茶リキュール・桜リキュール——日本のリキュールの多彩なカテゴリーと、各カテゴリーを代表するメーカー・銘柄を解説。酒税法上の定義も含めて体系的に整理。</p>
+      <div class="gc-arrow">詳しく読む →</div>
+    </a>
+
+    <a class="gc" href="/liqueur/guide/production.html">
+      <div class="gc-num">CHAPTER 02</div>
+      <div class="gc-icon">🏺</div>
+      <div class="gc-title">製造工程</div>
+      <div class="gc-en">Production Process</div>
+      <p class="gc-desc">漬け込み（浸漬法）から果汁混合まで、リキュールの造り方を工程ごとに解説。ベーススピリッツの選択、素材の選別、甘味料・調整、熟成・ろ過の技術。あらごしと清澄ろ過の違いも詳述。</p>
+      <div class="gc-arrow">詳しく読む →</div>
+    </a>
+
+    <a class="gc" href="/liqueur/guide/umeshu.html">
+      <div class="gc-num">CHAPTER 03</div>
+      <div class="gc-icon">🌸</div>
+      <div class="gc-title">梅酒の世界</div>
+      <div class="gc-en">The World of Umeshu</div>
+      <p class="gc-desc">日本を代表するリキュール「梅酒」の専門ガイド。南高梅・古城梅などの梅品種、仕込み方の違い（焼酎・日本酒・ブランデーベース）、主要産地と代表メーカー、飲み方と料理との合わせ方を徹底解説。</p>
+      <div class="gc-arrow">詳しく読む →</div>
+    </a>
+
+    <a class="gc" href="/liqueur/guide/drinking.html">
+      <div class="gc-num">CHAPTER 04</div>
+      <div class="gc-icon">🍹</div>
+      <div class="gc-title">飲み方ガイド</div>
+      <div class="gc-en">How to Drink</div>
+      <p class="gc-desc">ロック・ソーダ割り・お湯割り・牛乳割り・トニック割りの5スタイルに加え、リキュールを使ったカクテルレシピを5種紹介。種類別の推奨飲み方早見表も収録。グラスの選び方も解説。</p>
+      <div class="gc-arrow">詳しく読む →</div>
+    </a>
+
+    <a class="gc" href="/liqueur/guide/pairing.html">
+      <div class="gc-num">CHAPTER 05</div>
+      <div class="gc-icon">🍱</div>
+      <div class="gc-title">フードペアリング</div>
+      <div class="gc-en">Food Pairing</div>
+      <p class="gc-desc">梅酒×和食、ゆず酒×魚介、桃酒×デザート——リキュールと料理の絶妙な組み合わせを科学的根拠とともに解説。種類・飲み方別の相性一覧表、避けるべき組み合わせも紹介。</p>
+      <div class="gc-arrow">詳しく読む →</div>
+    </a>
+
+    <a class="gc" href="/liqueur/guide/history.html">
+      <div class="gc-num">CHAPTER 06</div>
+      <div class="gc-icon">📜</div>
+      <div class="gc-title">歴史</div>
+      <div class="gc-en">History</div>
+      <p class="gc-desc">平安時代の梅酒起源から江戸時代の一般化、戦後の大衆化、そして2000年代のクラフトリキュール台頭まで。日本のリキュール文化の歩みを時代ごとに丁寧に解説するタイムライン。</p>
+      <div class="gc-arrow">詳しく読む →</div>
+    </a>
+
+    <a class="gc" href="/liqueur/guide/glossary.html">
+      <div class="gc-num">CHAPTER 07</div>
+      <div class="gc-icon">📖</div>
+      <div class="gc-title">用語集</div>
+      <div class="gc-en">Glossary</div>
+      <p class="gc-desc">浸漬法・あらごし・ベーススピリッツ・南高梅・酸糖比——リキュールに関する専門用語を40語以上、五十音順に収録。ラベルや説明書きを読む際の参考に。</p>
+      <div class="gc-arrow">詳しく読む →</div>
+    </a>
+
+    <a class="gc" href="/">
+      <div class="gc-num">CHAPTER 08</div>
+      <div class="gc-icon">🔍</div>
+      <div class="gc-title">メーカー検索</div>
+      <div class="gc-en">Find Makers</div>
+      <p class="gc-desc">全国584社のリキュールメーカーを地域・種類から検索。各メーカーの代表銘柄、創業年、特徴、公式サイトを収録。地元の逸品・隠れた名品を見つけよう。</p>
+      <div class="gc-arrow">メーカーを探す →</div>
+    </a>
+  </div>
+</section>
+
+<!-- LANDSCAPE SECTION -->
+<div class="landscape-section">
+  <div class="landscape-inner">
+    <h2 class="section-title">日本のリキュール景観</h2>
+    <p class="section-sub">なぜ日本のリキュールは、世界から注目されるのか</p>
+    <div class="feature-grid">
+      <div class="feat">
+        <div class="feat-icon">🌿</div>
+        <div class="feat-title">素材の多様性</div>
+        <p class="feat-body">南高梅・ゆず・白桃・いちご・抹茶・桜——日本固有の食材がリキュールになる。四季折々の恵みを瓶に閉じ込める文化は、世界でも類を見ない。</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">🏭</div>
+        <div class="feat-title">蒸留技術の蓄積</div>
+        <p class="feat-body">焼酎・日本酒・清酒の長い醸造文化が土台にある。高品質なベーススピリッツが、リキュールの味の骨格を支える。同じ梅酒でも、ベースが変わると別物になる。</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">🗾</div>
+        <div class="feat-title">産地テロワール</div>
+        <p class="feat-body">和歌山の梅、高知のゆず、山梨の桃——産地の気候・土壌が素材の質を左右する。リキュールは、その土地の「テロワール」を飲む体験でもある。</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">🧪</div>
+        <div class="feat-title">製法の繊細さ</div>
+        <p class="feat-body">あらごし・清澄・長期熟成・ブレンド——同じ梅酒でも、製法の違いで食感・風味は大きく異なる。日本のメーカーは細部にこだわり続けている。</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">🌍</div>
+        <div class="feat-title">世界市場への躍進</div>
+        <p class="feat-body">チョーヤ梅酒は40カ国以上に輸出。日本のリキュールは「UMESHU」として世界語になりつつある。柚子リキュールも欧米のバーで高い評価を受けている。</p>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">🍶</div>
+        <div class="feat-title">和食との親和性</div>
+        <p class="feat-body">梅酒の酸と甘みは日本料理の繊細な味付けと調和する。ゆず酒の柑橘香は魚介との相性が抜群。和食文化と共に進化したリキュールは、食中酒としても秀逸。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-block">
+  <h2>全国584社のメーカーを探す</h2>
+  <p>都道府県・リキュール種類から、あなたの好みに合ったメーカーを見つけよう。<br>各地域の銘品・隠れた逸品を収録。</p>
+  <a class="btn-cta" href="/">メーカー検索へ</a>
+</div>
+
+<!-- FOOTER -->
 <footer>
-  <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p><p>Terroir HUB LIQUEUR &copy; 2026 合同会社FOMUS</p></footer>
+  <div class="footer-logo">Terroir HUB <span>LIQUEUR</span></div>
+  <ul class="footer-links">
+    <li><a href="/liqueur/guide/">ガイド</a></li>
+    <li><a href="/liqueur/guide/types.html">種類</a></li>
+    <li><a href="/liqueur/guide/umeshu.html">梅酒</a></li>
+    <li><a href="/liqueur/guide/history.html">歴史</a></li>
+    <li><a href="/liqueur/guide/glossary.html">用語集</a></li>
+    <li><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener">掲載情報の修正</a></li>
+  </ul>
+  <p class="footer-copy">&copy; 2026 合同会社FOMUS / Terroir HUB LIQUEUR</p>
+</footer>
+
+<!-- MOBILE TAB BAR -->
+<nav class="tab-bar">
+  <div class="tab-bar-inner">
+    <a class="tab-item" href="/">
+      <span class="tab-icon">🏠</span>
+      <span>トップ</span>
+    </a>
+    <a class="tab-item active" href="/liqueur/guide/">
+      <span class="tab-icon">📚</span>
+      <span>ガイド</span>
+    </a>
+    <a class="tab-item" href="/liqueur/guide/types.html">
+      <span class="tab-icon">🍓</span>
+      <span>種類</span>
+    </a>
+    <a class="tab-item" href="/liqueur/guide/umeshu.html">
+      <span class="tab-icon">🌸</span>
+      <span>梅酒</span>
+    </a>
+    <a class="tab-item" href="/liqueur/guide/glossary.html">
+      <span class="tab-icon">📖</span>
+      <span>用語集</span>
+    </a>
+  </div>
+</nav>
+
+<script>
+// Drawer
+const btn = document.getElementById('hamburgerBtn');
+const overlay = document.getElementById('drawerOverlay');
+const drawer = document.getElementById('drawer');
+btn.addEventListener('click', () => {
+  drawer.classList.toggle('open');
+  overlay.classList.toggle('open');
+});
+overlay.addEventListener('click', () => {
+  drawer.classList.remove('open');
+  overlay.classList.remove('open');
+});
+</script>
+<script src="https://sake.terroirhub.com/shared/auth.js"></script>
 </body>
 </html>

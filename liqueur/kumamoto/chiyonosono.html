@@ -14,8 +14,6 @@
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/kumamoto/chiyonosono.html">
 <link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/kumamoto/chiyonosono.html">
 <link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/kumamoto/chiyonosono.html">
-<link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/kumamoto/chiyonosono.html">
-<link rel="alternate" hreflang="zh" href="https://liqueur.terroirhub.com/liqueur/zh/kumamoto/chiyonosono.html">
 <link rel="alternate" hreflang="x-default" href="https://liqueur.terroirhub.com/liqueur/en/kumamoto/chiyonosono.html">
 <script type="application/ld+json">
 {
@@ -310,7 +308,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/liqueur/kumamoto/chiyonosono.html">日本語</a>
     <a class="lb" href="/liqueur/en/kumamoto/chiyonosono.html">EN</a>
-    <a class="lb" href="/liqueur/fr/kumamoto/chiyonosono.html">FR</a>
     <a class="lb" href="/liqueur/zh/kumamoto/chiyonosono.html">中文</a>
   </div>
 </nav>
@@ -436,6 +433,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">熊本県の他のメーカー</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには熊本県のメーカーを2件収録しています。最も創業が古いのは1867年創業の瑞鷹。1件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/liqueur/kumamoto/zuiyo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">瑞鷹</span><span style="font-size:11.5px;color:var(--text-muted);">熊本市 ｜ 瑞鷹</span></a></div><div style="margin-top:22px;"><a href="/liqueur/kumamoto/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">熊本県のメーカー一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -496,19 +494,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='千代の園酒造',BB='千代の園';
-const SUGS=['千代の園ってどんなリキュール？','おすすめの飲み方は？','料理に合わせるなら？','千代の園酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこのメーカーについて何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "千代の園酒造", "brand": "千代の園", "pref": "熊本県", "area": "山鹿市", "founded": "1896", "founded_era": "明治29年", "brands": ["千代の園 甘夏リキュール", "千代の園 さくらんぼリキュール", "千代の園 梅赤酒"], "visit": "史料館見学可（無料）、売店あり", "url": "https://chiyonosono-shop.com/", "desc": "明治29年（1896年）創業。熊本県山鹿市の酒蔵。日本酒・赤酒・焼酎・リキュールを製造。果汁を使った「甘夏みかん」「さくらんぼ」「梅赤酒」の3種のリキュールが人気。梅リキュールには熊本で400年の歴史を持つ赤酒を使用。", "suggestions": ["千代の園ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "千代の園酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

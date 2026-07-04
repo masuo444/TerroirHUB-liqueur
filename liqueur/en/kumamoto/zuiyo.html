@@ -8,8 +8,6 @@
 <link rel="canonical" href="https://liqueur.terroirhub.com/liqueur/en/kumamoto/zuiyo.html">
 <link rel="alternate" hreflang="ja" href="https://liqueur.terroirhub.com/liqueur/kumamoto/zuiyo.html">
 <link rel="alternate" hreflang="en" href="https://liqueur.terroirhub.com/liqueur/en/kumamoto/zuiyo.html">
-<link rel="alternate" hreflang="fr" href="https://liqueur.terroirhub.com/liqueur/fr/kumamoto/zuiyo.html">
-<link rel="alternate" hreflang="zh" href="https://liqueur.terroirhub.com/liqueur/zh/kumamoto/zuiyo.html">
 <link rel="alternate" hreflang="x-default" href="https://liqueur.terroirhub.com/liqueur/en/kumamoto/zuiyo.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Serif+JP:wght@200;300;400&family=Zen+Old+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -212,8 +210,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb" href="/liqueur/kumamoto/zuiyo.html">日本語</a>
     <a class="lb active" href="/liqueur/en/kumamoto/zuiyo.html">EN</a>
-    <a class="lb" href="/liqueur/fr/kumamoto/zuiyo.html">FR</a>
-    <a class="lb" href="/liqueur/zh/kumamoto/zuiyo.html">中文</a>
   </div>
 </nav>
 <section class="hero">
@@ -229,8 +225,9 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 <script src="/liqueur/track.js" defer></script>
+<section style="padding:50px 24px;max-width:1100px;margin:0 auto;"><h2 style="font-size:22px;margin-bottom:16px;">Products</h2><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><div style="background:#fff;border:1px solid #F0D5E0;border-radius:8px;padding:18px;"><div style="font-size:16px;font-weight:600;">瑞鷹 梅酒 純米酒仕立て</div><div style="font-size:12px;opacity:.65;margin-top:4px;">梅酒</div></div></div></section><section style="padding:30px 24px 60px;max-width:1100px;margin:0 auto;"><h2 style="font-size:22px;margin-bottom:16px;">Information</h2><div style="font-size:14px;line-height:1.9;"><div style="margin-bottom:10px;"><strong>Location:</strong> 熊本県熊本市南区川尻4-6-67</div><div style="margin-bottom:10px;"><strong>Official website:</strong> <a href="https://www.zuiyo.co.jp/" rel="noopener" target="_blank">https://www.zuiyo.co.jp/</a></div><div style="margin-bottom:10px;"><strong>Founded:</strong> 1867</div></div></section>
+<section class="section" style="padding:60px 24px;max-width:1100px;margin:0 auto;"><h2 style="font-size:22px;margin-bottom:18px;">More makers in Kumamoto</h2><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a href="/liqueur/en/kumamoto/chiyonosono.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface,#fff);border:1px solid var(--border,#E7DFD5);border-radius:8px;padding:16px 18px;text-decoration:none;color:inherit;"><span style="font-size:15px;font-weight:600;">Chiyonosono Shuzo</span><span style="font-size:11.5px;opacity:.6;">千代の園</span></a></div><div style="margin-top:20px;"><a href="/liqueur/en/kumamoto/" style="font-size:13px;">See all →</a></div></section>
 <footer style="background:#8B2252;padding:40px 24px;text-align:center;">
-  <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p>
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
@@ -240,13 +237,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <div class="chat" id="chat"></div><div class="sugs" id="sugs"></div>
 <div class="inp-row"><textarea id="chat-inp" rows="1" placeholder="Ask anything about this producer"></textarea><button id="chat-send" onclick="sendMsg()">↑</button></div>
 </div></div>
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-function initChat(){ci=true;addMsg('butler','Welcome to 瑞鷹.\n\nFeel free to ask anything about this producer.');}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'👤')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';addMsg('user',q);setTimeout(()=>addMsg('butler','Thank you for your question.\n\n* Sakura AI will provide real answers once connected to the API.'),1200);}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Zuiyo", "url": "https://liqueur.terroirhub.com/liqueur/en/kumamoto/zuiyo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "瑞鷹", "foundingDate": "1867", "sameAs": "https://www.zuiyo.co.jp/", "brand": {"@type": "Brand", "name": "瑞鷹 梅酒 純米酒仕立て"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://liqueur.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://liqueur.terroirhub.com/liqueur/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Zuiyo", "item": "https://liqueur.terroirhub.com/liqueur/en/kumamoto/zuiyo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Zuiyo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Zuiyo produces 瑞鷹 梅酒 純米酒仕立て."}}, {"@type": "Question", "name": "When was Zuiyo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Zuiyo was founded in 1867 in Kumamoto, Japan."}}, {"@type": "Question", "name": "Does Zuiyo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.zuiyo.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB LIQUEUR (リキュール page, English site)", "facility": "メーカー", "facility_en": "maker", "name": "瑞鷹", "display_name": "Zuiyo", "brand": "瑞鷹", "pref": "kumamoto", "area": "熊本市", "founded": "1867", "brands": ["瑞鷹 梅酒 純米酒仕立て"], "url": "https://www.zuiyo.co.jp/", "desc": "慶応3年（1867年）創業。赤酒「東肥」で知られる熊本の蔵。熊本県産の梅を自社焼酎に漬け込み、純米酒で仕上げた梅酒を展開。", "suggestions": ["Tell me about Zuiyo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>
