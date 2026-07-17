@@ -227,6 +227,10 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(display_name)} — {t['title_suffix']}</title>
 <meta name="description" content="{esc(display_name)} — Japanese liqueur producer in {pref_en}">
+<meta property="og:title" content="{esc(display_name)} — {t['title_suffix']}">
+<meta property="og:description" content="{esc(display_name)} — Japanese liqueur producer in {pref_en}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{page_url}">
 <link rel="canonical" href="{page_url}">
 <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/liqueur/{pref_slug}/{bid}.html">
 <link rel="alternate" hreflang="en" href="https://{DOMAIN}/liqueur/en/{pref_slug}/{bid}.html">
