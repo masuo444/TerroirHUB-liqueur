@@ -225,7 +225,7 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{esc(display_name)} — {t['title_suffix']}</title>
+{'<meta name="robots" content="noindex,follow">' if lang == 'en' else ''}<title>{esc(display_name)} — {t['title_suffix']}</title>
 <meta name="description" content="{esc(display_name)} — Japanese liqueur producer in {pref_en}">
 <meta property="og:title" content="{esc(display_name)} — {t['title_suffix']}">
 <meta property="og:description" content="{esc(display_name)} — Japanese liqueur producer in {pref_en}">
@@ -233,8 +233,7 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
 <meta property="og:url" content="{page_url}">
 <link rel="canonical" href="{page_url}">
 <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/liqueur/{pref_slug}/{bid}.html">
-<link rel="alternate" hreflang="en" href="https://{DOMAIN}/liqueur/en/{pref_slug}/{bid}.html">
-<link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/liqueur/en/{pref_slug}/{bid}.html">
+<link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/liqueur/{pref_slug}/{bid}.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Serif+JP:wght@200;300;400&family=Zen+Old+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>

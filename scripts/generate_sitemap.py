@@ -72,10 +72,9 @@ for jf in json_files:
         if not d.get('id'):
             continue
         ja_path = f'/liqueur/{pref}/{d["id"]}.html'
-        en_path = f'/liqueur/en/{pref}/{d["id"]}.html'
-        langs = {'ja': ja_path, 'en': en_path, 'x-default': en_path}
+        # 殻ENページはnoindexのためsitemapから除外（guide/blog ENは本物翻訳なので残す）
+        langs = {'ja': ja_path, 'x-default': ja_path}
         add(ja_path, '0.6', 'monthly', langs)
-        add(en_path, '0.5', 'monthly', langs)
 
 xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>']
 xml_parts.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">')
