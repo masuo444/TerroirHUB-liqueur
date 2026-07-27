@@ -1,61 +1,95 @@
 [
-  {
-    "id": "ichinomiya",
-    "name": "一宮酒造",
-    "company": "一宮酒造有限会社",
-    "brand": "石見銀山",
-    "type": "フルーツリキュール",
-    "liqueur_type": "yuzu",
-    "base_spirit": "日本酒",
-    "fruit_ingredient": "ゆず・りんご・薔薇",
-    "abv": "",
-    "founded": "",
-    "founded_era": "120年以上の歴史",
-    "address": "島根県大田市大田町大田",
-    "tel": "",
-    "url": "https://www.ichinomiya-s.jp/",
-    "area": "大田市",
-    "desc": "島根県大田市で120年以上の歴史を持つ酒蔵。世界遺産石見銀山を有する地で、梅酒・ゆず酒・りんご酒・薔薇酒など多彩なリキュールを製造。",
-    "visit": "",
-    "brands": [
-      {"name": "RIKA YUZU", "type": "ゆず酒", "specs": "日本酒ベース"},
-      {"name": "RIKA APPLE", "type": "りんご酒", "specs": "日本酒ベース"},
-      {"name": "薔薇酒", "type": "薔薇リキュール", "specs": ""},
-      {"name": "梅酒", "type": "梅酒", "specs": ""}
-    ],
-    "features": [
-      "120年以上の歴史を持つ島根の酒蔵",
-      "世界遺産石見銀山の地で多彩なリキュールを展開"
-    ],
-    "source": "https://www.ichinomiya-s.jp/",
-    "name_en": "Ichinomiya Shuzo"
-  },
-  {
-    "id": "yoshida_shuzo_shimane",
-    "name": "吉田酒造",
-    "company": "吉田酒造株式会社",
-    "brand": "月山",
+ {
+  "id": "ichinomiya",
+  "name": "一宮酒造",
+  "company": "一宮酒造有限会社",
+  "brand": "石見銀山",
+  "type": "フルーツリキュール",
+  "liqueur_type": "yuzu",
+  "base_spirit": "日本酒",
+  "fruit_ingredient": "ゆず・りんご・薔薇",
+  "abv": "",
+  "founded": "",
+  "founded_era": "120年以上の歴史",
+  "address": "島根県大田市大田町大田",
+  "tel": "",
+  "url": "https://www.ichinomiya-s.jp/",
+  "area": "大田市",
+  "desc": "島根県大田市で120年以上の歴史を持つ酒蔵。世界遺産石見銀山を有する地で、梅酒・ゆず酒・りんご酒・薔薇酒など多彩なリキュールを製造。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "RIKA YUZU",
+    "type": "ゆず酒",
+    "specs": "日本酒ベース"
+   },
+   {
+    "name": "RIKA APPLE",
+    "type": "りんご酒",
+    "specs": "日本酒ベース"
+   },
+   {
+    "name": "薔薇酒",
+    "type": "薔薇リキュール",
+    "specs": ""
+   },
+   {
+    "name": "梅酒",
     "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "日本酒",
-    "fruit_ingredient": "梅",
-    "abv": "",
-    "founded": "1743",
-    "founded_era": "寛保3年",
-    "address": "島根県安来市広瀬町広瀬1216",
-    "tel": "",
-    "url": "https://e-gassan.co.jp/",
-    "area": "安来市",
-    "desc": "寛保3年（1743年）創業。月山の麓に位置する島根の老舗蔵。日本酒「月山」の蔵元。「月山 梅さけ」などリキュール製品も展開。",
-    "visit": "",
-    "brands": [
-      {"name": "月山 梅さけ", "type": "梅酒", "specs": "日本酒ベース"}
-    ],
-    "features": [
-      "1743年創業の島根の老舗蔵",
-      "日本酒「月山」の蔵元"
-    ],
-    "source": "https://e-gassan.co.jp/",
-    "name_en": "Yoshida Shuzo (Shimane)"
+    "specs": ""
+   }
+  ],
+  "features": [
+   "120年以上の歴史を持つ島根の酒蔵",
+   "世界遺産石見銀山の地で多彩なリキュールを展開"
+  ],
+  "source": "https://www.ichinomiya-s.jp/",
+  "name_en": "Ichinomiya Shuzo",
+  "lat": 35.187393,
+  "lng": 132.519897,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "島根県大田市大田町大田",
+   "checked": "2026-07-27"
   }
+ },
+ {
+  "id": "yoshida_shuzo_shimane",
+  "name": "吉田酒造",
+  "company": "吉田酒造株式会社",
+  "brand": "月山",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "日本酒",
+  "fruit_ingredient": "梅",
+  "abv": "",
+  "founded": "1743",
+  "founded_era": "寛保3年",
+  "address": "島根県安来市広瀬町広瀬1216",
+  "tel": "",
+  "url": "https://e-gassan.co.jp/",
+  "area": "安来市",
+  "desc": "寛保3年（1743年）創業。月山の麓に位置する島根の老舗蔵。日本酒「月山」の蔵元。「月山 梅さけ」などリキュール製品も展開。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "月山 梅さけ",
+    "type": "梅酒",
+    "specs": "日本酒ベース"
+   }
+  ],
+  "features": [
+   "1743年創業の島根の老舗蔵",
+   "日本酒「月山」の蔵元"
+  ],
+  "source": "https://e-gassan.co.jp/",
+  "name_en": "Yoshida Shuzo (Shimane)",
+  "lat": 35.367283,
+  "lng": 133.175369,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "島根県安来市広瀬町広瀬１２１６番地",
+   "checked": "2026-07-27"
+  }
+ }
 ]

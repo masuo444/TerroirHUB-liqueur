@@ -1,63 +1,70 @@
 [
-  {
-    "id": "kitajima",
-    "name": "北島酒造",
-    "company": "北島酒造株式会社",
-    "brand": "御代栄",
+ {
+  "id": "kitajima",
+  "name": "北島酒造",
+  "company": "北島酒造株式会社",
+  "brand": "御代栄",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "日本酒",
+  "fruit_ingredient": "国産梅",
+  "abv": "",
+  "founded": "1805",
+  "founded_era": "文化2年",
+  "address": "滋賀県湖南市針756",
+  "tel": "0748-72-0012",
+  "url": "https://www.kitajima-shuzo.jp/",
+  "area": "湖南市",
+  "desc": "文化2年（1805年）創業。「御代栄」ブランドの日本酒と、日本酒ベースの梅酒を展開。滋賀県の地酒蔵。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "御代栄 梅酒",
     "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "日本酒",
-    "fruit_ingredient": "国産梅",
-    "abv": "",
-    "founded": "1805",
-    "founded_era": "文化2年",
-    "address": "滋賀県湖南市針756",
-    "tel": "0748-72-0012",
-    "url": "https://www.kitajima-shuzo.jp/",
-    "area": "湖南市",
-    "desc": "文化2年（1805年）創業。「御代栄」ブランドの日本酒と、日本酒ベースの梅酒を展開。滋賀県の地酒蔵。",
-    "visit": "",
-    "brands": [
-      {
-        "name": "御代栄 梅酒",
-        "type": "梅酒",
-        "specs": "日本酒ベース"
-      }
-    ],
-    "features": [
-      "1805年創業の滋賀の老舗酒蔵",
-      "日本酒ベースの梅酒を展開"
-    ],
-    "nearest_station": "",
-    "source": "https://www.kitajima-shuzo.jp/",
-    "lat": 34.9583,
-    "lng": 136.0899,
-    "name_en": "Kitajima Shuzo"
-  },
-  {
-    "id": "ota_shuzo_shiga",
-    "name": "太田酒造",
-    "company": "太田酒造株式会社",
-    "brand": "道灌",
-    "type": "リキュール",
-    "liqueur_type": "other",
-    "base_spirit": "",
-    "fruit_ingredient": "",
-    "abv": "",
-    "founded": "",
-    "founded_era": "",
-    "address": "滋賀県草津市草津3-10-37",
-    "tel": "",
-    "url": "",
-    "area": "草津市",
-    "desc": "江戸城を築城した太田道灌を先祖に持つ蔵元。日本酒「道灌」のほか、100%国産ブドウを使用したワインやブランデー、各種果物のリキュールも製造販売。",
-    "visit": "",
-    "brands": [],
-    "features": [
-      "太田道灌を先祖に持つ歴史ある蔵元",
-      "日本酒のほかワイン・ブランデー・リキュールも製造"
-    ],
-    "source": "",
-    "name_en": "Ota Shuzo (Shiga)"
+    "specs": "日本酒ベース"
+   }
+  ],
+  "features": [
+   "1805年創業の滋賀の老舗酒蔵",
+   "日本酒ベースの梅酒を展開"
+  ],
+  "nearest_station": "",
+  "source": "https://www.kitajima-shuzo.jp/",
+  "lat": 34.9583,
+  "lng": 136.0899,
+  "name_en": "Kitajima Shuzo"
+ },
+ {
+  "id": "ota_shuzo_shiga",
+  "name": "太田酒造",
+  "company": "太田酒造株式会社",
+  "brand": "道灌",
+  "type": "リキュール",
+  "liqueur_type": "other",
+  "base_spirit": "",
+  "fruit_ingredient": "",
+  "abv": "",
+  "founded": "",
+  "founded_era": "",
+  "address": "滋賀県草津市草津3-10-37",
+  "tel": "",
+  "url": "",
+  "area": "草津市",
+  "desc": "江戸城を築城した太田道灌を先祖に持つ蔵元。日本酒「道灌」のほか、100%国産ブドウを使用したワインやブランデー、各種果物のリキュールも製造販売。",
+  "visit": "",
+  "brands": [],
+  "features": [
+   "太田道灌を先祖に持つ歴史ある蔵元",
+   "日本酒のほかワイン・ブランデー・リキュールも製造"
+  ],
+  "source": "",
+  "name_en": "Ota Shuzo (Shiga)",
+  "lat": 35.015182,
+  "lng": 135.958435,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "滋賀県草津市草津三丁目１０番３７号",
+   "checked": "2026-07-27"
   }
+ }
 ]

@@ -1,57 +1,75 @@
 [
-  {
-    "id": "ikinokura",
-    "name": "壱岐の蔵酒造",
-    "company": "壱岐の蔵酒造株式会社",
-    "brand": "壱岐の島",
+ {
+  "id": "ikinokura",
+  "name": "壱岐の蔵酒造",
+  "company": "壱岐の蔵酒造株式会社",
+  "brand": "壱岐の島",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "麦焼酎",
+  "fruit_ingredient": "梅",
+  "abv": "",
+  "founded": "1984",
+  "founded_era": "昭和59年",
+  "address": "長崎県壱岐市芦辺町湯岳本村触520",
+  "tel": "",
+  "url": "https://ikinokura.co.jp/",
+  "area": "壱岐市",
+  "desc": "昭和59年（1984年）に壱岐島内の酒造会社6事業所が協業により設立。16世紀から受け継がれた壱岐焼酎の伝統技法を守りつつ、麦焼酎ベースの梅酒も展開。",
+  "visit": "工場見学可",
+  "brands": [
+   {
+    "name": "壱岐梅酒",
     "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "麦焼酎",
-    "fruit_ingredient": "梅",
-    "abv": "",
-    "founded": "1984",
-    "founded_era": "昭和59年",
-    "address": "長崎県壱岐市芦辺町湯岳本村触520",
-    "tel": "",
-    "url": "https://ikinokura.co.jp/",
-    "area": "壱岐市",
-    "desc": "昭和59年（1984年）に壱岐島内の酒造会社6事業所が協業により設立。16世紀から受け継がれた壱岐焼酎の伝統技法を守りつつ、麦焼酎ベースの梅酒も展開。",
-    "visit": "工場見学可",
-    "brands": [
-      {"name": "壱岐梅酒", "type": "梅酒", "specs": "壱岐焼酎ベース"}
-    ],
-    "features": [
-      "麦焼酎発祥の地・壱岐島の焼酎蔵",
-      "16世紀から受け継がれた伝統技法"
-    ],
-    "source": "https://ikinokura.co.jp/",
-    "name_en": "Ikinokura Shuzo"
-  },
-  {
-    "id": "fukuda_shuzo",
-    "name": "福田酒造",
-    "company": "福田酒造株式会社",
-    "brand": "福鶴",
-    "type": "リキュール",
-    "liqueur_type": "other",
-    "base_spirit": "",
-    "fruit_ingredient": "",
-    "abv": "",
-    "founded": "1688",
-    "founded_era": "元禄元年",
-    "address": "長崎県平戸市志々伎町1475",
-    "tel": "",
-    "url": "https://fukuda-shuzo.com/",
-    "area": "平戸市",
-    "desc": "元禄元年（1688年）創業。日本本土最西端の酒蔵。平戸藩御用達の酒蔵として知られる長崎県きっての実力派。日本酒・焼酎・リキュール・ジン・甘酒など県内屈指の製造品目を持つ。",
-    "visit": "",
-    "brands": [],
-    "features": [
-      "1688年創業、日本本土最西端の酒蔵",
-      "平戸藩御用達の酒蔵として知られる実力派",
-      "日本酒・焼酎・リキュール・ジンなど多品目を製造"
-    ],
-    "source": "https://fukuda-shuzo.com/",
-    "name_en": "Fukuda Shuzo"
+    "specs": "壱岐焼酎ベース"
+   }
+  ],
+  "features": [
+   "麦焼酎発祥の地・壱岐島の焼酎蔵",
+   "16世紀から受け継がれた伝統技法"
+  ],
+  "source": "https://ikinokura.co.jp/",
+  "name_en": "Ikinokura Shuzo",
+  "lat": 33.774673,
+  "lng": 129.739807,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "長崎県壱岐市芦辺町湯岳本村触",
+   "checked": "2026-07-27"
   }
+ },
+ {
+  "id": "fukuda_shuzo",
+  "name": "福田酒造",
+  "company": "福田酒造株式会社",
+  "brand": "福鶴",
+  "type": "リキュール",
+  "liqueur_type": "other",
+  "base_spirit": "",
+  "fruit_ingredient": "",
+  "abv": "",
+  "founded": "1688",
+  "founded_era": "元禄元年",
+  "address": "長崎県平戸市志々伎町1475",
+  "tel": "",
+  "url": "https://fukuda-shuzo.com/",
+  "area": "平戸市",
+  "desc": "元禄元年（1688年）創業。日本本土最西端の酒蔵。平戸藩御用達の酒蔵として知られる長崎県きっての実力派。日本酒・焼酎・リキュール・ジン・甘酒など県内屈指の製造品目を持つ。",
+  "visit": "",
+  "brands": [],
+  "features": [
+   "1688年創業、日本本土最西端の酒蔵",
+   "平戸藩御用達の酒蔵として知られる実力派",
+   "日本酒・焼酎・リキュール・ジンなど多品目を製造"
+  ],
+  "source": "https://fukuda-shuzo.com/",
+  "name_en": "Fukuda Shuzo",
+  "lat": 33.200535,
+  "lng": 129.40773,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "長崎県平戸市志々伎町",
+   "checked": "2026-07-27"
+  }
+ }
 ]

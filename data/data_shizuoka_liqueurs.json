@@ -1,59 +1,81 @@
 [
-  {
-    "id": "hananomai",
-    "name": "花の舞酒造",
-    "company": "花の舞酒造株式会社",
-    "brand": "花の舞",
+ {
+  "id": "hananomai",
+  "name": "花の舞酒造",
+  "company": "花の舞酒造株式会社",
+  "brand": "花の舞",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "日本酒",
+  "fruit_ingredient": "南高梅",
+  "abv": "",
+  "founded": "",
+  "founded_era": "",
+  "address": "静岡県浜松市浜名区宮口632",
+  "tel": "",
+  "url": "https://hananomai.co.jp/",
+  "area": "浜松市",
+  "desc": "静岡県産米100%にこだわる浜松の酒蔵。高品質な南高梅を日本酒に漬けた無添加の本格梅酒を製造。第3回全国梅酒品評会2017で2位を受賞。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "花の舞 純米梅酒",
     "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "日本酒",
-    "fruit_ingredient": "南高梅",
-    "abv": "",
-    "founded": "",
-    "founded_era": "",
-    "address": "静岡県浜松市浜名区宮口632",
-    "tel": "",
-    "url": "https://hananomai.co.jp/",
-    "area": "浜松市",
-    "desc": "静岡県産米100%にこだわる浜松の酒蔵。高品質な南高梅を日本酒に漬けた無添加の本格梅酒を製造。第3回全国梅酒品評会2017で2位を受賞。",
-    "visit": "",
-    "brands": [
-      {"name": "花の舞 純米梅酒", "type": "梅酒", "specs": "日本酒ベース、南高梅使用、無添加、全国梅酒品評会2位"}
-    ],
-    "features": [
-      "静岡県産米100%にこだわる酒蔵",
-      "無添加の本格梅酒",
-      "全国梅酒品評会2017で2位受賞"
-    ],
-    "source": "https://hananomai.co.jp/",
-    "name_en": "Hananomai Shuzo"
-  },
-  {
-    "id": "fujimasa_shuzo",
-    "name": "富士正酒造",
-    "company": "富士正酒造株式会社",
-    "brand": "富士正",
-    "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "日本酒",
-    "fruit_ingredient": "静岡県富士宮産青梅",
-    "abv": "",
-    "founded": "1866",
-    "founded_era": "慶応2年",
-    "address": "静岡県富士宮市根原450-1",
-    "tel": "",
-    "url": "https://www.fujimasa-sake.com",
-    "area": "富士宮市",
-    "desc": "慶応2年（1866年）創業。富士山に一番近い酒蔵。日本酒の原酒と地元富士宮産の無農薬青梅を使用した「ワタシの梅酒」を展開。2011年に標高900mの朝霧高原へ移転。",
-    "visit": "試飲可（予約不要）",
-    "brands": [
-      {"name": "ワタシの梅酒", "type": "梅酒", "specs": "日本酒原酒ベース、富士宮産無農薬青梅使用"}
-    ],
-    "features": [
-      "1866年創業、富士山に一番近い酒蔵",
-      "地元産無農薬青梅と日本酒原酒で仕込む梅酒"
-    ],
-    "source": "https://www.fujimasa-sake.com",
-    "name_en": "Fujimasa Shuzo"
+    "specs": "日本酒ベース、南高梅使用、無添加、全国梅酒品評会2位"
+   }
+  ],
+  "features": [
+   "静岡県産米100%にこだわる酒蔵",
+   "無添加の本格梅酒",
+   "全国梅酒品評会2017で2位受賞"
+  ],
+  "source": "https://hananomai.co.jp/",
+  "name_en": "Hananomai Shuzo",
+  "lat": 34.827454,
+  "lng": 137.770874,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "静岡県浜松市浜名区宮口６３２番地",
+   "checked": "2026-07-27"
   }
+ },
+ {
+  "id": "fujimasa_shuzo",
+  "name": "富士正酒造",
+  "company": "富士正酒造株式会社",
+  "brand": "富士正",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "日本酒",
+  "fruit_ingredient": "静岡県富士宮産青梅",
+  "abv": "",
+  "founded": "1866",
+  "founded_era": "慶応2年",
+  "address": "静岡県富士宮市根原450-1",
+  "tel": "",
+  "url": "https://www.fujimasa-sake.com",
+  "area": "富士宮市",
+  "desc": "慶応2年（1866年）創業。富士山に一番近い酒蔵。日本酒の原酒と地元富士宮産の無農薬青梅を使用した「ワタシの梅酒」を展開。2011年に標高900mの朝霧高原へ移転。",
+  "visit": "試飲可（予約不要）",
+  "brands": [
+   {
+    "name": "ワタシの梅酒",
+    "type": "梅酒",
+    "specs": "日本酒原酒ベース、富士宮産無農薬青梅使用"
+   }
+  ],
+  "features": [
+   "1866年創業、富士山に一番近い酒蔵",
+   "地元産無農薬青梅と日本酒原酒で仕込む梅酒"
+  ],
+  "source": "https://www.fujimasa-sake.com",
+  "name_en": "Fujimasa Shuzo",
+  "lat": 35.415428,
+  "lng": 138.584564,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "静岡県富士宮市根原",
+   "checked": "2026-07-27"
+  }
+ }
 ]

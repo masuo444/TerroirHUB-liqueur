@@ -1,59 +1,81 @@
 [
-  {
-    "id": "dewatsuru",
-    "name": "出羽鶴酒造（秋田清酒）",
-    "company": "秋田清酒株式会社",
-    "brand": "出羽鶴",
+ {
+  "id": "dewatsuru",
+  "name": "出羽鶴酒造（秋田清酒）",
+  "company": "秋田清酒株式会社",
+  "brand": "出羽鶴",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "日本酒",
+  "fruit_ingredient": "白加賀梅",
+  "abv": "11",
+  "founded": "1865",
+  "founded_era": "慶応元年",
+  "address": "秋田県大仙市戸地谷字天ヶ沢83-1",
+  "tel": "",
+  "url": "https://www.igeta.jp/",
+  "area": "大仙市",
+  "desc": "慶応元年（1865年）創業。秋田清酒が醸造する「出羽鶴 梅ごこち」は白加賀梅を使い、あきたこまちの純米酒で仕込んだ梅酒。ピーチのような爽やかな香りが特徴。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "出羽鶴 梅ごこち",
     "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "日本酒",
-    "fruit_ingredient": "白加賀梅",
-    "abv": "11",
-    "founded": "1865",
-    "founded_era": "慶応元年",
-    "address": "秋田県大仙市戸地谷字天ヶ沢83-1",
-    "tel": "",
-    "url": "https://www.igeta.jp/",
-    "area": "大仙市",
-    "desc": "慶応元年（1865年）創業。秋田清酒が醸造する「出羽鶴 梅ごこち」は白加賀梅を使い、あきたこまちの純米酒で仕込んだ梅酒。ピーチのような爽やかな香りが特徴。",
-    "visit": "",
-    "brands": [
-      {"name": "出羽鶴 梅ごこち", "type": "梅酒", "specs": "純米酒ベース、白加賀梅使用、アルコール11度"}
-    ],
-    "features": [
-      "1865年創業の秋田の酒蔵",
-      "あきたこまちの純米酒で仕込む梅酒"
-    ],
-    "source": "https://www.igeta.jp/",
-    "name_en": "Dewatsuru (Akita Seishu)"
-  },
-  {
-    "id": "hinomaru_jozo",
-    "name": "日の丸醸造",
-    "company": "日の丸醸造株式会社",
-    "brand": "まんさくの花",
-    "type": "ヨーグルトリキュール",
-    "liqueur_type": "yogurt",
-    "base_spirit": "日本酒",
-    "fruit_ingredient": "ヨーグルト",
-    "abv": "",
-    "founded": "1689",
-    "founded_era": "元禄2年",
-    "address": "秋田県横手市増田町増田字七日町114-2",
-    "tel": "",
-    "url": "https://hinomaru-sake.com/",
-    "area": "横手市",
-    "desc": "元禄2年（1689年）創業。国の登録有形文化財の内蔵を持つ秋田・横手の老舗蔵。60種以上の日本酒を醸造する技術を活かし、チーズケーキのような濃厚な味わいの「よーぐるしゅ」を展開。",
-    "visit": "",
-    "brands": [
-      {"name": "まんさくの花 よーぐるしゅ", "type": "ヨーグルト酒", "specs": "日本酒ベース"}
-    ],
-    "features": [
-      "1689年創業、300年以上の歴史を持つ秋田の蔵",
-      "国の登録有形文化財の内蔵",
-      "チーズケーキのような濃厚なヨーグルトリキュール"
-    ],
-    "source": "https://hinomaru-sake.com/item/sweetliqueur-yogursh",
-    "name_en": "Hinomaru Jozo"
+    "specs": "純米酒ベース、白加賀梅使用、アルコール11度"
+   }
+  ],
+  "features": [
+   "1865年創業の秋田の酒蔵",
+   "あきたこまちの純米酒で仕込む梅酒"
+  ],
+  "source": "https://www.igeta.jp/",
+  "name_en": "Dewatsuru (Akita Seishu)",
+  "lat": 39.463902,
+  "lng": 140.496338,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "秋田県大仙市戸地谷天ケ沢",
+   "checked": "2026-07-27"
   }
+ },
+ {
+  "id": "hinomaru_jozo",
+  "name": "日の丸醸造",
+  "company": "日の丸醸造株式会社",
+  "brand": "まんさくの花",
+  "type": "ヨーグルトリキュール",
+  "liqueur_type": "yogurt",
+  "base_spirit": "日本酒",
+  "fruit_ingredient": "ヨーグルト",
+  "abv": "",
+  "founded": "1689",
+  "founded_era": "元禄2年",
+  "address": "秋田県横手市増田町増田字七日町114-2",
+  "tel": "",
+  "url": "https://hinomaru-sake.com/",
+  "area": "横手市",
+  "desc": "元禄2年（1689年）創業。国の登録有形文化財の内蔵を持つ秋田・横手の老舗蔵。60種以上の日本酒を醸造する技術を活かし、チーズケーキのような濃厚な味わいの「よーぐるしゅ」を展開。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "まんさくの花 よーぐるしゅ",
+    "type": "ヨーグルト酒",
+    "specs": "日本酒ベース"
+   }
+  ],
+  "features": [
+   "1689年創業、300年以上の歴史を持つ秋田の蔵",
+   "国の登録有形文化財の内蔵",
+   "チーズケーキのような濃厚なヨーグルトリキュール"
+  ],
+  "source": "https://hinomaru-sake.com/item/sweetliqueur-yogursh",
+  "name_en": "Hinomaru Jozo",
+  "lat": 39.202721,
+  "lng": 140.546677,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "秋田県横手市増田町増田七日町",
+   "checked": "2026-07-27"
+  }
+ }
 ]

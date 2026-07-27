@@ -1,117 +1,169 @@
 [
-  {
-    "id": "oyama_yumekobo",
-    "name": "おおやま夢工房",
-    "company": "株式会社おおやま夢工房",
-    "brand": "梅酒蔵おおやま",
+ {
+  "id": "oyama_yumekobo",
+  "name": "おおやま夢工房",
+  "company": "株式会社おおやま夢工房",
+  "brand": "梅酒蔵おおやま",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "",
+  "fruit_ingredient": "大山産梅",
+  "abv": "",
+  "founded": "",
+  "founded_era": "",
+  "address": "大分県日田市大山町西大山4587",
+  "tel": "",
+  "url": "https://www.umehibiki.jp/",
+  "area": "日田市",
+  "desc": "大分県日田市の梅酒専門蔵。ニッカウヰスキーと共に造った梅酒工場で、地元大山町の農家が育てた大山産梅のみを使用。全国梅酒品評会で2年連続金賞受賞。",
+  "visit": "梅酒蔵おおやま（見学・体験可）",
+  "brands": [
+   {
+    "name": "熟成梅酒 The FIRST",
     "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "",
-    "fruit_ingredient": "大山産梅",
-    "abv": "",
-    "founded": "",
-    "founded_era": "",
-    "address": "大分県日田市大山町西大山4587",
-    "tel": "",
-    "url": "https://www.umehibiki.jp/",
-    "area": "日田市",
-    "desc": "大分県日田市の梅酒専門蔵。ニッカウヰスキーと共に造った梅酒工場で、地元大山町の農家が育てた大山産梅のみを使用。全国梅酒品評会で2年連続金賞受賞。",
-    "visit": "梅酒蔵おおやま（見学・体験可）",
-    "brands": [
-      {"name": "熟成梅酒 The FIRST", "type": "梅酒", "specs": "全国梅酒品評会2024銀賞（本格焼酎梅酒部門）"},
-      {"name": "和紅茶梅酒 アールグレイエモーショナル", "type": "ブレンド梅酒", "specs": "全国梅酒品評会2024銀賞（ブレンド部門）"}
-    ],
-    "features": [
-      "梅酒専門蔵、ニッカウヰスキーとのコラボレーション",
-      "地元大山産梅のみを使用",
-      "全国梅酒品評会で2年連続金賞受賞歴"
-    ],
-    "source": "https://www.umehibiki.jp/",
-    "name_en": "Oyama Yumekobo"
-  },
-  {
-    "id": "oimatsu",
-    "name": "老松酒造",
-    "company": "老松酒造株式会社",
-    "brand": "天空の月",
-    "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "",
-    "fruit_ingredient": "梅・ゆず",
-    "abv": "",
-    "founded": "1789",
-    "founded_era": "寛政元年",
-    "address": "大分県日田市大字大肥",
-    "tel": "",
-    "url": "",
-    "area": "日田市",
-    "desc": "寛政元年（1789年）創業。大分県日田の蔵元。「天空の月 ゆず梅酒」は全国梅酒品評会2024柑橘系ブレンド部門で銀賞受賞。",
-    "visit": "",
-    "brands": [
-      {"name": "天空の月 ゆず梅酒", "type": "ゆず梅酒", "specs": "全国梅酒品評会2024柑橘系ブレンド部門銀賞"},
-      {"name": "天空の月 梅酒", "type": "梅酒", "specs": ""}
-    ],
-    "features": [
-      "1789年創業の大分・日田の老舗蔵",
-      "全国梅酒品評会2024銀賞受賞"
-    ],
-    "source": "",
-    "name_en": "Oimatsu Shuzo"
-  },
-  {
-    "id": "kuge_honten",
-    "name": "久家本店",
-    "company": "合名会社久家本店",
-    "brand": "いやんばい",
-    "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "焼酎",
-    "fruit_ingredient": "梅",
-    "abv": "",
-    "founded": "",
-    "founded_era": "",
-    "address": "大分県臼杵市",
-    "tel": "",
-    "url": "",
-    "area": "臼杵市",
-    "desc": "大分県臼杵市の蔵。「いやんばい梅酒」は全国梅酒品評会2024本格焼酎梅酒部門で銀賞受賞。",
-    "visit": "",
-    "brands": [
-      {"name": "いやんばい梅酒", "type": "梅酒", "specs": "本格焼酎ベース、全国梅酒品評会2024銀賞"}
-    ],
-    "features": [
-      "全国梅酒品評会2024本格焼酎梅酒部門銀賞"
-    ],
-    "source": "",
-    "name_en": "Kuge Honten"
-  },
-  {
-    "id": "yatsushika",
-    "name": "八鹿酒造",
-    "company": "八鹿酒造株式会社",
-    "brand": "八鹿",
-    "type": "ヨーグルトリキュール",
-    "liqueur_type": "yogurt",
-    "base_spirit": "焼酎",
-    "fruit_ingredient": "九州産ヨーグルト",
-    "abv": "8",
-    "founded": "",
-    "founded_era": "",
-    "address": "大分県玖珠郡九重町右田3364",
-    "tel": "",
-    "url": "https://www.yatsushika.com/",
-    "area": "九重町",
-    "desc": "大分県九重町の酒蔵。自社の本格麦焼酎をベースに九州産ヨーグルトで仕込んだ「coconoe（ここのえ）」は、焼酎由来のほろ苦さが特徴のヨーグルトリキュール。天満天神梅酒大会リキュール部門3位入賞。",
-    "visit": "",
-    "brands": [
-      {"name": "八鹿 coconoe（ここのえ）", "type": "ヨーグルト酒", "specs": "本格麦焼酎ベース、九州産ヨーグルト使用、アルコール8度"}
-    ],
-    "features": [
-      "大分・九重町の酒蔵",
-      "麦焼酎ベースのユニークなヨーグルトリキュール",
-      "天満天神梅酒大会リキュール部門3位入賞"
-    ],
-    "source": "https://www.yatsushika.com/catalog/liqueur/",
-    "name_en": "Yatsushika Shuzo"
+    "specs": "全国梅酒品評会2024銀賞（本格焼酎梅酒部門）"
+   },
+   {
+    "name": "和紅茶梅酒 アールグレイエモーショナル",
+    "type": "ブレンド梅酒",
+    "specs": "全国梅酒品評会2024銀賞（ブレンド部門）"
+   }
+  ],
+  "features": [
+   "梅酒専門蔵、ニッカウヰスキーとのコラボレーション",
+   "地元大山産梅のみを使用",
+   "全国梅酒品評会で2年連続金賞受賞歴"
+  ],
+  "source": "https://www.umehibiki.jp/",
+  "name_en": "Oyama Yumekobo",
+  "lat": 33.224724,
+  "lng": 130.964523,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "大分県日田市大山町西大山",
+   "checked": "2026-07-27"
   }
+ },
+ {
+  "id": "oimatsu",
+  "name": "老松酒造",
+  "company": "老松酒造株式会社",
+  "brand": "天空の月",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "",
+  "fruit_ingredient": "梅・ゆず",
+  "abv": "",
+  "founded": "1789",
+  "founded_era": "寛政元年",
+  "address": "大分県日田市大字大肥",
+  "tel": "",
+  "url": "",
+  "area": "日田市",
+  "desc": "寛政元年（1789年）創業。大分県日田の蔵元。「天空の月 ゆず梅酒」は全国梅酒品評会2024柑橘系ブレンド部門で銀賞受賞。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "天空の月 ゆず梅酒",
+    "type": "ゆず梅酒",
+    "specs": "全国梅酒品評会2024柑橘系ブレンド部門銀賞"
+   },
+   {
+    "name": "天空の月 梅酒",
+    "type": "梅酒",
+    "specs": ""
+   }
+  ],
+  "features": [
+   "1789年創業の大分・日田の老舗蔵",
+   "全国梅酒品評会2024銀賞受賞"
+  ],
+  "source": "",
+  "name_en": "Oimatsu Shuzo",
+  "lat": 33.364155,
+  "lng": 130.873398,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "大分県日田市大肥",
+   "checked": "2026-07-27"
+  }
+ },
+ {
+  "id": "kuge_honten",
+  "name": "久家本店",
+  "company": "合名会社久家本店",
+  "brand": "いやんばい",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "焼酎",
+  "fruit_ingredient": "梅",
+  "abv": "",
+  "founded": "",
+  "founded_era": "",
+  "address": "大分県臼杵市",
+  "tel": "",
+  "url": "",
+  "area": "臼杵市",
+  "desc": "大分県臼杵市の蔵。「いやんばい梅酒」は全国梅酒品評会2024本格焼酎梅酒部門で銀賞受賞。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "いやんばい梅酒",
+    "type": "梅酒",
+    "specs": "本格焼酎ベース、全国梅酒品評会2024銀賞"
+   }
+  ],
+  "features": [
+   "全国梅酒品評会2024本格焼酎梅酒部門銀賞"
+  ],
+  "source": "",
+  "name_en": "Kuge Honten",
+  "lat": 33.125832,
+  "lng": 131.804718,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "大分県臼杵市",
+   "checked": "2026-07-27"
+  }
+ },
+ {
+  "id": "yatsushika",
+  "name": "八鹿酒造",
+  "company": "八鹿酒造株式会社",
+  "brand": "八鹿",
+  "type": "ヨーグルトリキュール",
+  "liqueur_type": "yogurt",
+  "base_spirit": "焼酎",
+  "fruit_ingredient": "九州産ヨーグルト",
+  "abv": "8",
+  "founded": "",
+  "founded_era": "",
+  "address": "大分県玖珠郡九重町右田3364",
+  "tel": "",
+  "url": "https://www.yatsushika.com/",
+  "area": "九重町",
+  "desc": "大分県九重町の酒蔵。自社の本格麦焼酎をベースに九州産ヨーグルトで仕込んだ「coconoe（ここのえ）」は、焼酎由来のほろ苦さが特徴のヨーグルトリキュール。天満天神梅酒大会リキュール部門3位入賞。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "八鹿 coconoe（ここのえ）",
+    "type": "ヨーグルト酒",
+    "specs": "本格麦焼酎ベース、九州産ヨーグルト使用、アルコール8度"
+   }
+  ],
+  "features": [
+   "大分・九重町の酒蔵",
+   "麦焼酎ベースのユニークなヨーグルトリキュール",
+   "天満天神梅酒大会リキュール部門3位入賞"
+  ],
+  "source": "https://www.yatsushika.com/catalog/liqueur/",
+  "name_en": "Yatsushika Shuzo",
+  "lat": 33.241432,
+  "lng": 131.19928,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "大分県九重町右田",
+   "checked": "2026-07-27"
+  }
+ }
 ]

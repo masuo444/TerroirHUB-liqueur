@@ -1,62 +1,92 @@
 [
-  {
-    "id": "daishichi",
-    "name": "大七酒造",
-    "company": "大七酒造株式会社",
-    "brand": "大七",
+ {
+  "id": "daishichi",
+  "name": "大七酒造",
+  "company": "大七酒造株式会社",
+  "brand": "大七",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "日本酒",
+  "fruit_ingredient": "紀州南高梅",
+  "abv": "12",
+  "founded": "1752",
+  "founded_era": "宝暦2年",
+  "address": "福島県二本松市竹田1-66",
+  "tel": "",
+  "url": "https://www.daishichi.com/",
+  "area": "二本松市",
+  "desc": "宝暦2年（1752年）創業。250年以上にわたり生酛造りを守り続ける蔵。純米生酛原酒をベースに紀州南高梅で仕込んだ「生もと梅酒」はフェミナリーズワインコンクール金賞受賞。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "大七 生もと梅酒",
     "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "日本酒",
-    "fruit_ingredient": "紀州南高梅",
-    "abv": "12",
-    "founded": "1752",
-    "founded_era": "宝暦2年",
-    "address": "福島県二本松市竹田1-66",
-    "tel": "",
-    "url": "https://www.daishichi.com/",
-    "area": "二本松市",
-    "desc": "宝暦2年（1752年）創業。250年以上にわたり生酛造りを守り続ける蔵。純米生酛原酒をベースに紀州南高梅で仕込んだ「生もと梅酒」はフェミナリーズワインコンクール金賞受賞。",
-    "visit": "",
-    "brands": [
-      {"name": "大七 生もと梅酒", "type": "梅酒", "specs": "純米生酛原酒ベース、紀州南高梅使用、アルコール12度"},
-      {"name": "大七 極上梅酒", "type": "梅酒", "specs": "長期熟成"}
-    ],
-    "features": [
-      "1752年創業、生酛造りの伝統を守る蔵",
-      "純米生酛原酒ベースの梅酒",
-      "フェミナリーズワインコンクール金賞受賞"
-    ],
-    "source": "https://www.daishichi.com/",
-    "name_en": "Daishichi Sake Brewery"
-  },
-  {
-    "id": "akebono_shuzo",
-    "name": "曙酒造",
-    "company": "曙酒造株式会社",
-    "brand": "天明",
-    "type": "ヨーグルトリキュール",
-    "liqueur_type": "yogurt",
-    "base_spirit": "日本酒",
-    "fruit_ingredient": "会津中央乳業ヨーグルト",
-    "abv": "5",
-    "founded": "1904",
-    "founded_era": "明治37年",
-    "address": "福島県河沼郡会津坂下町戌亥乙2",
-    "tel": "",
-    "url": "https://akebono-syuzou.com/",
-    "area": "会津坂下町",
-    "desc": "明治37年（1904年）創業。会津坂下町の酒蔵。地元・会津中央乳業とコラボした日本酒ベースのヨーグルトリキュール「Snowdrop」は、会津産生乳のヨーグルトと会津坂下産米「瑞穂黄金」を使用。特に女性や日本酒初心者に人気。",
-    "visit": "",
-    "brands": [
-      {"name": "Snowdrop スノードロップ プレーン", "type": "ヨーグルト酒", "specs": "日本酒ベース、会津中央乳業ヨーグルト使用、アルコール5度"},
-      {"name": "Snowdrop スノードロップ プレミアム生", "type": "ヨーグルト酒", "specs": "生タイプ、要冷蔵"}
-    ],
-    "features": [
-      "1904年創業の会津の酒蔵",
-      "会津中央乳業とのコラボレーション",
-      "会津産素材にこだわったヨーグルトリキュール"
-    ],
-    "source": "https://akebono-syuzou.com/",
-    "name_en": "Akebono Shuzo"
+    "specs": "純米生酛原酒ベース、紀州南高梅使用、アルコール12度"
+   },
+   {
+    "name": "大七 極上梅酒",
+    "type": "梅酒",
+    "specs": "長期熟成"
+   }
+  ],
+  "features": [
+   "1752年創業、生酛造りの伝統を守る蔵",
+   "純米生酛原酒ベースの梅酒",
+   "フェミナリーズワインコンクール金賞受賞"
+  ],
+  "source": "https://www.daishichi.com/",
+  "name_en": "Daishichi Sake Brewery",
+  "lat": 37.598248,
+  "lng": 140.444656,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "福島県二本松市竹田一丁目６６番地",
+   "checked": "2026-07-27"
   }
+ },
+ {
+  "id": "akebono_shuzo",
+  "name": "曙酒造",
+  "company": "曙酒造株式会社",
+  "brand": "天明",
+  "type": "ヨーグルトリキュール",
+  "liqueur_type": "yogurt",
+  "base_spirit": "日本酒",
+  "fruit_ingredient": "会津中央乳業ヨーグルト",
+  "abv": "5",
+  "founded": "1904",
+  "founded_era": "明治37年",
+  "address": "福島県河沼郡会津坂下町戌亥乙2",
+  "tel": "",
+  "url": "https://akebono-syuzou.com/",
+  "area": "会津坂下町",
+  "desc": "明治37年（1904年）創業。会津坂下町の酒蔵。地元・会津中央乳業とコラボした日本酒ベースのヨーグルトリキュール「Snowdrop」は、会津産生乳のヨーグルトと会津坂下産米「瑞穂黄金」を使用。特に女性や日本酒初心者に人気。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "Snowdrop スノードロップ プレーン",
+    "type": "ヨーグルト酒",
+    "specs": "日本酒ベース、会津中央乳業ヨーグルト使用、アルコール5度"
+   },
+   {
+    "name": "Snowdrop スノードロップ プレミアム生",
+    "type": "ヨーグルト酒",
+    "specs": "生タイプ、要冷蔵"
+   }
+  ],
+  "features": [
+   "1904年創業の会津の酒蔵",
+   "会津中央乳業とのコラボレーション",
+   "会津産素材にこだわったヨーグルトリキュール"
+  ],
+  "source": "https://akebono-syuzou.com/",
+  "name_en": "Akebono Shuzo",
+  "lat": 37.561169,
+  "lng": 139.82814,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "福島県会津坂下町戌亥乙２番地",
+   "checked": "2026-07-27"
+  }
+ }
 ]

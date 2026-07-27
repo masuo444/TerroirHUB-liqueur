@@ -1,61 +1,91 @@
 [
-  {
-    "id": "hatomasamune",
-    "name": "鳩正宗",
-    "company": "鳩正宗株式会社",
-    "brand": "八鶴",
+ {
+  "id": "hatomasamune",
+  "name": "鳩正宗",
+  "company": "鳩正宗株式会社",
+  "brand": "八鶴",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "",
+  "fruit_ingredient": "梅",
+  "abv": "",
+  "founded": "1899",
+  "founded_era": "明治32年",
+  "address": "青森県十和田市三本木字稲吉176-2",
+  "tel": "",
+  "url": "",
+  "area": "十和田市",
+  "desc": "明治32年（1899年）創業。八甲田・奥入瀬の伏流水を仕込み水に使用。「八鶴 んめ〜梅酒」を展開。また青森県産りんご果汁とにごり酒をブレンドした「雪りんご」リキュールも人気。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "八鶴 んめ～梅酒",
     "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "",
-    "fruit_ingredient": "梅",
-    "abv": "",
-    "founded": "1899",
-    "founded_era": "明治32年",
-    "address": "青森県十和田市三本木字稲吉176-2",
-    "tel": "",
-    "url": "",
-    "area": "十和田市",
-    "desc": "明治32年（1899年）創業。八甲田・奥入瀬の伏流水を仕込み水に使用。「八鶴 んめ〜梅酒」を展開。また青森県産りんご果汁とにごり酒をブレンドした「雪りんご」リキュールも人気。",
-    "visit": "",
-    "brands": [
-      {"name": "八鶴 んめ～梅酒", "type": "梅酒", "specs": ""},
-      {"name": "雪りんご", "type": "りんごリキュール", "specs": "青森県産りんご果汁・にごり酒ブレンド"}
-    ],
-    "features": [
-      "1899年創業の青森の酒蔵",
-      "八甲田・奥入瀬の伏流水を使用"
-    ],
-    "source": "",
-    "name_en": "Hatomasamune"
-  },
-  {
-    "id": "momokawa",
-    "name": "桃川",
-    "company": "桃川株式会社",
-    "brand": "桃川",
+    "specs": ""
+   },
+   {
+    "name": "雪りんご",
     "type": "りんごリキュール",
-    "liqueur_type": "other",
-    "base_spirit": "",
-    "fruit_ingredient": "青森県産りんご",
-    "abv": "",
-    "founded": "1889",
-    "founded_era": "明治22年",
-    "address": "青森県上北郡おいらせ町上明堂112",
-    "tel": "",
-    "url": "https://shop.momokawa.co.jp/",
-    "area": "おいらせ町",
-    "desc": "明治22年（1889年）創業。青森県を代表する酒蔵。青森県産りんごを使った「りんごに恋したお酒」はA-1グランプリ受賞、青森県ふるさと食品コンクール会長賞受賞。あおもりカシスリキュールも展開。",
-    "visit": "",
-    "brands": [
-      {"name": "りんごに恋したお酒", "type": "りんご酒", "specs": "青森県産りんご使用、A-1グランプリ受賞"},
-      {"name": "あおもりカシス", "type": "カシスリキュール", "specs": "青森県産カシス100%使用、香料・着色料無添加"}
-    ],
-    "features": [
-      "1889年創業の青森を代表する酒蔵",
-      "青森県産りんごを使ったリキュールが人気",
-      "あおもりカシスリキュールも展開"
-    ],
-    "source": "https://shop.momokawa.co.jp/",
-    "name_en": "Momokawa"
+    "specs": "青森県産りんご果汁・にごり酒ブレンド"
+   }
+  ],
+  "features": [
+   "1899年創業の青森の酒蔵",
+   "八甲田・奥入瀬の伏流水を使用"
+  ],
+  "source": "",
+  "name_en": "Hatomasamune",
+  "lat": 40.614281,
+  "lng": 141.244965,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "青森県十和田市大字三本木稲吉１７６番地",
+   "checked": "2026-07-27"
   }
+ },
+ {
+  "id": "momokawa",
+  "name": "桃川",
+  "company": "桃川株式会社",
+  "brand": "桃川",
+  "type": "りんごリキュール",
+  "liqueur_type": "other",
+  "base_spirit": "",
+  "fruit_ingredient": "青森県産りんご",
+  "abv": "",
+  "founded": "1889",
+  "founded_era": "明治22年",
+  "address": "青森県上北郡おいらせ町上明堂112",
+  "tel": "",
+  "url": "https://shop.momokawa.co.jp/",
+  "area": "おいらせ町",
+  "desc": "明治22年（1889年）創業。青森県を代表する酒蔵。青森県産りんごを使った「りんごに恋したお酒」はA-1グランプリ受賞、青森県ふるさと食品コンクール会長賞受賞。あおもりカシスリキュールも展開。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "りんごに恋したお酒",
+    "type": "りんご酒",
+    "specs": "青森県産りんご使用、A-1グランプリ受賞"
+   },
+   {
+    "name": "あおもりカシス",
+    "type": "カシスリキュール",
+    "specs": "青森県産カシス100%使用、香料・着色料無添加"
+   }
+  ],
+  "features": [
+   "1889年創業の青森を代表する酒蔵",
+   "青森県産りんごを使ったリキュールが人気",
+   "あおもりカシスリキュールも展開"
+  ],
+  "source": "https://shop.momokawa.co.jp/",
+  "name_en": "Momokawa",
+  "lat": 40.593758,
+  "lng": 141.429901,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "青森県おいらせ町上明堂１１２番地",
+   "checked": "2026-07-27"
+  }
+ }
 ]

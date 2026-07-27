@@ -1,119 +1,179 @@
 [
-  {
-    "id": "unkai_shuzo",
-    "name": "雲海酒造",
-    "company": "雲海酒造株式会社",
-    "brand": "雲海",
-    "type": "フルーツリキュール",
-    "liqueur_type": "other",
-    "base_spirit": "焼酎",
-    "fruit_ingredient": "宮崎県産果実",
-    "abv": "",
-    "founded": "",
-    "founded_era": "",
-    "address": "宮崎県宮崎市",
-    "tel": "",
-    "url": "",
-    "area": "宮崎市",
-    "desc": "宮崎の焼酎メーカー。日向夏・金柑・山桃など宮崎県産果実を使ったリキュールを展開。マンゴースパークリングも人気。",
-    "visit": "蔵元 綾 酒泉の杜（見学・販売）",
-    "brands": [
-      {"name": "日向夏リキュール", "type": "柑橘リキュール", "specs": "宮崎県産日向夏使用"},
-      {"name": "金柑リキュール", "type": "柑橘リキュール", "specs": "宮崎県産金柑使用"},
-      {"name": "マンゴースパークリング", "type": "マンゴーリキュール", "specs": "宮崎県産マンゴー使用"}
-    ],
-    "features": [
-      "宮崎県産果実を使ったフルーツリキュールを多数展開",
-      "蔵元 綾 酒泉の杜で見学・購入可能"
-    ],
-    "source": "",
-    "name_en": "Unkai Shuzo"
-  },
-  {
-    "id": "inoue_shuzo_miyazaki",
-    "name": "井上酒造",
-    "company": "井上酒造株式会社",
-    "brand": "飫肥杉",
-    "type": "フルーツリキュール",
-    "liqueur_type": "other",
-    "base_spirit": "焼酎",
-    "fruit_ingredient": "日向夏",
-    "abv": "",
-    "founded": "",
-    "founded_era": "",
-    "address": "宮崎県日南市",
-    "tel": "",
-    "url": "https://www.obisugi.co.jp/",
-    "area": "日南市",
-    "desc": "宮崎県日南市の焼酎蔵。本格焼酎「飫肥杉」で知られる。地元産日向夏を本格麦焼酎に漬け込んだ「日向のなつこ」などフルーツリキュールも展開。",
-    "visit": "",
-    "brands": [
-      {"name": "日向のなつこ", "type": "柑橘リキュール", "specs": "本格麦焼酎ベース、宮崎県産日向夏使用"}
-    ],
-    "features": [
-      "本格焼酎「飫肥杉」で知られる宮崎の蔵",
-      "地元産日向夏を使った焼酎リキュール"
-    ],
-    "source": "https://www.obisugi.co.jp/",
-    "name_en": "Inoue Shuzo"
-  },
-  {
-    "id": "takachiho_shuzo",
-    "name": "高千穂酒造",
-    "company": "高千穂酒造株式会社",
-    "brand": "高千穂",
-    "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "焼酎",
-    "fruit_ingredient": "梅・日向夏・マイヤーレモン",
-    "abv": "",
-    "founded": "",
-    "founded_era": "",
-    "address": "宮崎県西臼杵郡高千穂町",
-    "tel": "",
-    "url": "https://www.takachihosyuzo.co.jp/",
-    "area": "高千穂町",
-    "desc": "宮崎県高千穂町の焼酎蔵。樫樽熟成の梅原酒や日向夏みかん酒、マイヤーレモンリキュールなど地元素材を活かしたリキュールを展開。",
-    "visit": "",
-    "brands": [
-      {"name": "高千穂樫樽梅原酒 プラムリキュール", "type": "梅酒", "specs": "樫樽熟成"},
-      {"name": "日向夏みかん酒", "type": "柑橘リキュール", "specs": "宮崎県産日向夏使用"},
-      {"name": "マイヤーレモンリキュール", "type": "柑橘リキュール", "specs": "宮崎県産マイヤーレモン使用"}
-    ],
-    "features": [
-      "宮崎・高千穂の焼酎蔵が造るリキュール",
-      "地元素材（日向夏・マイヤーレモン）を活用"
-    ],
-    "source": "https://www.takachihosyuzo.co.jp/",
-    "name_en": "Takachiho Shuzo"
-  },
-  {
-    "id": "sakuranosato",
-    "name": "櫻の郷酒造",
-    "company": "櫻の郷酒造株式会社",
-    "brand": "無月",
-    "type": "いちごリキュール",
-    "liqueur_type": "strawberry",
-    "base_spirit": "焼酎",
-    "fruit_ingredient": "いちご",
-    "abv": "14",
-    "founded": "1994",
-    "founded_era": "平成6年",
-    "address": "宮崎県日南市北郷町郷之原甲888",
-    "tel": "",
-    "url": "https://www.sakuranosato.co.jp/",
-    "area": "日南市",
-    "desc": "平成6年（1994年）設立。井上酒造の関連会社として設立され、日本最大級の約5,500基の大甕で長期貯蔵熟成を行う。本格焼酎「無月」「赤魔王」で知られる。「しあわせ いちごリキュール」を数量限定で展開。",
-    "visit": "",
-    "brands": [
-      {"name": "しあわせ いちごリキュール", "type": "いちご酒", "specs": "アルコール14度、数量限定"}
-    ],
-    "features": [
-      "日本最大級の約5,500基の大甕での長期貯蔵",
-      "本格焼酎「無月」「赤魔王」の蔵元",
-      "数量限定のいちごリキュール"
-    ],
-    "source": "https://www.sakuranosato.co.jp/",
-    "name_en": "Sakuranosato Shuzo"
+ {
+  "id": "unkai_shuzo",
+  "name": "雲海酒造",
+  "company": "雲海酒造株式会社",
+  "brand": "雲海",
+  "type": "フルーツリキュール",
+  "liqueur_type": "other",
+  "base_spirit": "焼酎",
+  "fruit_ingredient": "宮崎県産果実",
+  "abv": "",
+  "founded": "",
+  "founded_era": "",
+  "address": "宮崎県宮崎市",
+  "tel": "",
+  "url": "",
+  "area": "宮崎市",
+  "desc": "宮崎の焼酎メーカー。日向夏・金柑・山桃など宮崎県産果実を使ったリキュールを展開。マンゴースパークリングも人気。",
+  "visit": "蔵元 綾 酒泉の杜（見学・販売）",
+  "brands": [
+   {
+    "name": "日向夏リキュール",
+    "type": "柑橘リキュール",
+    "specs": "宮崎県産日向夏使用"
+   },
+   {
+    "name": "金柑リキュール",
+    "type": "柑橘リキュール",
+    "specs": "宮崎県産金柑使用"
+   },
+   {
+    "name": "マンゴースパークリング",
+    "type": "マンゴーリキュール",
+    "specs": "宮崎県産マンゴー使用"
+   }
+  ],
+  "features": [
+   "宮崎県産果実を使ったフルーツリキュールを多数展開",
+   "蔵元 綾 酒泉の杜で見学・購入可能"
+  ],
+  "source": "",
+  "name_en": "Unkai Shuzo",
+  "lat": 31.907681,
+  "lng": 131.420288,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "宮崎県宮崎市",
+   "checked": "2026-07-27"
   }
+ },
+ {
+  "id": "inoue_shuzo_miyazaki",
+  "name": "井上酒造",
+  "company": "井上酒造株式会社",
+  "brand": "飫肥杉",
+  "type": "フルーツリキュール",
+  "liqueur_type": "other",
+  "base_spirit": "焼酎",
+  "fruit_ingredient": "日向夏",
+  "abv": "",
+  "founded": "",
+  "founded_era": "",
+  "address": "宮崎県日南市",
+  "tel": "",
+  "url": "https://www.obisugi.co.jp/",
+  "area": "日南市",
+  "desc": "宮崎県日南市の焼酎蔵。本格焼酎「飫肥杉」で知られる。地元産日向夏を本格麦焼酎に漬け込んだ「日向のなつこ」などフルーツリキュールも展開。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "日向のなつこ",
+    "type": "柑橘リキュール",
+    "specs": "本格麦焼酎ベース、宮崎県産日向夏使用"
+   }
+  ],
+  "features": [
+   "本格焼酎「飫肥杉」で知られる宮崎の蔵",
+   "地元産日向夏を使った焼酎リキュール"
+  ],
+  "source": "https://www.obisugi.co.jp/",
+  "name_en": "Inoue Shuzo",
+  "lat": 31.60181,
+  "lng": 131.378754,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "宮崎県日南市",
+   "checked": "2026-07-27"
+  }
+ },
+ {
+  "id": "takachiho_shuzo",
+  "name": "高千穂酒造",
+  "company": "高千穂酒造株式会社",
+  "brand": "高千穂",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "焼酎",
+  "fruit_ingredient": "梅・日向夏・マイヤーレモン",
+  "abv": "",
+  "founded": "",
+  "founded_era": "",
+  "address": "宮崎県西臼杵郡高千穂町",
+  "tel": "",
+  "url": "https://www.takachihosyuzo.co.jp/",
+  "area": "高千穂町",
+  "desc": "宮崎県高千穂町の焼酎蔵。樫樽熟成の梅原酒や日向夏みかん酒、マイヤーレモンリキュールなど地元素材を活かしたリキュールを展開。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "高千穂樫樽梅原酒 プラムリキュール",
+    "type": "梅酒",
+    "specs": "樫樽熟成"
+   },
+   {
+    "name": "日向夏みかん酒",
+    "type": "柑橘リキュール",
+    "specs": "宮崎県産日向夏使用"
+   },
+   {
+    "name": "マイヤーレモンリキュール",
+    "type": "柑橘リキュール",
+    "specs": "宮崎県産マイヤーレモン使用"
+   }
+  ],
+  "features": [
+   "宮崎・高千穂の焼酎蔵が造るリキュール",
+   "地元素材（日向夏・マイヤーレモン）を活用"
+  ],
+  "source": "https://www.takachihosyuzo.co.jp/",
+  "name_en": "Takachiho Shuzo",
+  "lat": 32.711666,
+  "lng": 131.307785,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "宮崎県西臼杵郡高千穂町",
+   "checked": "2026-07-27"
+  }
+ },
+ {
+  "id": "sakuranosato",
+  "name": "櫻の郷酒造",
+  "company": "櫻の郷酒造株式会社",
+  "brand": "無月",
+  "type": "いちごリキュール",
+  "liqueur_type": "strawberry",
+  "base_spirit": "焼酎",
+  "fruit_ingredient": "いちご",
+  "abv": "14",
+  "founded": "1994",
+  "founded_era": "平成6年",
+  "address": "宮崎県日南市北郷町郷之原甲888",
+  "tel": "",
+  "url": "https://www.sakuranosato.co.jp/",
+  "area": "日南市",
+  "desc": "平成6年（1994年）設立。井上酒造の関連会社として設立され、日本最大級の約5,500基の大甕で長期貯蔵熟成を行う。本格焼酎「無月」「赤魔王」で知られる。「しあわせ いちごリキュール」を数量限定で展開。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "しあわせ いちごリキュール",
+    "type": "いちご酒",
+    "specs": "アルコール14度、数量限定"
+   }
+  ],
+  "features": [
+   "日本最大級の約5,500基の大甕での長期貯蔵",
+   "本格焼酎「無月」「赤魔王」の蔵元",
+   "数量限定のいちごリキュール"
+  ],
+  "source": "https://www.sakuranosato.co.jp/",
+  "name_en": "Sakuranosato Shuzo",
+  "lat": 31.71962,
+  "lng": 131.37738,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "宮崎県日南市北郷町郷之原",
+   "checked": "2026-07-27"
+  }
+ }
 ]

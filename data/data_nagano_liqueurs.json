@@ -1,56 +1,74 @@
 [
-  {
-    "id": "chikumanishiki",
-    "name": "千曲錦酒造",
-    "company": "千曲錦酒造株式会社",
-    "brand": "千曲錦",
+ {
+  "id": "chikumanishiki",
+  "name": "千曲錦酒造",
+  "company": "千曲錦酒造株式会社",
+  "brand": "千曲錦",
+  "type": "梅酒",
+  "liqueur_type": "umeshu",
+  "base_spirit": "焼酎",
+  "fruit_ingredient": "梅",
+  "abv": "",
+  "founded": "1681",
+  "founded_era": "天和元年",
+  "address": "長野県佐久市長土呂1110",
+  "tel": "",
+  "url": "https://www.chikumanishiki.com/",
+  "area": "佐久市",
+  "desc": "天和元年（1681年）創業。浅間山系の湧き水と長野県産米を使用。「千曲錦 極上原酒 UMESHU」は全国梅酒品評会2024本格焼酎梅酒部門で銀賞受賞。",
+  "visit": "",
+  "brands": [
+   {
+    "name": "千曲錦 極上原酒 UMESHU",
     "type": "梅酒",
-    "liqueur_type": "umeshu",
-    "base_spirit": "焼酎",
-    "fruit_ingredient": "梅",
-    "abv": "",
-    "founded": "1681",
-    "founded_era": "天和元年",
-    "address": "長野県佐久市長土呂1110",
-    "tel": "",
-    "url": "https://www.chikumanishiki.com/",
-    "area": "佐久市",
-    "desc": "天和元年（1681年）創業。浅間山系の湧き水と長野県産米を使用。「千曲錦 極上原酒 UMESHU」は全国梅酒品評会2024本格焼酎梅酒部門で銀賞受賞。",
-    "visit": "",
-    "brands": [
-      {"name": "千曲錦 極上原酒 UMESHU", "type": "梅酒", "specs": "本格焼酎ベース、全国梅酒品評会2024銀賞"}
-    ],
-    "features": [
-      "1681年創業の長野・佐久の老舗蔵",
-      "全国梅酒品評会2024本格焼酎梅酒部門銀賞"
-    ],
-    "source": "https://www.chikumanishiki.com/",
-    "name_en": "Chikumanishiki Shuzo"
-  },
-  {
-    "id": "kikuisuishuzo_nagano",
-    "name": "喜久水酒造",
-    "company": "喜久水酒造株式会社",
-    "brand": "喜久水",
-    "type": "リキュール",
-    "liqueur_type": "other",
-    "base_spirit": "",
-    "fruit_ingredient": "",
-    "abv": "",
-    "founded": "1944",
-    "founded_era": "昭和19年",
-    "address": "長野県飯田市鼎切石4851",
-    "tel": "",
-    "url": "",
-    "area": "飯田市",
-    "desc": "飯田・下伊那地域唯一の酒蔵。日本酒のほか、焼酎やリキュール、シードルなども製造。信州の風土を活かした幅広い酒造りを行う。",
-    "visit": "",
-    "brands": [],
-    "features": [
-      "飯田・下伊那地域唯一の酒蔵",
-      "日本酒のほか焼酎・リキュール・シードルも製造"
-    ],
-    "source": "",
-    "name_en": "Kikuisui Shuzo (Nagano)"
+    "specs": "本格焼酎ベース、全国梅酒品評会2024銀賞"
+   }
+  ],
+  "features": [
+   "1681年創業の長野・佐久の老舗蔵",
+   "全国梅酒品評会2024本格焼酎梅酒部門銀賞"
+  ],
+  "source": "https://www.chikumanishiki.com/",
+  "name_en": "Chikumanishiki Shuzo",
+  "lat": 36.286736,
+  "lng": 138.464096,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "長野県佐久市長土呂１１１０番地",
+   "checked": "2026-07-27"
   }
+ },
+ {
+  "id": "kikuisuishuzo_nagano",
+  "name": "喜久水酒造",
+  "company": "喜久水酒造株式会社",
+  "brand": "喜久水",
+  "type": "リキュール",
+  "liqueur_type": "other",
+  "base_spirit": "",
+  "fruit_ingredient": "",
+  "abv": "",
+  "founded": "1944",
+  "founded_era": "昭和19年",
+  "address": "長野県飯田市鼎切石4851",
+  "tel": "",
+  "url": "",
+  "area": "飯田市",
+  "desc": "飯田・下伊那地域唯一の酒蔵。日本酒のほか、焼酎やリキュール、シードルなども製造。信州の風土を活かした幅広い酒造りを行う。",
+  "visit": "",
+  "brands": [],
+  "features": [
+   "飯田・下伊那地域唯一の酒蔵",
+   "日本酒のほか焼酎・リキュール・シードルも製造"
+  ],
+  "source": "",
+  "name_en": "Kikuisui Shuzo (Nagano)",
+  "lat": 35.513313,
+  "lng": 137.804276,
+  "geo_source": {
+   "by": "国土地理院 住所検索API",
+   "matched": "長野県飯田市鼎切石４８５１番地",
+   "checked": "2026-07-27"
+  }
+ }
 ]
