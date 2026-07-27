@@ -12,6 +12,16 @@ with open(os.path.join(BASE, 'template_liqueur.html'), 'r') as f:
     tmpl = f.read()
 CSS = tmpl[tmpl.find('<style>') + 7:tmpl.find('</style>')]
 
+# 英語の編集コンテンツ（data/en_content.json、県:IDキー）。
+# 存在するメーカーはENページの本文を差し替え、noindexを外してhreflangを完全な対にする。
+_enc_path = os.path.join(BASE, 'data', 'en_content.json')
+EN_CONTENT = {}
+if os.path.exists(_enc_path):
+    try:
+        EN_CONTENT = {k: v for k, v in json.load(open(_enc_path, encoding='utf-8')).items() if not k.startswith('_')}
+    except Exception:
+        EN_CONTENT = {}
+
 DOMAIN = 'liqueur.terroirhub.com'
 
 PREF_NAMES = {
@@ -116,8 +126,33 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
     page_url = f"https://{DOMAIN}/liqueur/{lang}/{pref_slug}/{bid}.html"
     desc = b.get('desc', '')
     brand = b.get('brand', '')
+    features = b.get('features', []) or []
 
     _b_items = b.get('brands') or b.get('products') or b.get('liqueurs') or []
+
+    # 英語の編集コンテンツがあれば本文を差し替える（EN_CONTENT_GUIDE準拠・事実はJAデータのみ）
+    _ov = EN_CONTENT.get(f"{pref_slug}:{bid}") if lang == 'en' else None
+    _has_real_en = bool(_ov)
+    tagline_en = ''
+    if _ov:
+        desc = _ov.get('desc_en') or desc
+        tagline_en = _ov.get('tagline_en') or ''
+        features = _ov.get('features_en') or features
+        _bmap = _ov.get('brands_en') or {}
+        if _bmap and isinstance(_b_items, list):
+            _nb = []
+            for _br in _b_items:
+                if isinstance(_br, str):
+                    _br = {'name': _br, 'specs': ''}
+                if not isinstance(_br, dict):
+                    continue
+                _e = _bmap.get(str(_br.get('name', '')))
+                if _e:
+                    _nb.append({**_br, 'name': _e.get('name_en') or _br.get('name', ''),
+                                'specs': _e.get('specs_en') or _br.get('specs', ''), 'type': ''})
+                else:
+                    _nb.append(_br)
+            _b_items = _nb
     _bn2 = [str(x.get('name','')) if isinstance(x, dict) else str(x) for x in (_b_items[:5] if isinstance(_b_items, list) else [])]
     _bn2 = [x for x in _bn2 if x]
     _disp = b.get('name_en') or name
@@ -186,6 +221,18 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
 
     # ── 銘柄 + 基本情報セクション（en）──
     _ml_extra = ''
+    if _has_real_en and desc:
+        _ml_extra += ('<section style="padding:56px 24px 0;max-width:1100px;margin:0 auto;">'
+                      f'<h2 style="font-size:22px;margin-bottom:16px;">The Story of {esc(display_name)}</h2>'
+                      f'<p style="font-size:15px;line-height:2;max-width:760px;">{esc(desc)}</p></section>')
+    if _has_real_en and features:
+        _fl = ''.join(
+            f'<div style="background:#fff;border:1px solid #F0D5E0;border-radius:8px;padding:18px;font-size:14px;line-height:1.7;">{esc(str(fx))}</div>'
+            for fx in features[:4] if fx)
+        if _fl:
+            _ml_extra += ('<section style="padding:50px 24px 0;max-width:1100px;margin:0 auto;">'
+                          '<h2 style="font-size:22px;margin-bottom:16px;">Features</h2>'
+                          + f'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;">{_fl}</div></section>')
     _bl = ''
     for _bx in (_b_items[:4] if isinstance(_b_items, list) else []):
         if isinstance(_bx, dict):
@@ -220,20 +267,32 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
                     + _json2.dumps(_sakura_ctx, ensure_ascii=False).replace('</', '<\\/')
                     + ';</script>\n<script src="/sakura-page.js" defer></script>')
 
+    # hreflang: EN本物化済みはja/enの完全な対にしてnoindexを外す。殻のままなら従来通り除外
+    if lang == 'en' and _has_real_en:
+        robots_meta = ''
+        hreflang = (f'<link rel="alternate" hreflang="ja" href="https://{DOMAIN}/liqueur/{pref_slug}/{bid}.html">\n'
+                    f'<link rel="alternate" hreflang="en" href="https://{DOMAIN}/liqueur/en/{pref_slug}/{bid}.html">\n'
+                    f'<link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/liqueur/{pref_slug}/{bid}.html">')
+    else:
+        robots_meta = '<meta name="robots" content="noindex,follow">' if lang == 'en' else ''
+        hreflang = (f'<link rel="alternate" hreflang="ja" href="https://{DOMAIN}/liqueur/{pref_slug}/{bid}.html">\n'
+                    f'<link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/liqueur/{pref_slug}/{bid}.html">')
+    meta_desc = (desc[:160] if _has_real_en and desc
+                 else f'{display_name} — Japanese liqueur producer in {pref_en}')
+
     return f'''<!DOCTYPE html>
 <html lang="{t['html_lang']}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{'<meta name="robots" content="noindex,follow">' if lang == 'en' else ''}<title>{esc(display_name)} — {t['title_suffix']}</title>
-<meta name="description" content="{esc(display_name)} — Japanese liqueur producer in {pref_en}">
+{robots_meta}<title>{esc(display_name)} — {t['title_suffix']}</title>
+<meta name="description" content="{esc(meta_desc)}">
 <meta property="og:title" content="{esc(display_name)} — {t['title_suffix']}">
-<meta property="og:description" content="{esc(display_name)} — Japanese liqueur producer in {pref_en}">
+<meta property="og:description" content="{esc(meta_desc)}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{page_url}">
 <link rel="canonical" href="{page_url}">
-<link rel="alternate" hreflang="ja" href="https://{DOMAIN}/liqueur/{pref_slug}/{bid}.html">
-<link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/liqueur/{pref_slug}/{bid}.html">
+{hreflang}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Serif+JP:wght@200;300;400&family=Zen+Old+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -253,8 +312,8 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
   <div class="hero-content">
     <div class="hero-badge"><span class="badge-dot"></span>TERROIR HUB LIQUEUR</div>
     <h1 class="hero-title">{esc(name)}</h1>
-    {f'<p class="hero-subtitle">{esc(brand)}</p>' if brand else ''}
-    {f'<p class="hero-tagline">{esc(desc)}</p>' if desc else ''}
+    {f'<p class="hero-subtitle">{esc(display_name if _has_real_en and display_name != name else brand)}</p>' if (brand or (_has_real_en and display_name != name)) else ''}
+    {f'<p class="hero-tagline">{esc(tagline_en or desc)}</p>' if (tagline_en or desc) else ''}
     <div class="hero-actions">
       <button class="btn-p" onclick="openPanel()">{t['ask_sakura']}</button>
     </div>

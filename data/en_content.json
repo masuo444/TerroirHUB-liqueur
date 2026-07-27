@@ -1,0 +1,872 @@
+{
+ "_note": "英語本文（EN_CONTENT_GUIDE準拠）。日本語データにある事実のみを英語化。受賞はJA側に記載があるもののみ。読みはデータ内の仮名表記か標準語彙のみローマ字化。by=fable, 2026-07-27",
+ "aichi:sawada_shuzo": {
+  "tagline_en": "A Tokoname sake house whose junmai-ginjo umeshu took silver at the 2024 National Umeshu Awards.",
+  "desc_en": "Sawada Shuzo, a sake brewery in Tokoname, Aichi, makes plum liqueurs on a junmai ginjo sake base. Its Chita Hakurobai umeshu won silver in the sake-based division of the 2024 National Umeshu Awards, and UMESHU T (\"Tsunagu\") took silver in the premium division.",
+  "features_en": ["Two silver medals at the 2024 National Umeshu Awards", "Umeshu built on junmai ginjo sake"],
+  "brands_en": {"知多 白老梅 純米吟醸仕込の梅酒": {"name_en": "Chita Hakurobai Junmai Ginjo Umeshu", "specs_en": "Junmai ginjo base — silver, 2024 National Umeshu Awards"}, "UMESHU T ～つなぐ～": {"name_en": "UMESHU T \"Tsunagu\"", "specs_en": "Silver, premium division, 2024 National Umeshu Awards"}},
+  "by": "fable", "audited": false
+ },
+ "aichi:nakano_shuzo": {
+  "tagline_en": "The Kunizakari brewers of Handa, pressing real fruit into more than ten additive-free liqueurs.",
+  "desc_en": "Nakano Shuzo, founded in 1844 on the Chita Peninsula, brews the local sake Kunizakari and makes the Fruria line of high-juice fruit liqueurs — more than ten kinds including mikan orange (80% juice), peach, strawberry, grape and apple, all made without added flavourings or acidifiers. Its sake culture museum, Kunizakari Sake no Bunkakan, is open to visitors.",
+  "features_en": ["Founded 1844 in Handa, Aichi", "Fruria line: 10+ high-juice fruit liqueurs", "No added flavourings or acidifiers"],
+  "brands_en": {"國盛 フルリア みかんのお酒": {"name_en": "Kunizakari Fruria Mikan", "specs_en": "80% Japanese mikan juice, no added flavourings"}, "國盛 フルリア もものお酒": {"name_en": "Kunizakari Fruria Peach", "specs_en": "Japanese white peach juice, additive-free"}, "國盛 フルリア いちごのお酒": {"name_en": "Kunizakari Fruria Strawberry", "specs_en": "Japanese strawberry juice, additive-free"}},
+  "by": "fable", "audited": false
+ },
+ "akita:dewatsuru": {
+  "tagline_en": "White Kaga plums steeped in junmai sake brewed from Akitakomachi rice.",
+  "desc_en": "Founded in 1865, Akita Seishu brews Dewatsuru Umegokochi, a plum liqueur of Shirakaga plums steeped in junmai sake made from Akitakomachi rice. It carries a fresh, peach-like aroma at 11% ABV.",
+  "features_en": ["Sake house founded 1865", "Junmai sake base brewed from Akitakomachi rice"],
+  "brands_en": {"出羽鶴 梅ごこち": {"name_en": "Dewatsuru Umegokochi", "specs_en": "Junmai sake base, Shirakaga plums — 11% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "akita:hinomaru_jozo": {
+  "tagline_en": "A 1689 Yokote brewery pouring its sake craft into a cheesecake-rich yogurt liqueur.",
+  "desc_en": "Hinomaru Jozo, founded in 1689 in Yokote, Akita, keeps a storehouse registered as a National Tangible Cultural Property and brews more than sixty sakes. That range of technique feeds its Yogurushu — a yogurt liqueur with a dense, cheesecake-like richness under the Mansaku no Hana label.",
+  "features_en": ["Founded 1689 — over 300 years of brewing", "Registered Tangible Cultural Property storehouse", "Cheesecake-rich yogurt liqueur"],
+  "brands_en": {"まんさくの花 よーぐるしゅ": {"name_en": "Mansaku no Hana Yogurushu", "specs_en": "Sake-based yogurt liqueur"}},
+  "by": "fable", "audited": false
+ },
+ "aomori:hatomasamune": {
+  "tagline_en": "Umeshu and a snow-cloudy apple liqueur from the underground waters of Hakkoda.",
+  "desc_en": "Hatomasamune, founded in 1899 in Towada, Aomori, brews with subsoil water from the Hakkoda and Oirase watershed. It makes the Hachitsuru Nmē Umeshu plum liqueur and the popular Yuki Ringo, which blends Aomori apple juice with cloudy nigori sake.",
+  "features_en": ["Founded 1899 in Towada, Aomori", "Hakkoda–Oirase subsoil water"],
+  "brands_en": {"八鶴 んめ～梅酒": {"name_en": "Hachitsuru Nmē Umeshu", "specs_en": "Plum liqueur"}, "雪りんご": {"name_en": "Yuki Ringo (Snow Apple)", "specs_en": "Aomori apple juice blended with nigori sake"}},
+  "by": "fable", "audited": false
+ },
+ "aomori:momokawa": {
+  "tagline_en": "One of Aomori's flagship breweries, turning local apples and cassis into liqueur.",
+  "desc_en": "Momokawa, founded in 1889 in Oirase, is one of Aomori's leading sake houses. Its apple liqueur Ringo ni Koishita Osake, made with Aomori apples, has won the A-1 Grand Prix and the chairman's prize at the Aomori Furusato Food Contest; an Aomori cassis liqueur made from 100% local cassis, free of flavourings and colourings, completes the line.",
+  "features_en": ["Founded 1889 — a leading Aomori brewery", "Apple liqueur with contest wins", "100% Aomori cassis liqueur, additive-free"],
+  "brands_en": {"りんごに恋したお酒": {"name_en": "Ringo ni Koishita Osake (In Love with Apples)", "specs_en": "Aomori apples — A-1 Grand Prix winner"}, "あおもりカシス": {"name_en": "Aomori Cassis", "specs_en": "100% Aomori cassis, no flavourings or colourings"}},
+  "by": "fable", "audited": false
+ },
+ "chiba:iinuma_honke": {
+  "tagline_en": "Chiba plums resting in Kinoene Masamune sake, from a 300-year house.",
+  "desc_en": "Iinuma Honke, a Chiba sake brewery with over three centuries of history, steeps fine local plums in its Kinoene Masamune sake to make Umekichi — a clean, gently sweet and easy-drinking umeshu at 11% ABV.",
+  "features_en": ["Over 300 years of brewing in Chiba", "Sake-based umeshu with local plums"],
+  "brands_en": {"酒蔵の梅酒 梅吉": {"name_en": "Sakagura no Umeshu Umekichi", "specs_en": "Sake base, Chiba plums — 11% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "chiba:koizumi_shuzo": {
+  "tagline_en": "A Futtsu brewery whose Tokai umeshu medalled at the 2024 National Umeshu Awards.",
+  "desc_en": "Koizumi Shuzo, a sake brewery in Futtsu, Chiba, makes Tokai Umeshu, which won silver in the mixed-base division of the 2024 National Umeshu Awards.",
+  "features_en": ["Silver, mixed-base division, 2024 National Umeshu Awards"],
+  "brands_en": {"東魁 梅酒": {"name_en": "Tokai Umeshu", "specs_en": "Silver, 2024 National Umeshu Awards"}},
+  "by": "fable", "audited": false
+ },
+ "ehime:eikoo": {
+  "tagline_en": "Additive-free umeshu of Ehime Nanko plums on honkaku shochu, from a gold-medal sake house.",
+  "desc_en": "Eiko Shuzo of Matsuyama, a brewery with gold medals from the Annual Japan Sake Awards, steeps Ehime-grown Nanko plums in honkaku (single-distilled) shochu with no acidifiers, colourings or flavourings — a crisp umeshu with restrained sweetness. The house also makes mikan liqueurs from Ehime citrus.",
+  "features_en": ["Gold-medal sake house in Matsuyama", "Additive-free umeshu on honkaku shochu", "Ehime mikan liqueurs as well"],
+  "brands_en": {"蔵元の梅酒": {"name_en": "Kuramoto no Umeshu", "specs_en": "Honkaku shochu base, Ehime Nanko plums, additive-free"}, "蔵元のみかん": {"name_en": "Kuramoto no Mikan", "specs_en": "Ehime ponkan juice, shochu base — gold, Matsuyama Brand New Product Contest 2022"}},
+  "by": "fable", "audited": false
+ },
+ "ehime:umenishiki": {
+  "tagline_en": "Umeshu from a storied Ehime brewery with more than thirty national gold medals.",
+  "desc_en": "Umenishiki Yamakawa, the celebrated Ehime brewer of Umenishiki sake with more than thirty gold medals at the Annual Japan Sake Awards, makes a sake-based plum liqueur under the same name.",
+  "features_en": ["30+ gold medals at the Annual Japan Sake Awards"],
+  "brands_en": {"梅錦 梅酒": {"name_en": "Umenishiki Umeshu", "specs_en": "Sake-based plum liqueur"}},
+  "by": "fable", "audited": false
+ },
+ "ehime:kondo_shuzo": {
+  "tagline_en": "Niihama's last remaining brewery, generous with Ehime mandarins.",
+  "desc_en": "Kondo Shuzo, founded in 1878, is the last brewery remaining in Niihama, Ehime. The fifth-generation head became toji (master brewer) in 2001 and restarted in-house brewing; its Ehime Mikan de Sake liqueur is loaded with Ehime-grown satsuma mandarins.",
+  "features_en": ["Founded 1878 — Niihama's only brewery", "Fifth generation revived in-house brewing", "Ehime mandarin liqueur"],
+  "brands_en": {"愛媛みかんde酒": {"name_en": "Ehime Mikan de Sake", "specs_en": "Ehime satsuma mandarins"}},
+  "by": "fable", "audited": false
+ },
+ "fukui:ippongi": {
+  "tagline_en": "Fukui plums in a four-to-one blend of sake and shochu, sweet like fine honey.",
+  "desc_en": "Ippongi Kubo Honten of Katsuyama, Fukui, makes Ippongi Ume no Utage entirely from Fukui-grown plums, steeped in a blend of 80% sake and 20% shochu. The result carries a deep, honeyed sweetness balanced by fresh plum acidity.",
+  "features_en": ["100% Fukui-grown plums", "Blended base: 80% sake, 20% shochu"],
+  "brands_en": {"一本義 梅の宴": {"name_en": "Ippongi Ume no Utage", "specs_en": "100% Fukui plums; 80% sake / 20% shochu base"}},
+  "by": "fable", "audited": false
+ },
+ "fukuoka:shinozaki": {
+  "tagline_en": "An Edo-period Chikuzen house whose Amaou-strawberry umeshu keeps winning at Tenma Tenjin.",
+  "desc_en": "Shinozaki was founded in the late Edo period in what is now Asakura, Fukuoka, and makes sake, shochu, amazake and liqueurs. Its Amaou strawberry umeshu, \"Amaou, Hajimemashita.\", has placed at the Tenma Tenjin Umeshu Festival two years running, and the house holds a Monde Selection Grand Gold among its honours.",
+  "features_en": ["Late-Edo-period founding in Chikuzen", "Amaou strawberry umeshu — two straight years of Tenma Tenjin honours", "Monde Selection Grand Gold"],
+  "brands_en": {"朝倉 梅酒 UMESHU": {"name_en": "Asakura Umeshu", "specs_en": "Cask-aged in Asakura"}, "あまおう梅酒 あまおう、はじめました。": {"name_en": "Amaou Umeshu \"Amaou, Hajimemashita.\"", "specs_en": "Fukuoka Amaou strawberries — 6% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "fukuoka:nishiyoshida": {
+  "tagline_en": "The Tsukushi barley-shochu makers, gold medallists for their 17-degree umeshu.",
+  "desc_en": "Nishiyoshida Shuzo of Chikugo, Fukuoka, is known for its honkaku barley shochu Tsukushi. Its Tsukushi Umeshu 17 won gold in the honkaku-shochu division of the 2024 National Umeshu Awards.",
+  "features_en": ["Umeshu from the Tsukushi barley-shochu house", "Gold, honkaku-shochu division, 2024 National Umeshu Awards"],
+  "brands_en": {"つくし梅酒 17度": {"name_en": "Tsukushi Umeshu 17", "specs_en": "Honkaku shochu base — 17% ABV, gold at the 2024 National Umeshu Awards"}},
+  "by": "fable", "audited": false
+ },
+ "fukuoka:oga_shuzo": {
+  "tagline_en": "Fukuoka's oldest brewery (1673), steeping plums in sake made with Homanzan spring water.",
+  "desc_en": "Oga Shuzo, founded in 1673, is the oldest sake brewery in Fukuoka Prefecture, committed to handwork and brewing with the subsoil water of Mt. Homan. Its Tamadeizumi Umeshu won silver in the sake-based division of the 2024 National Umeshu Awards.",
+  "features_en": ["Founded 1673 — Fukuoka's oldest brewery", "Silver, sake-based division, 2024 National Umeshu Awards"],
+  "brands_en": {"玉出泉 梅酒": {"name_en": "Tamadeizumi Umeshu", "specs_en": "Sake base — silver, 2024 National Umeshu Awards"}},
+  "by": "fable", "audited": false
+ },
+ "fukuoka:wakanami_shuzo": {
+  "tagline_en": "Qdamon — Kyushu dialect for \"fruit\" — a strawberry liqueur of Hakata Amaou on the Chikugo riverbank.",
+  "desc_en": "Wakanami Shuzo, founded in 1922 on the banks of the Chikugo River in Okawa, Fukuoka, makes the Qdamon line of Kyushu fruit liqueurs — the name means \"fruit\" in Kyushu dialect. Its Hakata Amaou strawberry liqueur, at a gentle 5% ABV, is the flagship.",
+  "features_en": ["Founded 1922 on the Chikugo River", "Qdamon: Kyushu fruit liqueur line", "Hakata Amaou strawberry flagship"],
+  "brands_en": {"Qdamon（くだもん）博多あまおう": {"name_en": "Qdamon Hakata Amaou", "specs_en": "Fukuoka Amaou strawberries — 5% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "fukushima:daishichi": {
+  "tagline_en": "Kimoto umeshu — Kishu Nanko plums in Daishichi's junmai kimoto genshu.",
+  "desc_en": "Daishichi, founded in 1752 in Nihonmatsu, has kept to traditional kimoto brewing for over 250 years. Its Kimoto Umeshu steeps Kishu Nanko plums in undiluted junmai kimoto sake and holds a gold medal from the Féminalise wine competition; a long-aged Gokujo Umeshu completes the pair.",
+  "features_en": ["Kimoto brewing tradition since 1752", "Junmai kimoto genshu base", "Gold at the Féminalise competition"],
+  "brands_en": {"大七 生もと梅酒": {"name_en": "Daishichi Kimoto Umeshu", "specs_en": "Junmai kimoto genshu base, Kishu Nanko plums — 12% ABV"}, "大七 極上梅酒": {"name_en": "Daishichi Gokujo Umeshu", "specs_en": "Long-aged"}},
+  "by": "fable", "audited": false
+ },
+ "fukushima:akebono_shuzo": {
+  "tagline_en": "Snowdrop — an Aizu collaboration of local yogurt, local rice and sake.",
+  "desc_en": "Akebono Shuzo, founded in 1904 in Aizubange, makes the sake-based yogurt liqueur Snowdrop with Aizu Chuo Dairy — Aizu raw-milk yogurt and Mizuho Kogane rice grown in Aizubange. Gentle at 5% ABV, it is a favourite with newcomers to sake.",
+  "features_en": ["Founded 1904 in Aizu", "Collaboration with Aizu Chuo Dairy", "All-Aizu ingredients"],
+  "brands_en": {"Snowdrop スノードロップ プレーン": {"name_en": "Snowdrop Plain", "specs_en": "Sake base, Aizu yogurt — 5% ABV"}, "Snowdrop スノードロップ プレミアム生": {"name_en": "Snowdrop Premium Nama", "specs_en": "Unpasteurised, keep refrigerated"}},
+  "by": "fable", "audited": false
+ },
+ "gifu:hirata_shuzojo": {
+  "tagline_en": "Takayama's Umegoyomi, a silver medallist at the 2024 National Umeshu Awards.",
+  "desc_en": "Hirata Shuzojo, a sake house in Takayama, Gifu, makes Umegoyomi, which won silver in the mixed-base division of the 2024 National Umeshu Awards.",
+  "features_en": ["Silver, mixed-base division, 2024 National Umeshu Awards"],
+  "brands_en": {"梅ごよみ": {"name_en": "Umegoyomi", "specs_en": "Silver, 2024 National Umeshu Awards"}},
+  "by": "fable", "audited": false
+ },
+ "gifu:nakashima_jozo": {
+  "tagline_en": "Kozaemon yuzu-shu: Umaji Village yuzu, nothing less than 100% of it.",
+  "desc_en": "Nakashima Jozo, founded in 1702 in Mizunami, Gifu, makes Kozaemon Yuzushu with 100% yuzu juice from Umaji Village in Kochi — the fruit's most celebrated source — on a sake base.",
+  "features_en": ["Founded 1702", "100% Umaji Village yuzu juice"],
+  "brands_en": {"小左衛門 ゆず酒": {"name_en": "Kozaemon Yuzushu", "specs_en": "Sake base, 100% Umaji Village yuzu"}},
+  "by": "fable", "audited": false
+ },
+ "gunma:hijiri_shuzo": {
+  "tagline_en": "A Shibukawa brewery since 1841, ranging from umeshu to blood orange.",
+  "desc_en": "Hijiri Shuzo, founded in 1841 in Shibukawa, Gunma, keeps its traditional sake craft while making a spread of liqueurs — umeshu, yuzu and a blood-orange liqueur among them.",
+  "features_en": ["Founded 1841 in Gunma", "Umeshu, yuzu and blood-orange liqueurs"],
+  "brands_en": {"聖 梅酒": {"name_en": "Hijiri Umeshu", "specs_en": "Plum liqueur"}, "聖 ゆずリキュール": {"name_en": "Hijiri Yuzu Liqueur", "specs_en": "Yuzu"}, "ブラッドオレンジ ひじり": {"name_en": "Blood Orange Hijiri", "specs_en": "Citrus liqueur"}},
+  "by": "fable", "audited": false
+ },
+ "gunma:kondo_shuzo_gunma": {
+  "tagline_en": "Shu Shu Shu Shu — Gunma fruit set into a dry house's junmai ginjo.",
+  "desc_en": "Kondo Shuzo, founded in 1875 and brewing dry sake with the subsoil water of Mt. Akagi, makes the Shu Shu Shu Shu liqueur series: junmai ginjo sake married with Gunma-grown plum, yuzu and blueberry.",
+  "features_en": ["Founded 1875 at the foot of Mt. Akagi", "Junmai ginjo base with Gunma-grown fruit"],
+  "brands_en": {"Shu Shu Shu Shu 梅": {"name_en": "Shu Shu Shu Shu Ume", "specs_en": "Junmai ginjo base, Gunma plums"}, "Shu Shu Shu Shu 柚子": {"name_en": "Shu Shu Shu Shu Yuzu", "specs_en": "Junmai ginjo base, Gunma yuzu"}, "Shu Shu Shu Shu ブルーベリー": {"name_en": "Shu Shu Shu Shu Blueberry", "specs_en": "Junmai ginjo base, Gunma blueberries"}},
+  "by": "fable", "audited": false
+ },
+ "hiroshima:kamotsuru": {
+  "tagline_en": "Saijo's great name, whose junmai umeshu entered the National Umeshu Awards hall of fame.",
+  "desc_en": "Kamotsuru, the celebrated Saijo brewery founded in 1873, makes its umeshu from just three things: junmai sake, fully ripened Kishu Nanko plums and rock sugar. It won gold and first place three years running at the National Umeshu Awards — earning hall-of-fame status — and a version steeped in junmai ginjo sake aged over ten years extends the line.",
+  "features_en": ["Founded 1873 in Saijo, Hiroshima", "Hall of fame — three straight National Umeshu Awards golds", "Junmai sake, Nanko plums, rock sugar — nothing else"],
+  "brands_en": {"賀茂鶴 純米酒仕込 梅酒": {"name_en": "Kamotsuru Junmai Umeshu", "specs_en": "Junmai base, ripe Kishu Nanko plums — National Umeshu Awards hall of fame"}, "賀茂鶴 純米吟醸古酒仕込 梅酒": {"name_en": "Kamotsuru Junmai Ginjo Koshu Umeshu", "specs_en": "Base sake aged 10+ years — silver, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "hiroshima:sakurao_bd": {
+  "tagline_en": "A 1918 Hiroshima house ageing its umeshu in whisky casks.",
+  "desc_en": "Founded in 1918 as Chugoku Jozo and renamed Sakurao Brewery and Distillery in 2021, this Hatsukaichi maker spans sake, shochu, mirin, liqueurs, gin and whisky. Its liqueurs lean individual: a whisky-cask-aged SAKURAO umeshu, a GABA-enriched umeshu and a red-shiso liqueur from Hiroshima leaves.",
+  "features_en": ["Founded 1918; renamed Sakurao B&D in 2021", "Whisky-cask-aged umeshu", "Gin and whisky under the same roof"],
+  "brands_en": {"SAKURAO ウイスキー樽熟成梅酒": {"name_en": "SAKURAO Whisky-Cask Umeshu", "specs_en": "Aged in whisky casks"}, "紫蘇ダルマ": {"name_en": "Shiso Daruma", "specs_en": "Hiroshima red shiso liqueur"}},
+  "by": "fable", "audited": false
+ },
+ "hokkaido:takasago_hokkaido": {
+  "tagline_en": "Asahikawa's Kokushimuso umeshu, blended in the LAB with Hokkaido fruit.",
+  "desc_en": "Takasago Shuzo, founded in 1899 in Asahikawa, brews with subsoil water of the Daisetsuzan range and Hokkaido-grown sake rice. Its sake-based Kokushimuso Umeshu anchors the Ezokura Umeshu LAB. series, which blends in fruit from around Hokkaido, such as Furano grapes.",
+  "features_en": ["Founded 1899 in Asahikawa", "Daisetsuzan subsoil water", "Umeshu blended with Hokkaido fruit"],
+  "brands_en": {"国士無双梅酒": {"name_en": "Kokushimuso Umeshu", "specs_en": "Sake base"}, "蝦夷蔵梅酒LAB. 葡萄": {"name_en": "Ezokura Umeshu LAB. Grape", "specs_en": "Blended with Furano grape juice"}},
+  "by": "fable", "audited": false
+ },
+ "hyogo:hakutsuru": {
+  "tagline_en": "Nada's Hakutsuru, squeezing whole fruit into its Marugoto Shibori line.",
+  "desc_en": "Hakutsuru, the Nada Gogo house founded in 1743, makes the Marugoto Shibori (\"whole-pressed\") liqueur line — yuzu, peach and lemon pressed whole — plus the jelly-textured Purupuru series. The Hakutsuru Sake Brewery Museum in Kobe opens its brewing culture to visitors.",
+  "features_en": ["Founded 1743 in Nada Gogo", "Whole-pressed fruit liqueur line", "Jelly-texture Purupuru series"],
+  "brands_en": {"まるごと搾り にごりゆず酒": {"name_en": "Marugoto Shibori Nigori Yuzu", "specs_en": "Cloudy yuzu liqueur"}, "まるごと搾り もも酒": {"name_en": "Marugoto Shibori Peach", "specs_en": "Peach juice"}, "ぷるぷる桃酒": {"name_en": "Purupuru Peach", "specs_en": "Jelly texture"}},
+  "by": "fable", "audited": false
+ },
+ "hyogo:kikumasamune": {
+  "tagline_en": "The kimoto masters of Nada, turning their hand to umeshu.",
+  "desc_en": "Kiku-Masamune, founded in 1659 and famed for kimoto-method sake, makes a sake-based umeshu and fruit liqueurs from its Nada home in Kobe.",
+  "features_en": ["Founded 1659 in Nada", "Kimoto sake house's umeshu"],
+  "brands_en": {"菊正宗 梅酒": {"name_en": "Kiku-Masamune Umeshu", "specs_en": "Sake base"}},
+  "by": "fable", "audited": false
+ },
+ "hyogo:ozeki": {
+  "tagline_en": "Three centuries of Nishinomiya brewing behind an easy-going umeshu.",
+  "desc_en": "Ozeki, founded in 1711 in Nishinomiya and known worldwide for its One Cup sake, extends more than 300 years of brewing into plum and fruit liqueurs.",
+  "features_en": ["Founded 1711 — the One Cup house", "300+ years of Nada brewing"],
+  "brands_en": {"大関 梅酒": {"name_en": "Ozeki Umeshu", "specs_en": "Sake base"}},
+  "by": "fable", "audited": false
+ },
+ "hyogo:sawanotsuru": {
+  "tagline_en": "Umeshu built on aged sake — gold at the 2024 National Umeshu Awards.",
+  "desc_en": "Sawanotsuru, the junmai-minded Nada brewery founded in 1717, makes Koshu Jikomi Umeshu on a base of aged sake. It took gold in the sake-based division of the 2024 National Umeshu Awards.",
+  "features_en": ["Founded 1717 in Nada", "Aged-sake base", "Gold, 2024 National Umeshu Awards"],
+  "brands_en": {"沢の鶴 古酒仕込み梅酒": {"name_en": "Sawanotsuru Koshu Jikomi Umeshu", "specs_en": "Aged-sake base, Kishu Nanko plums — gold, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "hyogo:nishiyama_shuzojo": {
+  "tagline_en": "Baishin Shunju — ripe-plum purée nigori umeshu from the Kotsuzumi house of Tamba.",
+  "desc_en": "Nishiyama Shuzojo, the Tamba brewery founded in 1849 and home of Kotsuzumi sake, makes Baishin Shunju, a cloudy umeshu enriched with ripe plum purée. It won gold in the nigori division of the 2024 National Umeshu Awards.",
+  "features_en": ["Founded 1849 — the Kotsuzumi house", "Gold, nigori division, 2024 National Umeshu Awards"],
+  "brands_en": {"梅申春秋": {"name_en": "Baishin Shunju", "specs_en": "Nigori umeshu with ripe plum purée — gold, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "hyogo:houmei": {
+  "tagline_en": "Tamba-Sasayama umeshu on a sake base, silver medallist in 2024.",
+  "desc_en": "Houmei Shuzo of Tamba-Sasayama makes a sake-based umeshu that won silver in the sake-based division of the 2024 National Umeshu Awards.",
+  "features_en": ["Tamba-Sasayama sake house", "Silver, 2024 National Umeshu Awards"],
+  "brands_en": {"鳳鳴梅酒 日本酒仕込み": {"name_en": "Houmei Umeshu Nihonshu-jikomi", "specs_en": "Sake base — silver, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "ibaraki:meiri": {
+  "tagline_en": "Hyakunen Umeshu — the brandy-steeped umeshu once crowned best in Japan, from Mito's plum country.",
+  "desc_en": "Meiri Shurui, founded in 1950 near Mito's famous Kairakuen plum garden, steeps domestic plums in brandy — an unusual base that carried its Baiko Hyakunen Umeshu to first place in Japan at the National Umeshu Awards. A long-aged premium version follows at 17% ABV.",
+  "features_en": ["Best in Japan at the National Umeshu Awards", "Brandy-steeped umeshu", "Beside Mito's Kairakuen plum garden"],
+  "brands_en": {"梅香 百年梅酒": {"name_en": "Baiko Hyakunen Umeshu", "specs_en": "Brandy base — 14% ABV"}, "百年梅酒 プレミアム": {"name_en": "Hyakunen Umeshu Premium", "specs_en": "Long-aged — 17% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "ishikawa:kobori": {
+  "tagline_en": "Kaga Umeshu, Ishikawa's favourite, from the 300-year Manzairaku house.",
+  "desc_en": "Kobori Shuzoten of Tsurugi, Hakusan, has brewed the famed Manzairaku sake for more than three centuries. Its Kaga Umeshu is the most popular plum liqueur in Ishikawa Prefecture.",
+  "features_en": ["300+ years of the Manzairaku name", "Ishikawa's most popular umeshu"],
+  "brands_en": {"萬歳楽 加賀梅酒": {"name_en": "Manzairaku Kaga Umeshu", "specs_en": "Ishikawa's most popular umeshu"}},
+  "by": "fable", "audited": false
+ },
+ "iwate:nanbubijin": {
+  "tagline_en": "Sugar-free umeshu — all-koji junmai sake and Iwate plums, nothing added.",
+  "desc_en": "Nanbu Bijin, founded in 1902 in Ninohe, is known for its sugar-free umeshu: all-koji junmai sake and Iwate-grown plums alone, letting the rice's umami and the fruit's aroma carry the drink at 9–10% ABV. The brewery holds kosher certification. A mountain-grape blend widens the range.",
+  "features_en": ["Sugar-free umeshu", "All-koji junmai sake base", "Kosher certified"],
+  "brands_en": {"南部美人 糖類無添加梅酒": {"name_en": "Nanbu Bijin Sugar-Free Umeshu", "specs_en": "All-koji junmai base, no added sugar — 9–10% ABV"}, "南部美人 山ぶどう梅酒": {"name_en": "Nanbu Bijin Yamabudo Umeshu", "specs_en": "Blended with mountain grapes"}},
+  "by": "fable", "audited": false
+ },
+ "iwate:asabiraki": {
+  "tagline_en": "Umekanon — junmai-based umeshu on one of Japan's hundred famous waters.",
+  "desc_en": "Asabiraki, the leading Morioka brewery founded in 1871, brews with Daiji Shimizu, one of the Heisei-era Hundred Famous Waters. Its junmai-based Umekanon umeshu heads a line of Japanese-style liqueurs.",
+  "features_en": ["Founded 1871 in Morioka", "Daiji Shimizu famous spring water", "Junmai-based liqueur line"],
+  "brands_en": {"梅花音（うめかのん）": {"name_en": "Umekanon", "specs_en": "Junmai sake base"}},
+  "by": "fable", "audited": false
+ },
+ "kagawa:nishino_kinryo": {
+  "tagline_en": "The shrine brewers of Konpira-san, with 230 years behind their umeshu.",
+  "desc_en": "Nishino Kinryo, with over 230 years of history in Kotohira, Kagawa, brews the sacred sake of the Konpira shrine and the Kinryo sake line, alongside umeshu and other liqueurs. It is also known for sake made with Setouchi olive yeast.",
+  "features_en": ["230+ years in Kotohira", "Official sake brewer of Konpira-san"],
+  "brands_en": {"金陵 梅酒": {"name_en": "Kinryo Umeshu", "specs_en": "Sake base"}},
+  "by": "fable", "audited": false
+ },
+ "kagoshima:komasa": {
+  "tagline_en": "Organic plums and honey in honkaku shochu, from a Meiji-era Kagoshima house.",
+  "desc_en": "Komasa Jozo, a Kagoshima shochu house dating to the Meiji era, makes its umeshu with organically grown plums from the Takasudo farm in Nara and honey, on a honkaku shochu base, free of flavourings and colourings — 14% ABV.",
+  "features_en": ["Meiji-era shochu house", "Organic plums and honey, additive-free"],
+  "brands_en": {"小正の梅酒 本格焼酎仕込み": {"name_en": "Komasa no Umeshu", "specs_en": "Honkaku shochu base, organic plums and honey — 14% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "kagoshima:hamada_shuzo": {
+  "tagline_en": "The Kaido and Daimao makers' smooth-mouthed umeshu, with a gold-mine cellar edition.",
+  "desc_en": "Hamada Shuzo, founded in 1868 in Ichikikushikino and known for the imo (sweet-potato) shochus Kaido and Daimao, makes Kuchimaro Umeshu at 14% ABV and a long-aged umeshu sold only at its Kinzangura, a cellar set in a former gold mine.",
+  "features_en": ["Founded 1868 — major Kagoshima shochu maker", "Gold-mine cellar exclusive umeshu"],
+  "brands_en": {"くちまろ梅酒": {"name_en": "Kuchimaro Umeshu", "specs_en": "14% ABV"}, "金山蔵梅酒 長期貯蔵": {"name_en": "Kinzangura Umeshu Long-Aged", "specs_en": "Cellar exclusive"}},
+  "by": "fable", "audited": false
+ },
+ "kagoshima:yamamoto_shuzo_kagoshima": {
+  "tagline_en": "Godai umeshu on imo shochu, with the cloudy Umeta alongside.",
+  "desc_en": "Yamamoto Shuzo, a Kagoshima shochu house in Satsumasendai, makes Godai Umeshu on an imo (sweet-potato) shochu base and the popular cloudy umeshu Umeta.",
+  "features_en": ["Imo-shochu-based umeshu", "Cloudy nigori umeshu Umeta"],
+  "brands_en": {"芋焼酎造り五代梅酒": {"name_en": "Godai Umeshu", "specs_en": "Imo shochu base"}, "にごり梅酒 梅太": {"name_en": "Nigori Umeshu Umeta", "specs_en": "Cloudy style"}},
+  "by": "fable", "audited": false
+ },
+ "kagoshima:shiratama_jozo": {
+  "tagline_en": "From the house of Maoh — the Satsuma umeshu, Saiko.",
+  "desc_en": "Shiratama Jozo of Kinko, Kagoshima, famed for the imo shochu Maoh, makes Saiko no Umeshu — the Satsuma umeshu — at 14% ABV.",
+  "features_en": ["The Maoh shochu house's umeshu"],
+  "brands_en": {"彩煌の梅酒（さつまの梅酒）": {"name_en": "Saiko no Umeshu (Satsuma Umeshu)", "specs_en": "14% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "kagoshima:hombo_shuzo": {
+  "tagline_en": "Joto Umeshu from the Hoshigura — additive-free, Kura Master platinum.",
+  "desc_en": "Hombo Shuzo, the Kagoshima drinks house founded in 1872, steeps fresh green plums each June at its Hoshigura cellar — Nanko, large-fruit and Shirakaga varieties — into Joto Umeshu, made without flavourings, colourings or acidifiers. It took platinum at Kura Master 2023 and gold in 2024; a Chiran-tea version follows at 10% ABV.",
+  "features_en": ["Founded 1872 — 150+ years", "Additive-free umeshu from the Hoshigura", "Kura Master 2023 platinum, 2024 gold"],
+  "brands_en": {"上等梅酒": {"name_en": "Joto Umeshu", "specs_en": "Additive-free — 14% ABV, Kura Master platinum"}, "上等梅酒 知覧茶": {"name_en": "Joto Umeshu Chiran Tea", "specs_en": "Chiran tea from Minamikyushu — 10% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "kanagawa:izumibashi": {
+  "tagline_en": "Yamada Juro — a rice-farming brewery's umeshu of Odawara's famed Juro plums.",
+  "desc_en": "Izumibashi, founded in 1857 in Ebina, grows its own rice and brews from grain to glass. Its umeshu, Yamada Juro, steeps Juro plums from Soga in Odawara in junmai sake; a strawberry liqueur made with locally grown Ebina Tochiotome berries joins the line.",
+  "features_en": ["Founded 1857 — grows its own rice", "Odawara Soga Juro plums in junmai sake"],
+  "brands_en": {"いづみ橋 梅酒 山田十郎": {"name_en": "Izumibashi Umeshu Yamada Juro", "specs_en": "Junmai base, Odawara Juro plums"}, "純情いちご": {"name_en": "Junjo Ichigo", "specs_en": "Junmai base, Ebina Tochiotome strawberries"}},
+  "by": "fable", "audited": false
+ },
+ "kanagawa:kumazawa": {
+  "tagline_en": "Shonan's only brewery — sake, beer and liqueur by the coast.",
+  "desc_en": "Kumazawa Shuzo, founded in 1872 in Chigasaki, is the only brewery on the Shonan coast, making Tensei sake, craft beer and a line of liqueurs.",
+  "features_en": ["Founded 1872 — Shonan's only brewery", "Sake, craft beer and liqueurs"],
+  "by": "fable", "audited": false
+ },
+ "kanagawa:dover": {
+  "tagline_en": "The bartender's Japanese pantry — twelve Wa-shu liqueurs from sakura to matcha.",
+  "desc_en": "Dover Shuzo of Atsugi is a specialist in liqueurs for bars and patisserie. Its Wa-shu series runs to twelve Japanese botanicals — sakura, matcha, yuzu, ume and mugwort among them — and enjoys strong support from professional bartenders.",
+  "features_en": ["Specialist bar and patisserie liqueur maker", "Twelve-strong Wa-shu Japanese botanical series"],
+  "brands_en": {"ドーバー 和酒 桜": {"name_en": "Dover Wa-shu Sakura", "specs_en": "Oshima cherry blossom — 22% ABV"}, "ドーバー 和酒 抹茶": {"name_en": "Dover Wa-shu Matcha", "specs_en": "Japanese matcha — 20% ABV"}, "ドーバー 和酒 柚子": {"name_en": "Dover Wa-shu Yuzu", "specs_en": "Japanese yuzu"}},
+  "by": "fable", "audited": false
+ },
+ "kochi:tsukasabotan": {
+  "tagline_en": "Wild mountain yuzu, junmai sake and sugar — nothing else — from a 1603 Tosa house.",
+  "desc_en": "Tsukasabotan, founded in 1603 in Sakawa, Kochi, makes Yama-yuzu Shibori from pesticide-free mountain yuzu of the Tosa Reihoku highlands, junmai sake and sugar alone — no flavourings, colourings, acidifiers or preservatives, at a soft 8% ABV. French chefs received it warmly at a Paris tasting.",
+  "features_en": ["Founded 1603 in Tosa", "Pesticide-free mountain yuzu, additive-free", "Praised by French chefs in Paris"],
+  "brands_en": {"司牡丹 山柚子搾り ゆずの酒": {"name_en": "Tsukasabotan Yama-yuzu Shibori", "specs_en": "Junmai base, Reihoku mountain yuzu — 8% ABV, additive-free"}},
+  "by": "fable", "audited": false
+ },
+ "kochi:kikusui_kochi": {
+  "tagline_en": "Aki's Edo-founded brewery, coarse-pressing Tosa yuzu into liqueur.",
+  "desc_en": "Kikusui Shuzo of Aki, Kochi, founded in the Edo period, makes Aragoshi Yuzu — a coarsely pressed liqueur of Kochi yuzu with a bright aroma and clean finish.",
+  "features_en": ["Edo-period founding in Aki, Kochi", "Kochi yuzu liqueur"],
+  "brands_en": {"あらごしゆず": {"name_en": "Aragoshi Yuzu", "specs_en": "Kochi yuzu, coarse-pressed"}},
+  "by": "fable", "audited": false
+ },
+ "kochi:umaji_mura": {
+  "tagline_en": "The yuzu village itself — Umaji's co-op liqueur of yuzu and honey, nothing artificial.",
+  "desc_en": "The agricultural cooperative of Umaji Village — Japan's most famous yuzu village — makes its liqueur from yuzu and honey with no flavourings or sweeteners, keeping the fruit's natural aroma, acidity and sweetness.",
+  "features_en": ["From Japan's celebrated yuzu village", "Yuzu and honey only — no flavourings or sweeteners"],
+  "brands_en": {"馬路村ゆずリキュール": {"name_en": "Umaji Village Yuzu Liqueur", "specs_en": "Umaji yuzu and honey, additive-free"}},
+  "by": "fable", "audited": false
+ },
+ "kochi:tosatsuru": {
+  "tagline_en": "Kochi's flagship sake house, with a yuzu liqueur to match.",
+  "desc_en": "Tosatsuru, one of Kochi's flagship sake breweries, makes a sake-based liqueur of Kochi yuzu.",
+  "features_en": ["Flagship Kochi sake house"],
+  "brands_en": {"土佐鶴 ゆずのリキュール": {"name_en": "Tosatsuru Yuzu Liqueur", "specs_en": "Sake base, Kochi yuzu"}},
+  "by": "fable", "audited": false
+ },
+ "kumamoto:zuiyo": {
+  "tagline_en": "Kumamoto plums finished in junmai sake by the house of Toyo red sake.",
+  "desc_en": "Zuiyo, founded in 1867 and known for the ceremonial red sake Toyo, steeps Kumamoto-grown plums in its own shochu and finishes the umeshu with junmai sake — 15% ABV.",
+  "features_en": ["Founded 1867 — the Toyo red-sake house", "Kumamoto plums, shochu and junmai sake"],
+  "brands_en": {"瑞鷹 梅酒 純米酒仕立て": {"name_en": "Zuiyo Umeshu Junmai-jitate", "specs_en": "Shochu and junmai sake base, Kumamoto plums — 15% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "kumamoto:chiyonosono": {
+  "tagline_en": "Amanatsu, cherry and a plum liqueur built on 400-year-old red sake.",
+  "desc_en": "Chiyonosono, founded in 1896 in Yamaga, Kumamoto, makes sake, red sake, shochu and liqueurs. Its trio of fruit liqueurs — amanatsu citrus, cherry and Ume Akazake — is popular, the last steeped in akazake, the red sake with 400 years of history in Kumamoto.",
+  "features_en": ["Founded 1896 in Yamaga", "Plum liqueur on 400-year-old red sake", "Local amanatsu and cherry liqueurs"],
+  "brands_en": {"千代の園 甘夏リキュール": {"name_en": "Chiyonosono Amanatsu Liqueur", "specs_en": "Amanatsu citrus — 10% ABV"}, "千代の園 梅赤酒": {"name_en": "Chiyonosono Ume Akazake", "specs_en": "Red-sake base with 400 years of history"}},
+  "by": "fable", "audited": false
+ },
+ "kyoto:gekkeikan": {
+  "tagline_en": "Fushimi's 1637 institution, easing sake drinkers into fruit with Horodoke.",
+  "desc_en": "Gekkeikan, founded in 1637 in Fushimi, extends its sake into a fruit liqueur line: sake-based umeshu and yuzushu, and the low-alcohol Horodoke series — peach at 3% and strawberry at 3.5% ABV with Japanese fruit juice. The Gekkeikan Okura Sake Museum welcomes visitors.",
+  "features_en": ["Founded 1637 in Fushimi", "Sake-based umeshu and yuzu liqueurs", "Low-alcohol Horodoke fruit series"],
+  "brands_en": {"月桂冠 梅酒": {"name_en": "Gekkeikan Umeshu", "specs_en": "Sake base"}, "月桂冠 ゆず酒": {"name_en": "Gekkeikan Yuzushu", "specs_en": "Sake base, Japanese yuzu"}, "ほろどけ もも": {"name_en": "Horodoke Peach", "specs_en": "Yamanashi peach juice — 3% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "kyoto:takara_shuzo": {
+  "tagline_en": "Takara's Sanchi Meguri — a tour of Japan's orchards, one liqueur at a time.",
+  "desc_en": "Takara Shuzo, the Fushimi drinks maker with history back to 1842 and Japan's largest name in shochu and mirin, makes a Sho Chiku Bai umeshu of 100% Japanese Nanko plums at 10% ABV, and the Sanchi Meguri series that bottles regional fruit — Miyazaki mango, Furano melon, Yamanashi peach and mikan among them.",
+  "features_en": ["History since 1842 in Fushimi", "100% Nanko-plum umeshu", "Sanchi Meguri regional fruit series"],
+  "brands_en": {"松竹梅 梅酒": {"name_en": "Sho Chiku Bai Umeshu", "specs_en": "100% Japanese Nanko plums — 10% ABV"}, "寶 和リキュール 産地めぐり ふらのメロン": {"name_en": "Takara Sanchi Meguri Furano Melon", "specs_en": "Furano melon on cask-aged shochu"}},
+  "by": "fable", "audited": false
+ },
+ "kyoto:kizakura": {
+  "tagline_en": "Kyoto plums from Aotani, thickened to a nigori in Fushimi sake.",
+  "desc_en": "Kizakura, founded in 1926 in Fushimi, processes white plums from Aotani — Kyoto's plum heartland — in-house and steeps them in Fushimi sake for Kyo-bijin Torori Umeshu, a cloudy style rounded with ripe plum purée.",
+  "features_en": ["Founded 1926 in Fushimi", "Kyoto Aotani plums in Fushimi sake"],
+  "brands_en": {"京美人 京都でうまれたとろり梅酒": {"name_en": "Kyo-bijin Torori Umeshu", "specs_en": "Sake base, Kyoto Aotani plums, cloudy"}},
+  "by": "fable", "audited": false
+ },
+ "mie:hayakawa_shuzo": {
+  "tagline_en": "Tenka Shunbai — plum liqueur from a 1915 Komono brewery.",
+  "desc_en": "Hayakawa Shuzo, founded in 1915 in Komono, Mie, makes the plum liqueur Tenka Shunbai.",
+  "features_en": ["Founded 1915 in Mie"],
+  "brands_en": {"天香春梅": {"name_en": "Tenka Shunbai", "specs_en": "Plum liqueur"}},
+  "by": "fable", "audited": false
+ },
+ "mie:ota_shuzo": {
+  "tagline_en": "Hanzo's umeshu — Minabe plums hand-steeped in the G7 summit toast sake's genshu.",
+  "desc_en": "Ota Shuzo, founded in 1892 in Iga, brews Hanzo, the sake served for the toast at the Ise-Shima Summit. Since 2007 it has steeped Nanko plums from Minabe by hand in undiluted sake brewed from Mie rice and Suzuka Mountains subsoil water — aged three years for its umeshu.",
+  "features_en": ["Founded 1892 in Iga", "Brewer of the Ise-Shima Summit toast sake", "Umeshu on three-year-aged sake genshu"],
+  "brands_en": {"半蔵の梅酒": {"name_en": "Hanzo no Umeshu", "specs_en": "Three-year-aged sake base, Minabe Nanko plums"}},
+  "by": "fable", "audited": false
+ },
+ "miyagi:nakayu_shuzoten": {
+  "tagline_en": "A double-gold yuzu umeshu from a hand-crafting Kami brewery.",
+  "desc_en": "Nakayu Shuzoten, a traditional hand-crafting sake brewery in Kami, Miyagi, took a double gold at the 2024 National Umeshu Awards — in both the citrus-blend and brandy-blend divisions — with its Tenjo Mugen \"Date na Yuzu Umeshu\".",
+  "features_en": ["Hand-crafting Miyagi brewery", "Double gold at the 2024 National Umeshu Awards"],
+  "brands_en": {"天上夢幻 蔵人仕込みの伊達なゆず梅酒": {"name_en": "Tenjo Mugen Date na Yuzu Umeshu", "specs_en": "Double gold (citrus-blend and brandy-blend), 2024 National Umeshu Awards"}},
+  "by": "fable", "audited": false
+ },
+ "miyagi:kanbai_shuzo": {
+  "tagline_en": "Hi no Shizuku — Yamamoto strawberries in sake from a grow-your-own-rice house.",
+  "desc_en": "Kanbai Shuzo, founded in 1918 and the only Miyagi brewery to run the full cycle from rice growing to brewing, makes Hi no Shizuku — a strawberry liqueur of 100% Yamamoto-grown fruit juice on a sake base at 6% ABV.",
+  "features_en": ["Founded 1918 — grows its own rice", "100% Yamamoto strawberries"],
+  "brands_en": {"陽のしずく いちご酒": {"name_en": "Hi no Shizuku Ichigo-shu", "specs_en": "Sake base, 100% Yamamoto strawberry juice — 6% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "miyagi:niizawa_jozo": {
+  "tagline_en": "Ultra-rich yogurt liqueur from the Hakurakusei brewers — Jersey milk, kept cold, gone fast.",
+  "desc_en": "Niizawa Jozo, founded in 1873 and the house behind Hakurakusei and Atagonomatsu, blends 100% Jersey-milk yogurt with sake for its Cho-Noko (\"ultra-rich\") Yogurt Liqueur — a Japan Food Selection gold winner, unpasteurised and kept refrigerated. Strawberry and Zao-highland versions extend the line.",
+  "features_en": ["The Hakurakusei house, founded 1873", "Japan Food Selection gold", "Unpasteurised Jersey-milk yogurt liqueur"],
+  "brands_en": {"超濃厚ヨーグルト酒（ジャージー）": {"name_en": "Cho-Noko Yogurt Liqueur (Jersey)", "specs_en": "Sake base, 100% Jersey yogurt — 5% ABV, keep refrigerated"}, "超濃厚いちごヨーグルト酒": {"name_en": "Cho-Noko Strawberry Yogurt Liqueur", "specs_en": "Japanese Nyoho strawberries, keep refrigerated"}},
+  "by": "fable", "audited": false
+ },
+ "miyazaki:unkai_shuzo": {
+  "tagline_en": "Hyuganatsu, kumquat and mango — Miyazaki's orchard in a shochu house's liqueurs.",
+  "desc_en": "Unkai Shuzo, the Miyazaki shochu maker, bottles the prefecture's fruit — hyuganatsu citrus, kumquat and mountain peach — as liqueurs, with a popular mango sparkling. Its Aya Shusen no Mori estate is open for visits and shopping.",
+  "features_en": ["Miyazaki fruit liqueur range", "Visitable Aya Shusen no Mori estate"],
+  "brands_en": {"日向夏リキュール": {"name_en": "Hyuganatsu Liqueur", "specs_en": "Miyazaki hyuganatsu citrus"}, "マンゴースパークリング": {"name_en": "Mango Sparkling", "specs_en": "Miyazaki mango"}},
+  "by": "fable", "audited": false
+ },
+ "miyazaki:inoue_shuzo_miyazaki": {
+  "tagline_en": "Hyuga no Natsuko — local citrus resting in the Obisugi barley shochu.",
+  "desc_en": "Inoue Shuzo of Nichinan, Miyazaki, known for the honkaku shochu Obisugi, steeps local hyuganatsu citrus in its barley shochu for Hyuga no Natsuko and other fruit liqueurs.",
+  "features_en": ["The Obisugi shochu house", "Local hyuganatsu citrus liqueur"],
+  "brands_en": {"日向のなつこ": {"name_en": "Hyuga no Natsuko", "specs_en": "Barley shochu base, Miyazaki hyuganatsu"}},
+  "by": "fable", "audited": false
+ },
+ "miyazaki:takachiho_shuzo": {
+  "tagline_en": "Oak-aged plum genshu and Meyer lemon from the shrine country of Takachiho.",
+  "desc_en": "Takachiho Shuzo, a shochu house in Takachiho, Miyazaki, makes liqueurs from local materials: an oak-cask-aged plum genshu, a hyuganatsu mikan liqueur and a Meyer lemon liqueur.",
+  "features_en": ["Takachiho shochu house", "Oak-cask-aged plum genshu", "Local hyuganatsu and Meyer lemon"],
+  "brands_en": {"高千穂樫樽梅原酒 プラムリキュール": {"name_en": "Takachiho Oak-Cask Plum Genshu", "specs_en": "Oak-cask aged"}, "マイヤーレモンリキュール": {"name_en": "Meyer Lemon Liqueur", "specs_en": "Miyazaki Meyer lemons"}},
+  "by": "fable", "audited": false
+ },
+ "miyazaki:sakuranosato": {
+  "tagline_en": "A limited strawberry liqueur from the house of 5,500 great clay pots.",
+  "desc_en": "Sakuranosato Shuzo, established in 1994 as a sister company of Inoue Shuzo, ages its spirits in about 5,500 large clay pots — among the most in Japan — and is known for the shochus Mugetsu and Aka-Mao. Its Shiawase strawberry liqueur is released in limited quantities at 14% ABV.",
+  "features_en": ["About 5,500 ageing pots — among Japan's largest", "Limited-release strawberry liqueur"],
+  "brands_en": {"しあわせ いちごリキュール": {"name_en": "Shiawase Strawberry Liqueur", "specs_en": "14% ABV, limited release"}},
+  "by": "fable", "audited": false
+ },
+ "nagano:chikumanishiki": {
+  "tagline_en": "Saku's 1681 house, a silver medallist with its shochu-genshu umeshu.",
+  "desc_en": "Chikumanishiki Shuzo, founded in 1681 in Saku, Nagano, brews with spring water of the Asama range and Nagano rice. Its Gokujo Genshu UMESHU took silver in the honkaku-shochu division of the 2024 National Umeshu Awards.",
+  "features_en": ["Founded 1681 in Saku", "Silver, honkaku-shochu division, 2024 National Umeshu Awards"],
+  "brands_en": {"千曲錦 極上原酒 UMESHU": {"name_en": "Chikumanishiki Gokujo Genshu UMESHU", "specs_en": "Honkaku shochu base — silver, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "nagano:kikuisuishuzo_nagano": {
+  "tagline_en": "The only brewery of the Iida valley, from sake to cider.",
+  "desc_en": "Kikuisui Shuzo is the only brewery in the Iida–Shimoina area of southern Nagano, making sake alongside shochu, liqueurs and cider in the Shinshu countryside.",
+  "features_en": ["Only brewery in Iida–Shimoina", "Sake, shochu, liqueur and cider"],
+  "by": "fable", "audited": false
+ },
+ "nagasaki:ikinokura": {
+  "tagline_en": "Umeshu from Iki, the island where barley shochu was born.",
+  "desc_en": "Ikinokura Shuzo was formed in 1984 when six distillers on Iki Island joined forces. Keeping the island's 16th-century shochu tradition, it also makes an umeshu on its barley shochu base.",
+  "features_en": ["Iki — birthplace of barley shochu", "Tradition carried from the 16th century"],
+  "brands_en": {"壱岐梅酒": {"name_en": "Iki Umeshu", "specs_en": "Iki barley shochu base"}},
+  "by": "fable", "audited": false
+ },
+ "nagasaki:fukuda_shuzo": {
+  "tagline_en": "The westernmost brewery on Japan's main islands, ranging from sake to gin.",
+  "desc_en": "Fukuda Shuzo, founded in 1688 in Hirado, is the westernmost brewery on Japan's main islands and served the Hirado domain. One of Nagasaki's most capable houses, it makes sake, shochu, liqueurs, gin and amazake.",
+  "features_en": ["Founded 1688 — westernmost on the main islands", "Purveyor to the Hirado domain", "Sake, shochu, liqueur and gin"],
+  "by": "fable", "audited": false
+ },
+ "nara:umenoyado": {
+  "tagline_en": "The Aragoshi house — fruit flesh left whole, from a Nara brewery of 1893.",
+  "desc_en": "Umenoyado, founded in 1893 in Katsuragi, Nara, is best known for its Aragoshi series — sake-based liqueurs generous with whole fruit pulp: umeshu at 8% ABV, mikan, peach, yuzu and strawberry. The style is mellow and thick with fruit.",
+  "features_en": ["Founded 1893 in Nara", "Aragoshi series with whole fruit pulp", "Mellow sake base"],
+  "brands_en": {"あらごし梅酒": {"name_en": "Aragoshi Umeshu", "specs_en": "Sake base with plum pulp — 8% ABV"}, "あらごしみかん": {"name_en": "Aragoshi Mikan", "specs_en": "Mikan pulp — 7% ABV"}, "あらごしもも": {"name_en": "Aragoshi Momo (Peach)", "specs_en": "White peach pulp — 8% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "nara:narakasugayama": {
+  "tagline_en": "The Hanafuda umeshu, a long-seller since 2003 from the springs below Kasuga's primeval forest.",
+  "desc_en": "Nara Kasugayama Shuzo — founded in 1877 and renamed from Yagi Shuzo in 2022 — sits on famous spring water at the foot of the Kasuga primeval forest. Its Hanafuda series of umeshu and yuzushu, launched in 2003, is a long-seller with many awards at home and abroad.",
+  "features_en": ["Founded 1877 below the Kasuga forest", "Hanafuda series, a long-seller since 2003", "Awards in Japan and abroad"],
+  "brands_en": {"花札の梅酒": {"name_en": "Hanafuda no Umeshu", "specs_en": "Genshu style"}, "とろとろの梅酒": {"name_en": "Torotoro no Umeshu", "specs_en": "Cloudy style"}, "花札のゆず酒": {"name_en": "Hanafuda no Yuzushu", "specs_en": "Yuzu liqueur"}},
+  "by": "fable", "audited": false
+ },
+ "nara:kitaoka_honten": {
+  "tagline_en": "Yoshino Monogatari — liqueurs of homegrown fruit from the cherry-blossom mountain.",
+  "desc_en": "Kitaoka Honten, founded in 1868 in Yoshino — Japan's most famous cherry-blossom country — carries the three-legged crow Yatagarasu on its label and makes the Yoshino Monogatari line: umeshu with local Yoshino plums, plus whole-fruit yuzu and peach liqueurs on shochu.",
+  "features_en": ["Founded 1868 in Yoshino", "Yoshino Monogatari domestic-fruit line", "The Yatagarasu crow on its label"],
+  "brands_en": {"吉野物語 うめ": {"name_en": "Yoshino Monogatari Ume", "specs_en": "Yoshino plums, restrained sweetness"}, "吉野物語 ゆず": {"name_en": "Yoshino Monogatari Yuzu", "specs_en": "Shochu base, whole yuzu"}, "吉野物語 もも": {"name_en": "Yoshino Monogatari Momo", "specs_en": "Shochu base, whole peach"}},
+  "by": "fable", "audited": false
+ },
+ "niigata:hakkaisan_liqueur": {
+  "tagline_en": "Hakkaisan's umeshu, mellowed in a snow-cooled cellar.",
+  "desc_en": "Hakkaisan Brewery, founded in 1922 in Minamiuonuma, steeps domestic plums in its own honkaku rice shochu for an umeshu at 14% ABV, matured at low temperature in a yukimuro — a traditional snow-cooled cellar.",
+  "features_en": ["The Hakkaisan house's umeshu", "Own rice-shochu base", "Snow-cellar (yukimuro) maturation"],
+  "brands_en": {"八海山の原酒で仕込んだ梅酒": {"name_en": "Hakkaisan Genshu Umeshu", "specs_en": "Hakkaisan rice shochu base — 14% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "niigata:kikusui_niigata": {
+  "tagline_en": "Beni Kikusui — three Niigata plum varieties in junmai sake.",
+  "desc_en": "Kikusui, the Niigata brewery founded in 1881 in Shibata, makes Beni Kikusui, an umeshu of Niigata-grown Koshi-no-ume, Kosaka and Togoro plums steeped in its junmai sake.",
+  "features_en": ["Founded 1881 in Shibata", "Three Niigata plum varieties in junmai"],
+  "brands_en": {"紅菊水": {"name_en": "Beni Kikusui", "specs_en": "Junmai base, Niigata plums"}},
+  "by": "fable", "audited": false
+ },
+ "niigata:yoshinogawa": {
+  "tagline_en": "A 1548 Nagaoka house, ageing Benisashi plums in sake since 2012.",
+  "desc_en": "Yoshinogawa, founded in 1548 in Nagaoka and among Japan's oldest breweries, steeps Fukui-grown Benisashi plums in sake for its Gensen Umeshu, an amber liqueur it has aged since 2012.",
+  "features_en": ["Founded 1548 — among Japan's oldest", "Benisashi plums aged since 2012"],
+  "brands_en": {"吉乃川 厳選梅酒": {"name_en": "Yoshinogawa Gensen Umeshu", "specs_en": "Sake base, Fukui Benisashi plums"}},
+  "by": "fable", "audited": false
+ },
+ "oita:oyama_yumekobo": {
+  "tagline_en": "An umeshu-only house in Oyama plum country, built with Nikka Whisky.",
+  "desc_en": "Oyama Yumekobo in Hita, Oita, is a dedicated umeshu maker whose plant was built together with Nikka Whisky. It uses only plums grown by farmers of the local Oyama district and has taken gold at the National Umeshu Awards two years running; in 2024 its The FIRST and an Earl Grey tea-blend umeshu both took silver.",
+  "features_en": ["Dedicated umeshu maker with a Nikka-built plant", "Only local Oyama plums", "Two straight National Umeshu Awards golds"],
+  "brands_en": {"熟成梅酒 The FIRST": {"name_en": "Aged Umeshu The FIRST", "specs_en": "Silver, honkaku-shochu division, 2024"}, "和紅茶梅酒 アールグレイエモーショナル": {"name_en": "Japanese Black Tea Umeshu \"Earl Grey Emotional\"", "specs_en": "Silver, blend division, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "oita:oimatsu": {
+  "tagline_en": "Tenku no Tsuki — a yuzu umeshu from Hita's 1789 house.",
+  "desc_en": "Oimatsu Shuzo, founded in 1789 in Hita, Oita, makes the Tenku no Tsuki line; its yuzu umeshu won silver in the citrus-blend division of the 2024 National Umeshu Awards.",
+  "features_en": ["Founded 1789 in Hita", "Silver, citrus-blend division, 2024"],
+  "brands_en": {"天空の月 ゆず梅酒": {"name_en": "Tenku no Tsuki Yuzu Umeshu", "specs_en": "Silver, citrus-blend division, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "oita:kuge_honten": {
+  "tagline_en": "Iyanbai — Usuki's shochu-based silver medallist.",
+  "desc_en": "Kuge Honten of Usuki, Oita, makes Iyanbai Umeshu on a honkaku shochu base; it won silver in the honkaku-shochu division of the 2024 National Umeshu Awards.",
+  "features_en": ["Silver, honkaku-shochu division, 2024"],
+  "brands_en": {"いやんばい梅酒": {"name_en": "Iyanbai Umeshu", "specs_en": "Honkaku shochu base — silver, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "oita:yatsushika": {
+  "tagline_en": "coconoe — a barley-shochu yogurt liqueur with a grown-up bitter edge.",
+  "desc_en": "Yatsushika Shuzo of Kokonoe, Oita, blends Kyushu yogurt into its own honkaku barley shochu for coconoe, a yogurt liqueur at 8% ABV with a faint shochu bitterness. It placed third in the liqueur division of the Tenma Tenjin Umeshu Festival.",
+  "features_en": ["Barley-shochu yogurt liqueur", "Third place, Tenma Tenjin liqueur division"],
+  "brands_en": {"八鹿 coconoe（ここのえ）": {"name_en": "Yatsushika coconoe", "specs_en": "Barley shochu base, Kyushu yogurt — 8% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "okayama:miyashita_shuzo": {
+  "tagline_en": "Okayama's everything-house — Gokujo sake, Doppo beer, and an umeshu besides.",
+  "desc_en": "Miyashita Shuzo, a composite drinks maker with a century of history in Okayama, brews the sake Gokujo and the craft beer Doppo, and makes umeshu, gin and whisky besides.",
+  "features_en": ["Century-old composite maker", "Sake, beer, umeshu, gin and whisky"],
+  "brands_en": {"極聖 梅酒": {"name_en": "Gokujo Umeshu", "specs_en": "Plum liqueur"}},
+  "by": "fable", "audited": false
+ },
+ "okayama:tsuji_honten": {
+  "tagline_en": "Gozenshu umeshu — Maniwa plums, sake, and nothing added at all.",
+  "desc_en": "Tsuji Honten, founded in 1804 in Katsuyama, Okayama, makes a completely additive-free umeshu of local Maniwa plums on its Gozenshu sake — a clean, dry-leaning pour — with a yuzushu alongside.",
+  "features_en": ["Founded 1804 in Katsuyama", "Local plums, completely additive-free"],
+  "brands_en": {"御前酒 梅酒": {"name_en": "Gozenshu Umeshu", "specs_en": "Sake base, Maniwa plums, additive-free"}, "御前酒 ゆず酒": {"name_en": "Gozenshu Yuzushu", "specs_en": "Sake base"}},
+  "by": "fable", "audited": false
+ },
+ "okinawa:seifuku": {
+  "tagline_en": "Ishigaki's awamori umeshu, with shikuwasa from the islands.",
+  "desc_en": "Seifuku Shuzo, the Ishigaki Island awamori distillery founded in 1949, makes a rich awamori-based umeshu at 12% ABV and a shikuwasa citrus liqueur from Okinawan fruit — southern-island liqueurs with real character.",
+  "features_en": ["Ishigaki awamori distillery, founded 1949", "Awamori-based umeshu and shikuwasa liqueur"],
+  "brands_en": {"請福梅酒": {"name_en": "Seifuku Umeshu", "specs_en": "Awamori base — 12% ABV"}, "請福シークヮーサーリキュール": {"name_en": "Seifuku Shikuwasa Liqueur", "specs_en": "Awamori base, Okinawan shikuwasa"}},
+  "by": "fable", "audited": false
+ },
+ "okinawa:zuisen": {
+  "tagline_en": "Shuri's awamori house, sweetening its umeshu with Okinawan black sugar.",
+  "desc_en": "Zuisen Shuzo, founded in 1887 in Shuri, Naha, makes Zuisen Umeshu on awamori, sweetened with Okinawan black sugar and made with Wakayama plums — 12% ABV.",
+  "features_en": ["Founded 1887 in Shuri", "Okinawan black sugar in the umeshu"],
+  "brands_en": {"瑞泉梅酒": {"name_en": "Zuisen Umeshu", "specs_en": "Awamori base, Okinawan black sugar — 12% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "okinawa:kumesen": {
+  "tagline_en": "100% Okinawan shikuwasa on awamori, with nothing added.",
+  "desc_en": "Kumesen Shuzo, one of Okinawa's leading awamori makers, presses a shikuwasa liqueur from 100% Okinawan shikuwasa juice on its awamori — 7% ABV, free of flavourings, colourings and preservatives.",
+  "features_en": ["Leading awamori maker", "100% Okinawan shikuwasa, additive-free"],
+  "brands_en": {"久米仙 シークヮーサーリキュール": {"name_en": "Kumesen Shikuwasa Liqueur", "specs_en": "Awamori base, 100% Okinawan shikuwasa — 7% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "okinawa:chukou": {
+  "tagline_en": "Umeshu built on kusu — Okinawa's aged awamori.",
+  "desc_en": "Chukou Shuzo of Tomigusuku, Okinawa, steeps its umeshu in kusu — aged awamori — for the Kusu Umeshu at 12% ABV.",
+  "features_en": ["Aged-awamori (kusu) umeshu"],
+  "brands_en": {"忠孝 くぅーす梅酒": {"name_en": "Chukou Kusu Umeshu", "specs_en": "Aged awamori base — 12% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "osaka:choya": {
+  "tagline_en": "The name the world knows for umeshu — whole Nanko plums, exported to 40 countries.",
+  "desc_en": "Choya, founded in 1914 in Habikino, Osaka, is Japan's defining umeshu maker. It steeps whole Nanko plums in its authentic method and ships The CHOYA and its other lines to more than forty countries — the name most drinkers abroad first meet umeshu through.",
+  "features_en": ["Japan's flagship umeshu maker since 1914", "Whole Nanko plums", "Exported to 40+ countries"],
+  "brands_en": {"The CHOYA AGED 3 YEARS": {"name_en": "The CHOYA Aged 3 Years", "specs_en": "Three years aged, Nanko plums — 17% ABV"}, "さらりとした梅酒": {"name_en": "Sarari to Shita Umeshu (Light Umeshu)", "specs_en": "Clean, light style — 10% ABV"}, "The CHOYA SINGLE YEAR": {"name_en": "The CHOYA Single Year", "specs_en": "One year aged — 15% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "osaka:suntory_liqueur": {
+  "tagline_en": "Kanade's four seasons and Midori's world stage — Japan in a bartender's bottle.",
+  "desc_en": "Suntory's liqueur portfolio expresses the Japanese seasons in the Kanade series — sakura, matcha, white peach and yuzu, all at 25% ABV and poured in bars worldwide as cocktail bases. Midori, its melon liqueur launched in 1978 with Shizuoka muskmelon among its fruit, is sold in more than fifty countries.",
+  "features_en": ["Kanade seasonal botanical series", "Cocktail bases used in bars worldwide", "Midori — a global melon liqueur since 1978"],
+  "brands_en": {"奏 Kanade 桜": {"name_en": "Kanade Sakura", "specs_en": "Cherry blossom and leaf — 25% ABV"}, "奏 Kanade 抹茶": {"name_en": "Kanade Matcha", "specs_en": "Uji matcha — 25% ABV"}, "ミドリ MIDORI メロンリキュール": {"name_en": "MIDORI Melon Liqueur", "specs_en": "Shizuoka muskmelon — 23% ABV, sold in 50+ countries since 1978"}},
+  "by": "fable", "audited": false
+ },
+ "osaka:kawachi_wine": {
+  "tagline_en": "Ebisu Fukuume — a winery's umeshu deepened with 20-year-aged reserves.",
+  "desc_en": "Kawachi Wine, the winery of Osaka's Kawachi district, makes brandy-based umeshu. Its Ebisu Fukuume blends in umeshu aged twenty years for a secret depth, balancing sweetness against acidity.",
+  "features_en": ["A winery's brandy-based umeshu", "Blended with 20-year-aged umeshu"],
+  "brands_en": {"エビス福梅": {"name_en": "Ebisu Fukuume", "specs_en": "Brandy base, blended with 20-year-aged umeshu"}, "大黒福梅": {"name_en": "Daikoku Fukuume", "specs_en": "Brandy base"}},
+  "by": "fable", "audited": false
+ },
+ "saga:amabuki": {
+  "tagline_en": "Flower-yeast brewers whose daiginjo umeshu wears National Umeshu Awards gold.",
+  "desc_en": "Amabuki Shuzo, founded in the Genroku era (1688–1704) in Miyaki, Saga, is famed for brewing sake with flower yeasts. Its Ryuo umeshu, steeped in daiginjo sake, holds National Umeshu Awards gold, and its tete Aromatics Japan Botanicals took gold in the blend division in 2024.",
+  "features_en": ["Genroku-era founding — 300+ years", "Flower-yeast sake house", "Gold at the National Umeshu Awards"],
+  "brands_en": {"天吹梅酒 龍王 大吟醸仕込": {"name_en": "Amabuki Umeshu Ryuo Daiginjo-jikomi", "specs_en": "Daiginjo base — National Umeshu Awards laureate"}, "tete アロマティクス ジャパンボタニカルズ": {"name_en": "tete Aromatics Japan Botanicals", "specs_en": "Gold, blend division, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "saga:mitsutake": {
+  "tagline_en": "From the Makai e no Izanai house — a healing nigori umeshu.",
+  "desc_en": "Mitsutake Shuzojo of Kashima, Saga, known for the imo shochu Makai e no Izanai (\"Invitation to the Demon World\"), makes Iyashi no Umeshu, a cloudy umeshu that won silver in the nigori division of the 2024 National Umeshu Awards.",
+  "features_en": ["The Makai e no Izanai shochu house", "Silver, nigori division, 2024"],
+  "brands_en": {"光武 癒しの梅酒": {"name_en": "Mitsutake Iyashi no Umeshu", "specs_en": "Nigori umeshu — silver, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "saitama:asahara": {
+  "tagline_en": "An umeshu on Cabernet Sauvignon — Saitama plums meet red wine.",
+  "desc_en": "Asahara Shuzo of Moroyama, which brews Saitama sake, beer and wine, makes an unusual umeshu of local plums steeped on a red-wine base of Cabernet Sauvignon.",
+  "features_en": ["Sake, beer and wine under one roof", "Red-wine-based umeshu"],
+  "brands_en": {"赤ワインベースの梅酒": {"name_en": "Red Wine Umeshu", "specs_en": "Cabernet Sauvignon base, Saitama plums"}},
+  "by": "fable", "audited": false
+ },
+ "saitama:kingshop_makotoya": {
+  "tagline_en": "Tsurugashima's rain-prayer umeshu, a silver medallist in 2024.",
+  "desc_en": "Kingshop Makotoya of Tsurugashima, Saitama, makes the Amagoi (\"rain prayer\") Umeshu II, which won silver in the blend division of the 2024 National Umeshu Awards.",
+  "features_en": ["Silver, blend division, 2024 National Umeshu Awards"],
+  "brands_en": {"鶴ヶ島の雨乞い梅酒II": {"name_en": "Tsurugashima Amagoi Umeshu II", "specs_en": "Silver, 2024 National Umeshu Awards"}},
+  "by": "fable", "audited": false
+ },
+ "shiga:kitajima": {
+  "tagline_en": "Miyonosakae umeshu from a 1805 Shiga house.",
+  "desc_en": "Kitajima Shuzo, founded in 1805 in Konan, Shiga, brews the Miyonosakae sake line and a sake-based umeshu of domestic plums.",
+  "features_en": ["Founded 1805 in Shiga", "Sake-based umeshu"],
+  "brands_en": {"御代栄 梅酒": {"name_en": "Miyonosakae Umeshu", "specs_en": "Sake base"}},
+  "by": "fable", "audited": false
+ },
+ "shiga:ota_shuzo_shiga": {
+  "tagline_en": "Descendants of the castle-builder Dokan, pouring sake, wine and liqueur.",
+  "desc_en": "Ota Shuzo of Kusatsu, Shiga, traces its line to Ota Dokan, builder of Edo Castle. Alongside its sake Dokan it makes wine and brandy from 100% Japanese grapes and a range of fruit liqueurs.",
+  "features_en": ["Descended from Ota Dokan, builder of Edo Castle", "Sake, wine, brandy and liqueurs"],
+  "by": "fable", "audited": false
+ },
+ "shimane:ichinomiya": {
+  "tagline_en": "By the silver-mine World Heritage — yuzu, apple, even a rose liqueur.",
+  "desc_en": "Ichinomiya Shuzo, with more than 120 years of history in Oda, Shimane — home of the Iwami Ginzan World Heritage silver mine — makes a wide liqueur range: umeshu, yuzu, apple and even a rose liqueur.",
+  "features_en": ["120+ years in Iwami Ginzan country", "Yuzu, apple and rose liqueurs"],
+  "brands_en": {"RIKA YUZU": {"name_en": "RIKA YUZU", "specs_en": "Sake base"}, "薔薇酒": {"name_en": "Rose Liqueur", "specs_en": "Rose"}},
+  "by": "fable", "audited": false
+ },
+ "shimane:yoshida_shuzo_shimane": {
+  "tagline_en": "Gassan Ume-sake, from the old house at the foot of the mountain.",
+  "desc_en": "Yoshida Shuzo, founded in 1743 at the foot of Mt. Gassan in Yasugi, Shimane, brews the sake Gassan and makes the sake-based Gassan Ume-sake plum liqueur.",
+  "features_en": ["Founded 1743 — the Gassan house"],
+  "brands_en": {"月山 梅さけ": {"name_en": "Gassan Ume-sake", "specs_en": "Sake base"}},
+  "by": "fable", "audited": false
+ },
+ "shizuoka:hananomai": {
+  "tagline_en": "An additive-free junmai umeshu that took second in all Japan.",
+  "desc_en": "Hananomai, the Hamamatsu brewery that works only with Shizuoka-grown rice, steeps fine Nanko plums in its sake for an additive-free umeshu that placed second at the 3rd National Umeshu Awards in 2017.",
+  "features_en": ["100% Shizuoka rice house", "Second place, National Umeshu Awards 2017"],
+  "brands_en": {"花の舞 純米梅酒": {"name_en": "Hananomai Junmai Umeshu", "specs_en": "Sake base, Nanko plums, additive-free — 2nd, National Umeshu Awards"}},
+  "by": "fable", "audited": false
+ },
+ "shizuoka:fujimasa_shuzo": {
+  "tagline_en": "Watashi no Umeshu — pesticide-free green plums at the closest brewery to Mt. Fuji.",
+  "desc_en": "Fujimasa Shuzo, founded in 1866 and the brewery nearest Mt. Fuji since moving to the Asagiri highlands (900 m) in 2011, makes Watashi no Umeshu from local pesticide-free green plums of Fujinomiya steeped in undiluted sake.",
+  "features_en": ["The closest brewery to Mt. Fuji", "Local pesticide-free green plums in sake genshu"],
+  "brands_en": {"ワタシの梅酒": {"name_en": "Watashi no Umeshu", "specs_en": "Sake genshu base, pesticide-free Fujinomiya plums"}},
+  "by": "fable", "audited": false
+ },
+ "tochigi:shimazaki": {
+  "tagline_en": "Cave-ageing specialists with a local-plum umeshu and a Tochiotome strawberry wine.",
+  "desc_en": "Shimazaki Shuzo, founded in 1849 in Nasukarasuyama and known for long ageing in its cave cellars, steeps local green plums in sake for Azuma Rikishi Umeshu and makes a strawberry wine of 100% Tochiotome berries, free of flavourings and colourings.",
+  "features_en": ["Founded 1849 — cave-cellar ageing", "Local plums and 100% Tochiotome strawberry wine"],
+  "brands_en": {"東力士 梅酒": {"name_en": "Azuma Rikishi Umeshu", "specs_en": "Sake base, Nasukarasuyama plums"}, "いちごワイン": {"name_en": "Strawberry Wine", "specs_en": "100% Tochiotome, additive-free"}},
+  "by": "fable", "audited": false
+ },
+ "tochigi:tonoike": {
+  "tagline_en": "Mashiko Tochiotome berries, jam-sweet in the glass.",
+  "desc_en": "Tonoike Shuzoten of Mashiko, Tochigi, makes Ichigo no Osake from locally grown Tochiotome strawberries — jam-like in aroma at 12% ABV — and a peach liqueur blended with its sake Nozomu.",
+  "features_en": ["Mashiko Tochiotome strawberry liqueur", "Peach liqueur blended with Nozomu sake"],
+  "brands_en": {"苺のお酒": {"name_en": "Ichigo no Osake", "specs_en": "Mashiko Tochiotome strawberries — 12% ABV"}, "モモすぎるお酒": {"name_en": "Momo-sugiru Osake", "specs_en": "Peach, blended with Nozomu sake"}},
+  "by": "fable", "audited": false
+ },
+ "tochigi:kobayashi_shuzo": {
+  "tagline_en": "Hoo Biden's patent trick — whole peaches liquefied, cell by cell.",
+  "desc_en": "Kobayashi Shuzo, founded in 1872 in Oyama and nationally famous for the ginjo sake Hoo Biden, uses its own patented technique to break peaches down cell by cell into liquid — the Kanjuku Momo, a luxuriously pulpy liqueur on a ginjo base at 5–6% ABV, refrigerated with a three-month shelf life. A Tochiotome strawberry version follows.",
+  "features_en": ["The Hoo Biden ginjo house", "Patented whole-fruit liquefaction", "Nikko-range subsoil water"],
+  "brands_en": {"鳳凰美田 完熟もも": {"name_en": "Hoo Biden Kanjuku Momo", "specs_en": "Ginjo base — 5–6% ABV, keep refrigerated"}, "鳳凰美田 完熟いちご": {"name_en": "Hoo Biden Kanjuku Ichigo", "specs_en": "Tochiotome strawberries, ginjo base"}},
+  "by": "fable", "audited": false
+ },
+ "tochigi:nishibori_shuzo": {
+  "tagline_en": "I MY ME — ancient red and green rice sake beneath pure Tochiotome juice.",
+  "desc_en": "Nishibori Shuzo, founded in 1872 in Oyama with cellars on the national tangible cultural property register, makes the Aimaimi \"I MY ME\" strawberry liqueur — 100% straight Tochiotome juice from Tochigi on a junmai base brewed from ancient red and green rice.",
+  "features_en": ["Founded 1872 — registered cultural property cellars", "Ancient-rice junmai base", "100% straight Tochiotome juice"],
+  "brands_en": {"愛米魅 I MY ME いちご酒": {"name_en": "Aimaimi I MY ME Ichigo-shu", "specs_en": "Ancient-rice junmai base, 100% Tochiotome juice"}},
+  "by": "fable", "audited": false
+ },
+ "tokushima:honke_matsuura": {
+  "tagline_en": "Sudachi-shu from Tokushima's oldest brewery — thirty years a favourite.",
+  "desc_en": "Honke Matsuura, founded in 1804 and the oldest surviving brewery in Tokushima, brews Naruto Tai sake and blends Tokushima's own sudachi citrus juice with honey and sake for its Shumurie Sudachi-shu — a long-seller of more than thirty years.",
+  "features_en": ["Founded 1804 — Tokushima's oldest surviving brewery", "Sudachi-shu sold for 30+ years"],
+  "brands_en": {"しゅムリエ すだち酒": {"name_en": "Shumurie Sudachi-shu", "specs_en": "Sake base, Tokushima sudachi and honey"}, "にごり梅酒": {"name_en": "Nigori Umeshu", "specs_en": "Tokushima white plums"}},
+  "by": "fable", "audited": false
+ },
+ "tokushima:awaglass": {
+  "tagline_en": "Wasanbon sugar in the umeshu — gold in Japan's first umeshu special zone.",
+  "desc_en": "Awaglass, established in 2010 in the Misato district — Japan's first umeshu special production zone — sweetens its plum liqueur with Tokushima's traditional wasanbon sugar. Its Wasanbon Umeshu won gold in the mixed-base division of the 2024 National Umeshu Awards.",
+  "features_en": ["In Japan's first umeshu special zone", "Traditional wasanbon sugar", "Gold, 2024 National Umeshu Awards"],
+  "brands_en": {"和三盆梅酒": {"name_en": "Wasanbon Umeshu", "specs_en": "Wasanbon sugar — gold, 2024"}, "ウメコロロ": {"name_en": "Umekororo", "specs_en": "Shochu base — 19% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "tokushima:higashino_liqueur": {
+  "tagline_en": "Licence No. 1 of the umeshu zone — a couple's tiny kura and its warbler-named star.",
+  "desc_en": "Higashino Liqueur holds licence No. 1 (2008) of the Misato umeshu special zone — a small kura run by a couple who returned from Kyoto. Their Hohokekyo, named for the warbler's song, is a certified Tokushima Premium Brand (2016) and took silver in the white-liquor division of the 2024 National Umeshu Awards. Dry, shiso-tinted and rich styles round out the range.",
+  "features_en": ["Umeshu-zone licence No. 1 (2008)", "Hohokekyo — Tokushima Premium Brand", "Silver, 2024 National Umeshu Awards"],
+  "brands_en": {"ホーホケキョ": {"name_en": "Hohokekyo", "specs_en": "12% ABV, fruity — Tokushima Premium Brand; silver, 2024"}, "白竜峡": {"name_en": "Hakuryukyo", "specs_en": "Clean, dry style"}},
+  "by": "fable", "audited": false
+ },
+ "tokushima:oobatake": {
+  "tagline_en": "Nothing added, nothing dressed up — plums into the jar within 24 hours of picking.",
+  "desc_en": "Oobatake, in full production since 2011 in the Misato umeshu zone, pursues umeshu as bare genshu — no dilution, no additives — steeping Misato plums within twenty-four hours of harvest. The long-aged Hotaru no Yado reaches 21% ABV.",
+  "features_en": ["Undiluted genshu, additive-free", "Plums steeped within 24 hours of picking"],
+  "brands_en": {"純情梅酒": {"name_en": "Junjo Umeshu", "specs_en": "Genshu, additive-free"}, "ほたるの宿": {"name_en": "Hotaru no Yado", "specs_en": "Long-aged — 21% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "tokushima:tokunaga_umeshu": {
+  "tagline_en": "TOKAMI — a rich brandy umeshu of Oshuku and Gessekai plums.",
+  "desc_en": "Tokunaga Umeshu, a young couple's kura in Misato, makes TOKAMI, its signature brandy-based aged umeshu at 18% ABV, from two local plum varieties — Oshuku and Gessekai — with rock sugar.",
+  "features_en": ["Brandy-based aged umeshu", "Oshuku and Gessekai plum varieties"],
+  "brands_en": {"TOKAMI": {"name_en": "TOKAMI", "specs_en": "Brandy base, Oshuku and Gessekai plums — 18% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "tokushima:fuji_nogyo": {
+  "tagline_en": "Three plums, three characters — farmers ageing each variety three years.",
+  "desc_en": "The Fuji agricultural cooperative, run by Misato farmers, ages its umeshu three years in the traditional way, drawing flavour to the very kernel. Three plum varieties — Ryukyo, Oshuku and Gessekai — are each bottled separately to show their character. The co-op also runs the Misato umeshu festival.",
+  "features_en": ["Traditional three-year ageing", "Three single-variety umeshus", "Runs the Misato umeshu festival"],
+  "brands_en": {"美郷竜峡": {"name_en": "Misato Ryukyo", "specs_en": "Ryukyo plums, aged 3 years"}, "美郷鶯宿": {"name_en": "Misato Oshuku", "specs_en": "Oshuku plums, aged 3 years"}},
+  "by": "fable", "audited": false
+ },
+ "tokyo:ishikawa_shuzo": {
+  "tagline_en": "Tama no Yaeume — Tokyo umeshu, hand-steeped at a 1863 Fussa kura.",
+  "desc_en": "Ishikawa Shuzo, founded in 1863 in Fussa, Tokyo, has its craftsmen steep 100% Japanese plums for Tama no Yaeume — an umeshu of refined sweetness and plum fragrance.",
+  "features_en": ["Founded 1863 in Fussa, Tokyo", "100% Japanese plums, hand-steeped"],
+  "brands_en": {"多満の八重梅 梅酒": {"name_en": "Tama no Yaeume Umeshu", "specs_en": "100% Japanese plums"}},
+  "by": "fable", "audited": false
+ },
+ "tokyo:ozawa_shuzo": {
+  "tagline_en": "Sawanoi's Purari — umeshu from the clear-stream brewery of Okutama.",
+  "desc_en": "Ozawa Shuzo, founded in 1702 by the clear streams of Okutama in western Tokyo, brews the famous Sawanoi sake and makes the Sawanoi Umeshu Purari.",
+  "features_en": ["Founded 1702 in Okutama", "The Sawanoi house"],
+  "brands_en": {"澤乃井 梅酒ぷらり": {"name_en": "Sawanoi Umeshu Purari", "specs_en": "Plum liqueur"}},
+  "by": "fable", "audited": false
+ },
+ "tokyo:koh_inc": {
+  "tagline_en": "Soteinai — \"as expected\" — a double-medal premium umeshu.",
+  "desc_en": "Koh Inc. makes the Soteinai (\"as expected\") umeshu series, which took both gold and silver in the premium division of the 2024 National Umeshu Awards for its 2022 and 2021 vintages.",
+  "features_en": ["Gold and silver, premium division, 2024 National Umeshu Awards"],
+  "brands_en": {"想定内 梅酒 2022": {"name_en": "Soteinai Umeshu 2022", "specs_en": "Gold, premium division, 2024"}, "想定内 梅酒 2021": {"name_en": "Soteinai Umeshu 2021", "specs_en": "Silver, premium division, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "tokyo:godo_shusei": {
+  "tagline_en": "Oshukubai Gokujo — a brandy-blend umeshu from the Oenon group.",
+  "desc_en": "Godo Shusei, part of the Oenon group, makes the Honkaku Umeshu Oshukubai Gokujo — silver in the brandy-blend division of the 2024 National Umeshu Awards — and the Kajitsu no Rakuen fruit series.",
+  "features_en": ["Silver, brandy-blend division, 2024", "Kajitsu no Rakuen fruit series"],
+  "brands_en": {"本格梅酒 鴬宿梅 極上": {"name_en": "Honkaku Umeshu Oshukubai Gokujo", "specs_en": "Brandy blend — silver, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "tottori:chiyomusubi": {
+  "tagline_en": "Sakaiminato's playful house — from GeGeGe collab umeshu to the ULTRA fruit line.",
+  "desc_en": "Chiyomusubi Shuzo, founded in 1865 in Sakaiminato, Tottori, ranges wide: umeshu including a GeGeGe no Kitaro collaboration bottle, and the ULTRA series of peach, yuzu and mango liqueurs.",
+  "features_en": ["Founded 1865 in Sakaiminato", "GeGeGe no Kitaro collaboration umeshu", "ULTRA fruit liqueur series"],
+  "brands_en": {"ねこ娘の梅酒": {"name_en": "Nekomusume no Umeshu", "specs_en": "GeGeGe no Kitaro collaboration"}, "ULTRA YUZU": {"name_en": "ULTRA YUZU", "specs_en": "Yuzu liqueur"}},
+  "by": "fable", "audited": false
+ },
+ "tottori:inata_honten": {
+  "tagline_en": "A 1673 Yonago house of rice, water and people — liqueurs included.",
+  "desc_en": "Inata Honten, founded in 1673 in Yonago, Tottori, brews with devotion to people, rice and water, and extends its craft into liqueurs.",
+  "features_en": ["Founded 1673 in Yonago"],
+  "by": "fable", "audited": false
+ },
+ "toyama:wakatsuru": {
+  "tagline_en": "UMESKY — plums steeped in the house's own whisky.",
+  "desc_en": "Wakatsuru Shuzo, founded in 1862 in Tonami, Toyama, makes sake, shochu and whisky — the last at its Saburomaru distillery — and steeps plums in its own whisky for UMESKY, a serious umeshu with a whisky backbone.",
+  "features_en": ["Founded 1862 in Toyama", "Umeshu on the house's own whisky", "Saburomaru distillery under the same roof"],
+  "brands_en": {"UMESKY（ウメスキー）": {"name_en": "UMESKY", "specs_en": "Whisky-steeped umeshu"}},
+  "by": "fable", "audited": false
+ },
+ "toyama:tamaasahi": {
+  "tagline_en": "Soft Tateyama water and fruity experiments in the Owara dance town of Yatsuo.",
+  "desc_en": "Tamaasahi Shuzo, founded in 1808 in Yatsuo — the Toyama town famous for the Owara Kaze no Bon festival — brews with soft underground water of the Joganji river system fed by the Tateyama range, and has turned in recent years to sweet, fruity liqueurs.",
+  "features_en": ["Founded 1808 in the Owara festival town", "Soft Tateyama-fed water"],
+  "by": "fable", "audited": false
+ },
+ "wakayama:nakano_bc": {
+  "tagline_en": "An umeshu specialist in the Nanko plum homeland — green-tea umeshu included.",
+  "desc_en": "Nakano BC, founded in 1932 in Kainan, Wakayama — the homeland of the Kishu Nanko plum — is a dedicated umeshu maker with a long list of awards. The Kishu line spans a honey umeshu, a green-tea umeshu and the brandy-steeped Fujishiro Muku at 19% ABV.",
+  "features_en": ["Umeshu specialist in Nanko plum country", "Green-tea umeshu and other originals", "Many National Umeshu Awards honours"],
+  "brands_en": {"紀州 蜂蜜梅酒": {"name_en": "Kishu Honey Umeshu", "specs_en": "Nanko plums and honey — 12% ABV"}, "紀州 緑茶梅酒": {"name_en": "Kishu Green Tea Umeshu", "specs_en": "Green tea extract — 12% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "wakayama:godaian": {
+  "tagline_en": "Genshu umeshu gold from the plum farms of Minabe.",
+  "desc_en": "Godaian of Minabe, Wakayama, makes umeboshi and umeshu from Nanko plums at their source. Its Genshu Umeshu won gold in the white-liquor division of the 2024 National Umeshu Awards; a brandy-blend Shoya Zenpachi follows.",
+  "features_en": ["Made at the source of Nanko plums", "Gold, white-liquor division, 2024"],
+  "brands_en": {"五代庵 原酒梅酒": {"name_en": "Godaian Genshu Umeshu", "specs_en": "Gold, 2024 National Umeshu Awards"}, "五代庵 ブランデー梅酒 庄屋善八": {"name_en": "Godaian Brandy Umeshu Shoya Zenpachi", "specs_en": "Brandy blend"}},
+  "by": "fable", "audited": false
+ },
+ "wakayama:nakata_foods": {
+  "tagline_en": "Wakayama's plum-product standard-bearer, with a citrus-blend medallist.",
+  "desc_en": "Nakata Foods of Tanabe, Wakayama, is one of the prefecture's defining umeboshi and umeshu makers, working with Kishu Nanko plums. Its citrus-blend Runrun Mikan Umeshu took silver at the 2024 National Umeshu Awards.",
+  "features_en": ["Leading Wakayama plum-product maker", "Silver, citrus-blend division, 2024"],
+  "brands_en": {"紀州の梅酒": {"name_en": "Kishu no Umeshu", "specs_en": "Kishu Nanko plums"}, "るんるんミカン梅酒": {"name_en": "Runrun Mikan Umeshu", "specs_en": "Citrus blend — silver, 2024"}},
+  "by": "fable", "audited": false
+ },
+ "wakayama:plum_foods": {
+  "tagline_en": "Cask-finished ripe-plum umeshu, with a distillery of its own since 2019.",
+  "desc_en": "Plum Foods, founded in 1969 in Minabe, makes liqueurs, drinks and jams from Kishu Nanko plums, and opened the Kishu Kumano Distillery in 2019 to add distilled spirits. Its cask-aged fully-ripe plum umeshu leads the line.",
+  "features_en": ["Founded 1969 in Minabe", "Kishu Kumano Distillery opened 2019"],
+  "brands_en": {"紀州南高完熟梅酒 樽": {"name_en": "Kishu Nanko Kanjuku Umeshu Taru (Cask)", "specs_en": "Cask-aged"}},
+  "by": "fable", "audited": false
+ },
+ "wakayama:shokibai": {
+  "tagline_en": "SHOKIBAI — brandy-blend gold at the 2024 National Umeshu Awards.",
+  "desc_en": "Shokibai of Minabe, Wakayama, makes the Honkaku Umeshu SHOKIBAI from Kishu Nanko plums; it won gold in the brandy-blend division of the 2024 National Umeshu Awards.",
+  "features_en": ["Gold, brandy-blend division, 2024"],
+  "brands_en": {"本格梅酒 勝僖梅 SHOKIBAI": {"name_en": "Honkaku Umeshu SHOKIBAI", "specs_en": "Gold, 2024 National Umeshu Awards"}},
+  "by": "fable", "audited": false
+ },
+ "wakayama:maruryo_nagaoka": {
+  "tagline_en": "Kishu Moe, a white-liquor silver medallist from Nanko country.",
+  "desc_en": "Maruryo Nagaoka makes Kishu Moe from Kishu Nanko plums; it won silver in the white-liquor division of the 2024 National Umeshu Awards.",
+  "features_en": ["Silver, white-liquor division, 2024"],
+  "brands_en": {"紀州萠": {"name_en": "Kishu Moe", "specs_en": "Silver, 2024 National Umeshu Awards"}},
+  "by": "fable", "audited": false
+ },
+ "yamagata:dewazakura": {
+  "tagline_en": "The ginjo pioneers, brewing a sake purely to become umeshu.",
+  "desc_en": "Dewazakura, the Tendo brewery founded in 1892 that pioneered ginjo sake for everyday drinkers, brews a dedicated junmai sake purely for steeping plums. Three styles — tart-dry, ripe and pulpy nigori — each took silver at the 2024 National Umeshu Awards, and the Torokeru Yamagata line bottles local peach and grape on a ginjo base.",
+  "features_en": ["Ginjo pioneer, founded 1892", "A junmai brewed solely for umeshu", "Three silvers at the 2024 National Umeshu Awards"],
+  "brands_en": {"出羽桜 本格梅酒 すっぱい辛口": {"name_en": "Dewazakura Honkaku Umeshu Suppai Karakuchi (Tart & Dry)", "specs_en": "Sake base — silver, 2024"}, "出羽桜 とろけるやまがた もも": {"name_en": "Dewazakura Torokeru Yamagata Momo", "specs_en": "Yamagata peach, 90%+ juice, ginjo base — 8% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "yamagata:tatenokawa": {
+  "tagline_en": "Kodakara — Japan's first local-yogurt liqueur, and its best-selling one.",
+  "desc_en": "Tatenokawa, founded in 1832 in Sakata, created Japan's first local-yogurt liqueur — Kodakara Chokai Sanroku Yogurt — and leads the category in sales. Raw-milk yogurt from dairies at the foot of Mt. Chokai makes up over 60% of the bottle, on a sake base at 8% ABV; an unpasteurised nama-toro version is kept refrigerated.",
+  "features_en": ["Founded 1832 — 190+ years", "Japan's first local-yogurt liqueur", "Top-selling yogurt liqueur in Japan"],
+  "brands_en": {"子宝 鳥海山麓ヨーグルト": {"name_en": "Kodakara Chokai Sanroku Yogurt", "specs_en": "Sake base, 60%+ yogurt — 8% ABV"}, "子宝 生とろ鳥海山麓ヨーグルト": {"name_en": "Kodakara Nama-toro Yogurt", "specs_en": "Unpasteurised, keep refrigerated"}},
+  "by": "fable", "audited": false
+ },
+ "yamagata:wada_shuzo": {
+  "tagline_en": "Nomanega Kahoku — \"won't you have a drink?\" in Yamagata dialect.",
+  "desc_en": "Wada Shuzo, founded in 1797 in Kahoku and brewer of the sake Aradama, blends yogurt from the local Osei dairy with its sake for Nomanega Kahoku — the name is Yamagata dialect for \"won't you have a drink?\". Kept refrigerated.",
+  "features_en": ["Founded 1797 — the Aradama house", "Local Kahoku yogurt", "Named in Yamagata dialect"],
+  "brands_en": {"Nomanega Kahoku（のまねが かほく）": {"name_en": "Nomanega Kahoku", "specs_en": "Sake base, Kahoku yogurt — keep refrigerated"}},
+  "by": "fable", "audited": false
+ },
+ "yamaguchi:dassai": {
+  "tagline_en": "Umeshu steeped in Dassai 23 — the world's best-known junmai daiginjo.",
+  "desc_en": "Asahi Shuzo of Iwakuni, Yamaguchi — the house of Dassai — steeps plums in its junmai daiginjo for the Dassai Migaki Niwari-sanbu Umeshu, a luxurious plum liqueur built on rice polished to 23%.",
+  "features_en": ["The Dassai house", "Umeshu on 23%-polished junmai daiginjo"],
+  "brands_en": {"獺祭 磨き二割三分仕込み 梅酒": {"name_en": "Dassai Migaki 23 Umeshu", "specs_en": "Dassai junmai daiginjo base"}},
+  "by": "fable", "audited": false
+ },
+ "yamaguchi:okazaki_shuzojo": {
+  "tagline_en": "Hagi yuzu and natsumikan on sake, from the waters of the Chomonkyo gorge.",
+  "desc_en": "Okazaki Shuzojo of Hagi, Yamaguchi, brews with subsoil water of the Abu River flowing through the Chomonkyo gorge, and makes popular sake-based liqueurs of Hagi's own yuzu and natsumikan citrus.",
+  "features_en": ["Abu River subsoil water", "Hagi yuzu and natsumikan liqueurs"],
+  "brands_en": {"長門峡 柚子リキュール": {"name_en": "Chomonkyo Yuzu Liqueur", "specs_en": "Sake base, Hagi yuzu"}, "長門峡 夏みかんリキュール": {"name_en": "Chomonkyo Natsumikan Liqueur", "specs_en": "Sake base, Hagi natsumikan"}},
+  "by": "fable", "audited": false
+ },
+ "yamanashi:sasaichi": {
+  "tagline_en": "A 1661 Otsuki house on Mt. Fuji's underground water, umeshu included.",
+  "desc_en": "Sasaichi Shuzo, founded in 1661 in Otsuki, Yamanashi, brews with the subsoil water of Mt. Fuji and makes umeshu and other liqueurs alongside its sake.",
+  "features_en": ["Founded 1661", "Mt. Fuji subsoil water"],
+  "brands_en": {"笹一 梅酒": {"name_en": "Sasaichi Umeshu", "specs_en": "Plum liqueur"}},
+  "by": "fable", "audited": false
+ }
+}

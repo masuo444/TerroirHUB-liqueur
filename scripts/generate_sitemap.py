@@ -59,6 +59,15 @@ add('/liqueur/blog/en/', '0.8', 'weekly')
 for slug in EN_BLOG_POSTS:
     add(f'/liqueur/blog/en/{slug}.html', '0.7', 'monthly')
 
+# 本物のEN本文があるメーカー（data/en_content.json）はENページもsitemapに含める
+_enc_path = os.path.join(BASE, 'data', 'en_content.json')
+EN_REAL = set()
+if os.path.exists(_enc_path):
+    try:
+        EN_REAL = {k for k in json.load(open(_enc_path, encoding='utf-8')) if not k.startswith('_')}
+    except Exception:
+        EN_REAL = set()
+
 # Producer pages
 json_files = sorted(glob.glob(os.path.join(BASE, 'data', 'data_*_liqueurs.json')))
 for jf in json_files:
@@ -72,9 +81,15 @@ for jf in json_files:
         if not d.get('id'):
             continue
         ja_path = f'/liqueur/{pref}/{d["id"]}.html'
-        # 殻ENページはnoindexのためsitemapから除外（guide/blog ENは本物翻訳なので残す）
-        langs = {'ja': ja_path, 'x-default': ja_path}
-        add(ja_path, '0.6', 'monthly', langs)
+        en_path = f'/liqueur/en/{pref}/{d["id"]}.html'
+        if f'{pref}:{d["id"]}' in EN_REAL:
+            langs = {'ja': ja_path, 'en': en_path, 'x-default': ja_path}
+            add(ja_path, '0.6', 'monthly', langs)
+            add(en_path, '0.6', 'monthly', langs)
+        else:
+            # 殻ENページはnoindexのためsitemapから除外（guide/blog ENは本物翻訳なので残す）
+            langs = {'ja': ja_path, 'x-default': ja_path}
+            add(ja_path, '0.6', 'monthly', langs)
 
 xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>']
 xml_parts.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">')
