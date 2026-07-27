@@ -1,0 +1,937 @@
+[
+ {
+  "key": "sawada_shuzo",
+  "name": "澤田酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "nakano_shuzo",
+  "name": "中埜酒造",
+  "url": "https://www.nakanoshuzou.jp/",
+  "code": 200,
+  "final": "https://www.nakanoshuzou.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "dewatsuru",
+  "name": "出羽鶴酒造（秋田清酒）",
+  "url": "https://www.igeta.jp/",
+  "code": 200,
+  "final": "https://www.igeta.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "hinomaru_jozo",
+  "name": "日の丸醸造",
+  "url": "https://hinomaru-sake.com/",
+  "code": 200,
+  "final": "https://hinomaru-sake.com/",
+  "status": "ok"
+ },
+ {
+  "key": "hatomasamune",
+  "name": "鳩正宗",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "momokawa",
+  "name": "桃川",
+  "url": "https://shop.momokawa.co.jp/",
+  "code": 200,
+  "final": "https://shop.momokawa.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "iinuma_honke",
+  "name": "飯沼本家",
+  "url": "https://www.iinumahonke.co.jp/",
+  "code": 200,
+  "final": "https://www.iinumahonke.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "koizumi_shuzo",
+  "name": "小泉酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "eikoo",
+  "name": "栄光酒造",
+  "url": "https://eikoo.com/",
+  "code": 200,
+  "final": "https://eikoo.com/",
+  "status": "ok"
+ },
+ {
+  "key": "umenishiki",
+  "name": "梅錦山川",
+  "url": "https://www.umenishiki.com/",
+  "code": 200,
+  "final": "https://www.umenishiki.com/",
+  "status": "ok"
+ },
+ {
+  "key": "kondo_shuzo",
+  "name": "近藤酒造",
+  "url": "https://kondousyuzou.com/",
+  "code": 200,
+  "final": "https://kondousyuzou.com/",
+  "status": "ok"
+ },
+ {
+  "key": "ippongi",
+  "name": "一本義久保本店",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "shinozaki",
+  "name": "篠崎",
+  "url": "https://www.shinozaki-shochu.co.jp/",
+  "code": 200,
+  "final": "https://shop.shinozaki-shochu.co.jp/",
+  "status": "redirect_other_host"
+ },
+ {
+  "key": "nishiyoshida",
+  "name": "西吉田酒造",
+  "url": "https://nishiyoshida.jp/",
+  "code": 200,
+  "final": "https://nishiyoshida.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "oga_shuzo",
+  "name": "大賀酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "wakanami_shuzo",
+  "name": "若波酒造",
+  "url": "https://wakanami.jimdofree.com/",
+  "code": 200,
+  "final": "https://wakanami.jimdofree.com/",
+  "status": "ok"
+ },
+ {
+  "key": "daishichi",
+  "name": "大七酒造",
+  "url": "https://www.daishichi.com/",
+  "code": 200,
+  "final": "https://www.daishichi.com/",
+  "status": "ok"
+ },
+ {
+  "key": "akebono_shuzo",
+  "name": "曙酒造",
+  "url": "https://akebono-syuzou.com/",
+  "code": 200,
+  "final": "https://akebono-syuzou.com/",
+  "status": "ok"
+ },
+ {
+  "key": "hirata_shuzojo",
+  "name": "平田酒造場",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "nakashima_jozo",
+  "name": "中島醸造",
+  "url": "https://kozaemon.jp/",
+  "code": 200,
+  "final": "https://kozaemon.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "hijiri_shuzo",
+  "name": "聖酒造",
+  "url": "https://www.hijiri-sake.co.jp/",
+  "code": 200,
+  "final": "https://www.hijiri-sake.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "kondo_shuzo_gunma",
+  "name": "近藤酒造（群馬）",
+  "url": "https://akagisan.com/",
+  "code": 200,
+  "final": "https://akagisan.com/",
+  "status": "ok"
+ },
+ {
+  "key": "kamotsuru",
+  "name": "賀茂鶴酒造",
+  "url": "https://www.kamotsuru.jp/",
+  "code": 200,
+  "final": "https://www.kamotsuru.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "sakurao_bd",
+  "name": "サクラオB&D（旧中国醸造）",
+  "url": "https://www.sakuraodistillery.com/",
+  "code": 200,
+  "final": "https://www.sakuraodistillery.com/",
+  "status": "ok"
+ },
+ {
+  "key": "takasago_hokkaido",
+  "name": "高砂酒造",
+  "url": "https://www.takasagoshuzo.com/",
+  "code": 200,
+  "final": "https://www.takasagoshuzo.com/",
+  "status": "ok"
+ },
+ {
+  "key": "hakutsuru",
+  "name": "白鶴酒造",
+  "url": "https://www.hakutsuru.co.jp/",
+  "code": 200,
+  "final": "https://www.hakutsuru.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "kikumasamune",
+  "name": "菊正宗酒造",
+  "url": "https://www.kikumasamune.co.jp/",
+  "code": 200,
+  "final": "https://www.kikumasamune.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "ozeki",
+  "name": "大関",
+  "url": "https://www.ozeki.co.jp/",
+  "code": 200,
+  "final": "https://www.ozeki.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "sawanotsuru",
+  "name": "沢の鶴",
+  "url": "https://www.sawanotsuru.co.jp/",
+  "code": 200,
+  "final": "https://www.sawanotsuru.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "nishiyama_shuzojo",
+  "name": "西山酒造場",
+  "url": "https://kotsuzumi.co.jp/",
+  "code": 200,
+  "final": "https://kotsuzumi.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "houmei",
+  "name": "鳳鳴酒造",
+  "url": "https://houmei.com/",
+  "code": 200,
+  "final": "https://houmei.com/",
+  "status": "ok"
+ },
+ {
+  "key": "meiri",
+  "name": "明利酒類",
+  "url": "https://www.meirishurui.com/",
+  "code": 200,
+  "final": "https://meirishurui.com/",
+  "status": "ok"
+ },
+ {
+  "key": "kobori",
+  "name": "小堀酒造店",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "nanbubijin",
+  "name": "南部美人",
+  "url": "https://www.nanbubijin.co.jp/",
+  "code": 200,
+  "final": "https://www.nanbubijin.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "asabiraki",
+  "name": "あさ開",
+  "url": "https://www.asabiraki-net.jp/",
+  "code": 200,
+  "final": "https://www.asabiraki-net.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "nishino_kinryo",
+  "name": "西野金陵",
+  "url": "https://www.nishino-kinryo.co.jp/",
+  "code": 200,
+  "final": "https://www.nishino-kinryo.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "komasa",
+  "name": "小正醸造",
+  "url": "https://www.komasa.co.jp/",
+  "code": 200,
+  "final": "https://www.komasa.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "hamada_shuzo",
+  "name": "濵田酒造",
+  "url": "https://www.hamadasyuzou.co.jp/",
+  "code": 200,
+  "final": "https://www.hamadasyuzou.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "yamamoto_shuzo_kagoshima",
+  "name": "山元酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "shiratama_jozo",
+  "name": "白玉醸造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "hombo_shuzo",
+  "name": "本坊酒造",
+  "url": "https://www.hombo.co.jp/",
+  "code": 200,
+  "final": "https://www.hombo.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "izumibashi",
+  "name": "泉橋酒造",
+  "url": "https://shop.izumibashi.com/",
+  "code": 200,
+  "final": "https://shop.izumibashi.com/",
+  "status": "ok"
+ },
+ {
+  "key": "kumazawa",
+  "name": "熊澤酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "dover",
+  "name": "ドーバー酒造",
+  "url": "https://www.dover.co.jp/",
+  "code": 200,
+  "final": "https://www.dover.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "tsukasabotan",
+  "name": "司牡丹酒造",
+  "url": "https://www.tsukasabotan.co.jp/",
+  "code": 200,
+  "final": "https://www.tsukasabotan.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "kikusui_kochi",
+  "name": "菊水酒造（高知）",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "umaji_mura",
+  "name": "馬路村農協",
+  "url": "https://www.yuzu.or.jp/",
+  "code": 200,
+  "final": "https://www.yuzu.or.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "tosatsuru",
+  "name": "土佐鶴酒造",
+  "url": "https://www.tosatsuru.jp/",
+  "code": 200,
+  "final": "https://www.tosatsuru.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "zuiyo",
+  "name": "瑞鷹",
+  "url": "https://www.zuiyo.co.jp/",
+  "code": 200,
+  "final": "https://www.zuiyo.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "chiyonosono",
+  "name": "千代の園酒造",
+  "url": "https://chiyonosono-shop.com/",
+  "code": 200,
+  "final": "https://chiyonosono-shop.com/",
+  "status": "ok"
+ },
+ {
+  "key": "gekkeikan",
+  "name": "月桂冠",
+  "url": "https://www.gekkeikan.co.jp/",
+  "code": 200,
+  "final": "https://www.gekkeikan.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "takara_shuzo",
+  "name": "宝酒造",
+  "url": "https://www.takarashuzo.co.jp/",
+  "code": 200,
+  "final": "https://www.takarashuzo.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "kizakura",
+  "name": "黄桜",
+  "url": "https://kizakura.co.jp/",
+  "status": "unreachable",
+  "error": "URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1081)>"
+ },
+ {
+  "key": "hayakawa_shuzo",
+  "name": "早川酒造",
+  "url": "https://hayakawa-syuzo.com/",
+  "code": 200,
+  "final": "https://hayakawa-syuzo.com/",
+  "status": "ok"
+ },
+ {
+  "key": "ota_shuzo",
+  "name": "大田酒造",
+  "url": "https://www.hanzo-sake.com/",
+  "code": 200,
+  "final": "https://www.hanzo-sake.com/",
+  "status": "ok"
+ },
+ {
+  "key": "nakayu_shuzoten",
+  "name": "中勇酒造店",
+  "url": "https://tenjo-mugen.co.jp/",
+  "code": 200,
+  "final": "https://tenjo-mugen.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "kanbai_shuzo",
+  "name": "寒梅酒造",
+  "url": "http://miyakanbai.com/",
+  "code": 200,
+  "final": "http://miyakanbai.com/",
+  "status": "ok"
+ },
+ {
+  "key": "niizawa_jozo",
+  "name": "新澤醸造店",
+  "url": "https://niizawa-brewery.co.jp/",
+  "code": 200,
+  "final": "https://niizawa-brewery.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "unkai_shuzo",
+  "name": "雲海酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "inoue_shuzo_miyazaki",
+  "name": "井上酒造",
+  "url": "https://www.obisugi.co.jp/",
+  "code": 200,
+  "final": "https://www.obisugi.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "takachiho_shuzo",
+  "name": "高千穂酒造",
+  "url": "https://www.takachihosyuzo.co.jp/",
+  "code": 200,
+  "final": "https://www.takachihosyuzo.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "sakuranosato",
+  "name": "櫻の郷酒造",
+  "url": "https://www.sakuranosato.co.jp/",
+  "code": 200,
+  "final": "https://www.sakuranosato.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "chikumanishiki",
+  "name": "千曲錦酒造",
+  "url": "https://www.chikumanishiki.com/",
+  "code": 200,
+  "final": "https://www.chikumanishiki.com/",
+  "status": "ok"
+ },
+ {
+  "key": "kikuisuishuzo_nagano",
+  "name": "喜久水酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "ikinokura",
+  "name": "壱岐の蔵酒造",
+  "url": "https://ikinokura.co.jp/",
+  "code": 200,
+  "final": "https://ikinokura.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "fukuda_shuzo",
+  "name": "福田酒造",
+  "url": "https://fukuda-shuzo.com/",
+  "code": 200,
+  "final": "https://fukuda-shuzo.com/",
+  "status": "ok"
+ },
+ {
+  "key": "umenoyado",
+  "name": "梅乃宿酒造",
+  "url": "https://www.umenoyado.com/",
+  "code": 200,
+  "final": "https://www.umenoyado.com/",
+  "status": "ok"
+ },
+ {
+  "key": "narakasugayama",
+  "name": "奈良春日山酒造（旧八木酒造）",
+  "url": "https://narakasugayama-shuzo.co.jp/",
+  "code": 200,
+  "final": "https://narakasugayama-shuzo.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "kitaoka_honten",
+  "name": "北岡本店",
+  "url": "https://www.kitaoka-honten.com/",
+  "code": 200,
+  "final": "https://www.kitaoka-honten.com/",
+  "status": "ok"
+ },
+ {
+  "key": "hakkaisan_liqueur",
+  "name": "八海醸造（リキュール）",
+  "url": "https://www.hakkaisan.co.jp/",
+  "code": 200,
+  "final": "https://www.hakkaisan.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "kikusui_niigata",
+  "name": "菊水酒造（新潟）",
+  "url": "https://www.kikusui-sake.com/",
+  "code": 200,
+  "final": "https://www.kikusui-sake.com/home/jp/",
+  "status": "ok"
+ },
+ {
+  "key": "yoshinogawa",
+  "name": "吉乃川",
+  "url": "https://yosinogawa.co.jp/",
+  "code": 200,
+  "final": "https://yosinogawa.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "oyama_yumekobo",
+  "name": "おおやま夢工房",
+  "url": "https://www.umehibiki.jp/",
+  "code": 200,
+  "final": "https://www.umehibiki.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "oimatsu",
+  "name": "老松酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "kuge_honten",
+  "name": "久家本店",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "yatsushika",
+  "name": "八鹿酒造",
+  "url": "https://www.yatsushika.com/",
+  "code": 200,
+  "final": "https://yatsushika.com/",
+  "status": "ok"
+ },
+ {
+  "key": "miyashita_shuzo",
+  "name": "宮下酒造",
+  "url": "https://www.msb.co.jp/",
+  "code": 200,
+  "final": "https://www.msb.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "tsuji_honten",
+  "name": "辻本店",
+  "url": "https://www.gozenshu.co.jp/",
+  "code": 200,
+  "final": "https://www.gozenshu.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "seifuku",
+  "name": "請福酒造",
+  "url": "https://www.seifuku.co.jp/",
+  "code": 200,
+  "final": "https://www.seifuku.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "zuisen",
+  "name": "瑞泉酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "kumesen",
+  "name": "久米仙酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "chukou",
+  "name": "忠孝酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "choya",
+  "name": "チョーヤ梅酒",
+  "url": "https://www.choya.co.jp/",
+  "code": 200,
+  "final": "https://www.choya.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "suntory_liqueur",
+  "name": "サントリー（リキュール部門）",
+  "url": "https://www.suntory.co.jp/wnb/kanade/",
+  "code": 403,
+  "status": "http_error"
+ },
+ {
+  "key": "kawachi_wine",
+  "name": "河内ワイン",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "amabuki",
+  "name": "天吹酒造",
+  "url": "https://www.amabuki.co.jp/",
+  "code": 200,
+  "final": "https://www.amabuki.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "mitsutake",
+  "name": "光武酒造場",
+  "url": "https://www.kinpa.jp/",
+  "code": 200,
+  "final": "https://www.kinpa.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "asahara",
+  "name": "麻原酒造",
+  "url": "https://www.musashino-asahara.jp/",
+  "code": 200,
+  "final": "https://www.musashino-asahara.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "kingshop_makotoya",
+  "name": "キングショップ誠屋",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "kitajima",
+  "name": "北島酒造",
+  "url": "https://www.kitajima-shuzo.jp/",
+  "code": 200,
+  "final": "https://www.kitajima-shuzo.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "ota_shuzo_shiga",
+  "name": "太田酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "ichinomiya",
+  "name": "一宮酒造",
+  "url": "https://www.ichinomiya-s.jp/",
+  "code": 200,
+  "final": "https://www.ichinomiya-s.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "yoshida_shuzo_shimane",
+  "name": "吉田酒造",
+  "url": "https://e-gassan.co.jp/",
+  "code": 200,
+  "final": "https://e-gassan.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "hananomai",
+  "name": "花の舞酒造",
+  "url": "https://hananomai.co.jp/",
+  "code": 200,
+  "final": "https://hananomai.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "fujimasa_shuzo",
+  "name": "富士正酒造",
+  "url": "https://www.fujimasa-sake.com",
+  "code": 200,
+  "final": "https://www.fujimasa-sake.com",
+  "status": "ok"
+ },
+ {
+  "key": "shimazaki",
+  "name": "島崎酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "tonoike",
+  "name": "外池酒造店",
+  "url": "https://tonoike.info/",
+  "code": 200,
+  "final": "https://tonoike.info/maintenance",
+  "status": "ok"
+ },
+ {
+  "key": "kobayashi_shuzo",
+  "name": "小林酒造",
+  "url": "https://hououbiden.jp/",
+  "code": 200,
+  "final": "https://hououbiden.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "nishibori_shuzo",
+  "name": "西堀酒造",
+  "url": "https://nishiborisyuzo.com/",
+  "code": 200,
+  "final": "https://nishiborisyuzo.com/",
+  "status": "ok"
+ },
+ {
+  "key": "honke_matsuura",
+  "name": "本家松浦酒造",
+  "url": "https://narutotai.jp/",
+  "code": 200,
+  "final": "https://narutotai.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "awaglass",
+  "name": "アワグラス",
+  "url": "https://misato-no-umeshu.stores.jp/",
+  "code": 403,
+  "status": "http_error"
+ },
+ {
+  "key": "higashino_liqueur",
+  "name": "東野リキュール製造場",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "oobatake",
+  "name": "大畠酒造",
+  "url": "https://oobatake.com/",
+  "code": 200,
+  "final": "https://oobatake.com/",
+  "status": "ok"
+ },
+ {
+  "key": "tokunaga_umeshu",
+  "name": "徳長梅酒製造場",
+  "url": "https://umesyu.thebase.in/",
+  "code": 200,
+  "final": "https://umesyu.thebase.in/",
+  "status": "ok"
+ },
+ {
+  "key": "fuji_nogyo",
+  "name": "農事組合法人フジ",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "ishikawa_shuzo",
+  "name": "石川酒造",
+  "url": "https://www.tamajiman.co.jp/",
+  "code": 200,
+  "final": "https://www.tamajiman.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "ozawa_shuzo",
+  "name": "小澤酒造",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "koh_inc",
+  "name": "耕",
+  "url": "https://koh-inc.jp/",
+  "code": 200,
+  "final": "https://koh-inc.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "godo_shusei",
+  "name": "合同酒精",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "chiyomusubi",
+  "name": "千代むすび酒造",
+  "url": "https://www.chiyomusubi.co.jp/",
+  "code": 200,
+  "final": "https://www.chiyomusubi.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "inata_honten",
+  "name": "稲田本店",
+  "url": "https://www.inata.co.jp/",
+  "code": 200,
+  "final": "https://www.inata.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "wakatsuru",
+  "name": "若鶴酒造",
+  "url": "https://www.wakatsuru.co.jp/",
+  "code": 200,
+  "final": "https://www.wakatsuru.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "tamaasahi",
+  "name": "玉旭酒造",
+  "url": "http://www.tamaasahi.jp/",
+  "code": 200,
+  "final": "https://tamaasahi.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "nakano_bc",
+  "name": "中野BC",
+  "url": "https://www.nakano-group.co.jp/",
+  "code": 200,
+  "final": "https://www.nakano-group.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "godaian",
+  "name": "五代庵",
+  "url": "https://www.godaiume.co.jp/",
+  "code": 200,
+  "final": "https://www.godaiume.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "nakata_foods",
+  "name": "中田食品",
+  "url": "https://www.nakatafoods.co.jp/",
+  "code": 200,
+  "final": "https://www.nakatafoods.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "plum_foods",
+  "name": "プラム食品",
+  "url": "https://www.plumone.co.jp/",
+  "code": 200,
+  "final": "https://www.plumone.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "shokibai",
+  "name": "勝僖梅",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "maruryo_nagaoka",
+  "name": "マルリョウナガオカ",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "dewazakura",
+  "name": "出羽桜酒造",
+  "url": "https://www.dewazakura.co.jp/",
+  "code": 200,
+  "final": "https://www.dewazakura.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "tatenokawa",
+  "name": "楯の川酒造",
+  "url": "https://www.tatenokawa.com/ja/sake/",
+  "code": 200,
+  "final": "https://www.tatenokawa.com/ja/sake/",
+  "status": "ok"
+ },
+ {
+  "key": "wada_shuzo",
+  "name": "和田酒造",
+  "url": "https://aratama-wada.com/",
+  "code": 200,
+  "final": "https://aratama-wada.com/",
+  "status": "ok"
+ },
+ {
+  "key": "dassai",
+  "name": "獺祭（旭酒造）",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "okazaki_shuzojo",
+  "name": "岡崎酒造場",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "sasaichi",
+  "name": "笹一酒造",
+  "url": "",
+  "status": "empty"
+ }
+]

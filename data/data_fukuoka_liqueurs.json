@@ -13,7 +13,7 @@
   "founded_era": "江戸時代後期",
   "address": "福岡県朝倉市比良松185",
   "tel": "",
-  "url": "https://www.shinozaki-shochu.co.jp/",
+  "url": "https://shop.shinozaki-shochu.co.jp/",
   "area": "朝倉市",
   "desc": "江戸時代後期に筑前国・比良松村（現朝倉市）で創業。日本酒・焼酎・甘酒・リキュールを製造。あまおう梅酒「あまおう、はじめました。」は天満天神梅酒大会で2年連続入賞。",
   "visit": "",
@@ -47,6 +47,11 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "福岡県朝倉市比良松",
+   "checked": "2026-07-27"
+  },
+  "url_previous": {
+   "url": "https://www.shinozaki-shochu.co.jp/",
+   "reason": "公式サイトがshopサブドメインへ移転",
    "checked": "2026-07-27"
   }
  },
