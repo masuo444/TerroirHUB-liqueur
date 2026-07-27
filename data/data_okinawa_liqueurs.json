@@ -81,6 +81,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県那覇市首里崎山町一丁目３５番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "首里",
+   "line": "沖縄ゆいレール",
+   "distance_m": 650,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -120,6 +127,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県那覇市仲井真１５５番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "安里",
+   "line": "沖縄ゆいレール",
+   "distance_m": 2540,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -157,6 +171,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県豊見城市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "小禄",
+   "line": "沖縄ゆいレール",
+   "distance_m": 2590,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

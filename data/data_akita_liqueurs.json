@@ -36,6 +36,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "秋田県大仙市戸地谷天ケ沢",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "大曲",
+   "line": "秋田新幹線",
+   "distance_m": 1450,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -75,6 +82,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "秋田県横手市増田町増田七日町",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "十文字",
+   "line": "JR奥羽本線",
+   "distance_m": 2710,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

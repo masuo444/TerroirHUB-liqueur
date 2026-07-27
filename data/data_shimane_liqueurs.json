@@ -51,6 +51,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "島根県大田市大田町大田",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "大田市",
+   "line": "JR山陰本線",
+   "distance_m": 2400,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -89,6 +96,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "島根県安来市広瀬町広瀬１２１６番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "揖屋",
+   "line": "JR山陰本線",
+   "distance_m": 7170,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

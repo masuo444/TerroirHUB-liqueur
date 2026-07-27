@@ -53,6 +53,13 @@
    "url": "https://www.shinozaki-shochu.co.jp/",
    "reason": "公式サイトがshopサブドメインへ移転",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "筑後吉井",
+   "line": "JR久大本線",
+   "distance_m": 5520,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -91,6 +98,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "福岡県筑後市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "羽犬塚",
+   "line": "JR鹿児島本線",
+   "distance_m": 500,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -131,6 +145,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "福岡県筑紫野市二日市中央四丁目９番１号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "西鉄二日市",
+   "line": "西鉄太宰府線",
+   "distance_m": 330,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -170,6 +191,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "福岡県大川市鐘ケ江７５２番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "八丁牟田",
+   "line": "西鉄天神大牟田線",
+   "distance_m": 5540,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

@@ -37,6 +37,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "新潟県南魚沼市長森１０５１番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "五日町",
+   "line": "JR上越線",
+   "distance_m": 2580,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -76,6 +83,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "新潟県新発田市島潟７５０番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "加治",
+   "line": "JR羽越本線",
+   "distance_m": 1850,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -114,6 +128,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "新潟県長岡市摂田屋四丁目８番１２号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "宮内",
+   "line": "JR信越本線",
+   "distance_m": 660,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

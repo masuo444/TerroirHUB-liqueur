@@ -36,6 +36,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "鹿児島県日置市日吉町日置",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "伊集院",
+   "line": "JR鹿児島本線",
+   "distance_m": 4350,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -80,6 +87,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "鹿児島県いちき串木野市湊町四丁目１番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "市来",
+   "line": "JR鹿児島本線",
+   "distance_m": 850,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -123,6 +137,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "鹿児島県薩摩川内市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "川内",
+   "line": "肥薩おれんじ鉄道線",
+   "distance_m": 750,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -206,6 +227,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "鹿児島県鹿児島市南栄三丁目２７番",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "谷山",
+   "line": "鹿児島市電谷山線",
+   "distance_m": 1890,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

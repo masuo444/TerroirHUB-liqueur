@@ -36,6 +36,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "千葉県酒々井町馬橋１０６番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "南酒々井",
+   "line": "JR総武本線",
+   "distance_m": 490,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -73,6 +80,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "千葉県富津市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "大貫",
+   "line": "JR内房線",
+   "distance_m": 1400,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

@@ -57,6 +57,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "奈良県葛城市東室２７番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "近鉄新庄",
+   "line": "近鉄御所線",
+   "distance_m": 580,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -112,6 +119,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "奈良県奈良市南城戸町",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "京終",
+   "line": "JR桜井線",
+   "distance_m": 780,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -166,6 +180,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "奈良県吉野町上市１７２番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "吉野神宮",
+   "line": "近鉄吉野線",
+   "distance_m": 970,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

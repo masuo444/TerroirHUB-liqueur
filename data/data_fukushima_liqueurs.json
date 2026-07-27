@@ -42,6 +42,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "福島県二本松市竹田一丁目６６番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "二本松",
+   "line": "JR東北本線",
+   "distance_m": 1260,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -86,6 +93,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "福島県会津坂下町戌亥乙２番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "会津坂下",
+   "line": "JR只見線",
+   "distance_m": 770,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

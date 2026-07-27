@@ -42,6 +42,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "神奈川県海老名市下今泉五丁目５番１号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "海老名",
+   "line": "JR相模線",
+   "distance_m": 1230,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -74,6 +81,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "神奈川県茅ヶ崎市香川七丁目１０番７号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "香川",
+   "line": "JR相模線",
+   "distance_m": 480,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -124,6 +138,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "神奈川県厚木市長谷",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "愛甲石田",
+   "line": "小田急小田原線",
+   "distance_m": 1750,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

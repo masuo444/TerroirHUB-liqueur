@@ -46,6 +46,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "群馬県渋川市北橘町下箱田３８０番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "八木原",
+   "line": "JR上越線",
+   "distance_m": 2190,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -94,6 +101,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "群馬県みどり市大間々町大間々１００２番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "大間々",
+   "line": "わたらせ渓谷鐵道線",
+   "distance_m": 330,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

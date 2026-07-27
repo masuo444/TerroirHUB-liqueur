@@ -47,6 +47,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大阪府羽曳野市駒ケ谷１６０番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "駒ヶ谷",
+   "line": "近鉄南大阪線",
+   "distance_m": 50,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -108,6 +115,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大阪府大阪市北区堂島浜二丁目１番４０号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "渡辺橋",
+   "line": "京阪中之島線",
+   "distance_m": 140,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -156,6 +170,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大阪府羽曳野市駒ケ谷",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "駒ヶ谷",
+   "line": "近鉄南大阪線",
+   "distance_m": 820,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

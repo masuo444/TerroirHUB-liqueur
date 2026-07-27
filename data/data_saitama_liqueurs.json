@@ -41,6 +41,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "埼玉県入間郡毛呂山町",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "毛呂",
+   "line": "JR八高線",
+   "distance_m": 620,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -78,6 +85,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "埼玉県鶴ヶ島市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "若葉",
+   "line": "東武東上本線",
+   "distance_m": 2150,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

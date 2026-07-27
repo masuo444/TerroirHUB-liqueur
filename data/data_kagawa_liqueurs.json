@@ -36,6 +36,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "香川県仲多度郡琴平町",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "琴平",
+   "line": "JR土讃線",
+   "distance_m": 200,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  }
 ]

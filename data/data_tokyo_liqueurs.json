@@ -36,6 +36,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "東京都福生市熊川１番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "拝島",
+   "line": "JR八高線",
+   "distance_m": 1050,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -74,6 +81,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "東京都青梅市沢井二丁目７７０番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "沢井",
+   "line": "JR青梅線",
+   "distance_m": 160,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -118,6 +132,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "東京都",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "都庁前",
+   "line": "都営大江戸線",
+   "distance_m": 140,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -161,6 +182,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "東京都中央区銀座六丁目２番１０号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "銀座",
+   "line": "東京メトロ丸ノ内線",
+   "distance_m": 320,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

@@ -57,6 +57,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "愛媛県松山市",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "市役所前",
+   "line": "伊予鉄城南線",
+   "distance_m": 110,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -94,6 +101,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "愛媛県四国中央市金田町金川１４番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "川之江",
+   "line": "JR予讃線",
+   "distance_m": 3300,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -134,6 +148,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "愛媛県新居浜市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "新居浜",
+   "line": "JR予讃線",
+   "distance_m": 1710,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

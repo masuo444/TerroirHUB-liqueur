@@ -53,6 +53,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "京都府京都市伏見区南浜町２４７番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "中書島",
+   "line": "京阪宇治線",
+   "distance_m": 360,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -113,6 +120,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "京都府京都市伏見区竹中町６０９番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "丹波橋",
+   "line": "京阪本線",
+   "distance_m": 340,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -152,6 +166,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "京都府京都市伏見区塩屋町２２８番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "伏見桃山",
+   "line": "京阪本線",
+   "distance_m": 400,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

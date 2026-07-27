@@ -32,7 +32,14 @@
   "source": "https://www.kitajima-shuzo.jp/",
   "lat": 34.9583,
   "lng": 136.0899,
-  "name_en": "Kitajima Shuzo"
+  "name_en": "Kitajima Shuzo",
+  "nearest_station_calc": {
+   "station": "三雲",
+   "line": "JR草津線",
+   "distance_m": 3760,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "ota_shuzo_shiga",
@@ -64,6 +71,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "滋賀県草津市草津三丁目１０番３７号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "草津",
+   "line": "JR琵琶湖線",
+   "distance_m": 950,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

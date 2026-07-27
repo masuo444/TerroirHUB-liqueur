@@ -42,6 +42,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "徳島県鳴門市大麻町池谷浜田８２番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "池谷",
+   "line": "JR鳴門線",
+   "distance_m": 140,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -91,6 +98,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "徳島県吉野川市美郷",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "学",
+   "line": "JR徳島線",
+   "distance_m": 4860,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -146,6 +160,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "徳島県吉野川市美郷",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "学",
+   "line": "JR徳島線",
+   "distance_m": 4860,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -207,6 +228,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "徳島県吉野川市美郷",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "学",
+   "line": "JR徳島線",
+   "distance_m": 4860,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -245,6 +273,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "徳島県吉野川市美郷",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "学",
+   "line": "JR徳島線",
+   "distance_m": 4860,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -295,6 +330,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "徳島県吉野川市美郷",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "学",
+   "line": "JR徳島線",
+   "distance_m": 4860,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

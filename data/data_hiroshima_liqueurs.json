@@ -42,6 +42,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "広島県東広島市西条本町４番３１号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "西条",
+   "line": "JR山陽本線",
+   "distance_m": 240,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -91,6 +98,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "広島県廿日市市桜尾一丁目１２番１号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "広電廿日市",
+   "line": "広島電鉄宮島線",
+   "distance_m": 350,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

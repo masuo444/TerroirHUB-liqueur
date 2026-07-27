@@ -36,6 +36,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "山口県岩国市周東町獺越",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "米川",
+   "line": "JR岩徳線",
+   "distance_m": 5740,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -79,6 +86,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "山口県萩市川上",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "長門峡",
+   "line": "JR山口線",
+   "distance_m": 9410,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

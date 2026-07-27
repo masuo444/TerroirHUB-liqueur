@@ -42,6 +42,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "佐賀県みやき町東尾２８９４番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "中原",
+   "line": "JR長崎本線",
+   "distance_m": 2650,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -80,6 +87,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "佐賀県鹿島市浜町乙２４２１番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "肥前浜",
+   "line": "JR長崎本線",
+   "distance_m": 310,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

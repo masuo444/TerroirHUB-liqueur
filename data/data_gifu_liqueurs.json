@@ -35,6 +35,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "岐阜県高山市",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "高山",
+   "line": "JR高山本線",
+   "distance_m": 620,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -73,6 +80,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "岐阜県瑞浪市土岐町７１８１番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "瑞浪",
+   "line": "JR中央本線",
+   "distance_m": 900,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

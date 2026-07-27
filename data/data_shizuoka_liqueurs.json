@@ -37,6 +37,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "静岡県浜松市浜名区宮口６３２番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "宮口",
+   "line": "天竜浜名湖鉄道",
+   "distance_m": 420,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {

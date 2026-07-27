@@ -36,6 +36,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮城県加美郡加美町",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "西古川",
+   "line": "JR陸羽東線",
+   "distance_m": 3600,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -75,6 +82,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮城県大崎市古川柏崎境田１５番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "西古川",
+   "line": "JR陸羽東線",
+   "distance_m": 1000,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -125,6 +139,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮城県大崎市三本木北町６３番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "塚目",
+   "line": "JR陸羽東線",
+   "distance_m": 4910,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

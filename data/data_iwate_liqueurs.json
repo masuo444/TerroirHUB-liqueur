@@ -42,6 +42,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "岩手県二戸市福岡上町１３番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "斗米",
+   "line": "いわて銀河鉄道線",
+   "distance_m": 1620,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -81,6 +88,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "岩手県盛岡市大慈寺町１０番３４号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "仙北町",
+   "line": "JR東北本線",
+   "distance_m": 1060,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

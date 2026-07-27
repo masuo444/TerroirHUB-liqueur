@@ -53,6 +53,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "山形県天童市一日町一丁目４番６号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "天童南",
+   "line": "JR奥羽本線",
+   "distance_m": 880,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -98,6 +105,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "山形県酒田市山楯",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "砂越",
+   "line": "JR羽越本線",
+   "distance_m": 3480,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -137,6 +151,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "山形県河北町谷地甲",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "羽前高松",
+   "line": "JR左沢線",
+   "distance_m": 5310,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

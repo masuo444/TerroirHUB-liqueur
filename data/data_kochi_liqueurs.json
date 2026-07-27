@@ -37,6 +37,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "高知県佐川町甲１２９９番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "佐川",
+   "line": "JR土讃線",
+   "distance_m": 360,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -75,6 +82,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "高知県安芸市本町四丁目６番２５号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "あき総合病院前",
+   "line": "土佐くろしお鉄道阿佐線",
+   "distance_m": 390,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -152,6 +166,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "高知県安田町安田１５８６番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "安田",
+   "line": "土佐くろしお鉄道阿佐線",
+   "distance_m": 860,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

@@ -42,6 +42,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県日田市大山町西大山",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "天ヶ瀬",
+   "line": "JR久大本線",
+   "distance_m": 6460,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -86,6 +93,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県日田市大肥",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "方司口",
+   "line": "JR日田彦山線BRT",
+   "distance_m": 750,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -123,6 +137,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県臼杵市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "臼杵",
+   "line": "JR日豊本線",
+   "distance_m": 860,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -163,6 +184,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県九重町右田",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "豊後中村",
+   "line": "JR久大本線",
+   "distance_m": 1880,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

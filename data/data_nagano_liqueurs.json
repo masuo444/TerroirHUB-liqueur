@@ -36,6 +36,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "長野県佐久市長土呂１１１０番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "佐久平",
+   "line": "北陸新幹線",
+   "distance_m": 980,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -68,6 +75,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "長野県飯田市鼎切石４８５１番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "切石",
+   "line": "JR飯田線",
+   "distance_m": 450,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

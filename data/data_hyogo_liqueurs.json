@@ -53,6 +53,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県神戸市東灘区住吉南町四丁目５番５号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "住吉",
+   "line": "阪神本線",
+   "distance_m": 370,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -91,6 +98,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県神戸市東灘区御影本町一丁目７番１５号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "住吉",
+   "line": "阪神本線",
+   "distance_m": 450,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -131,6 +145,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県西宮市今津出在家町４番９号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "久寿川",
+   "line": "阪神本線",
+   "distance_m": 480,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -169,6 +190,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県神戸市灘区新在家南町五丁目１番",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "大石",
+   "line": "阪神本線",
+   "distance_m": 600,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -214,6 +242,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県丹波篠山市",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "篠山口",
+   "line": "JR福知山線",
+   "distance_m": 4390,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -252,6 +287,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県丹波篠山市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "篠山口",
+   "line": "JR福知山線",
+   "distance_m": 4390,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

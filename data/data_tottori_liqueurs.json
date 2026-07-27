@@ -57,6 +57,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "鳥取県境港市大正町１３１番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "境港",
+   "line": "JR境線",
+   "distance_m": 170,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -88,6 +95,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "鳥取県米子市夜見町",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "弓ヶ浜",
+   "line": "JR境線",
+   "distance_m": 730,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

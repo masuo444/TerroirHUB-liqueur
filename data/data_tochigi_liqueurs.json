@@ -41,6 +41,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "栃木県那須烏山市中央一丁目１１番１８号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "烏山",
+   "line": "JR烏山線",
+   "distance_m": 600,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -84,6 +91,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "栃木県益子町塙３３３番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "益子",
+   "line": "真岡鐵道",
+   "distance_m": 1030,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -130,6 +144,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "栃木県小山市卒島７４３番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "思川",
+   "line": "JR両毛線",
+   "distance_m": 1240,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -169,6 +190,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "栃木県小山市粟宮１４５２番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "間々田",
+   "line": "JR宇都宮線",
+   "distance_m": 3600,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }
