@@ -8,6 +8,21 @@
   "headers": [
     {
       "source": "/(.*)",
+      "missing": [
+        {
+          "type": "host",
+          "value": "liqueur.terroirhub.com"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
       "headers": [
         {
           "key": "X-Content-Type-Options",
