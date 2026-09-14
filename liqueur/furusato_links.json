@@ -1,0 +1,152 @@
+{
+ "yoshida_shuzo_shimane": {
+  "city": "寒河江市",
+  "pref": "山形県",
+  "url": "https://www.terroirhub.com/furusato/yamagata/sagae/",
+  "count": 5
+ },
+ "hatomasamune": {
+  "city": "八戸市",
+  "pref": "青森県",
+  "url": "https://www.terroirhub.com/furusato/aomori/hachinohe/",
+  "count": 1
+ },
+ "tatenokawa": {
+  "city": "酒田市",
+  "pref": "山形県",
+  "url": "https://www.terroirhub.com/furusato/yamagata/sakata/",
+  "count": 2
+ },
+ "shinozaki": {
+  "city": "朝倉市",
+  "pref": "福岡県",
+  "url": "https://www.terroirhub.com/furusato/fukuoka/asakura/",
+  "count": 1
+ },
+ "tonoike": {
+  "city": "朝倉市",
+  "pref": "福岡県",
+  "url": "https://www.terroirhub.com/furusato/fukuoka/asakura/",
+  "count": 1
+ },
+ "oga_shuzo": {
+  "city": "筑紫野市",
+  "pref": "福岡県",
+  "url": "https://www.terroirhub.com/furusato/fukuoka/chikushino/",
+  "count": 1
+ },
+ "kikumasamune": {
+  "city": "神戸市",
+  "pref": "兵庫県",
+  "url": "https://www.terroirhub.com/furusato/hyogo/kobe/",
+  "count": 1
+ },
+ "kobori": {
+  "city": "白山市",
+  "pref": "石川県",
+  "url": "https://www.terroirhub.com/furusato/ishikawa/hakusan/",
+  "count": 1
+ },
+ "nishino_kinryo": {
+  "city": "多度津町",
+  "pref": "香川県",
+  "url": "https://www.terroirhub.com/furusato/kagawa/tadotsu/",
+  "count": 2
+ },
+ "izumibashi": {
+  "city": "海老名市",
+  "pref": "神奈川県",
+  "url": "https://www.terroirhub.com/furusato/kanagawa/ebina/",
+  "count": 1
+ },
+ "tsukasabotan": {
+  "city": "佐川町",
+  "pref": "高知県",
+  "url": "https://www.terroirhub.com/furusato/kochi/sakawa/",
+  "count": 2
+ },
+ "tosatsuru": {
+  "city": "室戸市",
+  "pref": "高知県",
+  "url": "https://www.terroirhub.com/furusato/kochi/muroto/",
+  "count": 2
+ },
+ "chiyonosono": {
+  "city": "山鹿市",
+  "pref": "熊本県",
+  "url": "https://www.terroirhub.com/furusato/kumamoto/yamaga/",
+  "count": 3
+ },
+ "nakayu_shuzoten": {
+  "city": "加美町",
+  "pref": "宮城県",
+  "url": "https://www.terroirhub.com/furusato/miyagi/kami/",
+  "count": 2
+ },
+ "takachiho_shuzo": {
+  "city": "都城市",
+  "pref": "宮崎県",
+  "url": "https://www.terroirhub.com/furusato/miyazaki/miyakonojo/",
+  "count": 2
+ },
+ "kikusui_kochi": {
+  "city": "葛城市",
+  "pref": "奈良県",
+  "url": "https://www.terroirhub.com/furusato/nara/katsuragi/",
+  "count": 1
+ },
+ "oyama_yumekobo": {
+  "city": "日田市",
+  "pref": "大分県",
+  "url": "https://www.terroirhub.com/furusato/oita/hita/",
+  "count": 1
+ },
+ "mitsutake": {
+  "city": "鹿島市",
+  "pref": "佐賀県",
+  "url": "https://www.terroirhub.com/furusato/saga/kashima/",
+  "count": 1
+ },
+ "kobayashi_shuzo": {
+  "city": "小山市",
+  "pref": "栃木県",
+  "url": "https://www.terroirhub.com/furusato/tochigi/tochigi/",
+  "count": 4
+ },
+ "sasaichi": {
+  "city": "大月市",
+  "pref": "山梨県",
+  "url": "https://www.terroirhub.com/furusato/yamanashi/otsuki/",
+  "count": 1
+ },
+ "choya": {
+  "city": "羽曳野市",
+  "pref": "大阪府",
+  "url": "https://www.terroirhub.com/furusato/osaka/habikino/",
+  "count": 6
+ },
+ "sawada_shuzo": {
+  "city": "知多市",
+  "pref": "愛知県",
+  "url": "https://www.terroirhub.com/furusato/aichi/chita/",
+  "count": 1
+ },
+ "tsuji_honten": {
+  "city": "真庭市",
+  "pref": "岡山県",
+  "url": "https://www.terroirhub.com/furusato/okayama/maniwa/",
+  "count": 1
+ },
+ "kumesen": {
+  "city": "那覇市",
+  "pref": "沖縄県",
+  "url": "https://www.terroirhub.com/furusato/okinawa/naha/",
+  "count": 1
+ },
+ "ichinomiya": {
+  "city": "九度山町",
+  "pref": "和歌山県",
+  "url": "https://www.terroirhub.com/furusato/wakayama/kudoyama/",
+  "count": 1
+ }
+}
