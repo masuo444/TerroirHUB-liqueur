@@ -323,7 +323,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1915 — 菰野町, 三重県</p>
     <p class="hero-tagline">大正4年（1915年）創業。三重県菰野町の酒蔵。「朝 ASATSU あさつ 天香春梅」など梅酒リキュールを展開。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://hayakawa-syuzo.com/'">公式サイト</button>
     </div>
   </div>
@@ -432,37 +432,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="早川酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "早川酒造", "brand": "田光", "pref": "三重県", "area": "菰野町", "founded": "1915", "founded_era": "大正4年", "brands": ["天香春梅"], "visit": "", "url": "https://hayakawa-syuzo.com/", "desc": "大正4年（1915年）創業。三重県菰野町の酒蔵。「朝 ASATSU あさつ 天香春梅」など梅酒リキュールを展開。", "suggestions": ["田光ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "早川酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

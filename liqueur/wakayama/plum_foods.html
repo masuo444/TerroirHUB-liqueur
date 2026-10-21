@@ -323,7 +323,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1969 — みなべ町, 和歌山県</p>
     <p class="hero-tagline">1969年創業。紀州南高梅を使用したリキュール・飲料・ジャム等を製造。2019年に「紀州熊野蒸溜所」を開設し蒸留酒の製造も開始。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.plumone.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -439,37 +439,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="プラム食品について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "プラム食品", "brand": "紀州", "pref": "和歌山県", "area": "みなべ町", "founded": "1969", "founded_era": "昭和44年", "brands": ["紀州南高完熟梅酒 樽"], "visit": "", "url": "https://www.plumone.co.jp/", "desc": "1969年創業。紀州南高梅を使用したリキュール・飲料・ジャム等を製造。2019年に「紀州熊野蒸溜所」を開設し蒸留酒の製造も開始。", "suggestions": ["紀州ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "プラム食品の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

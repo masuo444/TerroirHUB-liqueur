@@ -331,7 +331,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1926 — 伏見区, 京都府</p>
     <p class="hero-tagline">大正15年（1926年）創業。京都・伏見の酒蔵。京都の梅の名産地・青谷の白梅を自社加工し、伏見の日本酒に漬け込んだ「京美人 とろり梅酒」を展開。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://kizakura.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -454,37 +454,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="黄桜について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "黄桜", "brand": "京美人", "pref": "京都府", "area": "伏見区", "founded": "1926", "founded_era": "大正15年", "brands": ["京美人 京都でうまれたとろり梅酒"], "visit": "黄桜カッパカントリー（見学可）", "url": "https://kizakura.co.jp/", "desc": "大正15年（1926年）創業。京都・伏見の酒蔵。京都の梅の名産地・青谷の白梅を自社加工し、伏見の日本酒に漬け込んだ「京美人 とろり梅酒」を展開。", "suggestions": ["京美人ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "黄桜の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

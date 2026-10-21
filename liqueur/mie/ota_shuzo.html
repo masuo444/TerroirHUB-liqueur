@@ -323,7 +323,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1892 — 伊賀市, 三重県</p>
     <p class="hero-tagline">明治25年（1892年）創業。伊勢志摩サミットの乾杯酒に採用された「半蔵」の蔵元。三重県産酒造米と鈴鹿山脈の伏流水で醸した清酒原酒に、みなべ町産南高梅を手作業で漬け込んだ梅酒を2007年から製造。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.hanzo-sake.com/'">公式サイト</button>
     </div>
   </div>
@@ -446,37 +446,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="大田酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "大田酒造", "brand": "半蔵", "pref": "三重県", "area": "伊賀市", "founded": "1892", "founded_era": "明治25年", "brands": ["半蔵の梅酒"], "visit": "", "url": "https://www.hanzo-sake.com/", "desc": "明治25年（1892年）創業。伊勢志摩サミットの乾杯酒に採用された「半蔵」の蔵元。三重県産酒造米と鈴鹿山脈の伏流水で醸した清酒原酒に、みなべ町産南高梅を手作業で漬け込んだ梅酒を2007年から製造。", "suggestions": ["半蔵ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "大田酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

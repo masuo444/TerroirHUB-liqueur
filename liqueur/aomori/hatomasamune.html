@@ -327,7 +327,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1899 — 十和田市, 青森県</p>
     <p class="hero-tagline">明治32年（1899年）創業。八甲田・奥入瀬の伏流水を仕込み水に使用。「八鶴 んめ〜梅酒」を展開。また青森県産りんご果汁とにごり酒をブレンドした「雪りんご」リキュールも人気。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       
     </div>
   </div>
@@ -480,37 +480,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="鳩正宗について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "鳩正宗", "brand": "八鶴", "pref": "青森県", "area": "十和田市", "founded": "1899", "founded_era": "明治32年", "brands": ["八鶴 んめ～梅酒", "雪りんご"], "visit": "", "url": "", "desc": "明治32年（1899年）創業。八甲田・奥入瀬の伏流水を仕込み水に使用。「八鶴 んめ〜梅酒」を展開。また青森県産りんご果汁とにごり酒をブレンドした「雪りんご」リキュールも人気。", "suggestions": ["八鶴ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "鳩正宗の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

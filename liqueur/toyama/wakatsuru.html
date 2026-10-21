@@ -336,7 +336,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1862 — 砺波市, 富山県</p>
     <p class="hero-tagline">文久2年（1862年）創業。富山県砺波市の蔵元。日本酒・焼酎・ウイスキーを製造する総合酒類メーカー。自社蒸留のウイスキーで仕込んだ「UMESKY（ウメスキー）」は本格派梅酒として注目。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.wakatsuru.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -469,37 +469,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="若鶴酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "若鶴酒造", "brand": "若鶴", "pref": "富山県", "area": "砺波市", "founded": "1862", "founded_era": "文久2年", "brands": ["UMESKY（ウメスキー）", "若鶴 梅の酒"], "visit": "三郎丸蒸留所（見学可）", "url": "https://www.wakatsuru.co.jp/", "desc": "文久2年（1862年）創業。富山県砺波市の蔵元。日本酒・焼酎・ウイスキーを製造する総合酒類メーカー。自社蒸留のウイスキーで仕込んだ「UMESKY（ウメスキー）」は本格派梅酒として注目。", "suggestions": ["若鶴ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "若鶴酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

@@ -328,7 +328,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1872 — 鹿児島市, 鹿児島県</p>
     <p class="hero-tagline">明治5年（1872年）創業。150年以上の歴史を持つ鹿児島の総合酒類メーカー。「星舎蔵」で毎年6月に新鮮な青梅を仕込み、香料・着色料・酸味料無添加の「上等梅酒」を製造。Kura Master 2023梅酒部門プラチナ賞、2024金賞受賞。知覧茶梅酒も展開。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.hombo.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -461,37 +461,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="本坊酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "本坊酒造", "brand": "上等梅酒", "pref": "鹿児島県", "area": "鹿児島市", "founded": "1872", "founded_era": "明治5年", "brands": ["上等梅酒", "上等梅酒 知覧茶"], "visit": "", "url": "https://www.hombo.co.jp/", "desc": "明治5年（1872年）創業。150年以上の歴史を持つ鹿児島の総合酒類メーカー。「星舎蔵」で毎年6月に新鮮な青梅を仕込み、香料・着色料・酸味料無添加の「上等梅酒」を製造。Kura Master 2023梅酒部門プラチナ賞、2024金賞受賞。知覧茶梅酒も展開。", "suggestions": ["上等梅酒ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "本坊酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

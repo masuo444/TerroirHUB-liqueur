@@ -314,7 +314,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     
     <p class="hero-tagline">宮城県加美町の手づくり日本酒蔵。「天上夢幻 蔵人仕込みの伊達なゆず梅酒」は全国梅酒品評会2024で柑橘系ブレンド梅酒部門金賞・ブランデーブレンド部門金賞をダブル受賞。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://tenjo-mugen.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -450,37 +450,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="中勇酒造店について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "中勇酒造店", "brand": "天上夢幻", "pref": "宮城県", "area": "加美町", "founded": "", "founded_era": "", "brands": ["天上夢幻 蔵人仕込みの伊達なゆず梅酒"], "visit": "", "url": "https://tenjo-mugen.co.jp/", "desc": "宮城県加美町の手づくり日本酒蔵。「天上夢幻 蔵人仕込みの伊達なゆず梅酒」は全国梅酒品評会2024で柑橘系ブレンド梅酒部門金賞・ブランデーブレンド部門金賞をダブル受賞。", "suggestions": ["天上夢幻ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "中勇酒造店の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

@@ -333,7 +333,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1868 — 吉野町, 奈良県</p>
     <p class="hero-tagline">明治元年（1868年）創業。桜の名所・吉野の蔵元。「吉野物語」シリーズで梅酒・ゆず酒・桃酒など国産フルーツにこだわった和リキュールを展開。地元吉野名産の梅を使用。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.kitaoka-honten.com/'">公式サイト</button>
     </div>
   </div>
@@ -476,37 +476,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="北岡本店について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "北岡本店", "brand": "やたがらす", "pref": "奈良県", "area": "吉野町", "founded": "1868", "founded_era": "明治元年", "brands": ["吉野物語 うめ", "吉野物語 ゆず", "吉野物語 もも", "梅酒ライトリキュール"], "visit": "", "url": "https://www.kitaoka-honten.com/", "desc": "明治元年（1868年）創業。桜の名所・吉野の蔵元。「吉野物語」シリーズで梅酒・ゆず酒・桃酒など国産フルーツにこだわった和リキュールを展開。地元吉野名産の梅を使用。", "suggestions": ["やたがらすってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "北岡本店の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

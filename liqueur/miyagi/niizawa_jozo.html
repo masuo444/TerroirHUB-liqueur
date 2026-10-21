@@ -333,7 +333,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1873 — 大崎市, 宮城県</p>
     <p class="hero-tagline">明治6年（1873年）創業。「伯楽星」「あたごのまつ」の醸造元。ジャージー牛の生乳100%ヨーグルトと日本酒で仕込んだ「超濃厚ヨーグルト酒」はジャパン・フード・コレクション金賞受賞。火入れなしの要冷蔵商品。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://niizawa-brewery.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -469,37 +469,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="新澤醸造店について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "新澤醸造店", "brand": "伯楽星", "pref": "宮城県", "area": "大崎市", "founded": "1873", "founded_era": "明治6年", "brands": ["超濃厚ヨーグルト酒（ジャージー）", "超濃厚いちごヨーグルト酒", "超濃厚ヨーグルト酒（蔵王高原）"], "visit": "", "url": "https://niizawa-brewery.co.jp/", "desc": "明治6年（1873年）創業。「伯楽星」「あたごのまつ」の醸造元。ジャージー牛の生乳100%ヨーグルトと日本酒で仕込んだ「超濃厚ヨーグルト酒」はジャパン・フード・コレクション金賞受賞。火入れなしの要冷蔵商品。", "suggestions": ["伯楽星ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "新澤醸造店の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

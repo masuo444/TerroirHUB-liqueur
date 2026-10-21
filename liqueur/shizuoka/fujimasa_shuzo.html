@@ -331,7 +331,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1866 — 富士宮市, 静岡県</p>
     <p class="hero-tagline">慶応2年（1866年）創業。富士山に一番近い酒蔵。日本酒の原酒と地元富士宮産の無農薬青梅を使用した「ワタシの梅酒」を展開。2011年に標高900mの朝霧高原へ移転。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.fujimasa-sake.com'">公式サイト</button>
     </div>
   </div>
@@ -447,37 +447,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="富士正酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "富士正酒造", "brand": "富士正", "pref": "静岡県", "area": "富士宮市", "founded": "1866", "founded_era": "慶応2年", "brands": ["ワタシの梅酒"], "visit": "試飲可（予約不要）", "url": "https://www.fujimasa-sake.com", "desc": "慶応2年（1866年）創業。富士山に一番近い酒蔵。日本酒の原酒と地元富士宮産の無農薬青梅を使用した「ワタシの梅酒」を展開。2011年に標高900mの朝霧高原へ移転。", "suggestions": ["富士正ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "富士正酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

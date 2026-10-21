@@ -329,7 +329,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1950 — 水戸市, 茨城県</p>
     <p class="hero-tagline">昭和25年（1950年）創業。ブランデーで仕込んだ「梅香 百年梅酒」は全国梅酒品評会で日本一に輝いた代表銘柄。水戸の偕楽園に近い梅の名所に位置する。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.meirishurui.com/'">公式サイト</button>
     </div>
   </div>
@@ -462,37 +462,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">liqueur.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="明利酒類について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB LIQUEUR（リキュールのページ）", "facility": "メーカー", "facility_en": "maker", "name": "明利酒類", "brand": "百年梅酒", "pref": "茨城県", "area": "水戸市", "founded": "1950", "founded_era": "昭和25年", "brands": ["梅香 百年梅酒", "百年梅酒 プレミアム"], "visit": "", "url": "https://www.meirishurui.com/", "desc": "昭和25年（1950年）創業。ブランデーで仕込んだ「梅香 百年梅酒」は全国梅酒品評会で日本一に輝いた代表銘柄。水戸の偕楽園に近い梅の名所に位置する。", "suggestions": ["百年梅酒ってどんなリキュール？", "おすすめの飲み方は？", "見学はできる？", "明利酒類の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>
