@@ -84,6 +84,26 @@
       "source": "/fr/:path*",
       "destination": "/en/:path*",
       "permanent": true
+    },
+    {
+      "source": "/liqueur/plans",
+      "destination": "/liqueur/",
+      "permanent": true
+    },
+    {
+      "source": "/liqueur/plans/(.*)",
+      "destination": "/liqueur/",
+      "permanent": true
+    },
+    {
+      "source": "/liqueur/en/plans",
+      "destination": "/liqueur/en/",
+      "permanent": true
+    },
+    {
+      "source": "/liqueur/en/plans/(.*)",
+      "destination": "/liqueur/en/",
+      "permanent": true
     }
   ]
 }
