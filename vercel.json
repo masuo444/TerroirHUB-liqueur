@@ -71,6 +71,17 @@
   ],
   "redirects": [
     {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "terroir-hub-liqueur.vercel.app"
+        }
+      ],
+      "destination": "https://liqueur.terroirhub.com/$1",
+      "permanent": true
+    },
+    {
       "source": "/liqueur/fr/:path*",
       "destination": "/liqueur/en/:path*",
       "permanent": true
